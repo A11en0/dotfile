@@ -1,0 +1,216 @@
+#!/bin/bash
+
+CHROME="/usr/bin/x-www-browser"
+QB="/usr/bin/qutebrowser --target window"
+SERVER="cs6.swfu.edu.cn"
+
+abs(){
+    bash -c "$QB ':set content.proxy none' file:///usr/share/doc/abs-guide/html/xrefindex.html &"
+}
+
+cdev(){
+    bash -c "$QB ':set content.proxy none' file://$HOME/lecture_notes/linux/c/c_dev.html &"
+}
+
+playbash(){
+    bash -c "$QB ':set content.proxy none' file://$HOME/lecture_notes/linux/bash/shell_basics.plain.html &"
+}
+
+tcpipguide(){
+    bash -c "$QB ':set content.proxy none' file://$HOME/Documents/network/www.tcpipguide.com/free/t_toc.htm &"
+}
+
+baidupan(){
+    bash -c "$QB ':set content.proxy none' https://pan.baidu.com &"
+}
+
+techbooks(){
+	# jkxjxxz:swfcxs
+	bash -c "$QB ':set content.proxy none' https://$SERVER/calibre &"
+}
+#calibre2(){
+#	# calibre:1984
+#	bash -c "$QB http://pub/library &"
+#}
+#calibre3(){
+#	# sensitive:1989
+#	bash -c "$QB http://pub/sensitive &"
+#}
+
+dingding(){
+	bash -c "$QB ':set content.proxy none' https://im.dingtalk.com &"
+}
+
+# ff(){
+# 	firefox -url "data:text/html;charset=utf-8,<!DOCTYPE html><html><body><script>window.open("https://gmail.com", "_blank","menubar=no,location=no,toolbar=no")<%2Fscript><%2Fbody><%2Fhtml>"
+# }
+
+gcal(){
+  bash -c "$QB https://www.google.com/calendar/render &"
+}
+
+gcontacts(){
+	bash -c "$QB https://contacts.google.com &"
+}
+
+gdrawing(){
+  bash -c "$QB https://docs.google.com/drawings/create?usp=apps_start&hl=en &"
+}
+
+gdrive(){
+  bash -c "$QB https://drive.google.com/drive/#my-drive &"
+}
+
+github(){
+	bash -c "$QB https://github.com &"
+}
+
+gitlab(){
+	bash -c "$QB ':set content.proxy none' https://gitlab.swfu.edu.cn/wx672 &"
+}
+
+gkeep(){
+  bash -c "$QB https://keep.google.com &"
+}
+
+gmail(){
+  bash -c "$QB https://mail.google.com &"
+}
+
+gmailoffline(){
+  bash -c "$CHROME https://mail.google.com/mail/mu/?mui=ca &"
+}
+
+gmaps(){
+	QUERY=""
+	for WORD in $@; do
+		QUERY="$QUERY%20$WORD"
+	done
+	bash -c "$QB https://www.google.com/maps/search/$QUERY &"
+}
+
+google(){
+  QUERY=""
+  echo "Googling: $@"
+  for WORD in $@; do
+    QUERY="$QUERY%20$WORD"
+  done
+  bash -c "$QB https://www.google.com/search?q=$QUERY &"
+}
+
+ddg(){
+  QUERY=""
+  echo "duckduckgo: $@"
+  for WORD in $@; do
+    QUERY="$QUERY%20$WORD"
+  done
+  bash -c "$QB https://duckduckgo.com/?q=$QUERY &"
+}
+
+gphotos(){
+	bash -c "$QB https://photos.google.com &"
+}
+
+grammarly(){
+	bash -c "$QB https://app.grammarly.com/ &"
+}
+
+hangouts(){
+  bash -c "$QB https://hangouts.google.com/ &"
+}
+
+jd(){
+	bash -c "$QB ':set content.proxy none' http://jd.com &"
+}
+
+lecturenotes(){
+	bash -c "$QB ':set content.proxy none' https://$SERVER/~wx672/lecture_notes &"
+}
+
+lizhifm(){
+  bash -c "$QB ':set content.proxy none' http://www.lizhi.fm/label/24229953853202224/ &"
+}
+
+lucidchart(){
+  bash -c "$QB ':set content.proxy none' https://www.lucidchart.com/documents &"
+}
+
+meituan(){
+	bash -c "$QB ':set content.proxy none' http://km.meituan.com/ &"
+}
+
+moodle(){
+  bash -c "$QB ':set content.proxy none' https://$SERVER/moodle/ &"
+}
+
+music163(){
+  bash -c "$QB ':set content.proxy none' http://music.163.com/#/my/ &"
+}
+
+pixlr(){
+  bash -c "$QB ':set content.proxy none' http://pixlr.com/editor &"
+}
+
+q(){
+	bash -c "$QB $1 &"
+}
+
+qq(){
+  bash -c "$QB ':set content.proxy none' http://w.qq.com/ &"
+}
+
+eastmoney(){
+	bash -c "$QB ':set content.proxy none' http://i.eastmoney.com/stock.html &"
+}
+
+emstock(){
+	bash -c "$QB ':set content.proxy none' http://i.eastmoney.com/stock.html &"
+}
+
+sinastock(){
+	bash -c "$QB ':set content.proxy none' http://i.finance.sina.com.cn &"
+}
+
+taobao(){
+  bash -c "$QB ':set content.proxy none' http://www.taobao.com/ &"
+}
+
+telegram(){
+    bash -c "$QB https://web.telegram.org &"
+}
+
+timeit(){
+	bash -c "$QB ':set content.proxy none' http://timeit.swfu.edu.cn/attendance/all &"
+}
+
+timer(){
+  bash -c "$QB ':set content.proxy none' http://www.timer-tab.com &"
+}
+
+travelogs(){
+	bash -c "$QB ':set content.proxy none' https://$SERVER/~wx672/travelogs &"
+}
+
+twitter(){
+	bash -c "$QB https://twitter.com &"
+}
+
+wechat(){
+  bash -c "$QB ':set content.proxy none' https://wx2.qq.com/ &"
+}
+
+ximalaya(){
+	bash -c "$QB ':set content.proxy none' https://www.ximalaya.com/yinyue/235694/ &"
+}
+
+youtube(){
+  bash -c "$QB https://youtube.com &"
+}
+
+zhifubao(){
+	bash -c "$QB ':set content.proxy none' https://my.alipay.com &"
+}
+
+zhihu(){
+  bash -c "$QB ':set content.proxy none' http://www.zhihu.com/notifications &"
+}

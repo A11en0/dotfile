@@ -1,0 +1,3 @@
+libmpdclient-dev
+libiw-dev
+libpulse-dev

@@ -1,0 +1,132 @@
+#!/bin/bash
+
+usage(){
+    cat <<EOF
+Usage: $(basename $0) '[-g] [-c x,y] [-s scale] [-y year] [-m month] [-d date] [-S sigfile|text] <background>'
+
+background - paper to sign
+        -S - signature file or text
+        -g - show grid
+        -c - coordinate, e.g. '12,6', '1.1,y' for the last page
+        -s - scale to your signature (.2 looks good; 1.3 for the last page)
+      -ymd - only valid when signing with text
+EOF
+}
+
+cleanup(){
+	rm -f $AUX $LOG $TEX
+}
+
+grid(){
+	cat <<EOF >> $TEX
+\documentclass[tikz]{standalone}
+\usetikzlibrary{backgrounds}
+\usepackage[scheme=plain]{ctex}
+\newCJKfontfamily\sig{signature}
+\newfontfamily\purisa{Purisa}
+\begin{document}
+\begin{tikzpicture}[inner sep=0]
+    \node (bg) at (0,0) [anchor=south west]
+		 {\includegraphics[width=\paperwidth]{$BG}};
+
+	\begin{scope}
+	%%% grid
+	\draw[help lines,red,step=1] (0,0) grid (21,31);%
+	\foreach \x in {0,1,...,20} { \node [anchor=south] at (\x,0) {\x}; }%
+	\foreach \y in {0,1,...,30} { \node [anchor=west] at (0,\y) {\y}; }%
+EOF
+	if [[ -f "$SIG" ]]
+	then
+		# for first pages
+		echo "\node at ($XY) [scale=$SCALE,anchor=west] { \includegraphics{$SIG}};" >> $TEX
+	else
+		# for the last page
+		echo "\node at ($XY) [scale=$SCALE,anchor=west] {{\sig $SIG}{\purisa\hspace{31mm}{$Y}\hspace{3mm}\makebox[1em][c]{$M}\hspace{2mm}\makebox[1em][c]{$D}}};" >> $TEX
+	fi
+	cat <<EOF >> $TEX
+    \end{scope}
+	\end{tikzpicture}
+\end{document}
+EOF
+}
+
+nogrid(){
+	cat <<EOF >> $TEX
+\documentclass[tikz]{standalone}
+\usetikzlibrary{backgrounds}
+\usepackage[scheme=plain]{ctex}
+\newCJKfontfamily\sig{signature}
+\newfontfamily\purisa{Purisa}
+\begin{document}
+\begin{tikzpicture}[inner sep=0]
+    \node (bg) at (0,0) [anchor=south west] {\includegraphics[width=\paperwidth]{$BG}};
+	\begin{scope}
+EOF
+	if [[ -f "$SIG" ]]
+	then
+		# for first pages
+		echo "\node at ($XY) [scale=$SCALE,anchor=west] { \includegraphics{$SIG}};" >> $TEX
+	else
+		# for the last page
+		echo "\node at ($XY) [scale=$SCALE,anchor=west] {{\sig $SIG}{\purisa\hspace{31mm}$Y\hspace{3mm}\makebox[1em][c]{$M}\hspace{2mm}\makebox[1em][c]{$D}}};" >> $TEX
+	fi
+	cat <<EOF >> $TEX
+    \end{scope}
+	\end{tikzpicture}
+\end{document}
+EOF
+}
+
+trap cleanup EXIT
+
+# defaults
+GRID='ng'
+XY='12,6'
+SCALE='.2'
+Y=''
+M=''
+D=''
+
+while getopts :hgc:s:S:y:m:d: OPT; do
+	case $OPT in
+		h) usage; exit 0 ;;
+		g) GRID='g' ;;
+		c) XY="$OPTARG" ;;
+		s) SCALE="$OPTARG" ;;
+		y) Y="$OPTARG" ;;
+		m) M="$OPTARG" ;;
+		d) D="$OPTARG" ;;
+		S) SIG="$OPTARG" ;;
+		?) usage; exit 2
+	esac
+done
+shift $(( OPTIND - 1 ))
+OPTIND=1
+
+BG="$@"
+[[ -f "$BG" ]] || { echo "File <$BG> does not exist!"; exit 1; }
+
+TEX="${BG%.pdf}-signed.tex"
+PDF="${TEX%.tex}.pdf"
+LOG="${TEX%.tex}.log"
+AUX="${TEX%.tex}.aux"
+
+case "$GRID" in
+	g)
+		echo "Signing with grid..."
+		grid
+		;;
+	ng)
+		echo "Signing without grid..."
+		nogrid
+		;;
+esac
+
+echo Signing <$BG>...
+xelatex $TEX > /dev/null
+
+[[ -f "$PDF" ]] || { echo Failed generating PDF file. Please check <$LOG> file for details; exit 5;}
+
+{ echo 'DONE!'; ls -l $PDF; }
+
+

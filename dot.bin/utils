@@ -1,0 +1,300 @@
+#!/bin/bash
+
+BROWSER="/usr/bin/x-www-browser"
+TIMETABLE="$HOME/texmf/doc/latex/swfu/timetable/timetable.pdf"
+MUPDF="/usr/bin/mupdf -r285"
+XPDF="/usr/bin/mupdf -r180"
+ZATHURA="/usr/bin/zathura --fork"
+
+blp(){
+	$ZATHURA $HOME/Documents/Beginning.Linux.Programming-4e.pdf
+}
+
+ch8(){
+    $MUPDF ~/texmf/doc/latex/ch8.pdf &>/dev/null &
+}
+
+math(){
+    $MUPDF ~/texmf/doc/latex/ch8.pdf &>/dev/null &
+}
+
+pgfmanual(){
+	$ZATHURA /usr/share/doc/texlive-doc/generic/pgf/pgfmanual.pdf &>/dev/null &
+}
+
+symbol(){
+    $MUPDF ~/texmf/doc/latex/symbols-a4.pdf &>/dev/null &
+}
+
+tikz(){ pgfmanual; }
+
+timetable(){
+	$MUPDF $TIMETABLE &>/dev/null &
+}
+
+tlpi(){
+	$ZATHURA $HOME/Documents/The.Linux.Programming.Interface.pdf
+}
+
+screencapture(){
+	ffmpeg -f x11grab -s 1920x1080 -r 30 -i :0.0 -c:v libx264 -crf 0 -preset ultrafast screen.mkv
+}
+
+# http://superuser.com/questions/611538/is-there-a-way-to-display-a-countdown-or-stopwatch-timer-in-a-terminal
+
+# function countdown(){
+# 	START=$(date +%s) watch -tpn1 echo $(($START - $(date +%s) + $1))
+# }
+
+function countdown(){
+    [ -n "$1" ] || {
+	echo "Usage: countdown <seconds>"
+	return 1
+    }
+    date1=$((`date +%s` + $1)); 
+    while [ "$date1" -ne `date +%s` ]; do 
+	echo -ne "$(date -u --date @$(($date1 - `date +%s`)) +%H:%M:%S)\r";
+	sleep 1
+    done && ogg123 /usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga
+}
+
+function stopwatch(){
+    date1=`date +%s`; 
+    while true; do 
+	echo -ne "$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)\r"; 
+	sleep 1
+    done
+}
+
+dict () { /usr/bin/dict "$@" 2>&1 | less; }
+
+ec(){
+    /usr/bin/env emacsclient -t -a "" "$@"
+}
+
+ecw(){
+	emacsclient -n -e "(if (> (length (frame-list)) 1) 't)" | grep -q t
+	if [ "$?" = "1" ]; then
+    	emacsclient -c -n -a "" "$@"
+	else
+   		emacsclient -n -a "" "$@"
+	fi
+}
+
+# viewing markdown file in lynx
+mdview(){
+	pandoc "$1" | lynx -stdin
+}
+
+lapa(){
+	$ZATHURA $HOME/lecture_notes/linux-app/slides/lap-a.pdf
+}
+
+lapb(){
+	$MUPDF $HOME/lecture_notes/linux-app/slides/lap-b.pdf &>/dev/null &
+}
+
+linux(){
+	$MUPDF $HOME/lecture_notes/linux/linux_intro/linux_intro-b.pdf &>/dev/null &
+}
+
+nerd(){
+	$ZATHURA $HOME/.local/share/fonts/truetype/nerd-fonts/dejavu/nerd.pdf
+}
+neta(){
+	$ZATHURA $HOME/lecture_notes/network_basics/net-a.pdf
+}
+
+netb(){
+	$MUPDF $HOME/lecture_notes/network_basics/net-b.pdf &>/dev/null &
+}
+
+osa(){
+	$ZATHURA $HOME/lecture_notes/os/slides/os-a.pdf
+}
+
+osb(){
+	$MUPDF $HOME/lecture_notes/os/slides/os-b.pdf &>/dev/null &
+}
+
+pdf2gray(){
+	gs -sOutputFile=gray.pdf -sDEVICE=pdfwrite -sColorConversionStrategy=Gray -dProcessColorModel=/DeviceGray -dCompatibiltyLevel=1.4 -dNOPAUSE -dBATCH $@
+}
+
+speak(){
+	/usr/bin/espeak -s 140 -v mb-en1 "$*";
+	sleep 1;
+	/usr/bin/espeak -s 140 -v mb-us1 "$*";
+	sleep 1;
+	/usr/bin/espeak -s 140 -v mb-us2 "$*";
+}
+
+srtplay(){
+	mplayer /dev/zero -demuxer rawvideo -rawvideo w=1024:h=128 -utf8 -sub "$*";
+}
+
+ssh() {
+    if [ "$(ps -p $(ps -p $$ -o ppid=) -o comm=)" = "tmux" ]; then
+        tmux rename-window "$(echo $* | cut -d . -f 1)"
+        command ssh -X "$@"
+        tmux set-window-option automatic-rename "on" 1>/dev/null
+    else
+        command ssh -X "$@"
+    fi
+}
+
+mosh() {
+    if [ "$(ps -p $(ps -p $$ -o ppid=) -o comm=)" = "tmux" ]; then
+        tmux rename-window "$(echo $* | cut -d . -f 1)"
+        command mosh "$@"
+        tmux set-window-option automatic-rename "on" 1>/dev/null
+    else
+        command mosh "$@"
+    fi
+}
+
+propstring () {
+  echo -n 'Property '
+  xprop WM_CLASS | sed 's/.*"\(.*\)", "\(.*\)".*/= "\1,\2" {/g'
+  echo '}'
+}
+
+config(){
+	case "$1" in
+		f) vim $HOME/.config/fontconfig/fonts.conf ;;
+		q) vim $HOME/.config/qutebrowser/config.py ;;
+		u) vim $HOME/.bin/utils ;;
+		*) echo "Usage: config f|q|u" ;;
+	esac
+}
+
+rfc(){
+	[[ -n "$1" ]] || { cat <<EOF
+rfc - Command line RFC viewer
+Usage: rfc <index>
+EOF
+return 1
+}
+find /usr/share/doc/RFC/ -type f -iname "rfc$1.*" | xargs less
+}
+
+rfcgrep(){
+	[[ -n "$1" ]] || { cat <<EOF
+rfcgrep - grep within /usr/share/doc/RFC/rfc-index.txt.gz
+Usage: rfcgrep <string>	
+EOF
+return 1
+	}
+	zgrep -iB3 "$1" /usr/share/doc/RFC/rfc-index.txt.gz
+}
+
+booksearch () {
+	LIBPATH=$HOME/Calibre
+	[[ -n "$1" ]] || { echo Usage: 'booksearch <keywords>'; return 1; }
+	calibredb list -s "$@" --with-library=$LIBPATH/Calibre1
+	calibredb list -s "$@" --with-library=$LIBPATH/Calibre2
+	calibredb list -s "$@" --with-library=$LIBPATH/Calibre3
+}
+
+searchbook () {
+    booksearch "$1"
+}
+
+showcolor () {
+	for i in {0..255}; do printf "\x1b[38;5;${i}mcolour${i} "; done
+}
+
+colorshow () { 
+for fgbg in 38 48 ; do # Foreground / Background
+    for color in {0..255} ; do # Colors
+        # Display the color
+        printf "\e[${fgbg};5;%sm  %3s  \e[0m" $color $color
+        # Display 6 colors per lines
+        if [ $((($color + 1) % 8)) == 4 ] ; then
+            echo # New line
+        fi
+    done
+    echo # New line
+done
+}
+
+technotes () {
+	emacsclient -e '(progn (find-file-read-only-other-frame "~/git/org/tech.org"))'
+}
+
+netnotes () {
+	emacsclient -e '(progn (find-file-read-only-other-frame "~/lecture_notes/network_basics/net-tools/net-tools.org"))'
+}
+
+update-calibre () {
+	sudo -v && wget --no-check-certificate -nv -O- https://download.calibre-ebook.com/linux-installer.py | sudo python -c "import sys; main=lambda:sys.stderr.write('Download failed\n'); exec(sys.stdin.read()); main('$HOME/')"
+}
+
+w2pdf () {
+	libreoffice --convert-to pdf:writer_pdf_Export "$1"
+}
+
+xpdf(){
+	$XPDF "$1" 2>/dev/null &
+}
+
+# https://madebynathan.com/2011/10/04/a-nicer-way-to-use-xclip/
+# A shortcut function that simplifies usage of xclip.
+# - Accepts input from either stdin (pipe), or params.
+# ------------------------------------------------
+cb() {
+  local _scs_col="\e[0;32m"; local _wrn_col='\e[1;31m'; local _trn_col='\e[0;33m'
+  # Check that xclip is installed.
+  if ! type xclip > /dev/null 2>&1; then
+    echo -e "$_wrn_col""You must have the 'xclip' program installed.\e[0m"
+  # Check user is not root (root doesn't have access to user xorg server)
+  elif [[ "$USER" == "root" ]]; then
+    echo -e "$_wrn_col""Must be regular user (not root) to copy a file to the clipboard.\e[0m"
+  else
+    # If no tty, data should be available on stdin
+    if ! [[ "$( tty )" == /dev/* ]]; then
+      input="$(< /dev/stdin)"
+    # Else, fetch input from params
+    else
+      input="$*"
+    fi
+    if [ -z "$input" ]; then  # If no input, print usage message.
+      echo "Copies a string to the clipboard."
+      echo "Usage: cb <string>"
+      echo "       echo <string> | cb"
+    else
+      # Copy input to clipboard
+      echo -n "$input" | xclip -selection c
+      # Truncate text for status
+      if [ ${#input} -gt 80 ]; then input="$(echo $input | cut -c1-80)$_trn_col...\e[0m"; fi
+      # Print status.
+      echo -e "$_scs_col""Copied to clipboard:\e[0m $input"
+    fi
+  fi
+}
+# Aliases / functions leveraging the cb() function
+# ------------------------------------------------
+# Copy contents of a file
+function cbf() { cat "$1" | cb; }
+# Copy SSH public key
+alias cbssh="cbf ~/.ssh/id_rsa.pub"
+# Copy current working directory
+alias cbwd="pwd | cb"
+# Copy most recent command in bash history
+alias cbhs="cat $HISTFILE | tail -n 1 | cb"
+
+# https://stackoverflow.com/questions/660613/how-do-you-hide-the-mouse-pointer-under-linux-x11
+setmouse () {
+   DISPLAY=":0" xinput $1 `DISPLAY=":0" xinput | grep Mouse |
+           tr -d " " | tr "\t" " " |
+           cut -d" " -f2 | cut -d"=" -f2`
+}
+
+dm () {
+   DISPLAY=":0" xdotool mousemove 1920 1075 # use xrandr to find out
+   setmouse disable
+}
+
+em () {
+   setmouse enable
+}

@@ -1,0 +1,16 @@
+texlive
+texlive-bibtex-extra
+texlive-extra-utils
+texlive-fonts-extra
+texlive-lang-chinese
+texlive-lang-english
+texlive-latex-extra
+texlive-science
+texlive-xetex
+biber
+python-pygments
+fonts-dejavu
+fonts-droid-fallback
+fonts-humor-sans
+fonts-symbola
+fonts-tlwg-purisa

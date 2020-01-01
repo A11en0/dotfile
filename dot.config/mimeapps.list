@@ -1,0 +1,18 @@
+
+[Default Applications]
+image/jpeg=pqiv.desktop
+image/png=pqiv.desktop
+image/pnm=pqiv.desktop
+image/ppm=pqiv.desktop
+image/pbm=pqiv.desktop
+image/pgm=pqiv.desktop
+image/tif=pqiv.desktop
+image/gif=pqiv.desktop
+application/pdf=mupdf.desktop
+text/plain=less.desktop
+text/x-bibtex=emacs-term.desktop
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop

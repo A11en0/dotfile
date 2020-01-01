@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+#name : ascii-art
+# --
+\documentclass[varwidth,crop]{standalone}
+
+\usepackage{fontspec}
+\setmonofont{DejaVu Sans Mono}
+
+\begin{document}
+\begin{verbatim}
+$0
+\end{verbatim}
+\end{document}
+
+%\usepackage{fancyvrb,xcolor}
+%\begin{Verbatim}[commandchars=\\\\\{\\}]
+%\end{Verbatim}

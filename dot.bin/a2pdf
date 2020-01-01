@@ -1,0 +1,62 @@
+#!/bin/bash
+
+usage(){
+	cat <<EOF
+a2pdf - Convert any image into a black/white PDF file optionally with text annotation.
+
+Usage: `basename $0` [-f Filter] [-t Threshold] [-T text] [-c x,y] [-F font size] <Image>
+
+    Image - the image you want to tweak
+   Filter - man mkbitmap for details
+Threshold - man mkbitmap for details
+     text - text to be added into the image
+      x,y - coordinate of text to be added, default to '+300+30'
+font size - default to 22
+EOF
+}
+
+cleanup(){
+	rm -f $TIF $PBM
+}
+
+trap cleanup EXIT
+
+# defaults
+F=4
+T=".5"
+XY='+300+30'
+FS=22
+
+while getopts :hf:t:T:c:F: OPT; do
+	case $OPT in
+		h) usage; exit 0 ;;
+		f) F="$OPTARG" ;;
+		t) T="$OPTARG" ;;
+		T) TXT="$OPTARG" ;;
+		c) XY="$OPTARG" ;;
+		F) FS="$OPTARG" ;;
+		?) usage; exit 2
+	esac
+done
+shift $(( OPTIND - 1 ))
+OPTIND=1
+
+IMG="$@"
+[[ -f "$IMG" ]] || { echo "Image <$IMG> not found!"; exit 1; }
+
+# https://tecadmin.net/how-to-extract-filename-extension-in-shell-script/
+BASE="${IMG%.*}"
+
+PPM="$BASE.ppm"
+PBM="$BASE.pbm"
+TIF="$BASE.tif"
+PDF="$BASE.pdf"
+
+convert $IMG $PPM 
+mkbitmap -f$F -t$T -o $PBM $PPM
+
+# convert -list font | grep CJK
+[[ -n "$TXT" ]] && mogrify -pointsize $FS -font 'Noto-Sans-CJK-SC' -annotate $XY "$TXT" $PBM
+
+ppm2tiff -c lzw $PBM $TIF
+tiff2pdf -o $PDF -F $TIF

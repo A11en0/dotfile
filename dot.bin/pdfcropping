@@ -1,0 +1,38 @@
+#!/bin/bash
+
+function usage(){
+	cat <<EOF
+Split a page from a PDF file, and crop it.
+
+Usage: $(basename $0) [-p page number] [-m L T R B] [-o outPDF] <inPDF>"
+
+      inPDF - The input PDF file name
+page number - The number of to-be-cropped page
+     outPDF - The output PDF file name
+    L T R B - Margins
+EOF
+}
+
+PAGE=1
+MARGIN=(0 0 0 0)
+
+while getopts :hp:m:o: OPT
+do
+	case $OPT in
+		h) usage; exit 1 ;; 
+		p) PAGE=$OPTARG ;;
+		m) MARGIN=($OPTARG) ;;
+		o) OUTPDF=$OPTARG ;;
+		?) usage; exit 1 ;;
+	esac
+done
+shift $(( OPTIND - 1 ))
+OPTIND=1
+
+INPDF="$@"
+
+[[ -f "$INPDF" ]] || { echo "$(basename $0): Missing input file!"; usage; exit 1; }
+
+[[ -n "$OUTPDF" ]] || OUTPDF="${INPDF%.*}-$PAGE.pdf"
+
+pdftk $INPDF cat $PAGE output - | pdfcrop --margins "${MARGIN[*]}" --clip - $OUTPDF && mupdf $OUTPDF

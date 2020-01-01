@@ -1,0 +1,80 @@
+! -*- mode: Conf[Xdefaults];-*-
+!!! https://wiki.archlinux.org/index.php/X_resources
+!!! run 'xrdb -merge .Xresources' after change
+
+XTerm*loginShell: true
+
+!!!font and locale
+XTerm*faceName: monaco
+XTerm*boldFont: monaco
+!XTerm*boldFont: Noto Mono:style=Bold
+XTerm*faceSize: 18
+XTerm*faceSize1: 14
+XTerm*faceSize2: 16
+XTerm*faceSize3: 18
+XTerm*faceSize4: 20
+XTerm*faceSize5: 22
+XTerm*faceSize6: 24
+XTerm*antialias: false
+XTerm*faceNameDoublesize: Noto Sans Mono CJK SC
+
+! set 'cjkWidth' to true makes aptitude window messy.
+!XTerm*cjkWidth: true
+XTerm*locale: true
+XTerm*utf8: true
+XTerm*fontMenu*fontdefault*Label: Default
+XTerm*xftAntialias: false
+XTerm*selectToClipboard: true
+
+!!! make url selection better (seems not working)
+! http://www.debian-administration.org/article/66/Customizing_your_XTerm
+XTerm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+
+!!!look and feel
+XTerm*termName: xterm-256color
+XTerm*ScrollBar: false
+XTerm*visualBell: false
+XTerm*fullscreen: never
+XTerm*borderLess: true
+XTerm*internalBorder: 0
+XTerm*externalBorder: 0
+XTerm*borderWidth: 0
+
+XTerm.vt100.translations: #override \
+  Ctrl <Key> minus: smaller-vt-font() \n\
+  Ctrl <Key> plus: larger-vt-font() \n
+
+XTerm*omitTranslation: fullscreen
+! disable alt-enter in XTerm, and enable it in emacs.
+XTerm*metaSendsEscape: true
+
+XTerm*allowSendEvents: True
+XTerm*allowTitleOps: True
+XTerm*sessionMgt: false
+
+!!! http://sunaku.github.io/zenburn-terminal-color-scheme.html
+XTerm*color0: #000d18
+XTerm*color1: #e89393
+XTerm*color2: #9ece9e
+XTerm*color3: #f0dfaf
+XTerm*color4: #1f1f1f
+! #8cd0d3
+XTerm*color5: #c0bed1
+XTerm*color6: #dfaf8f
+XTerm*color7: #efefef
+XTerm*color8: #000d18
+XTerm*color9: #e89393
+XTerm*color10: #9ece9e
+XTerm*color11: #f0dfaf
+XTerm*color12: #8cd0d3
+XTerm*color13: #c0bed1
+XTerm*color14: #dfaf8f
+XTerm*color15: #efefef
+XTerm*colorBD: #ffcfaf
+XTerm*colorIT: #80d4aa
+XTerm*colorUL: #ccdc90
+XTerm*foreground: #dcdccc
+XTerm*background: black
+!XTerm*background: #3f3f3f
+!#1f1f1f
+XTerm*cursorColor: #8faf9f
