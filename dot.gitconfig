@@ -1,6 +1,6 @@
 [user]
-	name = Wang Xiaolin
-	email = wx672ster@gmail.com
+	name = A11en0
+	email = g352415441@gmail.com
 [color]
 	status = auto
 	diff = auto
@@ -13,15 +13,10 @@
 	br = branch
 	ls = ls-files
 [core]
-	excludesFile = /home/wx672/.gitignore
+	excludesFile = /home/allen/.gitignore
 	autocrlf = input
 [push]
 	default = simple
-[sendemail]
-	smtpencryption = tls
-	smtpserver = smtp.gmail.com
-	smtpuser = wx672ster@gmail.com
-	smtpserverport = 587
 [http]
  	sslVerify = false
 # 	proxy = socks5://127.0.0.1:1080
