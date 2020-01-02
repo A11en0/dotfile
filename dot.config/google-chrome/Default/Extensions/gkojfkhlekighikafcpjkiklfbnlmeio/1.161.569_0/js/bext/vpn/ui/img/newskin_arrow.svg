@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_down" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-1{fill:rgba(0,0,0,.38)}.cls-2{fill:none}
+        </style>
+    </defs>
+    <path id="Path_100" d="M22 9.765l-8 9-8-9z" class="cls-1" data-name="Path 100" transform="translate(-4 -3.765)"/>
+    <path id="Path_101" d="M0 0h20v20H0z" class="cls-2" data-name="Path 101"/>
+</svg>

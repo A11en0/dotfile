@@ -1,3 +1,9 @@
-2020/01/01-01:41:13.099 31aa Reusing MANIFEST /home/allen/.config/google-chrome/Default/Session Storage/MANIFEST-000001
-2020/01/01-01:41:13.099 31aa Recovering log #3
-2020/01/01-01:41:13.099 31aa Reusing old log /home/allen/.config/google-chrome/Default/Session Storage/000003.log 
+2020/01/02-10:14:22.148 1806 Reusing MANIFEST /home/allen/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2020/01/02-10:14:22.148 1806 Recovering log #10
+2020/01/02-10:14:22.148 1806 Reusing old log /home/allen/.config/google-chrome/Default/Session Storage/000010.log 
+2020/01/02-10:17:33.480 1bde Level-0 table #14: started
+2020/01/02-10:17:33.493 1bde Level-0 table #14: 51111 bytes OK
+2020/01/02-10:17:33.503 1bde Delete type=0 #10
+2020/01/02-10:19:15.267 1bde Level-0 table #16: started
+2020/01/02-10:19:15.278 1bde Level-0 table #16: 17549 bytes OK
+2020/01/02-10:19:15.286 1bde Delete type=0 #13

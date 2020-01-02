@@ -1,0 +1,21 @@
+﻿This add-on contains the following third-party libraries.
+
+* layui
+https://github.com/sentsin/layui/tree/v2.4.5/dist
+Tip：lay/modules/form.js has been modified to be compatible with vue
+
+* jquery.min.js
+https://github.com/jquery/jquery/blob/3.3.1/dist/jquery.min.js
+
+* snap.svg.min.js
+https://github.com/adobe-webplatform/Snap.svg/blob/v0.5.1/dist/snap.svg-min.js
+Tip：Change "this" in one place to "window"
+
+* crypto-js.js
+https://github.com/brix/crypto-js/blob/3.1.9/crypto-js.js
+
+* vue.min.js
+https://github.com/vuejs/vue/blob/v2.5.21/dist/vue.min.js
+
+* vue-csp.min.js
+https://github.com/vuejs/vue/blob/1.0-csp/dist/vue.min.js

@@ -1,3 +1,12 @@
-2020/01/01-01:33:07.950 2a11 Reusing MANIFEST /home/allen/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2020/01/01-01:33:07.950 2a11 Recovering log #3
-2020/01/01-01:33:07.950 2a11 Reusing old log /home/allen/.config/google-chrome/Default/Sync Data/LevelDB/000003.log 
+2020/01/02-10:10:31.560 1123 Reusing MANIFEST /home/allen/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/01/02-10:10:31.560 1123 Recovering log #3
+2020/01/02-10:10:31.560 1123 Reusing old log /home/allen/.config/google-chrome/Default/Sync Data/LevelDB/000003.log 
+2020/01/02-10:11:23.362 138f Level-0 table #5: started
+2020/01/02-10:11:23.382 138f Level-0 table #5: 314070 bytes OK
+2020/01/02-10:11:23.394 138f Delete type=0 #3
+2020/01/02-10:11:23.545 138f Level-0 table #7: started
+2020/01/02-10:11:23.560 138f Level-0 table #7: 336228 bytes OK
+2020/01/02-10:11:23.577 138f Delete type=0 #4
+2020/01/02-10:11:39.362 138f Level-0 table #9: started
+2020/01/02-10:11:39.380 138f Level-0 table #9: 292155 bytes OK
+2020/01/02-10:11:39.392 138f Delete type=0 #6

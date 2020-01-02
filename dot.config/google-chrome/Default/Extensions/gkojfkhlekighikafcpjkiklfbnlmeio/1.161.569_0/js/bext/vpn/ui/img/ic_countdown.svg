@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:rgba(0,0,0,.38)}
+        </style>
+    </defs>
+    <g id="ic_countdown" transform="translate(-129 -1035)">
+        <path id="Rectangle_1486" d="M0 0h24v24H0z" class="cls-1" data-name="Rectangle 1486" transform="translate(129 1035)"/>
+        <g id="Group_1975" data-name="Group 1975" transform="translate(104 1008)">
+            <path id="Path_38502" d="M31 29h12v6.009L39.016 39 43 42.991V49H31v-6.009L34.984 39 31 35.009zm6 9.5l4-3.984V31h-8v3.516zm4 4.984L37 39.5l-4 3.984V47h8zM35 33h4v.75l-2 2.016-2-2.016z" class="cls-2" data-name="Path 38502"/>
+        </g>
+    </g>
+</svg>

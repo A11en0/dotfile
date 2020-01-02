@@ -1,0 +1,35 @@
+a {
+    color: #01AAED;
+}
+
+.layui-layout-admin .layui-logo {
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 4px;
+}
+
+.layui-side-menu a {
+    cursor: pointer;
+}
+
+.layui-nav-itemed .layui-nav-child a {
+    padding-left: 40px;
+}
+
+.layui-checkbox-span {
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+.layui-layout-admin .layui-body {
+    bottom: 0px;
+}
+
+.layui-form-label {
+    width: 120px;
+}
+
+.layui-input-block {
+    margin-left: 150px;
+}

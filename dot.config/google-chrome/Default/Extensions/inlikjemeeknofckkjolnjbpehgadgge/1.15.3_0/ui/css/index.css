@@ -1,0 +1,86 @@
+/*#f8f8f8;*/
+.inline {
+  display: inline;
+}
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+.vtop {
+  vertical-align: top;
+}
+.table-cell {
+  display: table-cell;
+}
+.centered {
+  text-align: center;
+}
+.right {
+  float: right !important;
+}
+.page-header {
+  border-bottom: 1px solid #DDD;
+}
+.xleader {
+  position: relative;
+  padding: 40px 40px 40px 40px;
+  background-image: -webkit-linear-gradient(top, #0e0e14 0%, #223 100%);
+  background-image: -o-linear-gradient(top, #0e0e14 0%, #223 100%);
+  background-image: linear-gradient(to bottom, #0e0e14 0%, #223 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0e0e14', endColorstr='#ff222233', GradientType=0);
+  color: #fbfbfb;
+}
+.xleader .xsub {
+  font-size: 16px;
+}
+.xleader > ul > li {
+  font-size: 16px;
+  line-height: 16px;
+  padding: 4px;
+}
+.xleader .xhl {
+  color: #fe0;
+  background-color: transparent;
+}
+.xleader > img {
+  position: absolute;
+  left: 540px;
+  top: 20px;
+}
+.xwhy > .xsub {
+  padding: 20px;
+  border-bottom: solid 1px #eeeeee;
+}
+.xsub > .xinfo {
+  padding-top: 20px;
+}
+.xsub.xfilter > .xinfo {
+  padding-top: 60px;
+}
+.xsub.xactions > .xinfo {
+  padding-top: 60px;
+}
+.xsub.xapps > .xinfo {
+  padding-top: 40px;
+}
+.xcallto {
+  background-image: -webkit-linear-gradient(top, #223 0%, #0e0e14 100%);
+  background-image: -o-linear-gradient(top, #223 0%, #0e0e14 100%);
+  background-image: linear-gradient(to bottom, #223 0%, #0e0e14 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222233', endColorstr='#ff0e0e14', GradientType=0);
+  color: #eeeeee;
+  margin: -20px;
+}
+.xcallto > div {
+  padding: 10px;
+}
+.xcallto a {
+  color: #82c4f8;
+}
+.xinfo li {
+  margin-top: 10px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Watchlist - Distill</title>
+    <link href="css/common.css" rel="stylesheet" class="media">
+    <link href="css/icomoon.css" rel="stylesheet" class="media">
+    <link href="css/inbox.css" rel="stylesheet" class="media">
+    <link href="css/jquery.atwho.css" rel="stylesheet" class="media">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <meta charset='utf-8'>
+    <style>.hide { display: none !important; } </style>
+  </head>
+
+  <body>
+
+    <div id="x-vsidebar"></div>
+    <div id="topbar">
+      <div class="title-header">
+        Watchlist
+      </div>
+      <div class="xsearchbar">
+        <form id="form-search">
+          <div class="search-query xsearch-box">
+            <span>
+              <i class="fa fa-search">
+                <input class="xsearch-box-inner" name='q' type='text' autocomplete='off' placeholder="Search..."/>
+              </i>
+            </span>
+          </div>
+        </form>
+      </div>
+  
+      <div class="flex"></div>
+      <div id="topbar-user"></div>
+      <div id="contextSelector"></div>
+    </div>
+    <div>
+      <div id="msg" class="container-fluid xmsgbox" style="width:100%;">
+        <span class="xmsg">Loading</span>
+        <span style="display:none;" class="xerror"></span>
+      </div>
+
+      <div id="content" class="hide">
+      </div>
+
+    </div>
+    <script src='lib/jquery.js'></script>
+    <script src='lib/underscore.js'></script>
+    <script src='lib/async.js'></script>
+    <script src='lib/backbone.js'></script>
+    <script src='lib/bootstrap.js'></script>
+    <script src='lib/bootstrap-slider.js'></script>
+    <script src='lib/diff_match_patch.js'></script>
+    <script src='lib/domdiff.js'></script>
+    <script src='lib/domo.js'></script>
+    <script src='lib/feeddiff.js'></script>
+    <script src='lib/jed.js'></script>
+    <script src='lib/jquery.atwho.js'></script>
+    <script src='lib/jquery.caret.js'></script>
+    <script src='lib/moment.js'></script>
+    <script src='lib/qs.js'></script>
+    <script src='lib/papaparse.js'></script>
+    <script type = 'module' src='./inbox-cfg.js'></script>
+  </body>
+</html>

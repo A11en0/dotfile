@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Feed - Distill</title>
+    <link href="css/common.css" rel="stylesheet" class="media">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <meta charset='utf-8'>
+
+    <style>.hide { display: none !important; }</style>
+  </head>
+  <body>
+    <div id="msg" class="container-fluid xmsgbox" style="width:100%;">
+      <span class="xmsg">Loading</span>
+      <span style="display:none;" class="xerror"></span>
+    </div>
+
+    <div class='container'>
+      <h2>
+        <button data-action='add' class='btn btn-large btn-primary hide' style='margin-top: 20px'>
+          Add Feed to Distill
+        </button>
+      </h2>
+      <div>
+
+      </div>
+      <div id='content' class='xblock'>
+        <ul id='list'>
+        </ul>
+        <h4 id='title'></h4>
+        <div id='feed' />
+      </div>
+    </div>
+    <script src='lib/jquery.js'></script>
+    <script src='lib/underscore.js'></script>
+    <script src='lib/async.js'></script>
+    <script src='lib/backbone.js'></script>
+    <script src='lib/bootstrap.js'></script>
+    <script src='lib/bootstrap-slider.js'></script>
+    <script src='lib/diff_html.js'></script>
+    <script src='lib/diff_match_patch.js'></script>
+    <script src='lib/domo.js'></script>
+    <script src='lib/feeddiff.js'></script>
+    <script src='lib/htmldiff.js'></script>
+    <script src='lib/jed.js'></script>
+    <script src='lib/moment.js'></script>
+    <script src='lib/mustache.js'></script>
+    <script src='lib/qs.js'></script>
+    <script type = 'module' src='./feed.js'></script>
+  </body>
+</html>

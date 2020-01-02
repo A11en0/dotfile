@@ -1,0 +1,2 @@
+PowerBeats2
+checksum_v1 = ddefc828c2b2c475af30fa3b71fba2bd

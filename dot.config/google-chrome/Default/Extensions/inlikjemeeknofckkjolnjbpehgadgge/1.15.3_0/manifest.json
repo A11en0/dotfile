@@ -1,0 +1,46 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "ui/img/distill_19.png",
+         "38": "ui/img/distill_38.png"
+      },
+      "default_popup": "ui/popup.html",
+      "default_title": "__MSG_extName__"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "exclude_matches": [  ],
+      "js": [ "content/port-loader.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "exclude_matches": [  ],
+      "js": [ "content/auth.js" ],
+      "matches": [ "https://*.distill.io/*", "http://*.distill.local/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://distill.io https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "icons": {
+      "128": "ui/img/distill_128.png",
+      "48": "ui/img/distill_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnAPAr/hf3Kyqqalbx0reott28zs/cF3Z4Pl/HaF074z2N4VMWUcuBVowhfxj5S9C4MRvXqeADhBWTPIYVg2zkwty3No2RbM0miqMbsf7qNglrvpQiR+a1SOYv+6nGr2r0I71O104VrYa3r97axMFttnxi/TLmqYD26GPE2lOM6FtIykRNGT6sp++W97+1I96SHbBl2HsnmhcDAlxzIPhsNWKAuLGaIUPrmboTzs0uzQJtVK7Dlzmdiivab2lLtmS2hdnM7+K5w+4I7BQy6VLFkoPExbX6XCqVX9c90Hty86D8BNUm9/3P1Kc80tTiZbiKvLDFqCmK6Sscd2x1QomWwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "68.0.0.0",
+   "name": "__MSG_extName__",
+   "optional_permissions": [  ],
+   "permissions": [ "contextMenus", "*://*/*", "idle", "notifications", "tabs", "unlimitedStorage" ],
+   "sandbox": {
+      "pages": [ "sandbox.html" ]
+   },
+   "short_name": "Distill",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.15.3",
+   "web_accessible_resources": [ "content/*", "lib/*", "ui/lib/*", "ui/img*", "ui/htmlselector.html", "ui/htmlselector.js" ]
+}

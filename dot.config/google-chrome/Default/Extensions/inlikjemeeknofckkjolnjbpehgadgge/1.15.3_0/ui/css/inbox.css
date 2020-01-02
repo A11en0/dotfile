@@ -1,0 +1,318 @@
+/*#f8f8f8;*/
+.inline {
+  display: inline;
+}
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+.vtop {
+  vertical-align: top;
+}
+.table-cell {
+  display: table-cell;
+}
+.centered {
+  text-align: center;
+}
+.right {
+  float: right !important;
+}
+body {
+  overflow-y: hidden;
+  background-color: #F3F3F3;
+}
+.xsidebar {
+  position: fixed;
+  overflow-y: auto;
+  overflow-x: visible;
+  background: none;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  padding: 0 20px 20px 20px;
+}
+.xsidebar > .nav > li a {
+  padding: 2px 5px;
+  line-height: 20px;
+}
+.xsidebar > div {
+  display: flex;
+}
+.xsidebar > div a {
+  flex: 1;
+}
+.xslidebar {
+  position: fixed;
+  background-color: #fff;
+  box-shadow: -2px 0 4px rgba(0, 0, 0, 0.1);
+  width: 440px;
+  right: -440px;
+  top: 100px;
+  bottom: 0;
+  transition: right 0.2s ease;
+  overflow-y: auto;
+}
+.xslidebar > .xcontent {
+  margin-left: 20px;
+  transition: margin-right 0.2s ease;
+}
+.xslidebar > .xcontent .form-group {
+  margin-bottom: 6px;
+}
+.xslidebar > .xhandle {
+  z-index: 1;
+  position: absolute;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 20px;
+  height: 100%;
+  transition: background-color 0.2s ease;
+}
+.xslidebar > .xhandle:hover {
+  background-color: rgba(240, 240, 240, 0.6);
+}
+.xslidebar > .xhandle > i {
+  width: 100%;
+  text-align: center;
+}
+.xslidebar > .xhandle > i.fa-chevron-right {
+  display: none;
+}
+.xslidebar.xslidebar-open {
+  right: 0;
+}
+.xslidebar.xslidebar-open > .xhandle {
+  background-color: rgba(240, 240, 240, 0.3);
+}
+.xslidebar.xslidebar-open > .xhandle:hover {
+  background-color: rgba(240, 240, 240, 0.6);
+}
+.xslidebar.xslidebar-open > .xhandle > i.fa-chevron-left {
+  display: none;
+}
+.xslidebar.xslidebar-open > .xhandle > i.fa-chevron-right {
+  display: inline-block;
+}
+.xcontainer {
+  position: relative;
+  margin: 0 0 50px 200px;
+}
+#content {
+  overflow-y: scroll;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0px;
+  bottom: 0;
+}
+#content > .xcontainer > [viewclass] {
+  border-top: solid 1px #e2e2e2;
+}
+#content > .xcontainer > [viewclass] > .xtbar {
+  position: fixed;
+  top: 60px;
+  left: 261px;
+  right: 15px;
+}
+.xdirty td:last-child {
+  box-shadow: inset -4px 0 0 #99f;
+}
+#form-search > .form-group > .input-group {
+  margin-top: 3px;
+}
+#form-search > .form-group > .input-group > .form-control {
+  height: 27px;
+  padding: 2px;
+}
+#form-search > .form-group > .input-group > .form-control > span {
+  margin-left: 4px;
+}
+#form-search > .form-group > .input-group > .form-control > input {
+  height: 15px;
+  margin: 2px 5px 5px 2px;
+}
+#list {
+  min-height: 500px;
+  min-width: 500px;
+}
+#list .xsieve-err {
+  color: #c00;
+}
+#list td.xfreq-hi {
+  font-size: 1.15em;
+  font-weight: 600;
+  /*padding: 3px 12px;*/
+}
+#list td.xfreq-xh {
+  font-size: 1.3em;
+  font-weight: bold;
+  /*padding: 0 12px;*/
+}
+#list .xinfo {
+  padding: 6px 10px;
+  margin-left: 72px;
+  font-size: 1.1em;
+  background-color: #fff;
+}
+.xsieve-data-item {
+  position: relative;
+}
+.xschdlr-input {
+  border: none;
+  border-bottom: solid 1px #ccc;
+  padding-left: 6px;
+  margin-left: 20px;
+  width: 80px;
+}
+.xtbar > .btn,
+.xtbar > .btn-group > .btn {
+  min-width: 60px;
+}
+@media (max-width: 767px) {
+  .xtbar > .btn,
+  .xtbar > .btn-group > .btn {
+    min-width: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .xtbar .xoptional {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .xtbar > .pagination > li:first-child {
+    display: none;
+  }
+}
+.xtbar[context] > [context] {
+  display: none;
+}
+.xtbar[context] > [context*=all] {
+  display: inline-block;
+}
+.xtbar[context] > [context*=selected] {
+  display: none;
+}
+.xtbar[context*=inbox] > [context*=inbox] {
+  display: inline-block;
+}
+.xtbar[context*=label] > [context*=label] {
+  display: inline-block;
+}
+.xtbar[context*=search] > [context*=search] {
+  display: inline-block;
+}
+.xtbar[context*=trash] > [context*=trash]:not([context*=notrash]) {
+  display: inline-block;
+}
+.xtbar[context*=unread] > [context*=unread] {
+  display: inline-block;
+}
+.xtbar[context*=inbox] > [context*=noinbox] {
+  display: none !important;
+}
+.xtbar[context*=label] > [context*=nolabel] {
+  display: none !important;
+}
+.xtbar[context*=local] > [context*=nolocal] {
+  display: none !important;
+}
+.xtbar[context*=cloud] > [context*=nocloud] {
+  display: none !important;
+}
+.xtbar[context*=search] > [context*=nosearch] {
+  display: none !important;
+}
+.xtbar[context*=unread] > [context*=nounread] {
+  display: none !important;
+}
+.xtbar.xselected[context*=local] > [context*=local] {
+  display: inline-block;
+}
+.xtbar.xselected > [context*=selected] {
+  display: inline-block;
+}
+.xtbar.xselected[context*=trash] > [context*=notrash] {
+  display: none;
+}
+[viewClass='SieveHTMLView'] {
+  transition: height 0.2s ease;
+}
+/* Submenu support */
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown-submenu > a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover > a:after {
+  border-left-color: #bbb;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left > .dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+.xsearchbar {
+  box-radius: 2px;
+}
+.xsearchbar .xsearch-box {
+  border: 1px solid #ccc;
+  background: transparent;
+}
+.xsearchbar .xsearch-box input {
+  padding: 5px 10px;
+  width: 450px;
+  border: none;
+}
+@media (max-width: 1199px) {
+  .xsearchbar .xsearch-box input {
+    width: 300px;
+  }
+}
+@media (max-width: 767px) {
+  .xsearchbar .xsearch-box input {
+    width: 200px;
+  }
+}
+.xsearchbar .xsearch-box i {
+  padding: 5px 10px;
+}
+.distill-logo {
+  padding: 10px;
+}

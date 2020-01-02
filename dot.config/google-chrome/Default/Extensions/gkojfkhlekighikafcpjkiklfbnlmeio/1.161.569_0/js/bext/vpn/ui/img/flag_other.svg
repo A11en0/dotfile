@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="32" viewBox="0 0 48 32">
+    <defs>
+        <style>
+            .cls-1{fill:#f2f2f2}.cls-2{fill:#0288d1}.cls-3{fill:#cb0000}.cls-4{fill:#192f5d}.cls-5{fill:#222}.cls-6{fill:#ffbe00}.cls-7{fill:#000166}.cls-8{fill:#fff}
+        </style>
+    </defs>
+    <g id="more" transform="translate(40 32)">
+        <path id="Rectangle_1235" d="M0 0h22v14H0z" class="cls-1" data-name="Rectangle 1235" transform="translate(-40 -14)"/>
+        <path id="Rectangle_1236" d="M0 0h7v14H0z" class="cls-2" data-name="Rectangle 1236" transform="translate(-40 -14)"/>
+        <path id="Rectangle_1237" d="M0 0h7v14H0z" class="cls-3" data-name="Rectangle 1237" transform="translate(-25 -14)"/>
+        <path id="Rectangle_1238" d="M0 0h22v14H0z" class="cls-1" data-name="Rectangle 1238" transform="translate(-40 -32)"/>
+        <path id="Rectangle_1239" d="M0 0h11v7H0z" class="cls-4" data-name="Rectangle 1239" transform="translate(-40 -32)"/>
+        <path id="Rectangle_1240" d="M0 0h11v1H0z" class="cls-3" data-name="Rectangle 1240" transform="translate(-29 -32)"/>
+        <path id="Rectangle_1241" d="M0 0h11v1H0z" class="cls-3" data-name="Rectangle 1241" transform="translate(-29 -30)"/>
+        <path id="Rectangle_1242" d="M0 0h11v1H0z" class="cls-3" data-name="Rectangle 1242" transform="translate(-29 -28)"/>
+        <path id="Rectangle_1243" d="M0 0h11v1H0z" class="cls-3" data-name="Rectangle 1243" transform="translate(-29 -26)"/>
+        <path id="Rectangle_1244" d="M0 0h22v1H0z" class="cls-3" data-name="Rectangle 1244" transform="translate(-40 -24)"/>
+        <path id="Rectangle_1245" d="M0 0h22v1H0z" class="cls-3" data-name="Rectangle 1245" transform="translate(-40 -22)"/>
+        <path id="Rectangle_1246" d="M0 0h22v1H0z" class="cls-3" data-name="Rectangle 1246" transform="translate(-40 -20)"/>
+        <path id="Rectangle_1247" d="M0 0h22v14H0z" class="cls-1" data-name="Rectangle 1247" transform="translate(-14 -14)"/>
+        <path id="Rectangle_1248" d="M0 0h22v5H0z" class="cls-5" data-name="Rectangle 1248" transform="translate(-14 -14)"/>
+        <path id="Rectangle_1249" d="M0 0h22v4H0z" class="cls-3" data-name="Rectangle 1249" transform="translate(-14 -9)"/>
+        <path id="Rectangle_1250" d="M0 0h22v5H0z" class="cls-6" data-name="Rectangle 1250" transform="translate(-14 -5)"/>
+        <g id="Group_1737" data-name="Group 1737">
+            <path id="Path_37516" d="M-14-32v14H8v-14z" class="cls-7" data-name="Path 37516"/>
+            <path id="Path_37517" d="M8-30l-19 12h-3v-2L5-32h3z" class="cls-8" data-name="Path 37517"/>
+            <path id="Path_37518" d="M-14-30L5-18h3v-2l-19-12h-3z" class="cls-8" data-name="Path 37518"/>
+            <path id="Path_37519" d="M-6.25-27L-14-32v1l6.25 4z" class="cls-3" data-name="Path 37519"/>
+            <path id="Path_37520" d="M.25-23L8-18v-1l-6.25-4z" class="cls-3" data-name="Path 37520"/>
+            <path id="Path_37521" d="M6.5-32L-1-27.25v.25H.25L8-32z" class="cls-3" data-name="Path 37521"/>
+            <path id="Path_37522" d="M-12.5-18l7.5-4.75V-23h-1.25L-14-18z" class="cls-3" data-name="Path 37522"/>
+            <g id="Group_1735" data-name="Group 1735">
+                <path id="Path_37523" d="M-3-32v14m-11-7H8" data-name="Path 37523"/>
+                <path id="Path_37524" d="M-1-18h-4v-5h-9v-4h9v-5h4v5h9v4h-9z" class="cls-8" data-name="Path 37524"/>
+            </g>
+            <g id="Group_1736" data-name="Group 1736">
+                <path id="Path_37525" d="M-3-32v14m-11-7H8" class="cls-3" data-name="Path 37525"/>
+                <path id="Path_37526" d="M-2-18h-2v-6h-10v-2h10v-6h2v6H8v2H-2z" class="cls-3" data-name="Path 37526"/>
+            </g>
+        </g>
+    </g>
+</svg>

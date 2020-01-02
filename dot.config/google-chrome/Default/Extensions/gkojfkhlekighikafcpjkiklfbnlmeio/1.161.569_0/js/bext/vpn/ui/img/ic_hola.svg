@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_hola" width="29.15" height="40" viewBox="0 0 29.15 40">
+    <defs>
+        <style>
+            .cls-1{fill:url(#radial-gradient)}.cls-2{fill:#fd0}.cls-2,.cls-6{opacity:.2}.cls-3{fill:#9d0b0f;opacity:.3}.cls-4,.cls-8,.cls-9{opacity:.5}.cls-5{fill:#ec1c24;opacity:.8}.cls-7{fill:#ef4e23}.cls-8{fill:#f05a22}.cls-9{fill:#c3161c}.cls-10{fill:#231f20}
+        </style>
+        <radialGradient id="radial-gradient" cx="17.054" cy="30.114" r="22.157" gradientTransform="matrix(1.376 0 0 1.368 -6.412 -11.091)" gradientUnits="userSpaceOnUse">
+            <stop offset=".05" stop-color="#fbae17"/>
+            <stop offset=".174" stop-color="#f6921e"/>
+            <stop offset=".4" stop-color="#f16522"/>
+            <stop offset=".63" stop-color="#d71921"/>
+            <stop offset=".797" stop-color="#c3161c"/>
+            <stop offset=".956" stop-color="#b01117"/>
+        </radialGradient>
+    </defs>
+    <g id="Group_348" data-name="Group 348">
+        <path id="Body_1_" d="M29.048 25.524c.19-2.857-.857-7.524-1.619-10-.762-2.381.857-5.333.857-5.333s-.762 0-2.667 1.714a5.552 5.552 0 0 0-1.9 3.9c-2.19-5.143-6.667-8.476-8.381-10.762C13.714 2.952 14.857 0 14.857 0 11.524 1.429 9.81 5.048 9.238 9.333A7.838 7.838 0 0 1 6 15.238c-.476-4-4.952-5.048-4.952-5.048.952.286 2.571 4.952.857 8.286A15.953 15.953 0 0 0 0 25.524C0 33.524 5.048 40 14.476 40a14.141 14.141 0 0 0 14.572-14.476z" class="cls-1"/>
+        <path id="RH_large_shade_1_" d="M28.125 15.619c-.762-2.381.857-5.333.857-5.333s-.762 0-2.667 1.714a5.552 5.552 0 0 0-1.9 3.9c-2.19-5.143-6.667-8.476-8.381-10.762A5.587 5.587 0 0 1 15.553 0c-.857 1.619-2.667 4.476 3.333 11.048 7.429 7.238 10.1 12.19 8.667 19.429-.857 4.286-3.333 5.81-6.667 8.381h-.1a14.134 14.134 0 0 0 9.048-13.524 33.027 33.027 0 0 0-1.709-9.715z" class="cls-2" transform="translate(-.696)"/>
+        <path id="LH_large_shade_1_" d="M0 25.524a14.962 14.962 0 0 0 2.952 9.333C1.524 31.524.286 26.19 2.19 22.381c3.619-7.143 9.143-7.238 9.048-13.048A12.969 12.969 0 0 1 14.952 0C11.619 1.429 9.9 5.048 9.333 9.333a7.838 7.838 0 0 1-3.238 5.9c-.476-4-4.952-5.048-4.952-5.048.952.286 2.571 4.952.857 8.286a14.918 14.918 0 0 0-2 7.053z" class="cls-3"/>
+        <g id="Group_344" class="cls-4" data-name="Group 344" transform="translate(.095 10.19)">
+            <path id="Path_7230" d="M3.433 18.224C4.481 14.6 2.2 10.986 1.148 10.7c.952.381 2.571 4.952.857 8.286A15.953 15.953 0 0 0 .1 26.033a15.752 15.752 0 0 0 2.667 8.952C-2 25.271 2.29 21.748 3.433 18.224z" class="cls-5" data-name="Path 7230" transform="translate(-.1 -10.7)"/>
+        </g>
+        <g id="Group_345" class="cls-6" data-name="Group 345" transform="translate(19.429 10.286)">
+            <path id="Path_7231" d="M28.4 16.133c-.762-2.381.857-5.333.857-5.333-1.714 2.286-2.381 4-.857 10.1 2.571 8.952-.762 15.619-8 18.857a14.1 14.1 0 0 0 9.714-13.714 33.206 33.206 0 0 0-1.714-9.91z" class="cls-7" data-name="Path 7231" transform="translate(-20.4 -10.8)"/>
+        </g>
+        <path id="LH_ear_1_" d="M1.1 10.7c3.429 1.048 4.1 4.667 4.1 5.429a2.441 2.441 0 0 0 .857-.381C5.671 11.652 1.1 10.7 1.1 10.7z" class="cls-8" transform="translate(-.052 -.51)"/>
+        <path id="RH_ear_1_" d="M25.471 17.276c.476-.19-.1-3.714 4-6.476 0 0-.762 0-2.667 1.714a5.552 5.552 0 0 0-1.9 3.9s.472.767.567.862z" class="cls-9" transform="translate(-1.186 -.514)"/>
+        <g id="Mouth_1_" transform="translate(3.714 26.476)">
+            <path id="Mouth_2_" d="M24.09 27.8a9.334 9.334 0 0 1-18.667 0H3.9a10.858 10.858 0 0 0 21.714 0z" class="cls-10" transform="translate(-3.9 -27.8)"/>
+        </g>
+        <g id="Eyes_1_" transform="translate(7.429 20.762)">
+            <g id="Group_346" data-name="Group 346" transform="translate(10.286)">
+                <ellipse id="Ellipse_68" cx="2" cy="2.857" class="cls-10" data-name="Ellipse 68" rx="2" ry="2.857"/>
+            </g>
+            <g id="Group_347" data-name="Group 347">
+                <ellipse id="Ellipse_69" cx="2" cy="2.857" class="cls-10" data-name="Ellipse 69" rx="2" ry="2.857"/>
+            </g>
+        </g>
+    </g>
+</svg>

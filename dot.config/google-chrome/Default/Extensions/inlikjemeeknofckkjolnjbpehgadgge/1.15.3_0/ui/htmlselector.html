@@ -1,0 +1,70 @@
+<html>
+
+  <head>
+    <title>Distill Visual Selector </title>
+
+    <link href="/ui/css/common.css" rel="stylesheet" class="media"/>
+    <link href="/ui/css/selector.css" rel="stylesheet" class="media"/>
+    <style>.hide { visibility: hidden; } body { overflow: auto}
+      .xtbar button {
+        height: 27px;
+        max-width: 160px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    </style>
+
+  </head>
+
+  <body class="">
+    <div class="xtbar xtbar-inverse">
+      <button
+        id="a_toggle_selection_mode"
+        action="toggleSelector">
+        <i class="fa fa-play"></i>
+        <span data-text='a_select_elements'/>
+      </button>
+      <div class="right">
+        <button
+          action="save" class="pull-left">
+          <i class="fa fa-save"></i>
+          <span data-text='a_save_selections' />
+        </button>
+        <button id="a_expand_size" action="toggleExpanded" data-title="a_expand" class="pull-left">
+          <i></i>
+        </button>
+        <button action="close" class="pull-left">
+          <i class="fa fa-times" data-title="a_close"></i>
+        </button>
+      </div>
+    </div>
+
+    <div id="content">
+      <div id="selections">
+        <div id="config">
+        </div>
+      </div>
+
+      <textarea id="preview" class="form-control" data-placeholder="m_vs_sel_preview">
+      </textarea>
+    </div>
+
+    <script src='/ui/lib/jquery.js'></script>
+    <script src='/ui/lib/underscore.js'></script>
+    <script src='/ui/lib/async.js'></script>
+    <script src='/ui/lib/backbone.js'></script>
+    <script src='/ui/lib/bootstrap.js'></script>
+    <script src='/ui/lib/bootstrap-slider.js'></script>
+    <!-- <script src='/ui/lib/diff_feed.js'></script> -->
+    <script src='/ui/lib/diff_match_patch.js'></script>
+    <script src='/ui/lib/domdiff.js'></script>
+    <script src='/ui/lib/domo.js'></script>
+    <script src='/ui/lib/feeddiff.js'></script>
+    <script src='/ui/lib/jed.js'></script>
+    <script src='/ui/lib/moment.js'></script>
+    <script src='/ui/lib/qs.js'></script>
+    <script type = 'module' src='./htmlselector-cfg.js' charset='UTF-8'> </script>
+
+  </body>
+</html>

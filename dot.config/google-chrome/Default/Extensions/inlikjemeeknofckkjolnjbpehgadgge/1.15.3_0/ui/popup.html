@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <title>Distill Menu Popup</title>
+    <link rel='stylesheet' type='text/css' href='css/common.css'></link>
+    <link rel='stylesheet' type='text/css' href='css/popup.css'></link>
+    <link rel='stylesheet' type='text/css' href='css/icomoon.css'></link>
+    <meta charset='utf-8'>
+    <style>
+    .hide{display:none;}
+    .truncate {width: 110px; white-space: nowrap; overflow:hidden; text-overflow: ellipsis;}
+    </style>
+  </head>
+  <body>
+    <div id="msg" class="container-fluid xmsgbox" style="width:100%;">
+      <span class="xmsg">Loading</span>
+      <span style="display:none;" class="xerror"></span>
+    </div>
+    <div class='xbody hide' >
+      <div class='xminilist xright'>
+        <div class='xheader xsection'>
+          <h3>
+            <div class='inline right'>
+              <div class='btn-group btn-toggle'>
+                <button id='btn-on' class='btn btn-default xtoggle btn-xs' data-text='a_checks_on'></button>
+                <button id='btn-off' class='btn btn-default xtoggle btn-xs' data-text='a_checks_off'></button>
+              </div>
+
+              <div class='btn-group' role='group'>
+                <button
+                  class='btn btn-default btn-sm xrefresh'
+                  data-toggle='tooltip'
+                  data-placement='bottom'
+                  data-container='body'
+                  data-title='a_check_changes_all'>
+                  <i class='fa im-run'></i>
+                </button>
+                <button
+                  class='btn btn-default btn-sm xmarkread'
+                  data-toggle='tooltip'
+                  data-placement='bottom'
+                  data-container='body'
+                  data-title='a_mark_read'>
+                  <i class='fa fa-check'></i>
+                </button>
+                <button
+                  class='btn btn-default btn-sm xopenintab'
+                  data-toggle='tooltip'
+                  data-placement='bottom'
+                  data-container='body'
+                  data-title='a_open_unread_in_tab'>
+                  <i class='fa fa-external-link'></i>
+                </button>
+              </div>
+            </div>
+            <div class="truncate inline-block" data-text='t_updates'></div>
+          </h3>
+        </div>
+        <div class=''>
+          <h4>
+            <button class='btn btn-primary btn-slim xinbox' data-text='a_go_to_watchlist'>
+            </button>
+            <span class='right'>
+
+            </span>
+          </h4>
+        </div>
+        <ul id='update-list' class='content list-unstyled xlist'></ul>
+      </div>
+
+      <div class='xleft' >
+        <div class='xsection xheader'>
+          <h3 data-text='l_add_monitor'></h3>
+        </div>
+        <div class='xsection'>
+          <div id='actions' >
+            <button class='btn btn-primary btn-slim xsel' data-text='a_monitor_page_elements'></button>
+            <button class='btn btn-default btn-slim xwatch' data-text='a_monitor_page'></button>
+            <button class='btn btn-default btn-slim xfeed'>
+              <i class="fa fa-rss"></i>
+              <span data-text='a_monitor_feed'></span>
+            </button>
+          </div>
+        </div>
+        <div class='xsection'>
+          <div class='small' data-text='l_sieve_tpl_list'></div>
+        </div>
+        <ul class='xlist xsuggestions list-unstyled'></ul>
+      </div>
+
+      <div class='xright xdetail hide'>
+      </div>
+
+    </div>
+    <script src='lib/jquery.js'></script>
+    <script src='lib/underscore.js'></script>
+    <script src='lib/async.js'></script>
+    <script src='lib/backbone.js'></script>
+    <script src='lib/bootstrap.js'></script>
+    <script src='lib/domo.js'></script>
+    <script src='lib/jed.js'></script>
+    <script src='lib/moment.js'></script>
+    <script src='lib/qs.js'></script>
+    <script type = 'module' src='./popup-cfg.js'></script>
+  </body>
+</html>

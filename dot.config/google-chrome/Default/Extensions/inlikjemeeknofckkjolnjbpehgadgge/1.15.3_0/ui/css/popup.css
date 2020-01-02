@@ -1,0 +1,143 @@
+body {
+  overflow: hidden;
+  width: 610px;
+  height: 450px;
+  background-color: #fafafa;
+}
+
+.xheader {
+  background-color: #ddd;
+  border-bottom: solid 1px #0d8aee;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+#msg {
+  text-align: center;
+  height: 0;
+}
+
+.xheader > h4 {
+  margin-top: 0;
+}
+
+#msg > .content {
+  background-color: #ff9;
+  color: #000;
+}
+
+.xleft {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 280px;
+  height: 100%;
+  border-right: solid 1px #535353;
+}
+
+.xright {
+  position: absolute;
+  left: 280px;
+  width: 330px;
+  height: 100%;
+  overflow: auto;
+}
+
+.xleft:hover, .xright:hover {
+  z-index: 3;
+}
+
+.xlist-count {
+  font-size: .8em;
+  padding-right: 10px;
+}
+
+.xlist {
+  border-top: solid 1px #ccc;
+  overflow-y: auto;
+}
+
+.xitem {
+  cursor: default;
+  white-space: nowrap;
+  overflow: hidden;
+  border-bottom: solid 1px #ccc;
+  padding: 8px 10px;
+
+  line-height: 1.2em;
+}
+
+.xitem a {
+  font-weight: bold;
+}
+
+.xitem.xread {
+  background-color: #f3f3f3;
+}
+
+.xitem.xread a {
+  font-weight: normal;
+}
+
+.xsuggestions {
+  font-size: 0.9em;
+  overflow-y: visible;
+}
+
+.xsuggestions .xitem.xread.xactive {
+  background-color: #fff;
+  margin-right: -1px;
+}
+
+.xsuggestions .xitem .btn {
+  visibility: hidden;
+}
+
+.xsuggestions .xitem:hover .btn {
+  visibility: visible;
+}
+
+.xsuggestion-detail {
+  background-color: #fff;
+  overflow-y: scroll;
+}
+
+.xsection {
+  padding: 4px 10px;
+}
+
+#actions > * {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+}
+
+.btn-slim {
+  padding: 3px 20px;
+}
+
+.xinbox {
+  margin-left: 10px;
+}
+
+.btn-toggle > .btn {
+  width: 50%;
+}
+
+.block {
+  padding: 10px;
+}
+
+#btn-active.active > .inactive {
+  display: none;
+}
+
+#btn-active.inactive > .active {
+  display: none;
+}
+
+.list-group-item {
+  padding: 6px 10px;
+}
