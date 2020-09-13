@@ -1,0 +1,15 @@
+2020/09/09-08:29:02.727 60b8 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.tensorflow.org_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/09-08:29:02.727 60b8 Recovering log #7
+2020/09/09-08:29:02.727 60b8 Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_www.tensorflow.org_0.indexeddb.leveldb/000007.log 
+2020/09/09-08:29:55.970 54bc Level-0 table #12: started
+2020/09/09-08:29:55.977 54bc Level-0 table #12: 855 bytes OK
+2020/09/09-08:29:55.981 54bc Delete type=0 #7
+2020/09/09-08:29:55.981 54bc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/09-08:29:55.981 54bc Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x01\x05\x00z\x00h\x00_\x00c\x00n\x00\x01\x13\x00l\x00a\x00n\x00g\x00u\x00a\x00g\x00e\x00_\x00p\x00r\x00e\x00f\x00e\x00r\x00e\x00n\x00c\x00e' @ 694 : 1
+2020/09/09-08:29:55.981 54bc Compacting 1@1 + 1@2 files
+2020/09/09-08:29:55.984 54bc Generated table #13@1: 30 keys, 820 bytes
+2020/09/09-08:29:55.984 54bc Compacted 1@1 + 1@2 files => 820 bytes
+2020/09/09-08:29:55.987 54bc compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/09-08:29:55.987 54bc Delete type=2 #9
+2020/09/09-08:29:55.987 54bc Delete type=2 #12
+2020/09/09-08:29:55.988 54bc Manual compaction at level-1 from '\x00\x01\x01 \x01\x05\x00z\x00h\x00_\x00c\x00n\x00\x01\x13\x00l\x00a\x00n\x00g\x00u\x00a\x00g\x00e\x00_\x00p\x00r\x00e\x00f\x00e\x00r\x00e\x00n\x00c\x00e' @ 694 : 1 .. (end); will stop at (end)

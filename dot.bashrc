@@ -36,8 +36,32 @@ export LESSCHARSET=utf-8
 #export TESSDATA_PREFIX='/usr/local/share/tesseract-ocr/4.00'
 tabs -4 &>/dev/null
 
+export PATH="/home/allen/.cask/bin:$PATH"                     
+export PATH="/home/allen/Softwares/pycharm-2020.2.1/bin:$PATH"
+
+export JAVA_HOME=/usr/lib/jvm/jdk8
+export JRE_HOME=${JAVA_HOME}/jre
+export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
+export PATH=${JAVA_HOME}/bin:$PATH
+
 # Use colors for less, man, etc.
 [[ -f ~/.LESS_TERMCAP ]] && tty -s && . ~/.LESS_TERMCAP
 
 #source ~/.xsh
 export GPGKEY=0EE277C8D838C7DA
+# added by Anaconda3 5.3.1 installer
+# >>> conda init >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$(CONDA_REPORT_ERRORS=false '/home/allen/.anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    \eval "$__conda_setup"
+else
+    if [ -f "/home/allen/.anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/allen/.anaconda3/etc/profile.d/conda.sh"
+        CONDA_CHANGEPS1=false conda activate base
+    else
+        \export PATH="/home/allen/.anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda init <<<

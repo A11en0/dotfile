@@ -11,7 +11,9 @@
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 8
+#font pango:monospace 16
+#font pango: Noto Sans Mono CJK
+font pango: Monaco
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -48,7 +50,7 @@ bindsym $mod+F1 exec amixer set Master toggle
 bindsym $mod+F12 exec i3lock-fancy
 
 # start the chrome 
-bindsym $mod+c exec google-chrome 
+bindsym $mod+c exec google-chrome-stable 
 bindsym $mod+q exec qutebrowser
 
 # start the emacs 
@@ -74,30 +76,23 @@ bindsym $mod+e exec emacsclient -c -n
 ###bindsym $mod+Control+e exec et
 ###bindsym $mod+Control+p exec wpp
 
-# thunderbird
-bindsym $mod+Control+t exec thunderbird
-
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# steam
-#bindsym $mod+Control+s exec steam
-
 # start dmenu (a program launcher)
-# bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec dmenu_run -i -b -p 'Arch Linux' -fn 'Monaco:pixelsize=30' -nb '#fdf6e3' -nf '#586c75' -sf '#fdf6e3' -sb '#b58900'
 
 # run rofi
-bindsym $mod+d exec rofi -show run
+# bindsym $mod+d exec rofi -show run
 
 # screen shot
 bindsym $mod+Shift+f exec flameshot gui 
 
+# change wallpaper
+bindsym $mod+Shift+w exec feh --recursive --randomize --bg-scale /home/allen/.wallpapers/*
+
 # arandr
-bindsym $mod+Shift+n exec arandr
-# There also is the (new) i3-dmenu-desktop which only displays applications
-# shipping a .desktop file. It is a wrapper around dmenu, so you need that
-# installed.
-# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+# bindsym $mod+Shift+n exec arandr
 
 # change focus
 bindsym $mod+$left focus left
@@ -144,10 +139,10 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
 # focus the parent container
-bindsym $mod+a focus parent
+# bindsym $mod+a focus parent
 
 # focus the child container
-#bindsym $mod+d focus child
+# bindsym $mod+d focus child
 
 # move the currently focused window to the scratchpad
 bindsym $mod+Shift+minus move scratchpad
@@ -163,20 +158,17 @@ bindsym $mod+y border pixel 3
 # use neither window title nor border
 bindsym $mod+u border none
 
-
 # workspace names
-# set $ws1 1:Web
-# set $ws2 2:Browser
-# set $ws3 3:General
-# set $ws4 4:4
-# set $ws5 5:5
-# set $ws6 6:6
-# set $ws7 7:7
-# set $ws8 8:8
-# set $ws9 9:9
-# set $ws10 0:10
-
-
+set $ws1 1
+set $ws2 2
+set $ws3 3
+set $ws4 4
+set $ws5 5
+set $ws6 6
+set $ws7 7
+set $ws8 8
+set $ws9 9
+set $ws10 10
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -189,6 +181,21 @@ bindsym $mod+7 workspace $ws7
 bindsym $mod+8 workspace $ws8
 bindsym $mod+9 workspace $ws9
 bindsym $mod+0 workspace $ws10
+
+# switch to workspace
+set $firstMonitor eDP-1
+set $secondMonitor HDMI-2
+
+# workspace 1 output $firstmonitor
+# workspace 2 output $firstmonitor
+# workspace 3 output $firstmonitor
+# workspace 4 output $firstmonitor
+# workspace 5 output $firstmonitor
+# workspace 6 output $secondmonitor
+# workspace 7 output $secondmonitor
+# workspace 8 output $secondmonitor
+# workspace 9 output $secondmonitor
+# workspace 0 output $secondmonitor
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $ws1
@@ -214,18 +221,77 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 # assign [class="slack"] $ws8
 # assign [class="virtualbox"] $ws9
 
-# for_window [instance="Steam"] floating enable
-# for_window [instance="Steam"] border none
+for_window [class="netease-cloud-music" instance="netease-cloud-music"] floating enable 
+for_window [class="GParted"] floating enable 
+for_window [class="Lxappearance"] floating enable sticky enable border normal
+for_window [title="alsamixer"] floating enable border pixel 1
+#for_window [class="(?i)virtualbox"] floating enable 
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
+
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
+
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
-#gaps inner 10
-#gaps outer 5
+#############################
+### settings for i3-gaps: ###
+#############################
+
+# Set inner/outer gaps
+gaps inner 15
+gaps outer -2
+
+# Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
+# gaps inner|outer current|all set|plus|minus <px>
+# gaps inner all set 10
+# gaps outer all plus 5
+
+# Smart gaps (gaps used if only more than one container on the workspace)
+smart_gaps on
+
+# Smart borders (draw borders around container only if it is not the only container on this workspace)
+# on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
+smart_borders on
+
+# Press $mod+Shift+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
+set $mode_gaps Gaps: (o) outer, (i) inner
+set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
+set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
+bindsym $mod+Shift+g mode "$mode_gaps"
+
+mode "$mode_gaps" {
+	bindsym o      mode "$mode_gaps_outer"
+		bindsym i      mode "$mode_gaps_inner"
+		bindsym Return mode "default"
+		bindsym Escape mode "default"
+}
+mode "$mode_gaps_inner" {
+	bindsym plus  gaps inner current plus 5
+		bindsym minus gaps inner current minus 5
+		bindsym 0     gaps inner current set 0
+
+		bindsym Shift+plus  gaps inner all plus 5
+		bindsym Shift+minus gaps inner all minus 5
+		bindsym Shift+0     gaps inner all set 0
+
+		bindsym Return mode "default"
+		bindsym Escape mode "default"
+}
+mode "$mode_gaps_outer" {
+	bindsym plus  gaps outer current plus 5
+		bindsym minus gaps outer current minus 5
+		bindsym 0     gaps outer current set 0
+
+		bindsym Shift+plus  gaps outer all plus 5
+		bindsym Shift+minus gaps outer all minus 5
+		bindsym Shift+0     gaps outer all set 0
+
+		bindsym Return mode "default"
+		bindsym Escape mode "default"
+}
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -256,91 +322,75 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 # i3status
-# bar {
-#     status_command i3status
-# #    status_command py3status -c ~/.i3status.conf
-#     strip_workspace_numbers yes
-# #    separator_symbol " "
-#     separator_symbol "⁞"
-#     position top
-#     font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
-# #    font pango:DejaVu Sans Mono 14
+bar {
+    status_command i3status
+    strip_workspace_numbers yes
+    separator_symbol "⁞"
+    # separator_symbol " "
+    position top
+    font pango:Monaco 14
 
-#     font pango:monaco 14
-#     colors {
-#         background #000000
-#         statusline #ffffff
-#         separator #00E3E3
+    colors {
+        background #000000
+        statusline #ffffff
 
-#         focused_workspace  #4F4F4F #4F4F4F #ffffff
-#         active_workspace   #333333 #5f676a #ffffff
-#         inactive_workspace #333333 #222222 #888888
-#         urgent_workspace   #2f343a #900000 #ffffff
-#         binding_mode       #2f343a #900000 #ffffff
-#     }
-# }
-
-# polybar
-# bar {
-#     i3bar_command $HOME/.config/polybar/launch.sh
-# }
-
-# border
-new_window pixel 0
-
-# background
-#exec_always --no-startup-id feh --bg-scale "/home/kuari/Picture/girl.png"
+        focused_workspace  #ffffff #285577
+        active_workspace   #ffffff #333333
+        inactive_workspace #888888 #222222
+        urgent_workspace   #ffffff #900000
+    }
+}
 
 # screen timeout
 exec --no-startup-id xset dpms 600 800 900
 
-# xrandr
+# 多屏幕扩展
 # exec --no-startup-id xrandr --output eDP1 --mode 1920x1080 --same-as HDMI2
 # bindsym $mod+o exec --no-startup-id xrandr --output eDP-1 --same-as HDMI2 --auto
-bindsym $mod+o exec --no-startup-id xrandr --output HDMI2 off
+# bindsym $mod+i exec --no-startup-id xrandr --output HDMI-2 --same-as eDP-1 --auto
+bindsym $mod+o exec --no-startup-id mons -n right
+#bindsym $mod+p exec --no-startup-id xrandr --output HDMI-2 --right-of eDP-1 --auto
+bindsym $mod+p exec --no-startup-id mons -e right
+
+# Moving workspaces between screens
+bindsym $mod+n move workspace to output right
 
 # polybar
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+# exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+# picom
+exec_always --no-startup-id picom --config $HOME/.config/picom/picon.conf &
 
 # --------------------color begins----------------------------
 #magenta colors(for window~)
 #:::::::::::::::: MARCO DE VENTANA ::::::::::::::::::#
 ################################################################
-# class           		 border  backgr  text   indicator child_border 
-#! client.focused		 	#607d8b #607d8b #DFDFDF  #dddddd   #607d8b
-#! client.focused_inactive 	#263238 #263238 #9a9b9c  #111111   #263238
-#! client.unfocused 		#455a64 #455a64 #a1a1a1  #bfbfbf   #455a64
+# Theme colors
+# class                   border  backgr. text    indic.   child_border
+# client.focused          #556064 #556064 #80FFF9 #FDF6E3
+client.focused        #555555 #555555 #ffffff  #2e9ef4    #6fd289
+client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
+client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
+client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
+client.placeholder      #000000 #0c0c0c #ffffff #000000
 
+client.background       #2B2C2B
 
-#client.urgent   		#4a4b4c #4a4b4c #fdfdfd  #fbfbfb   #4a4c4b
-#client.placeholder     		#000000 #0c0c0c #ffffff  #000000   #0c0c0c
-#client.background       	#111111
-
-# focused border-2(white.)(prefer)
-# class                 border  backgr. text    indicator child_border
-
+# border
 new_window pixel 2
 hide_edge_borders both
 
-# class                 border  backgr. text    indicator child_border
-# client.focused          #ff42a4 #285577 #ffffff #2e9ef4   #285577
-
-client.focused #555555 #555555 #ffffff #2e9ef4     #6fd289
-
-#client.focused #FF0000 #CC0000 #ffffff #2e9ef4     #285577
-#client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
-#client.unfocused        #333333 #222222 #888888 #292d2e   #222222
-#client.urgent           #2f343a #900000 #ffffff #900000   #900000
-#client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
-
-client.background #ffffff
-
-#client.focused          #888888 #dddddd #222222 #2e9ef4
-#client.focused_inactive			#333333 #555555 #bbbbbb #484e50
-#client.unfocused #333333 #333333 #888888 #292d2e
-
 # 设置全屏模式下遇到弹窗的处理方法
 popup_during_fullscreen smart
+
+# 初始化启动终端
+exec --no-startup-id xterm -e tmux
+
+# 启动壁纸
+exec_always --no-startup-id feh --recursive --randomize --bg-scale /home/allen/.wallpapers/*
+
+# 启动通知器dunst
+exec --no-startup-id dunst -config ~/.config/i3/config_dunst
 
 #######################################################################
 # automatically start i3-config-wizard to offer the user to create a

@@ -9,11 +9,13 @@
   <Global>
     <ExtraData>
       <ExtraDataItem name="GUI/Details/Elements" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
-      <ExtraDataItem name="GUI/GroupDefinitions/" value="n=GLOBAL"/>
       <ExtraDataItem name="GUI/LastItemSelected" value="n=GLOBAL"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="428,0,425,720"/>
-      <ExtraDataItem name="GUI/SplitterSizes" value="77,347"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="0,38,2560,1402"/>
+      <ExtraDataItem name="GUI/SplitterSizes" value="838,1721"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
+      <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
+      <ExtraDataItem name="GUI/UpdateCheckCount" value="2"/>
+      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2020-09-10, stable, 6.1.14"/>
     </ExtraData>
     <MachineRegistry/>
     <NetserviceRegistry>

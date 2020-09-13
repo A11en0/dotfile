@@ -1,0 +1,2 @@
+'use strict';Registry.require(["layout","curtain","i18n"],()=>{const a=Registry.get("curtain"),b=Registry.get("i18n"),d=Registry.get("layout");b.init();window.sendMessage=(a,c)=>{a.origin="action";rea.extension.sendMessage(a,a=>{if(a&&a.i18n)return b.setLocale(a.i18n).always(()=>{c(a)});c(a)})};a.wait(b.getMessage("Please_wait___"));d.init("options.js",{suc:()=>{a.hide()},fail:()=>{window.confirm(b.getOriginalMessage("An_internal_error_occured_Do_you_want_to_visit_the_forum_"))&&(window.location.href=
+"https://www.tampermonkey.net/bug")}})});document.title="...";

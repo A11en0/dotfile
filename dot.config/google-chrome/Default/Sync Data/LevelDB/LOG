@@ -1,3 +1,108 @@
-2020/01/02-10:14:21.994 17ef Reusing MANIFEST /home/allen/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2020/01/02-10:14:21.994 17ef Recovering log #8
-2020/01/02-10:14:21.994 17ef Reusing old log /home/allen/.config/google-chrome/Default/Sync Data/LevelDB/000008.log 
+2020/09/10-02:06:37.602 82c Reusing MANIFEST /home/allen/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/09/10-02:06:37.602 82c Recovering log #58
+2020/09/10-02:06:37.612 82c Reusing old log /home/allen/.config/google-chrome/Default/Sync Data/LevelDB/000058.log 
+2020/09/10-02:08:49.915 b54 Level-0 table #63: started
+2020/09/10-02:08:49.923 b54 Level-0 table #63: 147454 bytes OK
+2020/09/10-02:08:49.927 b54 Delete type=0 #58
+2020/09/10-02:24:27.584 b54 Level-0 table #65: started
+2020/09/10-02:24:27.592 b54 Level-0 table #65: 122061 bytes OK
+2020/09/10-02:24:27.595 b54 Delete type=0 #62
+2020/09/10-02:37:12.286 b54 Level-0 table #67: started
+2020/09/10-02:37:12.290 b54 Level-0 table #67: 140455 bytes OK
+2020/09/10-02:37:12.294 b54 Delete type=0 #64
+2020/09/10-03:09:12.907 b54 Level-0 table #69: started
+2020/09/10-03:09:12.915 b54 Level-0 table #69: 87589 bytes OK
+2020/09/10-03:09:12.917 b54 Delete type=0 #66
+2020/09/10-03:09:12.917 b54 Compacting 4@0 + 1@1 files
+2020/09/10-03:09:12.923 b54 Generated table #70@0: 2976 keys, 191132 bytes
+2020/09/10-03:09:12.923 b54 Compacted 4@0 + 1@1 files => 191132 bytes
+2020/09/10-03:09:12.925 b54 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/09/10-03:09:12.925 b54 Delete type=2 #67
+2020/09/10-03:09:12.925 b54 Delete type=2 #69
+2020/09/10-03:09:12.925 b54 Delete type=2 #63
+2020/09/10-03:09:12.925 b54 Delete type=2 #65
+2020/09/10-03:09:12.925 b54 Delete type=2 #60
+2020/09/10-03:46:22.051 b54 Level-0 table #72: started
+2020/09/10-03:46:22.058 b54 Level-0 table #72: 85962 bytes OK
+2020/09/10-03:46:22.062 b54 Delete type=0 #68
+2020/09/10-04:16:46.813 b54 Level-0 table #74: started
+2020/09/10-04:16:46.820 b54 Level-0 table #74: 92900 bytes OK
+2020/09/10-04:16:46.823 b54 Delete type=0 #71
+2020/09/10-04:51:37.974 b54 Level-0 table #76: started
+2020/09/10-04:51:38.207 b54 Level-0 table #76: 90256 bytes OK
+2020/09/10-04:51:38.213 b54 Delete type=0 #73
+2020/09/10-05:17:32.530 b54 Level-0 table #78: started
+2020/09/10-05:17:32.535 b54 Level-0 table #78: 90873 bytes OK
+2020/09/10-05:17:32.538 b54 Delete type=0 #75
+2020/09/10-05:17:32.538 b54 Compacting 4@0 + 1@1 files
+2020/09/10-05:17:32.543 b54 Generated table #79@0: 2996 keys, 203852 bytes
+2020/09/10-05:17:32.543 b54 Compacted 4@0 + 1@1 files => 203852 bytes
+2020/09/10-05:17:32.545 b54 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/09/10-05:17:32.545 b54 Delete type=2 #76
+2020/09/10-05:17:32.545 b54 Delete type=2 #70
+2020/09/10-05:17:32.545 b54 Delete type=2 #74
+2020/09/10-05:17:32.545 b54 Delete type=2 #72
+2020/09/10-05:17:32.545 b54 Delete type=2 #78
+2020/09/10-07:15:50.612 b54 Level-0 table #81: started
+2020/09/10-07:15:50.618 b54 Level-0 table #81: 100319 bytes OK
+2020/09/10-07:15:50.621 b54 Delete type=0 #77
+2020/09/10-07:39:53.500 b54 Level-0 table #83: started
+2020/09/10-07:39:53.506 b54 Level-0 table #83: 91898 bytes OK
+2020/09/10-07:39:53.509 b54 Delete type=0 #80
+2020/09/10-08:01:48.339 b54 Level-0 table #85: started
+2020/09/10-08:01:48.343 b54 Level-0 table #85: 94893 bytes OK
+2020/09/10-08:01:48.346 b54 Delete type=0 #82
+2020/09/10-09:10:39.839 b54 Level-0 table #87: started
+2020/09/10-09:10:39.847 b54 Level-0 table #87: 104251 bytes OK
+2020/09/10-09:10:39.851 b54 Delete type=0 #84
+2020/09/10-09:10:39.851 b54 Compacting 4@0 + 1@1 files
+2020/09/10-09:10:39.868 b54 Generated table #88@0: 2996 keys, 192001 bytes
+2020/09/10-09:10:39.868 b54 Compacted 4@0 + 1@1 files => 192001 bytes
+2020/09/10-09:10:39.870 b54 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/09/10-09:10:39.871 b54 Delete type=2 #81
+2020/09/10-09:10:39.871 b54 Delete type=2 #79
+2020/09/10-09:10:39.871 b54 Delete type=2 #87
+2020/09/10-09:10:39.871 b54 Delete type=2 #85
+2020/09/10-09:10:39.871 b54 Delete type=2 #83
+2020/09/10-21:36:46.947 b54 Level-0 table #90: started
+2020/09/10-21:36:46.952 b54 Level-0 table #90: 89498 bytes OK
+2020/09/10-21:36:46.955 b54 Delete type=0 #86
+2020/09/10-22:48:10.306 b54 Level-0 table #92: started
+2020/09/10-22:48:10.311 b54 Level-0 table #92: 96500 bytes OK
+2020/09/10-22:48:10.317 b54 Delete type=0 #89
+2020/09/11-04:32:38.224 b54 Level-0 table #94: started
+2020/09/11-04:32:38.228 b54 Level-0 table #94: 93034 bytes OK
+2020/09/11-04:32:38.231 b54 Delete type=0 #91
+2020/09/11-20:25:08.319 b54 Level-0 table #96: started
+2020/09/11-20:25:08.327 b54 Level-0 table #96: 92183 bytes OK
+2020/09/11-20:25:08.329 b54 Delete type=0 #93
+2020/09/11-20:25:08.329 b54 Compacting 4@0 + 1@1 files
+2020/09/11-20:25:08.342 b54 Generated table #97@0: 2996 keys, 192045 bytes
+2020/09/11-20:25:08.342 b54 Compacted 4@0 + 1@1 files => 192045 bytes
+2020/09/11-20:25:08.344 b54 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/09/11-20:25:08.344 b54 Delete type=2 #96
+2020/09/11-20:25:08.344 b54 Delete type=2 #88
+2020/09/11-20:25:08.344 b54 Delete type=2 #94
+2020/09/11-20:25:08.344 b54 Delete type=2 #90
+2020/09/11-20:25:08.344 b54 Delete type=2 #92
+2020/09/11-21:57:08.293 b54 Level-0 table #99: started
+2020/09/11-21:57:08.300 b54 Level-0 table #99: 100340 bytes OK
+2020/09/11-21:57:08.304 b54 Delete type=0 #95
+2020/09/12-06:51:33.065 b54 Level-0 table #101: started
+2020/09/12-06:51:33.069 b54 Level-0 table #101: 100730 bytes OK
+2020/09/12-06:51:33.072 b54 Delete type=0 #98
+2020/09/12-07:44:46.270 b54 Level-0 table #103: started
+2020/09/12-07:44:46.274 b54 Level-0 table #103: 93371 bytes OK
+2020/09/12-07:44:46.276 b54 Delete type=0 #100
+2020/09/12-08:40:24.304 b54 Level-0 table #105: started
+2020/09/12-08:40:24.309 b54 Level-0 table #105: 173884 bytes OK
+2020/09/12-08:40:24.316 b54 Delete type=0 #102
+2020/09/12-08:40:24.316 b54 Compacting 4@0 + 1@1 files
+2020/09/12-08:40:24.322 b54 Generated table #106@0: 3098 keys, 202655 bytes
+2020/09/12-08:40:24.322 b54 Compacted 4@0 + 1@1 files => 202655 bytes
+2020/09/12-08:40:24.324 b54 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/09/12-08:40:24.324 b54 Delete type=2 #105
+2020/09/12-08:40:24.324 b54 Delete type=2 #97
+2020/09/12-08:40:24.324 b54 Delete type=2 #103
+2020/09/12-08:40:24.324 b54 Delete type=2 #101
+2020/09/12-08:40:24.324 b54 Delete type=2 #99

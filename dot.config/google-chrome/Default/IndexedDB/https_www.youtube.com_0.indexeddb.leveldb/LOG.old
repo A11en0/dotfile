@@ -1,0 +1,7 @@
+2020/09/09-07:43:49.916 4f80 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/09-07:43:49.916 4f80 Recovering log #3
+2020/09/09-07:43:49.916 4f80 Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2020/09/09-08:01:49.279 54bc Level-0 table #5: started
+2020/09/09-08:01:49.283 54bc Level-0 table #5: 4703 bytes OK
+2020/09/09-08:01:49.286 54bc Delete type=0 #3
+2020/09/09-08:01:49.287 54bc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

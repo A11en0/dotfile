@@ -1,6 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
-let g:netrw_dirhist_4='/home/allen/.moc'
-let g:netrw_dirhist_3='/home/allen/.config'
-let g:netrw_dirhist_2='/home/allen/.aria2'
-let g:netrw_dirhist_1='/home/allen/dotfile/dot.config/i3'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/home/allen/dotfile/dot.config/i3status'

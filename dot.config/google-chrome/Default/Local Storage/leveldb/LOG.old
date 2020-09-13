@@ -1,6 +1,3 @@
-2020/01/02-10:10:36.448 1133 Reusing MANIFEST /home/allen/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
-2020/01/02-10:10:36.448 1133 Recovering log #3
-2020/01/02-10:10:36.448 1133 Reusing old log /home/allen/.config/google-chrome/Default/Local Storage/leveldb/000003.log 
-2020/01/02-10:12:09.228 14c3 Level-0 table #5: started
-2020/01/02-10:12:09.239 14c3 Level-0 table #5: 32035 bytes OK
-2020/01/02-10:12:09.249 14c3 Delete type=0 #3
+2020/09/10-02:02:55.694 5b2 Reusing MANIFEST /home/allen/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2020/09/10-02:02:55.696 5b2 Recovering log #103
+2020/09/10-02:02:55.698 5b2 Reusing old log /home/allen/.config/google-chrome/Default/Local Storage/leveldb/000103.log 
