@@ -1,7 +1,0 @@
-<application>
-  <component name="SshConfigs">
-    <configs>
-      <sshConfig authType="PASSWORD" host="114.213.208.50" id="c334f437-eb7a-47db-81f9-b24279ef023c" port="1121" nameFormat="DESCRIPTIVE" username="wsco" />
-    </configs>
-  </component>
-</application>

@@ -1,0 +1,30 @@
+[2020-12-04 01:52:15.915] [info] Checking for update
+[2020-12-04 01:52:15.937] [info] Generated new staging user ID: 6d2ce5ee-7ffb-5352-88aa-c3d892db474e
+[2020-12-04 01:52:22.715] [info] Found version 13.9.9 (url: draw.io-x86_64-13.9.9.AppImage)
+[2020-12-04 01:52:22.717] [info] @update-available@
+ {
+  version: '13.9.9',
+  files: [
+    {
+      url: 'draw.io-x86_64-13.9.9.AppImage',
+      sha512: '1BpPiZpTIggHkyCviJc2KdN8nq6IXKPw4pZQirULlIZB7s9l921v6j7pUvNrknWIhkpRTXlItfgt2CXVfA8AyQ==',
+      size: 111426794,
+      blockMapSize: 118014
+    }
+  ],
+  path: 'draw.io-x86_64-13.9.9.AppImage',
+  sha512: '1BpPiZpTIggHkyCviJc2KdN8nq6IXKPw4pZQirULlIZB7s9l921v6j7pUvNrknWIhkpRTXlItfgt2CXVfA8AyQ==',
+  releaseDate: '2020-11-16T07:08:41.559Z',
+  releaseName: '13.9.9',
+  releaseNotes: '<h2>Releases Notes for 13.9.9</h2>\n' +
+    '<p><a href="https://github.com/jgraph/drawio-desktop/releases/download/v13.9.9/draw.io-13.9.9-windows-installer.exe">Windows Installer</a><br>\n' +
+    '<a href="https://github.com/jgraph/drawio-desktop/releases/download/v13.9.9/draw.io-13.9.9-windows-no-installer.exe">Windows No Installer</a><br>\n' +
+    '<a href="https://github.com/jgraph/drawio-desktop/releases/download/v13.9.9/draw.io-13.9.9.dmg">macOS</a><br>\n' +
+    'Linux - <a href="https://github.com/jgraph/drawio-desktop/releases/download/v13.9.9/draw.io-amd64-13.9.9.deb">deb</a>, <a href="https://snapcraft.io/drawio" rel="nofollow">snap</a>, <a href="https://github.com/jgraph/drawio-desktop/releases/download/v13.9.9/draw.io-x86_64-13.9.9.AppImage">AppImage</a> or <a href="https://github.com/jgraph/drawio-desktop/releases/download/v13.9.9/draw.io-x86_64-13.9.9.rpm">rpm</a><br>\n' +
+    '<a href="https://chrome.google.com/webstore/detail/drawio-desktop/pebppomjfocnoigkeepgbmcifnnlndla/reviews" rel="nofollow">Google Chrome OS</a></p>\n' +
+    '<p><strong>ChangeLog:</strong></p>\n' +
+    '<ul>\n' +
+    '<li>Updates to <a href="https://github.com/jgraph/drawio/blob/v13.9.9/ChangeLog">draw.io 13.9.9</a>, changes in 13.9.9 are new in this desktop release.</li>\n' +
+    '</ul>'
+} undefined
+[2020-12-04 01:52:26.808] [info] @dont check for updates!@

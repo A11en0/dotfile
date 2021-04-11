@@ -1,9 +1,0 @@
-<application>
-  <component name="WebServers">
-    <option name="servers">
-      <webServer id="09d6c67f-849f-44ac-89d1-61d9a15811d0" name="wsco@114.213.208.50:1121 password">
-        <fileTransfer accessType="SFTP" host="114.213.208.50" port="1121" sshConfigId="c334f437-eb7a-47db-81f9-b24279ef023c" sshConfig="wsco@114.213.208.50:1121 password" />
-      </webServer>
-    </option>
-  </component>
-</application>

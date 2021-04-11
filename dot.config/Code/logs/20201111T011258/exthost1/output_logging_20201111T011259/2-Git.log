@@ -1,0 +1,5 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/allen/dotfile
+> git status -z -u

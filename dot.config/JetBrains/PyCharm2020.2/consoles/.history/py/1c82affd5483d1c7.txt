@@ -1,1 +1,0 @@
-runfile('/home/allen/share/xuetao/character-word.py', wdir='/home/allen/share/xuetao')

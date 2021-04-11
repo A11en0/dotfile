@@ -1,0 +1,2 @@
+[2020-11-11 14:13:01.689] [sharedprocess] [info] main {"machineId":"342d91f9d4edf380693e76f3aca8d7f806d6ee74b3ae14d61318c3de381b35e1","windowId":2}
+[2020-11-11 14:13:01.708] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/allen/.config/Code/User/snippets'

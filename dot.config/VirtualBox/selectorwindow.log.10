@@ -1,9 +1,0 @@
-02:33:01.608756 Log continuation - Log started 2020-09-21T06:04:13.214238000Z
-02:33:04.391559 GUI: UIMediumEnumerator: Medium-enumeration finished!
-02:33:04.973347 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
-02:55:24.694583 GUI: UIMediumEnumerator: Medium-enumeration finished!
-02:55:25.243437 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
-02:55:28.472938 GUI: UIMediumEnumerator: Medium-enumeration finished!
-02:55:28.943442 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
-05:50:37.617907 GUI: UIMediumEnumerator: Medium-enumeration finished!
-05:50:37.617925 Log rotated - Log started 2020-09-21T06:04:13.214238000Z
