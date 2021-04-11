@@ -10,7 +10,8 @@ My own Debian configuration. Mainly config following
 
 
 *** Neofetch Information:
-#+DOWNLOADED: screenshot @ 2021-04-11 13:16:53
+
+#+DOWNLOADED: screenshot @ 2021-04-11 13:47:36
 [[file:Dotfile/2021-04-11_13-16-53_screenshot.png]]
 
 *** Work for:
