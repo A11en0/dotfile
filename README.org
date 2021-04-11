@@ -9,12 +9,11 @@ My own Debian configuration. Mainly config following
 [[file:Dotfile/2021-04-11_13-44-28_screenshot.png]]
 
 
-** Neofetch Information:
-
+** Neofetch Information
 #+DOWNLOADED: screenshot @ 2021-04-11 13:47:36
 [[./Dotfile/2021-04-11_13-47-36_screenshot.png]]
 
-** Work for:
+** Work for
 - systemd auto-login
 - startx + i3-gaps + polybar 
 - xterm + tmux
@@ -129,3 +128,14 @@ Now, it's time to reboot your system.
 
 Have fun!
 
+
+** Problems
+*** wifi ethernet card driver
+The wifi card information:
+: lspic | grep 
+: 03:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 16)
+
+Install the drivers:
+: sudo dpkg -i firmware-iwlwifi_20190114-2_all.deb
+: sudo dpkg -i firmware-misc-nonfree_20190114-2_all.deb
+: sudo dpkg -i firmware-ralink_20190114-2_all.deb
