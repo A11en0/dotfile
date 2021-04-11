@@ -106,28 +106,19 @@ Now, it's time to reboot your system.
 
 
 ** How to use?
-=Super-Enter=: xterm
-
-=Super-d=: dmenu
-
-=Super-e=: emacs
-
-=Super-c=: google-chrome
-
-=Super-q=: qutebrowser
-
-=Super-number(1/2/3/...)=: change window
-
-=Super-Shift-q=: quit
-
-=Super-f=: Full-screen
-
-=Shift-space=: fcitx -- a Chinese input tool
-
-
+   | Keybindings               | Means                                                  |
+   |---------------------------+--------------------------------------------------------|
+   | =Super-Enter=             | xterm                                                  |
+   | =Super-d=                 | dmenu                                                  |
+   | =Super-e=                 | emacs                                                  |
+   | =Super-c=                 | google-chrome                                          |
+   | =Super-q=                 | qutebrowser                                            |
+   | =Super-number(1/2/3/...)= | change window                                          |
+   | =Super-Shift-q=           | quit                                                   |
+   | =Super-f=                 | full-screen                                            |
+   | =Shift-space=             | fcitx -- a Chinese input tool                                                       |
 
 Have fun!
-
 
 ** Problems
 *** wifi ethernet card driver

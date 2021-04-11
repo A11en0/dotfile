@@ -1,0 +1,30 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /home/allen/dotfile/README.org
+
+
+* How to use?
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2021-04-11 Sun 14:50
+  :ARCHIVE_FILE: ~/dotfile/README.org
+  :ARCHIVE_OLPATH: Dotfile
+  :ARCHIVE_CATEGORY: README
+  :END:
+   | Keybindings                                 | Means                                                  |
+   |---------------------------------------------+--------------------------------------------------------|
+   | ~C-<char>~                                  | Press control key when entering the ~<char>~ character |
+   | ~M-<char>~                                  | Press alt key when entering the ~<char>~ character     |
+   | ~s-<char>~                                  | Press super key when entering the ~<char>~ character   |
+   | =Super-Enter=                               | xterm                                                  |
+   | =Super-d= dmenu                             |                                                        |
+   | =Super-e= emacs                             |                                                        |
+   | =Super-c= google-chrome                     |                                                        |
+   | =Super-q= qutebrowser                       |                                                        |
+   | =Super-number(1/2/3/...)= change window     |                                                        |
+   | =Super-Shift-q= quit                        |                                                        |
+   | =Super-f= Full-screen                       |                                                        |
+   | =Shift-space= fcitx -- a Chinese input tool |                                                        |
+
+Have fun!
+
