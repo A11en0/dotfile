@@ -298,3 +298,65 @@ dm () {
 em () {
    setmouse enable
 }
+
+
+v(){
+	($MUPDF $(cat <<EOF | dmenu -i -fn 'DejaVu Sans Mono:Bold:pixelsize=32' -l 20 -p mupdf
+$HOME/Documents/
+$HOME/next/papers/
+EOF
+		) &>/dev/null &)
+}
+
+vl(){
+	($QB ':set content.proxy none' $(cat <<EOF | dmenu -i -fn 'DejaVu Sans Mono:Bold:pixelsize=32' -l 20
+qute://help
+file:///usr/share/doc/abs-guide/html/xrefindex.html
+file:///$HOME/lecture_notes/linux/c/c_dev.html
+file:///$HOME/lecture_notes/linux/bash/shell_basics.plain.html
+file://$HOME/Documents/network/www.tcpipguide.com/free/t_toc.htm
+https://$CS6/~wx672
+https://$CS6/~wx672/lecture_notes
+https://$CS6/moodle
+https://$CS6/calibre
+http://www.zhihu.com/notifications
+https://pan.baidu.com
+https://im.dingtalk.com
+https://web.wechat.com
+http://w.qq.com
+https://my.alipay.com
+http://jd.com
+http://www.taobao.com
+http://music.163.com/#/my/
+http://www.lizhi.fm/label/24229953853202224
+https://www.ximalaya.com/yinyue/235694/
+https://www.lucidchart.com/documents
+http://km.meituan.com
+http://pixlr.com/editor
+http://i.eastmoney.com/stock.html
+http://i.finance.sina.com.cn
+http://www.timer-tab.com
+EOF
+		 ) &>/dev/null &)
+}
+
+vg(){
+	($QB $(cat <<EOF | dmenu -i -fn 'DejaVu Sans Mono:Bold:pixelsize=32' -l 20
+https://youtube.com
+https://www.google.com/calendar/render
+https://contacts.google.com
+https://docs.google.com/drawings/create?usp=apps_start&hl=en
+https://drive.google.com/drive/#my-drive
+https://keep.google.com
+https://mail.google.com
+https://mail.google.com/mail/mu/?mui=ca
+https://photos.google.com
+https://hangouts.google.com
+https://github.com
+https://app.grammarly.com
+https://www.reddit.com
+https://web.telegram.org
+https://twitter.com
+EOF
+		 ) &>/dev/null &)
+}
