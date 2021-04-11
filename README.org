@@ -22,8 +22,8 @@ My own Debian configuration. Mainly config following
 - emacs, vim
 - misc.
 
-** Configuration for a new debian system
-*** preparation
+** Installation
+*** Preparation
 1). Edit =/etc/apt/sources.list= file.
    : nano /etc/apt/sources.list
    You just need the following 3 lines in this file:
@@ -35,7 +35,7 @@ My own Debian configuration. Mainly config following
    : apt update && apt dist-upgrade
    This step takes usually about 20 minutes if your network is not too slow.
 
-*** download and setting the dotfile
+*** Download and configuration the dotfile
 Clone my dotfiles from the repo.
 : git clone git@github.com:A11en0/mydot.git
 Now you should see a new directory =dotfile= sitting in your =$HOME= directory with all
@@ -62,7 +62,7 @@ necessory config files in it. Still some more things to do...
    # : emacs --debug-init
    # If you see error messages, let me know (wx672ster@gmail.com).
 
-*** install softwares
+*** Install softwares
 Find the software list files in the dotfile directory: "01-important", "02-recommend", "03-chinese", etc. And install by you need.
 : su
 : apt install $(cat 01-important)
@@ -72,7 +72,7 @@ Alternative:
 : apt install $(cat 03-chinese)
 ...
 
-*** sudo
+*** Sudo
 If you don't want to be asked for password whenever using =sudo=, you can do the following:
 1. Working as /root/
    : su
@@ -91,7 +91,7 @@ If you don't want to be asked for password whenever using =sudo=, you can do the
    : exit
 6. Now, try =sudo ls=, you shouldn't be asked for password any longer.
 
-*** auto login
+*** Auto login
 If you don't want to input username/password every time when you start your system, you
 can do like this:
 : sudo cp -r ~/dotfile/etc/systemd/system/getty@tty1.service.d/ /etc/systemd/system/
