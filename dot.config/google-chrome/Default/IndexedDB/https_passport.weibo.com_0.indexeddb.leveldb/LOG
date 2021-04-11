@@ -1,5 +1,0 @@
-2021/03/18-21:02:57.364 1c47 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_passport.weibo.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/03/18-21:03:05.102 1c43 Level-0 table #5: started
-2021/03/18-21:03:05.106 1c43 Level-0 table #5: 810 bytes OK
-2021/03/18-21:03:05.111 1c43 Delete type=0 #3
-2021/03/18-21:03:05.112 1c43 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

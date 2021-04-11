@@ -1,5 +1,0 @@
-2020/11/15-10:18:05.147 787a Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_meta.appinn.net_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/15-10:18:41.799 787d Level-0 table #5: started
-2020/11/15-10:18:41.809 787d Level-0 table #5: 58111 bytes OK
-2020/11/15-10:18:41.812 787d Delete type=0 #3
-2020/11/15-10:18:41.812 787d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

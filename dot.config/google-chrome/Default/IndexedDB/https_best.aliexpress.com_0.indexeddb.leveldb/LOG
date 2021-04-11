@@ -1,5 +1,0 @@
-2020/11/11-11:34:40.922 631e Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_best.aliexpress.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/11-11:34:44.582 652e Level-0 table #5: started
-2020/11/11-11:34:44.586 652e Level-0 table #5: 1810 bytes OK
-2020/11/11-11:34:44.592 652e Delete type=0 #3
-2020/11/11-11:34:44.592 652e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

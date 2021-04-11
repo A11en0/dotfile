@@ -1,5 +1,0 @@
-2021/01/04-10:46:42.773 5490 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.machinelearningplus.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/01/04-10:47:14.774 5782 Level-0 table #5: started
-2021/01/04-10:47:14.777 5782 Level-0 table #5: 842 bytes OK
-2021/01/04-10:47:14.779 5782 Delete type=0 #3
-2021/01/04-10:47:14.779 5782 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,5 +1,0 @@
-2020/12/25-19:32:23.949 4073 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.ixigua.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/12/25-19:32:26.241 4073 Level-0 table #5: started
-2020/12/25-19:32:26.244 4073 Level-0 table #5: 2350 bytes OK
-2020/12/25-19:32:26.248 4073 Delete type=0 #3
-2020/12/25-19:32:26.248 4073 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

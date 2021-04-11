@@ -1,5 +1,0 @@
-2021/01/17-02:25:12.367 24d3 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.zxlib.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/01/17-02:25:17.190 24d3 Level-0 table #5: started
-2021/01/17-02:25:17.195 24d3 Level-0 table #5: 804 bytes OK
-2021/01/17-02:25:17.201 24d3 Delete type=0 #3
-2021/01/17-02:25:17.201 24d3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

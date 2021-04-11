@@ -1,5 +1,0 @@
-2020/12/20-16:38:23.235 34f2 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_bmcbioinformatics.biomedcentral.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/12/20-16:38:47.628 2a30 Level-0 table #5: started
-2020/12/20-16:38:47.632 2a30 Level-0 table #5: 1540 bytes OK
-2020/12/20-16:38:47.637 2a30 Delete type=0 #3
-2020/12/20-16:38:47.638 2a30 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

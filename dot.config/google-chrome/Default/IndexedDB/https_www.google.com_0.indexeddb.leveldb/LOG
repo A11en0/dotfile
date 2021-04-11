@@ -1,8 +1,0 @@
-2020/11/15-12:51:54.366 2bd2 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/15-12:51:54.367 2bd2 Recovering log #19
-2020/11/15-12:51:54.367 2bd2 Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/000019.log 
-2020/11/15-12:51:58.394 2bd4 Level-0 table #24: started
-2020/11/15-12:51:58.394 2bd4 Level-0 table #24: 0 bytes OK
-2020/11/15-12:51:58.402 2bd4 Delete type=0 #19
-2020/11/15-12:51:58.403 2bd4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/11/15-12:51:58.403 2bd4 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

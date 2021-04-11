@@ -1,8 +1,0 @@
-2021/03/26-14:34:03.485 3f8a Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_developers.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/03/26-14:34:03.485 3f8a Recovering log #22
-2021/03/26-14:34:03.486 3f8a Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_developers.google.com_0.indexeddb.leveldb/000022.log 
-2021/03/26-14:34:47.110 3f8a Level-0 table #27: started
-2021/03/26-14:34:47.110 3f8a Level-0 table #27: 0 bytes OK
-2021/03/26-14:34:47.114 3f8a Delete type=0 #22
-2021/03/26-14:34:47.114 3f8a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2021/03/26-14:34:47.115 3f8a Manual compaction at level-1 from (begin) .. (end); will stop at (end)

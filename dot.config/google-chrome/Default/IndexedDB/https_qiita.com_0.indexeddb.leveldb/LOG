@@ -1,5 +1,0 @@
-2020/11/06-10:34:21.267 3544 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_qiita.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/06-10:35:16.754 3544 Level-0 table #5: started
-2020/11/06-10:35:16.758 3544 Level-0 table #5: 1755 bytes OK
-2020/11/06-10:35:16.761 3544 Delete type=0 #3
-2020/11/06-10:35:16.761 3544 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

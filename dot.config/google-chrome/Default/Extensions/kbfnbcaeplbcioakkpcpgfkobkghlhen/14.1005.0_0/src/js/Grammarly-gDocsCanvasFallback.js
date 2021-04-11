@@ -1,1 +1,0 @@
-(()=>{const e=`(function() {window['_docs_force_html_by_ext'] = '${chrome.runtime.id}';})();`,t=document.createElement("script");t.textContent=e,(document.head||document.documentElement).appendChild(t),t.remove()})();

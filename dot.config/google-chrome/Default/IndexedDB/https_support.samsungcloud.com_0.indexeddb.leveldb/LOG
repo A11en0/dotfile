@@ -1,5 +1,0 @@
-2020/11/20-13:49:09.574 1f0a Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_support.samsungcloud.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/20-13:49:19.881 1f00 Level-0 table #5: started
-2020/11/20-13:49:19.883 1f00 Level-0 table #5: 1147 bytes OK
-2020/11/20-13:49:19.887 1f00 Delete type=0 #3
-2020/11/20-13:49:19.887 1f00 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

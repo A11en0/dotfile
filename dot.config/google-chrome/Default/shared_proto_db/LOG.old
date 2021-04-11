@@ -1,6 +1,0 @@
-2021/04/06-18:17:35.472 9db Reusing MANIFEST /home/allen/.config/google-chrome/Default/shared_proto_db/MANIFEST-000001
-2021/04/06-18:17:35.472 9db Recovering log #44
-2021/04/06-18:17:35.482 9db Reusing old log /home/allen/.config/google-chrome/Default/shared_proto_db/000044.log 
-2021/04/09-09:30:01.039 c24 Level-0 table #48: started
-2021/04/09-09:30:01.086 c24 Level-0 table #48: 81380 bytes OK
-2021/04/09-09:30:01.093 c24 Delete type=0 #44

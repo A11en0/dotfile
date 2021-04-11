@@ -1,5 +1,0 @@
-2021/01/29-19:24:12.560 5661 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_miaosha.jd.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/01/29-19:24:15.345 5661 Level-0 table #5: started
-2021/01/29-19:24:15.349 5661 Level-0 table #5: 835 bytes OK
-2021/01/29-19:24:15.355 5661 Delete type=0 #3
-2021/01/29-19:24:15.355 5661 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

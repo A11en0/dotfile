@@ -1,5 +1,0 @@
-2020/11/05-14:35:35.385 1c6b Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_yeasy.gitbook.io_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/05-14:38:54.852 20e2 Level-0 table #5: started
-2020/11/05-14:38:54.858 20e2 Level-0 table #5: 1153 bytes OK
-2020/11/05-14:38:54.865 20e2 Delete type=0 #3
-2020/11/05-14:38:54.865 20e2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
