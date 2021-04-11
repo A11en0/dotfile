@@ -3,15 +3,25 @@
 My own Debian configuration. Mainly config following
  [[wx672][https://github.com/wx672]].
 
+*** My Work Space
+
+#+DOWNLOADED: screenshot @ 2021-04-11 13:44:28
+[[file:Dotfile/2021-04-11_13-44-28_screenshot.png]]
+
+
 *** Neofetch Information:
 #+DOWNLOADED: screenshot @ 2021-04-11 13:16:53
 [[file:Dotfile/2021-04-11_13-16-53_screenshot.png]]
 
-*** Workflow:
+*** Work for:
 - systemd auto-login
 - startx + i3-gaps + polybar 
 - xterm + tmux
 - dmenu
 - emacs, vim
 - misc.
+
+*** Features
+
+
 
