@@ -1,6 +1,6 @@
 * Dotfile
   
-My own Debian configuration. Mainly config following
+Hello, these's my own =Debian= configuration. Mainly config following
  [[wx672][https://github.com/wx672]].
 
 ** My Work Space
