@@ -22,8 +22,8 @@ My own Debian configuration. Mainly config following
 - emacs, vim
 - misc.
 
-** Configuration for a new debian system 
-*** Preparation
+** Configuration for a new debian system
+*** preparation
 1). Edit =/etc/apt/sources.list= file.
    : nano /etc/apt/sources.list
    You just need the following 3 lines in this file:
@@ -35,10 +35,9 @@ My own Debian configuration. Mainly config following
    : apt update && apt dist-upgrade
    This step takes usually about 20 minutes if your network is not too slow.
 
-*** Download and setting the dotfile
-: cd
+*** download and setting the dotfile
+Clone my dotfiles from the repo.
 : git clone git@github.com:A11en0/mydot.git
-: ls
 Now you should see a new directory =dotfile= sitting in your =$HOME= directory with all
 necessory config files in it. Still some more things to do...
 1) Make sure you are in your =$HOME=.
@@ -63,16 +62,36 @@ necessory config files in it. Still some more things to do...
    # : emacs --debug-init
    # If you see error messages, let me know (wx672ster@gmail.com).
 
-*** Install Software
-Find three software list in the dotfile directory: "01-important", "02-recommend", "03-chinese", etc. And install by you need.
+*** install softwares
+Find the software list files in the dotfile directory: "01-important", "02-recommend", "03-chinese", etc. And install by you need.
 : su
 : apt install $(cat 01-important)
 
-Alternative...
+Alternative:
 : apt install $(cat 02-recommend)
 : apt install $(cat 03-chinese)
+...
 
-*** Auto login
+*** sudo
+If you don't want to be asked for password whenever using =sudo=, you can do the following:
+1. Working as /root/
+   : su
+   input root password.
+2. Create a new file in =/etc/sudoers.d/= directory.
+   : nano /etc/sudoers.d/your-user-name
+   *Caution:* Replace =your-user-name= with your real username.
+3. Add the following line into the file you are editing:
+   : your-user-name  ALL = NOPASSWD: ALL
+   *Caution:* Replace =your-user-name= with your real username.
+
+   Save and quit editing.
+4. Change the mode of that file to =0440=.
+   : chmod 0440 /etc/sudoers.d/your-user-name
+5. Quit root shell
+   : exit
+6. Now, try =sudo ls=, you shouldn't be asked for password any longer.
+
+*** auto login
 If you don't want to input username/password every time when you start your system, you
 can do like this:
 : sudo cp -r ~/dotfile/etc/systemd/system/getty@tty1.service.d/ /etc/systemd/system/
@@ -86,4 +105,19 @@ There are just three lines in this file:
 Now, it's time to reboot your system.
 : sudo reboot
 
+
+** How to use?
+=Super-Enter=: xterm
+=Super-d=: dmenu
+=Super-e=: emacs
+=Super-c=: google-chrome
+=Super-q=: qutebrowser
+=Super-number(1/2/3/...)=: change window 
+=Super-Shift-q=: quit
+=Super-f=: Full-screen
+=Shift-space=: fcitx -- a Chinese input tool
+
+
+
+Have fun!
 
