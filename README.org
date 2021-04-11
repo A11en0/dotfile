@@ -3,18 +3,18 @@
 My own Debian configuration. Mainly config following
  [[wx672][https://github.com/wx672]].
 
-*** My Work Space
+** My Work Space
 
 #+DOWNLOADED: screenshot @ 2021-04-11 13:44:28
 [[file:Dotfile/2021-04-11_13-44-28_screenshot.png]]
 
 
-*** Neofetch Information:
+** Neofetch Information:
 
 #+DOWNLOADED: screenshot @ 2021-04-11 13:47:36
 [[./Dotfile/2021-04-11_13-47-36_screenshot.png]]
 
-*** Work for:
+** Work for:
 - systemd auto-login
 - startx + i3-gaps + polybar 
 - xterm + tmux
@@ -22,7 +22,68 @@ My own Debian configuration. Mainly config following
 - emacs, vim
 - misc.
 
-*** Features
+** Configuration for a new debian system 
+*** Preparation
+1). Edit =/etc/apt/sources.list= file.
+   : nano /etc/apt/sources.list
+   You just need the following 3 lines in this file:
+   : deb http://mirrors.163.com/debian testing main non-free contrib
+   : deb http://mirrors.163.com/debian testing-updates main non-free contrib
+   : deb http://mirrors.163.com/debian testing-proposed-updates main non-free contrib
+   Use =Ctrl-o= to save, and =Ctrl-x= to quit nano.
+2). Upgrade Your system:
+   : apt update && apt dist-upgrade
+   This step takes usually about 20 minutes if your network is not too slow.
 
+*** Download and setting the dotfile
+: cd
+: git clone git@github.com:A11en0/mydot.git
+: ls
+Now you should see a new directory =dotfile= sitting in your =$HOME= directory with all
+necessory config files in it. Still some more things to do...
+1) Make sure you are in your =$HOME=.
+   : cd
+2) Remove some old files.
+   : rm -f .bash*
+3) Link the config files in directory =dotfile= to your =$HOME=.
+   : ln -sf dotfile/dot.* ./
+   : ln -sf dotfile/help/dot.* ./
+   : ls
+   You should find that there are lots of =dot.= prefixed files in your =$HOME= directory.
+4) Rename these =dot.*= files.
+   : rename 's/dot//' dot.*
+   : ls -al
+   All the =dot.*= files should be replaced by =.= prefixed files now.
+# 6) Grab my Emacs packages.
+   # : wget http://cs6.swfu.edu.cn/~wx672/debian-install/elpa.tgz
+   # : mv elpa.tgz ~/.emacs.d/
+   # : cd ~/.emacs.d
+   # : tar zxf elpa.tgz
+# 7) Emacs test run
+   # : emacs --debug-init
+   # If you see error messages, let me know (wx672ster@gmail.com).
+
+*** Install Software
+Find three software list in the dotfile directory: "01-important", "02-recommend", "03-chinese", etc. And install by you need.
+: su
+: apt install $(cat 01-important)
+
+Alternative...
+: apt install $(cat 02-recommend)
+: apt install $(cat 03-chinese)
+
+*** Auto login
+If you don't want to input username/password every time when you start your system, you
+can do like this:
+: sudo cp -r ~/dotfile/etc/systemd/system/getty@tty1.service.d/ /etc/systemd/system/
+: sudo nano /etc/systemd/system/getty@tty1.service.d/override.conf
+There are just three lines in this file:
+: [Service]
+: ExecStart=
+: ExecStart=-/sbin/agetty --autologin username --noclear %I $TERM
+*Caution:* Replace =username= with your own username.
+
+Now, it's time to reboot your system.
+: sudo reboot
 
 
