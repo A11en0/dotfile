@@ -1,0 +1,5 @@
+2020/11/04-18:34:51.687 6f31 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.yanxishe.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/04-18:35:15.400 6fcc Level-0 table #5: started
+2020/11/04-18:35:15.405 6fcc Level-0 table #5: 825 bytes OK
+2020/11/04-18:35:15.411 6fcc Delete type=0 #3
+2020/11/04-18:35:15.411 6fcc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

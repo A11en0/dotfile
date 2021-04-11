@@ -1,0 +1,5 @@
+2021/03/19-16:53:26.985 6af8 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.dezyre.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/19-16:53:58.985 691c Level-0 table #5: started
+2021/03/19-16:53:58.990 691c Level-0 table #5: 815 bytes OK
+2021/03/19-16:53:58.993 691c Delete type=0 #3
+2021/03/19-16:53:58.993 691c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

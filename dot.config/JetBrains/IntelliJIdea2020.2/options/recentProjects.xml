@@ -52,13 +52,49 @@
         </entry>
         <entry key="$USER_HOME$/Code/Screencast">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1hPBJSAU2FjYTOMhdnVxzI0MueF">
+            <RecentProjectMetaInfo projectWorkspaceId="1hPBJSAU2FjYTOMhdnVxzI0MueF">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IU-202.6948.69" />
-              <option name="buildTimestamp" value="1598304585802" />
-              <frame x="-3" y="6" width="2566" height="1437" />
+              <option name="buildTimestamp" value="1598304542249" />
+              <frame x="1289" y="25" width="1255" height="1399" />
               <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1599902774068" />
+              <option name="projectOpenTimestamp" value="1600829648653" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/qingxi">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1i8jKodkpf2trwQdrL4ipzL40FM">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-202.6948.69" />
+              <option name="buildTimestamp" value="1598304593499" />
+              <frame x="863" y="25" width="835" height="1399" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1601298868398" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/hadoop_example">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1htUbAa8i6cAfutW3IRvuRNX1HM">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-202.6948.69" />
+              <option name="buildTimestamp" value="1598304588497" />
+              <frame x="1289" y="25" width="1255" height="1399" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1601985005564" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/spark_example">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1iVGIoJgPyWNBz5jfVmcOy7RM1q">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-202.6948.69" />
+              <option name="buildTimestamp" value="1598304541397" />
+              <frame x="1716" y="25" width="1255" height="1399" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1602056468006" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -67,6 +103,9 @@
     <option name="lastProjectLocation" value="$USER_HOME$/Code" />
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/Code/spark_example" />
+        <option value="$USER_HOME$/Code/hadoop_example" />
+        <option value="$USER_HOME$/Code/qingxi" />
         <option value="$USER_HOME$/Code/Screencast" />
         <option value="$USER_HOME$/screen" />
         <option value="$USER_HOME$/8-2原先版本/Reservoir" />

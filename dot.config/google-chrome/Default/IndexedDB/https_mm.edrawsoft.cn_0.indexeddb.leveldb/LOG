@@ -1,0 +1,5 @@
+2021/01/15-06:55:10.276 3640 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_mm.edrawsoft.cn_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/15-06:57:54.479 3923 Level-0 table #5: started
+2021/01/15-06:57:54.486 3923 Level-0 table #5: 76851 bytes OK
+2021/01/15-06:57:54.489 3923 Delete type=0 #3
+2021/01/15-06:57:54.489 3923 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,5 @@
+2021/03/19-17:44:24.013 773 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_message.bilibili.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/19-17:44:31.973 1f3 Level-0 table #5: started
+2021/03/19-17:44:31.975 1f3 Level-0 table #5: 18319 bytes OK
+2021/03/19-17:44:31.979 1f3 Delete type=0 #3
+2021/03/19-17:44:31.979 1f3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

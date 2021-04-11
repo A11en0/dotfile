@@ -1,0 +1,15 @@
+2021/01/05-10:58:41.774 6e3e Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_account.cnblogs.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/05-10:58:41.774 6e3e Recovering log #4
+2021/01/05-10:58:41.774 6e3e Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_account.cnblogs.com_0.indexeddb.leveldb/000004.log 
+2021/01/05-10:58:44.216 6e3e Level-0 table #8: started
+2021/01/05-10:58:44.219 6e3e Level-0 table #8: 524 bytes OK
+2021/01/05-10:58:44.222 6e3e Delete type=0 #4
+2021/01/05-10:58:44.223 6e3e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/05-10:58:44.223 6e3e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x01\x01\x0e\x00G\x00E\x00E\x00R\x00A\x00N\x00D\x00O\x00M\x00T\x00O\x00K\x00E\x00N' @ 82 : 1
+2021/01/05-10:58:44.223 6e3e Compacting 1@1 + 1@2 files
+2021/01/05-10:58:44.226 6e3e Generated table #9@1: 20 keys, 624 bytes
+2021/01/05-10:58:44.226 6e3e Compacted 1@1 + 1@2 files => 624 bytes
+2021/01/05-10:58:44.228 6e3e compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/05-10:58:44.229 6e3e Delete type=2 #8
+2021/01/05-10:58:44.229 6e3e Delete type=2 #5
+2021/01/05-10:58:44.229 6e3e Manual compaction at level-1 from '\x00\x01\x01\x01\x01\x0e\x00G\x00E\x00E\x00R\x00A\x00N\x00D\x00O\x00M\x00T\x00O\x00K\x00E\x00N' @ 82 : 1 .. (end); will stop at (end)

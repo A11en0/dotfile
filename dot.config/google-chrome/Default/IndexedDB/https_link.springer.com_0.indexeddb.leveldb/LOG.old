@@ -1,0 +1,15 @@
+2021/03/18-19:29:17.901 628a Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_link.springer.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/18-19:29:17.901 628a Recovering log #38
+2021/03/18-19:29:17.901 628a Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_link.springer.com_0.indexeddb.leveldb/000038.log 
+2021/03/18-19:29:20.783 62cf Level-0 table #42: started
+2021/03/18-19:29:20.786 62cf Level-0 table #42: 190 bytes OK
+2021/03/18-19:29:20.789 62cf Delete type=0 #38
+2021/03/18-19:29:20.789 62cf Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/18-19:29:20.789 62cf Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 92 : 1
+2021/03/18-19:29:20.789 62cf Compacting 1@1 + 1@2 files
+2021/03/18-19:29:20.792 62cf Generated table #43@1: 29 keys, 793 bytes
+2021/03/18-19:29:20.792 62cf Compacted 1@1 + 1@2 files => 793 bytes
+2021/03/18-19:29:20.795 62cf compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/18-19:29:20.796 62cf Delete type=2 #42
+2021/03/18-19:29:20.796 62cf Delete type=2 #30
+2021/03/18-19:29:20.797 62cf Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 92 : 1 .. (end); will stop at (end)

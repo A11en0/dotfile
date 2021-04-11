@@ -1,0 +1,32 @@
+{
+   "author": "CatalyzeX.com",
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/catalyzeX_transparent128.png",
+      "default_popup": "popup.html",
+      "default_title": "CatalyzeX: Finds code for ML papers. E.g. try googling 'stylegan paper'."
+   },
+   "content_scripts": [ {
+      "css": [ "extension.css" ],
+      "js": [ "extension.js" ],
+      "matches": [ "https://arxiv.org/*", "https://twitter.com/*", "https://www.google.com/*", "https://www.google.co.uk/*", "https://www.google.co.in/*", "https://www.google.co.il/*", "https://www.google.co.kr/*", "https://www.google.co.jp/*", "https://www.google.co.th/*", "https://www.google.co.ma/*", "https://www.google.co.nz/*", "https://www.google.com.br/*", "https://www.google.com.vn/*", "https://www.google.com.tw/*", "https://www.google.com.au/*", "https://www.google.com.sg/*", "https://www.google.com.tr/*", "https://www.google.com.eg/*", "https://www.google.com.hk/*", "https://www.google.com.bd/*", "https://www.google.com.pk/*", "https://www.google.com.pe/*", "https://www.google.com.ar/*", "https://www.google.com.ph/*", "https://www.google.fr/*", "https://www.google.de/*", "https://www.google.ca/*", "https://www.google.it/*", "https://www.google.sc/*", "https://www.google.es/*", "https://www.google.ru/*", "https://www.google.at/*", "https://www.google.cz/*", "https://www.google.pt/*", "https://www.google.ch/*", "https://www.google.tn/*", "https://www.google.dz/*", "https://www.google.lk/*", "https://www.google.pl/*", "https://scholar.google.com/*", "https://scholar.google.co.uk/*", "https://scholar.google.co.in/*", "https://scholar.google.co.il/*", "https://scholar.google.co.kr/*", "https://scholar.google.co.jp/*", "https://scholar.google.co.th/*", "https://scholar.google.co.nz/*", "https://scholar.google.com.br/*", "https://scholar.google.com.vn/*", "https://scholar.google.com.tw/*", "https://scholar.google.com.au/*", "https://scholar.google.com.sg/*", "https://scholar.google.com.tr/*", "https://scholar.google.com.eg/*", "https://scholar.google.com.hk/*", "https://scholar.google.com.bd/*", "https://scholar.google.com.pk/*", "https://scholar.google.com.pe/*", "https://scholar.google.com.ar/*", "https://scholar.google.com.ph/*", "https://scholar.google.fr/*", "https://scholar.google.de/*", "https://scholar.google.ca/*", "https://scholar.google.it/*", "https://scholar.google.sc/*", "https://scholar.google.es/*", "https://scholar.google.ru/*", "https://scholar.google.at/*", "https://scholar.google.cz/*", "https://scholar.google.pt/*", "https://scholar.google.ch/*", "https://scholar.google.pl/*", "https://*.catalyzex.com/*" ]
+   } ],
+   "description": "💻 Get implementation code for machine learning research papers with code directly on Google, ArXiv, Scholar, Twitter, Github, etc.",
+   "differential_fingerprint": "1.ba0b7bc5ea07c280c5ee96b8494106c727f9db8e13d1a491f1d9bd1f2f571917",
+   "icons": {
+      "128": "images/catalyzeX_transparent128.png",
+      "16": "images/catalyzeX_transparent16.png",
+      "32": "images/catalyzeX_transparent32.png",
+      "48": "images/catalyzeX_transparent48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkIcgVV9cOzhkWtdbQxICbdCP/oicf/n9ct4ytYO6xeQTvXSRGBfIhGlh4kIuGaEO5Wj99gCFpW9pen3R9TvYprUUy9F8ejVb6JuEz1yJTNsKtExZ+B6ISGWD43qwLAfeKbiN0GtEchxPwCyKf1KzB04eMIBINBHa4EmEaqxR7wlO0H0gPKoimlBvfzpC/3O3lQkfIFRSSndA3f/x9PAo5yV0F/Mma6l7wBiAbllK8uLY6Rai1q6lDItswPvPcYItvwDPMY+Z6iO7awvZxQ6hUPn9O73104ojLvEl2rcBJRM9vB4FzwtV0w3SAu2Dls/CONJOZkY90b6ycymIVCnJywIDAQAB",
+   "manifest_version": 2,
+   "name": "AI/ML Papers with Code Everywhere - CatalyzeX",
+   "permissions": [ "contextMenus", "https://arxiv.org/*", "https://twitter.com/*", "https://www.google.com/*", "https://www.google.co.uk/*", "https://www.google.co.in/*", "https://www.google.co.il/*", "https://www.google.co.kr/*", "https://www.google.co.jp/*", "https://www.google.co.th/*", "https://www.google.co.ma/*", "https://www.google.co.nz/*", "https://www.google.com.br/*", "https://www.google.com.vn/*", "https://www.google.com.tw/*", "https://www.google.com.au/*", "https://www.google.com.sg/*", "https://www.google.com.tr/*", "https://www.google.com.eg/*", "https://www.google.com.hk/*", "https://www.google.com.bd/*", "https://www.google.com.pk/*", "https://www.google.com.pe/*", "https://www.google.com.ar/*", "https://www.google.com.ph/*", "https://www.google.fr/*", "https://www.google.de/*", "https://www.google.ca/*", "https://www.google.it/*", "https://www.google.sc/*", "https://www.google.es/*", "https://www.google.ru/*", "https://www.google.at/*", "https://www.google.cz/*", "https://www.google.pt/*", "https://www.google.ch/*", "https://www.google.tn/*", "https://www.google.dz/*", "https://www.google.lk/*", "https://www.google.pl/*", "https://scholar.google.com/*", "https://scholar.google.co.uk/*", "https://scholar.google.co.in/*", "https://scholar.google.co.il/*", "https://scholar.google.co.kr/*", "https://scholar.google.co.jp/*", "https://scholar.google.co.th/*", "https://scholar.google.co.nz/*", "https://scholar.google.com.br/*", "https://scholar.google.com.vn/*", "https://scholar.google.com.tw/*", "https://scholar.google.com.au/*", "https://scholar.google.com.sg/*", "https://scholar.google.com.tr/*", "https://scholar.google.com.eg/*", "https://scholar.google.com.hk/*", "https://scholar.google.com.bd/*", "https://scholar.google.com.pk/*", "https://scholar.google.com.pe/*", "https://scholar.google.com.ar/*", "https://scholar.google.com.ph/*", "https://scholar.google.fr/*", "https://scholar.google.de/*", "https://scholar.google.ca/*", "https://scholar.google.it/*", "https://scholar.google.sc/*", "https://scholar.google.es/*", "https://scholar.google.ru/*", "https://scholar.google.at/*", "https://scholar.google.cz/*", "https://scholar.google.pt/*", "https://scholar.google.ch/*", "https://scholar.google.pl/*", "https://*.catalyzex.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.0.13",
+   "web_accessible_resources": [ "socialicons/*", "branding/*" ]
+}

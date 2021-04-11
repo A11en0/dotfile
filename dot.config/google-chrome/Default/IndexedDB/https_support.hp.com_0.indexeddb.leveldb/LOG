@@ -1,0 +1,5 @@
+2021/03/14-11:43:25.167 6b68 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_support.hp.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/14-11:43:39.901 680a Level-0 table #5: started
+2021/03/14-11:43:39.905 680a Level-0 table #5: 987 bytes OK
+2021/03/14-11:43:39.911 680a Delete type=0 #3
+2021/03/14-11:43:39.911 680a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

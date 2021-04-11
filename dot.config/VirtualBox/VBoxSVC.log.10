@@ -1,0 +1,44 @@
+00:00:00.003967 main     VirtualBox XPCOM Server 6.1.14 r140239 linux.amd64 (Sep  4 2020 08:11:17) release log
+00:00:00.003975 main     Log opened 2020-09-17T06:23:17.004257000Z
+00:00:00.003977 main     Build Type: release
+00:00:00.003986 main     OS Product: Linux
+00:00:00.003988 main     OS Release: 4.19.0-10-amd64
+00:00:00.003990 main     OS Version: #1 SMP Debian 4.19.132-1 (2020-07-24)
+00:00:00.004054 main     DMI Product Name: B365M D2VX SI
+00:00:00.004070 main     DMI Product Version: Default string
+00:00:00.004095 main     Firmware type: BIOS
+00:00:00.004215 main     Host RAM: 15984MB (15.6GB) total, 9058MB (8.8GB) available
+00:00:00.004227 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.004228 main     Process ID: 959
+00:00:00.004230 main     Package type: LINUX_64BITS_DEBIAN_10_0
+00:00:00.007869 main     IPC socket path: /tmp/.vbox-allen-ipc/ipcd
+00:00:00.124250 nspr-2   VirtualBox: object creation starts
+00:00:00.125532 nspr-2   Home directory: '/home/allen/.config/VirtualBox'
+00:00:00.126296 nspr-2   Loading settings file "/home/allen/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.146090 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for docker0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.152184 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlx70f11c3c8229: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.153133 nspr-2   HostDnsMonitor: initializing
+00:00:00.153672 nspr-2   NAT: resolv.conf: nameserver 222.195.2.42
+00:00:00.153702 nspr-2   NAT: resolv.conf: nameserver 210.45.240.1
+00:00:00.153725 nspr-2   HostDnsMonitor: updating information
+00:00:00.153790 nspr-2   HostDnsMonitor: old information
+00:00:00.153798 nspr-2     no server entries
+00:00:00.153805 nspr-2     no domain set
+00:00:00.153810 nspr-2     no search string entries
+00:00:00.153816 nspr-2   HostDnsMonitor: new information
+00:00:00.153821 nspr-2     server 1: 222.195.2.42
+00:00:00.153829 nspr-2     server 2: 210.45.240.1
+00:00:00.153835 nspr-2     no domain set
+00:00:00.153840 nspr-2     no search string entries
+00:00:00.164338 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.170759 nspr-2   VirtualBox: object created
+00:00:02.853294 nspr-2   Saving settings file "/home/allen/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:02.869787 nspr-3   Saving settings file "/home/allen/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+05:47:29.755437 nspr-2   Saving settings file "/home/allen/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+05:47:29.774748 nspr-4   Saving settings file "/home/allen/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+05:47:35.292957 main     VirtualBox: object deletion starts
+05:47:35.299618 main     HostDnsMonitor: shutting down ...
+05:47:35.299908 main     HostDnsMonitor: shut down
+05:47:35.320471 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+05:47:40.300067 main     {00007f44a4019ec0} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+05:47:40.305121 main     VirtualBox: object deleted

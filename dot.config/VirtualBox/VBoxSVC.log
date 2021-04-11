@@ -1,43 +1,18 @@
-00:00:00.000104 main     VirtualBox XPCOM Server 6.1.14 r140239 linux.amd64 (Sep  4 2020 08:11:17) release log
-00:00:00.000105 main     Log opened 2020-09-09T11:26:46.517904000Z
-00:00:00.000106 main     Build Type: release
-00:00:00.000108 main     OS Product: Linux
-00:00:00.000108 main     OS Release: 4.19.0-10-amd64
-00:00:00.000108 main     OS Version: #1 SMP Debian 4.19.132-1 (2020-07-24)
-00:00:00.000121 main     DMI Product Name: B365M D2VX SI
-00:00:00.000124 main     DMI Product Version: Default string
-00:00:00.000129 main     Firmware type: BIOS
-00:00:00.000151 main     Host RAM: 15984MB (15.6GB) total, 11167MB (10.9GB) available
-00:00:00.000154 main     Executable: /usr/lib/virtualbox/VBoxSVC
-00:00:00.000154 main     Process ID: 17235
-00:00:00.000154 main     Package type: LINUX_64BITS_DEBIAN_10_0
-00:00:00.000820 main     IPC socket path: /tmp/.vbox-allen-ipc/ipcd
-00:00:00.103341 nspr-2   VirtualBox: object creation starts
-00:00:00.103426 nspr-2   Home directory: '/home/allen/.config/VirtualBox'
-00:00:00.103643 nspr-2   Loading settings file "/home/allen/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:00.108886 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlx70f11c3c8229: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:00.115380 nspr-2   HostDnsMonitor: initializing
-00:00:00.115955 nspr-2   NAT: resolv.conf: nameserver 222.195.2.42
-00:00:00.115986 nspr-2   NAT: resolv.conf: nameserver 210.45.240.1
-00:00:00.116007 nspr-2   HostDnsMonitor: updating information
-00:00:00.116059 nspr-2   HostDnsMonitor: old information
-00:00:00.116067 nspr-2     no server entries
-00:00:00.116073 nspr-2     no domain set
-00:00:00.116079 nspr-2     no search string entries
-00:00:00.116084 nspr-2   HostDnsMonitor: new information
-00:00:00.116089 nspr-2     server 1: 222.195.2.42
-00:00:00.116096 nspr-2     server 2: 210.45.240.1
-00:00:00.116101 nspr-2     no domain set
-00:00:00.116106 nspr-2     no search string entries
-00:00:00.121653 nspr-2   VD: VDInit finished with VINF_SUCCESS
-00:00:00.123039 nspr-2   VirtualBox: object created
-00:14:43.362421 nspr-3   Saving settings file "/home/allen/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:14:43.371237 nspr-3   Saving settings file "/home/allen/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:14:43.379574 nspr-2   Saving settings file "/home/allen/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:14:43.386938 nspr-3   Saving settings file "/home/allen/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:14:48.906728 main     VirtualBox: object deletion starts
-00:14:48.907293 main     HostDnsMonitor: shutting down ...
-00:14:48.908302 main     HostDnsMonitor: shut down
-00:14:49.325028 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
-00:14:53.908443 main     {00007f2474017640} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
-00:14:53.908709 main     VirtualBox: object deleted
+70:06:22.935544 main     Log continuation - Log started 2020-10-28T12:53:08.079935000Z
+70:06:22.951302 main     VM 'HadoopMaster' stops using NAT network 'NatNetwork'
+70:06:22.984328 Watcher  Reaper: Pid 14451 (3873) was signalled: 9 (0x9)
+70:06:34.169688 main     Saving settings file "/home/allen/VirtualBox VMs/HadoopSlave/HadoopSlave.vbox" with version "1.16-linux"
+70:06:34.192216 main     VM 'HadoopSlave' stops using NAT network 'NatNetwork'
+70:06:34.203588 main     NetworkServiceRunning: killing VBoxNetDHCP, pid 0000388c...
+70:06:34.487268 Watcher  Reaper: Pid 14570 (38ea) was signalled: 9 (0x9)
+70:06:35.217079 main     NetworkServiceRunning: killing VBoxNetNAT, pid 0000388d...
+70:06:35.219510 main     Stopped NAT network 'NatNetwork'
+70:06:40.223963 main     VirtualBox: object deletion starts
+70:06:40.224115 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/allen/VirtualBox VMs/HadoopMaster/Cent os.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+70:06:40.229038 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/allen/VirtualBox VMs/HadoopSlave/HadoopSlave-disk1.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+70:06:40.229929 main     NetworkServiceRunning: killing VBoxNetDHCP, pid 000038ab...
+70:06:40.294085 main     HostDnsMonitor: shutting down ...
+70:06:40.299192 main     HostDnsMonitor: shut down
+70:06:40.488773 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+70:06:45.300391 main     {00007f82cc019ab0} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+70:06:45.909536 main     VirtualBox: object deleted

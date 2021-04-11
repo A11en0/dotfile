@@ -1,0 +1,15 @@
+2021/03/29-11:53:33.427 3e29 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_developers.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/29-11:53:33.427 3e29 Recovering log #26
+2021/03/29-11:53:33.427 3e29 Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_developers.google.com_0.indexeddb.leveldb/000026.log 
+2021/03/29-11:54:11.605 3c06 Level-0 table #30: started
+2021/03/29-11:54:11.607 3c06 Level-0 table #30: 190 bytes OK
+2021/03/29-11:54:11.610 3c06 Delete type=0 #26
+2021/03/29-11:54:11.610 3c06 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/29-11:54:11.611 3c06 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 116 : 1
+2021/03/29-11:54:11.611 3c06 Compacting 1@1 + 1@2 files
+2021/03/29-11:54:11.613 3c06 Generated table #31@1: 30 keys, 812 bytes
+2021/03/29-11:54:11.614 3c06 Compacted 1@1 + 1@2 files => 812 bytes
+2021/03/29-11:54:11.616 3c06 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/29-11:54:11.616 3c06 Delete type=2 #24
+2021/03/29-11:54:11.616 3c06 Delete type=2 #30
+2021/03/29-11:54:11.617 3c06 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 116 : 1 .. (end); will stop at (end)

@@ -1,0 +1,9 @@
+{
+  "CANARY_HOST": "https://click.endnote.com",
+  "ENC_KEY": "cFJfl^tWtkSGL_yVI`Vr*a5p",
+  "MAX_PDF_UPLOAD_RETRIES": 3,
+  "PDF_UPLOAD_BACKOFF": 4000,
+  "CONFIG": "PRODUCTION",
+  "ANALYTICS_ENABLED": true,
+  "ALWAYS_FLUSH": false
+}

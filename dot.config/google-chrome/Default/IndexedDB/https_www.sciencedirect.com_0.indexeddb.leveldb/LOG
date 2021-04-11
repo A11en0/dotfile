@@ -1,0 +1,15 @@
+2021/04/10-13:51:09.693 5b2e Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.sciencedirect.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/10-13:51:09.694 5b2e Recovering log #78
+2021/04/10-13:51:09.694 5b2e Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_www.sciencedirect.com_0.indexeddb.leveldb/000078.log 
+2021/04/10-13:51:12.762 5b2e Level-0 table #82: started
+2021/04/10-13:51:12.765 5b2e Level-0 table #82: 190 bytes OK
+2021/04/10-13:51:12.768 5b2e Delete type=0 #78
+2021/04/10-13:51:12.768 5b2e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/10-13:51:12.768 5b2e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 69 : 1
+2021/04/10-13:51:12.768 5b2e Compacting 1@1 + 1@2 files
+2021/04/10-13:51:12.771 5b2e Generated table #83@1: 20 keys, 794 bytes
+2021/04/10-13:51:12.771 5b2e Compacted 1@1 + 1@2 files => 794 bytes
+2021/04/10-13:51:12.775 5b2e compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/10-13:51:12.775 5b2e Delete type=2 #76
+2021/04/10-13:51:12.775 5b2e Delete type=2 #82
+2021/04/10-13:51:12.775 5b2e Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 69 : 1 .. (end); will stop at (end)

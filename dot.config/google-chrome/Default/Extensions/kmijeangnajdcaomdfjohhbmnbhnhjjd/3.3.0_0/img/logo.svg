@@ -1,0 +1,9 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="304" viewBox="0 0 304 386.528" height="387" xmlns="http://www.w3.org/2000/svg">
+    <defs/>
+    <g transform="translate(1,1)">
+        <path id="shape1" stroke="#574083" transform="translate(0,97.66)" d="M30.2,13.9L30.2,174.1L30.3,209.6L0,190.2L0,0L30.2,13.9z" fill="#574083"/>
+        <path id="shape2" stroke="#725550" transform="translate(40.61,278.47)" d="M0,0L110.4,70.8L110.4,106.1L0,35.4L0,0z" fill="#725550"/>
+        <path id="shape3" stroke="#906c66" transform="translate(151,110.91)" d="M151,176.9L0,273.6L0,96.7L151,0L151,176.9zM120.8,54.7L30.2,112.7L30.2,218.9L120.8,160.9L120.8,54.7z" fill="#906c66"/>
+        <path id="shape4" stroke="#6f53a5" d="M0,96.7L151,0L302,96.7L151,193.4L0,96.7zM151,154.7L241.6,96.7L151,38.7L60.4,96.7L151,154.7z" fill="#6f53a5"/>
+    </g>
+</svg>

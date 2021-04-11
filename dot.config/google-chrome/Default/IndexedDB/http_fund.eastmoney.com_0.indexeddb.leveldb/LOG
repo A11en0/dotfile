@@ -1,0 +1,5 @@
+2021/01/09-16:57:27.449 259d Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/http_fund.eastmoney.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/09-16:57:29.818 259d Level-0 table #5: started
+2021/01/09-16:57:29.821 259d Level-0 table #5: 1465 bytes OK
+2021/01/09-16:57:29.826 259d Delete type=0 #3
+2021/01/09-16:57:29.826 259d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

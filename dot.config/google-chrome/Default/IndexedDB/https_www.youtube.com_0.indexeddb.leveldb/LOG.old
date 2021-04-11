@@ -1,7 +1,15 @@
-2020/09/09-07:43:49.916 4f80 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/09-07:43:49.916 4f80 Recovering log #3
-2020/09/09-07:43:49.916 4f80 Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
-2020/09/09-08:01:49.279 54bc Level-0 table #5: started
-2020/09/09-08:01:49.283 54bc Level-0 table #5: 4703 bytes OK
-2020/09/09-08:01:49.286 54bc Delete type=0 #3
-2020/09/09-08:01:49.287 54bc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/17-18:58:42.997 1001 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/17-18:58:42.997 1001 Recovering log #194
+2021/03/17-18:58:42.997 1001 Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000194.log 
+2021/03/17-18:58:58.992 1001 Level-0 table #199: started
+2021/03/17-18:58:58.995 1001 Level-0 table #199: 52411 bytes OK
+2021/03/17-18:58:58.997 1001 Delete type=0 #194
+2021/03/17-18:58:58.997 1001 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/17-18:58:58.997 1001 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x1f\x04\x04\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x01(\x008\x008\x00A\x000\x009\x00C\x00D\x006\x001\x003\x005\x00E\x001\x006\x006\x00D\x00F\x00C\x00F\x000\x008\x009\x00F\x003\x000\x00F\x00D\x001\x000\x008\x002\x004\x00A\x00A\x003\x005\x00B\x000\x00A\x008\x03\x00\x00\x00\x00\x00\x00\xf0?\x03=&9j\xfd\x83wB\x00\x03\x00\x00\x00\x00\x00\x00H@' @ 7648 : 1
+2021/03/17-18:58:58.998 1001 Compacting 1@1 + 1@2 files
+2021/03/17-18:58:59.000 1001 Generated table #200@1: 114 keys, 6822 bytes
+2021/03/17-18:58:59.000 1001 Compacted 1@1 + 1@2 files => 6822 bytes
+2021/03/17-18:58:59.002 1001 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/17-18:58:59.002 1001 Delete type=2 #199
+2021/03/17-18:58:59.002 1001 Delete type=2 #196
+2021/03/17-18:58:59.002 1001 Manual compaction at level-1 from '\x00\x04\x01\x1f\x04\x04\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x01(\x008\x008\x00A\x000\x009\x00C\x00D\x006\x001\x003\x005\x00E\x001\x006\x006\x00D\x00F\x00C\x00F\x000\x008\x009\x00F\x003\x000\x00F\x00D\x001\x000\x008\x002\x004\x00A\x00A\x003\x005\x00B\x000\x00A\x008\x03\x00\x00\x00\x00\x00\x00\xf0?\x03=&9j\xfd\x83wB\x00\x03\x00\x00\x00\x00\x00\x00H@' @ 7648 : 1 .. (end); will stop at (end)

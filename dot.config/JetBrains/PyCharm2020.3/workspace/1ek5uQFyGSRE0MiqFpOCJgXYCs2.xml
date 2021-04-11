@@ -1,0 +1,184 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4_SST2/3_entity_and_interaction/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35">
+              <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4_SST2/3_entity_and_interaction/interaction_data/SST2_labelword_vector.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fairy</find>
+      <find>1fairy</find>
+    </findStrings>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Main_model2_up" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Main_model2_up" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Main_model2_up" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Main_model2_up" type="462c0819:PsiDirectoryNode" />
+              <item name="4_SST2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Main_model2_up" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Main_model2_up" type="462c0819:PsiDirectoryNode" />
+              <item name="4_SST2" type="462c0819:PsiDirectoryNode" />
+              <item name="3_entity_and_interaction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Main_model2_up" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Main_model2_up" type="462c0819:PsiDirectoryNode" />
+              <item name="4_SST2" type="462c0819:PsiDirectoryNode" />
+              <item name="3_entity_and_interaction" type="462c0819:PsiDirectoryNode" />
+              <item name="interaction_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4260000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23574468" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Pull Requests" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Problems View" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="7" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="File Transfer" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Flow" order="13" />
+      <window_info anchor="bottom" id="TypeScript" order="14" />
+      <window_info anchor="bottom" id="Services" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="SciView" order="1" />
+    </layout>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="403" y="418" key="FileChooserDialogImpl" timestamp="1615551422075">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="403" y="418" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1615551422075" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/4_SST2/3_entity_and_interaction/interaction_data/train_label.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3220">
+          <caret line="92" column="34" lean-forward="true" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_SST2/3_entity_and_interaction/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6590">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#16#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_SST2/3_entity_and_interaction/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4622">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#16#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_SST2/3_entity_and_interaction/interaction_data/SST2_labelword_dic.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147560">
+          <caret line="4216" column="20" lean-forward="true" selection-start-line="4216" selection-start-column="20" selection-end-line="4216" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_SST2/3_entity_and_interaction/Parameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_SST2/3_entity_and_interaction/model_pre_vector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_SST2/3_entity_and_interaction/data_helpers.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_SST2/3_entity_and_interaction/data_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-945" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_SST2/3_entity_and_interaction/interaction_data/all_label.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="49" column="10" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_SST2/3_entity_and_interaction/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="90" column="8" lean-forward="true" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_SST2/3_entity_and_interaction/interaction_data/SST2_labelword_vector.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

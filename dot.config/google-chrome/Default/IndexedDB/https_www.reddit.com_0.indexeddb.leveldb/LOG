@@ -1,0 +1,8 @@
+2021/03/06-18:41:11.658 2f0a Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/06-18:41:11.658 2f0a Recovering log #756
+2021/03/06-18:41:11.658 2f0a Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000756.log 
+2021/03/06-18:42:16.522 2ffb Level-0 table #761: started
+2021/03/06-18:42:16.522 2ffb Level-0 table #761: 0 bytes OK
+2021/03/06-18:42:16.528 2ffb Delete type=0 #756
+2021/03/06-18:42:16.528 2ffb Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/06-18:42:16.528 2ffb Manual compaction at level-1 from (begin) .. (end); will stop at (end)

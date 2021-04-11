@@ -1,0 +1,25 @@
+2021/01/02-11:37:16.613 5208 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_webvpn.hfut.edu.cn_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/02-11:37:16.613 5208 Recovering log #26
+2021/01/02-11:37:16.613 5208 Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_webvpn.hfut.edu.cn_0.indexeddb.leveldb/000026.log 
+2021/01/02-11:39:23.112 59a4 Level-0 table #31: started
+2021/01/02-11:39:23.123 59a4 Level-0 table #31: 859266 bytes OK
+2021/01/02-11:39:23.126 59a4 Delete type=0 #26
+2021/01/02-11:39:32.097 59a4 Compacting 1@1 + 1@2 files
+2021/01/02-11:39:32.137 59a4 Generated table #32@1: 2375 keys, 2116769 bytes
+2021/01/02-11:39:32.137 59a4 Compacted 1@1 + 1@2 files => 2116769 bytes
+2021/01/02-11:39:32.141 59a4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/02-11:39:32.141 59a4 Delete type=2 #31
+2021/01/02-11:39:32.141 59a4 Delete type=2 #28
+2021/01/02-11:41:22.406 5c63 Level-0 table #34: started
+2021/01/02-11:41:22.412 5c63 Level-0 table #34: 46985 bytes OK
+2021/01/02-11:41:22.416 5c63 Delete type=0 #30
+2021/01/02-11:41:22.416 5c63 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/02-11:41:22.416 5c63 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x1f\x01\x0e\x00s\x00s\x00.\x00z\x00h\x00i\x00z\x00h\x00e\x00n\x00.\x00c\x00o\x00m\x00\x03\x00\x10\x83\xda\x12lwB' @ 13091 : 1
+2021/01/02-11:41:22.416 5c63 Compacting 1@1 + 1@2 files
+2021/01/02-11:41:22.480 5c63 Generated table #35@1: 786 keys, 2116986 bytes
+2021/01/02-11:41:22.483 5c63 Generated table #36@1: 1678 keys, 42278 bytes
+2021/01/02-11:41:22.483 5c63 Compacted 1@1 + 1@2 files => 2159264 bytes
+2021/01/02-11:41:22.485 5c63 compacted to: files[ 0 0 2 0 0 0 0 ]
+2021/01/02-11:41:22.485 5c63 Delete type=2 #32
+2021/01/02-11:41:22.485 5c63 Delete type=2 #34
+2021/01/02-11:41:22.486 5c63 Manual compaction at level-1 from '\x00\x01\x01\x1f\x01\x0e\x00s\x00s\x00.\x00z\x00h\x00i\x00z\x00h\x00e\x00n\x00.\x00c\x00o\x00m\x00\x03\x00\x10\x83\xda\x12lwB' @ 13091 : 1 .. (end); will stop at (end)

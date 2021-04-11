@@ -1,0 +1,932 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+              <folding>
+                <element signature="e#16#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/TAAN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="572" lean-forward="true" selection-start-line="572" selection-end-line="572" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train_eval.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-958">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="e#16#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/utils_TAAN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>stop</find>
+      <find>padding</find>
+      <find>self.vocab</find>
+      <find>print</find>
+      <find>config</find>
+      <find>remove</find>
+      <find>remove_stop</find>
+      <find>pd</find>
+      <find>&quot;&quot;</find>
+      <find>vocab</find>
+      <find>vocab_</find>
+      <find>embedding</find>
+      <find>save</find>
+      <find>save_path</find>
+      <find>random</find>
+      <find>report_save</find>
+      <find>writer</find>
+      <find>data</find>
+      <find>learning</find>
+      <find>torch</find>
+      <find>load_</find>
+      <find>vocab_path</find>
+      <find>topic</find>
+      <find>LDA</find>
+      <find>forward</find>
+      <find>fc_cnn_embeded</find>
+      <find>fc_cnn_embed</find>
+      <find>self_s</find>
+      <find>cst_attention</find>
+      <find>optim</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/utils/topics/DMMinf_snippets.paras" />
+      <option value="$PROJECT_DIR$/utils/utils_LDA_old.py" />
+      <option value="$PROJECT_DIR$/datasets/SNIPPETS/snippets_new_with_topic.tsv" />
+      <option value="$PROJECT_DIR$/README.md" />
+      <option value="$PROJECT_DIR$/utils/utils_fasttext.py" />
+      <option value="$PROJECT_DIR$/utils/__init__.py" />
+      <option value="$PROJECT_DIR$/datasets/SST-2/results.txt" />
+      <option value="$PROJECT_DIR$/datasets/TAGMYNEWS/results/result_0.001_64_TAGMYNEWS.csv" />
+      <option value="$PROJECT_DIR$/utils/gen.sh" />
+      <option value="$PROJECT_DIR$/utils/data_clean.py" />
+      <option value="$PROJECT_DIR$/models/STCKA.py" />
+      <option value="$PROJECT_DIR$/utils/utils_LDA.py" />
+      <option value="$PROJECT_DIR$/utils/utils.py" />
+      <option value="$PROJECT_DIR$/models/CLSTM.py" />
+      <option value="$PROJECT_DIR$/models/TextRCNN.py" />
+      <option value="$PROJECT_DIR$/models/LSTM_Att.py" />
+      <option value="$PROJECT_DIR$/models/TextRNN.py" />
+      <option value="$PROJECT_DIR$/models/TextRNN_Att.py" />
+      <option value="$PROJECT_DIR$/models/DPCNN.py" />
+      <option value="$PROJECT_DIR$/models/Transformer.py" />
+      <option value="$PROJECT_DIR$/models/LDA.py" />
+      <option value="$PROJECT_DIR$/utils/load_topic.py" />
+      <option value="$PROJECT_DIR$/utils/utils_TAAN.py" />
+      <option value="$PROJECT_DIR$/train_eval.py" />
+      <option value="$PROJECT_DIR$/models/TextCNN.py" />
+      <option value="$PROJECT_DIR$/run.py" />
+      <option value="$PROJECT_DIR$/models/TAAN.py" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="4e75b404-f650-4d6c-a0c0-610c908d5db0" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TextClassification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TextClassification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TextClassification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TextClassification" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TextClassification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TextClassification" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local (2)" currentWorkingDirectory="$PROJECT_DIR$" commandHistoryFileName="history-98" />
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$" commandHistoryFileName="history-160" />
+    </option>
+    <option name="mySelectedTabIndex" value="1" />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="132520000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12760834" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Pull Requests" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32889584" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.6631179" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.3531715" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.34372625" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Problems View" order="6" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="7" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.293657" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.31026617" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="bottom" id="Flow" order="14" />
+      <window_info anchor="bottom" id="Services" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Remote Host" order="0" weight="0.32985553" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="SciView" order="2" weight="0.22070625" />
+      <window_info anchor="right" id="Hierarchy" order="6" weight="0.32985553" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19542536" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Pull Requests" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.37262356" />
+      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.408365" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Problems View" order="6" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="7" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.31480032" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32811275" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="bottom" id="Flow" order="14" />
+      <window_info anchor="bottom" id="Services" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Remote Host" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="SciView" order="2" weight="0.32985553" />
+    </layout-to-restore>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" width="2560" height="1440" key="#Deployment" timestamp="1617282447583">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="0" y="0" width="2560" height="1440" key="#Deployment/0.0.2560.1440@0.0.2560.1440" timestamp="1617282447583" />
+    <state x="906" y="358" width="738" height="662" key="#Inspections" timestamp="1617691508765">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="906" y="358" width="738" height="662" key="#Inspections/0.0.2560.1440@0.0.2560.1440" timestamp="1617691508765" />
+    <state x="726" y="166" width="1124" height="768" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617264478030">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="726" y="166" width="1124" height="768" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1617264478030" />
+    <state x="689" y="179" width="1252" height="537" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617954131895">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="689" y="179" width="1252" height="537" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1617954131895" />
+    <state width="598" height="73" key="DebuggerActiveHint" timestamp="1617692845907">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="598" height="73" key="DebuggerActiveHint/0.0.2560.1440@0.0.2560.1440" timestamp="1617692845907" />
+    <state x="-3" y="38" width="2566" height="1405" key="DiffContextDialog" timestamp="1617965445980">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="-3" y="38" width="2566" height="1405" key="DiffContextDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1617965445980" />
+    <state x="-3" y="38" width="2566" height="1405" key="DirDiffDialog" timestamp="1617969943545">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="-3" y="38" width="2566" height="1405" key="DirDiffDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1617969943545" />
+    <state x="757" y="259" key="FileChooserDialogImpl" timestamp="1617329285387">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="757" y="259" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1617329285387" />
+    <state width="2492" height="423" key="GridCell.Tab.0.bottom" timestamp="1618053029154">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2492" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1618053029154" />
+    <state width="2492" height="423" key="GridCell.Tab.0.center" timestamp="1618053029152">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2492" height="423" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1618053029152" />
+    <state width="2492" height="423" key="GridCell.Tab.0.left" timestamp="1618053029151">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2492" height="423" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1618053029151" />
+    <state width="2492" height="423" key="GridCell.Tab.0.right" timestamp="1618053029153">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2492" height="423" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1618053029153" />
+    <state width="2492" height="424" key="GridCell.Tab.1.bottom" timestamp="1618051936394">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2492" height="424" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1618051936394" />
+    <state width="2492" height="424" key="GridCell.Tab.1.center" timestamp="1618051936394">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2492" height="424" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1618051936394" />
+    <state width="2492" height="424" key="GridCell.Tab.1.left" timestamp="1618051936394">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2492" height="424" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1618051936394" />
+    <state width="2492" height="424" key="GridCell.Tab.1.right" timestamp="1618051936394">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2492" height="424" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1618051936394" />
+    <state x="539" y="14" width="1172" height="741" key="SettingsEditor" timestamp="1617871969044">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="539" y="14" width="1172" height="741" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1617871969044" />
+    <state width="1283" height="740" key="XDebugger.FullValuePopup" timestamp="1617971906038">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1283" height="740" key="XDebugger.FullValuePopup/0.0.2560.1440@0.0.2560.1440" timestamp="1617971906038" />
+    <state x="909" y="528" width="730" height="208" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618027809741">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="909" y="528" width="730" height="208" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1440@0.0.2560.1440" timestamp="1618027809741" />
+    <state x="738" y="486" width="806" height="263" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1617264346481">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="738" y="486" width="806" height="263" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/0.0.2560.1440@0.0.2560.1440" timestamp="1617264346481" />
+    <state x="860" y="320" width="830" height="700" key="editAsTableFormatDialogDimension" timestamp="1617270324158">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="860" y="320" width="830" height="700" key="editAsTableFormatDialogDimension/0.0.2560.1440@0.0.2560.1440" timestamp="1617270324158" />
+    <state x="1018" y="136" width="234" height="823" key="ftp.server.browser" timestamp="1617264422544">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1018" y="136" width="234" height="823" key="ftp.server.browser/0.0.2560.1440@0.0.2560.1440" timestamp="1617264422544" />
+    <state x="1743" y="518" width="330" height="277" key="publish.login" timestamp="1617709383993">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1743" y="518" width="330" height="277" key="publish.login/0.0.2560.1440@0.0.2560.1440" timestamp="1617709383993" />
+    <state x="794" y="325" width="969" height="687" key="search.everywhere.popup" timestamp="1618025830283">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="794" y="325" width="969" height="687" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1618025830283" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/datasets/SNIPPETS/snippets_new_random.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="Tab-separated (TSV)" id="Tab-separated (TSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="&#9;" recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/SNIPPETS/topics/DMMinf_snippetss.topWords">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="48" lean-forward="true" selection-start-column="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/SNIPPETS/topics/DMMinf_snippetss.topicAssignments">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/SNIPPETS/topics/DMMinf_snippets.topWords">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/SNIPPETS/topics/DMMinf_snippets.vocabulary">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.anaconda3/envs/bert/lib/python3.7/site-packages/torch/nn/functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="1105" column="4" selection-start-line="1105" selection-start-column="4" selection-end-line="1105" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-paper/thesis.org">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="159" column="12" selection-start-line="159" selection-start-column="12" selection-end-line="159" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cache/JetBrains/PyCharm2020.3/remote_sources/-1799927770/-148906132/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="934" selection-start-line="934" selection-end-line="934" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/MR/mr_new.tsv_nolabel">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-819" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/MR/mr_new_with_topic.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="Tab-separated (TSV)" id="Tab-separated (TSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="&#9;" recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/SST-1/topics/DMMinf_sst-1.vocabulary">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/SST-1/topics/DMMinf_sst-1.topWords">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/SST-1/results/result_0.01_32_SST-1_TextCNN.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="Comma-separated (CSV)" id="Comma-separated (CSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/SST-1/results/result_0.01_64_SST-1_LDA.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="Comma-separated (CSV)" id="Comma-separated (CSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/SST-1/results/result_0.01_64_SST-1_TextCNN.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="Comma-separated (CSV)" id="Comma-separated (CSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/SST-1/results/result_0.01_256_SST-1_TextCNN.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="Comma-separated (CSV)" id="Comma-separated (CSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/SST-1/results/result_0.001_32_SST-1_TextCNN.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="Comma-separated (CSV)" id="Comma-separated (CSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/SST-1/results/result_0.01_128_SST-1_TextCNN.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="Comma-separated (CSV)" id="Comma-separated (CSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/SST-1/sst-1_new_with_topic.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="Tab-separated (TSV)" id="Tab-separated (TSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="&#9;" recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/SST-1/topics/DMMinf_sst-1.paras">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/data_clean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/gen.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cache/JetBrains/PyCharm2020.3/remote_sources/-1799927770/-148906132/torch/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/utils_LDA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="267" lean-forward="true" selection-start-line="267" selection-end-line="267" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/SST-2/results/result_0.01_32_SST-2_TextCNN.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="Comma-separated (CSV)" id="Comma-separated (CSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/SST-2/results/result_0.01_64_SST-2_TextCNN.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="Comma-separated (CSV)" id="Comma-separated (CSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/SST-2/results/result_0.01_128_SST-2_TextCNN.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="Comma-separated (CSV)" id="Comma-separated (CSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/20NG/results/TextCNN_128_0.001_20NG_result.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="Comma-separated (CSV)" id="Comma-separated (CSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/TAGMYNEWS/results/TextCNN_128_0.001_TAGMYNEWS_result.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="Comma-separated (CSV)" id="Comma-separated (CSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/MR/results/TextRCNN_128_0.001_MR_result.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="Comma-separated (CSV)" id="Comma-separated (CSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/MR/results/TextCNN_128_0.001_MR_result.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="Comma-separated (CSV)" id="Comma-separated (CSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/TextRCNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#16#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/TextRNN_Att.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="e#16#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/DPCNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#16#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/load_topic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Transformer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/AGNEWS/agnews_new_with_topic.tsv">
+      <provider selected="true" editor-type-id="LargeFileEditorProvider">
+        <state caret-page-number="0" caret-page-symbol-offset="1396" />
+      </provider>
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="Tab-separated (TSV)" id="Tab-separated (TSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="&#9;" recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/AGNEWS/topics/DMMinf_agnews.topWords">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cache/JetBrains/PyCharm2020.3/remote_sources/-1799927770/-148906132/torch/nn/functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2629" column="4" selection-start-line="2629" selection-start-column="4" selection-end-line="2629" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/AGNEWS/topics/DMMinf_agnews.paras">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/AGNEWS/topics/DMMinf_agnews.theta">
+      <provider selected="true" editor-type-id="LargeFileEditorProvider">
+        <state caret-page-number="0" caret-page-symbol-offset="22" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/CLSTM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#25#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/LSTM_Att.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+          <folding>
+            <element signature="e#25#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/TextRNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1365">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-end-line="11" />
+          <folding>
+            <element signature="e#16#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/STCKA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="118" column="17" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/TextCNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#16#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/utils_TAAN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-958">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#16#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/TAAN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="572" lean-forward="true" selection-start-line="572" selection-end-line="572" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

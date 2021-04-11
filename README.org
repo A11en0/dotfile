@@ -1,0 +1,31 @@
+* Dotfile
+  
+My own Debian configuration. Mainly config following
+ [[wx672][https://github.com/wx672]].
+
+*** Neofetch Information:
+       _,met$$$$$gg.          Username@debian
+    ,g$$$$$$$$$$$$$$$P.       ------------
+  ,g$$P"     """Y$$.".        OS: Debian GNU/Linux 10 (buster) x 
+ ,$$P'              `$$$.     Host: B365M D2VX SI
+',$$P       ,ggs.     `$$b:   Kernel: 4.19.0-14-amd64
+`d$$'     ,$P"'   .    $$$    Uptime: 4 days, 18 hours, 11 mins
+ $$P      d$'     ,    $$P    Packages: 2862 (dpkg), 5 (snap)
+ $$:      $$.   -    ,d$$'    Shell: bash 5.0.3
+ $$;      Y$b._   _,d$P'      Resolution: 2560x1440
+ Y$$.    `.`"Y$$$$P"'         WM: i3
+ `$$b      "-.__              Theme: Mist [GTK2/3]
+  `Y$$                        Icons: Adwaita [GTK2/3]
+   `Y$$.                      Terminal: ranger
+     `$$b.                    CPU: Intel i7-9700 (8) @ 4.700GHz
+       `Y$$b.                 GPU: NVIDIA GeForce GTX 1660
+          `"Y$b._             Memory: 8594MiB / 15984MiB
+              `"""
+*** Workflow:
+- systemd auto-login
+- startx + i3 + polybar 
+- xterm + tmux
+- dmenu
+- emacs, vim
+- misc.
+

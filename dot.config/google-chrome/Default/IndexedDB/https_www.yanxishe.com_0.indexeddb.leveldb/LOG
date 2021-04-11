@@ -1,0 +1,15 @@
+2021/03/19-17:32:20.335 7ac2 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.yanxishe.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/19-17:32:20.335 7ac2 Recovering log #4
+2021/03/19-17:32:20.335 7ac2 Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_www.yanxishe.com_0.indexeddb.leveldb/000004.log 
+2021/03/19-17:32:37.418 7c8d Level-0 table #8: started
+2021/03/19-17:32:37.422 7c8d Level-0 table #8: 203 bytes OK
+2021/03/19-17:32:37.425 7c8d Delete type=0 #4
+2021/03/19-17:32:37.427 7c8d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/19-17:32:37.427 7c8d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 46 : 1
+2021/03/19-17:32:37.427 7c8d Compacting 1@1 + 1@2 files
+2021/03/19-17:32:37.430 7c8d Generated table #9@1: 18 keys, 505 bytes
+2021/03/19-17:32:37.430 7c8d Compacted 1@1 + 1@2 files => 505 bytes
+2021/03/19-17:32:37.432 7c8d compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/19-17:32:37.433 7c8d Delete type=2 #8
+2021/03/19-17:32:37.433 7c8d Delete type=2 #5
+2021/03/19-17:32:37.433 7c8d Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 46 : 1 .. (end); will stop at (end)

@@ -1,0 +1,38 @@
+2021/04/07-16:59:59.563 6665 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_webvpn.hfut.edu.cn_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/07-16:59:59.563 6665 Recovering log #33
+2021/04/07-16:59:59.563 6665 Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_webvpn.hfut.edu.cn_0.indexeddb.leveldb/000033.log 
+2021/04/07-17:00:00.423 6662 Level-0 table #39: started
+2021/04/07-17:00:00.446 6662 Level-0 table #39: 959213 bytes OK
+2021/04/07-17:00:00.451 6662 Delete type=0 #33
+2021/04/07-17:00:00.572 6662 Compacting 1@1 + 2@2 files
+2021/04/07-17:00:00.678 6662 Generated table #40@1: 1083 keys, 2115294 bytes
+2021/04/07-17:00:00.723 6662 Generated table #41@1: 1382 keys, 51117 bytes
+2021/04/07-17:00:00.723 6662 Compacted 1@1 + 2@2 files => 2166411 bytes
+2021/04/07-17:00:00.732 6662 compacted to: files[ 0 0 2 0 0 0 0 ]
+2021/04/07-17:00:01.008 6662 Level-0 table #43: started
+2021/04/07-17:00:01.026 6662 Level-0 table #43: 955156 bytes OK
+2021/04/07-17:00:01.029 6662 Delete type=0 #38
+2021/04/07-17:00:01.029 6662 Delete type=2 #35
+2021/04/07-17:00:01.029 6662 Delete type=2 #36
+2021/04/07-17:00:01.029 6662 Delete type=2 #39
+2021/04/07-17:00:04.731 6662 Compacting 1@1 + 2@2 files
+2021/04/07-17:00:04.761 6662 Generated table #44@1: 1427 keys, 2114727 bytes
+2021/04/07-17:00:04.765 6662 Generated table #45@1: 1038 keys, 58720 bytes
+2021/04/07-17:00:04.765 6662 Compacted 1@1 + 2@2 files => 2173447 bytes
+2021/04/07-17:00:04.768 6662 compacted to: files[ 0 0 2 0 0 0 0 ]
+2021/04/07-17:00:04.768 6662 Delete type=2 #40
+2021/04/07-17:00:04.768 6662 Delete type=2 #41
+2021/04/07-17:00:04.768 6662 Delete type=2 #43
+2021/04/07-17:00:11.286 6665 Level-0 table #47: started
+2021/04/07-17:00:11.295 6665 Level-0 table #47: 294502 bytes OK
+2021/04/07-17:00:11.298 6665 Delete type=0 #42
+2021/04/07-17:00:11.298 6665 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/07-17:00:11.298 6665 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x1f\x01\x0e\x00m\x00y\x00.\x00h\x00f\x00u\x00t\x00.\x00e\x00d\x00u\x00.\x00c\x00n\x00\x03\x00\xe0O\xf7\xb8\x8awB' @ 18557 : 1
+2021/04/07-17:00:11.298 6665 Compacting 1@1 + 2@2 files
+2021/04/07-17:00:11.309 6665 Generated table #48@1: 813 keys, 27319 bytes
+2021/04/07-17:00:11.309 6665 Compacted 1@1 + 2@2 files => 27319 bytes
+2021/04/07-17:00:11.316 6665 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/07-17:00:11.316 6665 Delete type=2 #47
+2021/04/07-17:00:11.316 6665 Delete type=2 #45
+2021/04/07-17:00:11.316 6665 Delete type=2 #44
+2021/04/07-17:00:11.317 6665 Manual compaction at level-1 from '\x00\x01\x01\x1f\x01\x0e\x00m\x00y\x00.\x00h\x00f\x00u\x00t\x00.\x00e\x00d\x00u\x00.\x00c\x00n\x00\x03\x00\xe0O\xf7\xb8\x8awB' @ 18557 : 1 .. (end); will stop at (end)

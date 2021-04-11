@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorSession>
+<!-- Written by QtCreator 4.8.2, 2020-10-15T08:17:55. -->
+<qtcreator>
+ <data>
+  <variable>CascadeSetActive</variable>
+  <value type="bool">false</value>
+ </data>
+ <data>
+  <variable>Color</variable>
+  <value type="QString">#666666</value>
+ </data>
+ <data>
+  <variable>EditorSettings</variable>
+  <value type="QByteArray">AAAAD0VkaXRvck1hbmFnZXJWNAAAAAQAAABMAC8AaABvAG0AZQAvAGEAbABsAGUAbgAvAEMAbwBkAGUALwBxAHQAUAByAG8AagAvAGgAZQBsAGwAbwAvAG0AYQBpAG4ALgBjAHAAcAAAAAwAAAAAGAAAAAEAAAAAAAAAAAAAAAYAAAABAAAAAAAAAE4ALwBoAG8AbQBlAC8AYQBsAGwAZQBuAC8AQwBvAGQAZQAvAHEAdABQAHIAbwBqAC8AaABlAGwAbABvAC8AaABlAGwAbABvAC4AcAByAG8AAAAMAAAAABgAAAABAAAAEwAAAAAAAAABAAAAAQAAAAAAAABUAC8AaABvAG0AZQAvAGEAbABsAGUAbgAvAEMAbwBkAGUALwBxAHQAUAByAG8AagAvAGgAZQBsAGwAbwAvAGcAZQB0AG8AdQB0AGwAaQBuAGUALgBoAAAADAAAAAAYAAAAAQAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAWAAvAGgAbwBtAGUALwBhAGwAbABlAG4ALwBDAG8AZABlAC8AcQB0AFAAcgBvAGoALwBoAGUAbABsAG8ALwBnAGUAdABvAHUAdABsAGkAbgBlAC4AYwBwAHAAAAAMAAAAABgAAAABAAAAAAAAAAAAAAAHAAAAAQAAAAAAAAAEAAAAWAAvAGgAbwBtAGUALwBhAGwAbABlAG4ALwBDAG8AZABlAC8AcQB0AFAAcgBvAGoALwBoAGUAbABsAG8ALwBnAGUAdABvAHUAdABsAGkAbgBlAC4AYwBwAHAAAAAcAGcAZQB0AG8AdQB0AGwAaQBuAGUALgBjAHAAcAAAABNDcHBFZGl0b3IuQysrRWRpdG9yAAAAVAAvAGgAbwBtAGUALwBhAGwAbABlAG4ALwBDAG8AZABlAC8AcQB0AFAAcgBvAGoALwBoAGUAbABsAG8ALwBnAGUAdABvAHUAdABsAGkAbgBlAC4AaAAAABgAZwBlAHQAbwB1AHQAbABpAG4AZQAuAGgAAAATQ3BwRWRpdG9yLkMrK0VkaXRvcgAAAE4ALwBoAG8AbQBlAC8AYQBsAGwAZQBuAC8AQwBvAGQAZQAvAHEAdABQAHIAbwBqAC8AaABlAGwAbABvAC8AaABlAGwAbABvAC4AcAByAG8AAAASAGgAZQBsAGwAbwAuAHAAcgBvAAAAEVF0NC5wcm9GaWxlRWRpdG9yAAAATAAvAGgAbwBtAGUALwBhAGwAbABlAG4ALwBDAG8AZABlAC8AcQB0AFAAcgBvAGoALwBoAGUAbABsAG8ALwBtAGEAaQBuAC4AYwBwAHAAAAAQAG0AYQBpAG4ALgBjAHAAcAAAABNDcHBFZGl0b3IuQysrRWRpdG9yAAAAswAAAA1jdXJyZW50ZWRpdG9yAAAAWAAvAGgAbwBtAGUALwBhAGwAbABlAG4ALwBDAG8AZABlAC8AcQB0AFAAcgBvAGoALwBoAGUAbABsAG8ALwBnAGUAdABvAHUAdABsAGkAbgBlAC4AYwBwAHAAAAAmAEMAcABwAEUAZABpAHQAbwByAC4AQwArACsARQBkAGkAdABvAHIAAAAYAAAAAQAAAAAAAAAAAAAABwAAAAEAAAAAAAAAAA==</value>
+ </data>
+ <data>
+  <variable>ProjectDependencies</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>ProjectList</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">/home/allen/Code/qtProj/hello/hello.pro</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>StartupProject</variable>
+  <value type="QString">/home/allen/Code/qtProj/hello/hello.pro</value>
+ </data>
+ <data>
+  <variable>value-ActiveMode</variable>
+  <value type="QString">Edit</value>
+ </data>
+ <data>
+  <variable>value-Breakpoints</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>value-ProjectTree.ExpandData</variable>
+  <valuelist type="QVariantList">
+   <valuelist type="QVariantList">
+    <value type="QString">/home/allen/Code/qtProj/hello</value>
+    <value type="QString">Sources</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/home/allen/Code/qtProj/hello</value>
+    <value type="QString">Headers</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/home/allen/Code/qtProj/hello</value>
+    <value type="QString">hello</value>
+   </valuelist>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-TaskWindow.Categories</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">Task.Category.QmlAnalysis</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-TaskWindow.IncludeWarnings</variable>
+  <value type="bool">true</value>
+ </data>
+ <data>
+  <variable>valueKeys</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">ActiveMode</value>
+   <value type="QString">Breakpoints</value>
+   <value type="QString">ProjectTree.ExpandData</value>
+   <value type="QString">TaskWindow.Categories</value>
+   <value type="QString">TaskWindow.IncludeWarnings</value>
+  </valuelist>
+ </data>
+</qtcreator>

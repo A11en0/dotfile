@@ -13,7 +13,7 @@
 # is used in the bar {} block below.
 #font pango:monospace 16
 #font pango: Noto Sans Mono CJK
-font pango: Monaco
+font pango: Monaco 16
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -55,6 +55,7 @@ bindsym $mod+q exec qutebrowser
 
 # start the emacs 
 bindsym $mod+e exec emacsclient -c -n
+# bindsym $mod+e exec emacs
 
 # start the bluetooth
 ###bindsym $mod+Shift+b exec blueberry

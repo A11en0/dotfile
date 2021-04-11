@@ -1,0 +1,135 @@
+<application>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyArgumentListInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/bin/node" />
+    <local-interpreter path="/usr/bin/node" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontScale" value="1.0" />
+    <option name="fontSize" value="24" />
+  </component>
+  <component name="ProjectPluginTrackerManager">
+    <option name="trackers">
+      <map>
+        <entry key="1ek5uQFyGSRE0MiqFpOCJgXYCs2">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1hR0Z6Jnb9uwU32Ki9mDTUbejVa">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1imB1JXaBFLUShxlJTz0hKGrbnL">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1jfyueXugsplGwyNBsZ161uyYRV">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1loyp18sSQa7bE6k4fOEfa8L5fn">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1lyCIi0ORfV0jWVVL8O4kUA1BFG">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1qYl6sKKvzUjAg9qIN0e60ODGZi">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="Default (Template) Project">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.23992094" />
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.6025641" />
+    <property name="ExpandBeforeRunStepsPanel" value="false" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="FindSplitterProportion" value="0.0" />
+    <property name="NonModalCommitPromotionState" value="SHOWN" />
+    <property name="PACKAGE_FILTER" value="tensorboardx&#10;torchtext&#10;gensim&#10;numpy&#10;torch" />
+    <property name="PyCharm.InitialConfiguration" value="true" />
+    <property name="PyCharm.InitialConfiguration.V2" value="true" />
+    <property name="PyCharm.InitialConfiguration.V3" value="true" />
+    <property name="PyCharm.InitialConfiguration.V4" value="true" />
+    <property name="PyCharm.InitialConfiguration.V5" value="true" />
+    <property name="PyCharm.InitialConfiguration.V6" value="true" />
+    <property name="PyCharm.InitialConfiguration.V7" value="true" />
+    <property name="SHELLCHECK.PATH" value="$APPLICATION_PLUGINS_DIR$/Shell Script/shellcheck" />
+    <property name="SettingsSearchHistory" value="font" />
+    <property name="SplitFileEditor.Proportion" value="0.5680798" />
+    <property name="UITheme.relaunch" value="true" />
+    <property name="appcds.runOnSecondStart" value="PY-203.5981.165-c8c6375323964f982d641b0a89bbb025e439f53a0a227a4b2629e831524c50f6" />
+    <property name="dir.diff.panel.divider.location" value="634" />
+    <property name="dir.diff.space.button.info" value="3" />
+    <property name="disable.forced.soft.wraps.notification" value="true" />
+    <property name="evlsprt3.203" value="12" />
+    <property name="experimentalFeature.terminal.shell.command.handling" value="false" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/PycharmProjects/TextClassification&#10;/home/allen/PycharmProjects/leetcode&#10;/home/allen/PycharmProjects/Self-Attentive-and-Gated-SLU&#10;/home/allen/PycharmProjects/Main_model2_up&#10;/home/allen/PycharmProjects/cnn-text-classification-pytorch&#10;/home/allen/PycharmProjects/Bert-Chinese-Text-Classification-Pytorch&#10;/home/allen/PycharmProjects/Multiclass-classification-with-word-bags-and-word-strings&#10;/home/allen/PycharmProjects/WeSTClass&#10;/home/allen/PycharmProjects/HiGitClass&#10;/home/allen/PycharmProjects/Chinese-Text-Classification-Pytorch&#10;/home/allen/PycharmProjects/STCKA&#10;/home/allen/PycharmProjects/Text-classification" />
+    <property name="file.gist.reindex.count" value="100183" />
+    <property name="fileTypeChangedCounter" value="9" />
+    <property name="got.it.tooltip.reader.mode.got.it" value="1" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ide.updates.previous.build.number" value="PY-203.5981.165" />
+    <property name="large.file.editor.notification.disabled" value="true" />
+    <property name="lastSeenTip" value="neue-CtrlD.html" />
+    <property name="lastTimeTipsWereShown" value="1604818103590" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/TextClassification" />
+    <property name="seenTips" value="neue-CtrlD.html" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="4.0.3" />
+  </component>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="$USER_HOME$/.anaconda3/envs/Self-Attentive-and-Gated-SLU/bin/python" value="false" />
+        <entry key="$USER_HOME$/.anaconda3/envs/WeSTClass/bin/python" value="true" />
+        <entry key="$USER_HOME$/.anaconda3/envs/bert/bin/python" value="true" />
+        <entry key="$USER_HOME$/PycharmProjects/Self-Attentive-and-Gated-SLU/venv/bin/python" value="false" />
+        <entry key="sftp://wsco@114.213.208.99:1111/usr/bin/python" value="false" />
+      </map>
+    </option>
+    <option name="SDK_TO_NOSETEST">
+      <map>
+        <entry key="$USER_HOME$/.anaconda3/envs/bert/bin/python" value="true" />
+        <entry key="sftp://wsco@114.213.208.99:1111/usr/bin/python" value="false" />
+      </map>
+    </option>
+    <option name="SDK_TO_TRIALTEST">
+      <map>
+        <entry key="$USER_HOME$/.anaconda3/envs/bert/bin/python" value="false" />
+        <entry key="sftp://wsco@114.213.208.99:1111/usr/bin/python" value="false" />
+      </map>
+    </option>
+  </component>
+</application>

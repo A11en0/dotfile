@@ -105,4 +105,5 @@ application/wps-office.wpt=wps-office-prometheus.desktop
 application/wps-office.wpss=wps-office-prometheus.desktop
 application/wps-office.wpso=wps-office-prometheus.desktop
 application/wps-office.uot=wps-office-prometheus.desktop
+x-scheme-handler/mailto=google-chrome.desktop
 

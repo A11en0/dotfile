@@ -1,0 +1,15 @@
+2021/03/16-20:34:31.154 6bc1 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.linggle.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/16-20:34:31.154 6bc1 Recovering log #4
+2021/03/16-20:34:31.155 6bc1 Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_www.linggle.com_0.indexeddb.leveldb/000004.log 
+2021/03/16-20:36:25.566 67be Level-0 table #8: started
+2021/03/16-20:36:25.570 67be Level-0 table #8: 500 bytes OK
+2021/03/16-20:36:25.572 67be Delete type=0 #4
+2021/03/16-20:36:25.572 67be Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/16-20:36:25.572 67be Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0e\x00_\x00_\x00s\x00a\x00k\x006\x000\x002\x003\x005\x005\x000\x005\x006' @ 64 : 1
+2021/03/16-20:36:25.572 67be Compacting 1@1 + 1@2 files
+2021/03/16-20:36:25.574 67be Generated table #9@1: 18 keys, 551 bytes
+2021/03/16-20:36:25.575 67be Compacted 1@1 + 1@2 files => 551 bytes
+2021/03/16-20:36:25.577 67be compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/16-20:36:25.577 67be Delete type=2 #8
+2021/03/16-20:36:25.577 67be Delete type=2 #5
+2021/03/16-20:36:25.577 67be Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0e\x00_\x00_\x00s\x00a\x00k\x006\x000\x002\x003\x005\x005\x000\x005\x006' @ 64 : 1 .. (end); will stop at (end)

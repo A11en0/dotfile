@@ -1,0 +1,2000 @@
+ls
+cp google-chrome-stable_current_amd64.deb ~/
+ls
+cp -a texmf/ ~
+ls
+cd config_file/
+ls
+cd config
+ls
+cp -a ranger/ ~/.config
+ls
+cd ..
+ls
+cp -a  .tmux .tmux.conf ~/
+rm -rf ~/.tmux
+cp -a  .tmux ~/
+cd
+ls
+cd
+ls
+sudo apt install ranger
+ls
+sudo apt install nvidia-driver
+ls
+mv Downloads/Monaco.ttf ~/.fonts/
+fc-cache -f
+apt install i3status
+aptitude search i3status
+cd /media/allen/
+cd KINGSTON/
+ls
+rg
+ranger 
+reboot
+ls
+cd /media/allen/KINGSTON/
+ls
+cp emacs.zip thesis.zip ~/
+cd
+ls
+cd -
+ls
+ranger 
+ls
+cd 
+ls
+cd .config
+cd i3status/
+ls
+vi config 
+emacs
+ls
+cd .config/ranger/
+ls
+vi scope.sh 
+ls
+vi scope.sh 
+ls
+chmod +x scope.sh 
+ls
+cd .cask/
+ls
+cd ..
+ls
+l
+cd
+ls
+rm -rf .emacs.d
+unzip emacs.zip 
+ls
+cd .config/i3status/
+ls
+vi config 
+cd
+curl -fsSL https://raw.githubusercontent.com/cask/cask/master/go | python
+vi .bashrc 
+source .bashrc 
+cd .emacs.d/
+ls
+cask install
+curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
+docker
+v2ray
+ls
+chmod +x install-release.sh 
+./install-release.sh 
+sudo ./install-release.sh 
+service -user list
+service -user 
+service --user list
+service --user 
+service --status-all
+systemctl --user
+systemctl --user | grep emacs
+ls
+service status emacs
+service status xorg
+service xorg status
+service emacs status
+ls
+cd .config/systemd/user/
+ls
+vi emacs.service 
+ls
+cd 
+ls
+systemctl --user
+cd .config/systemd/user/
+ls
+cd 
+systemctl --user
+systemctl --user | grep tmux
+ls
+nvidia-settings 
+ls
+cd .config
+ls
+cd
+cd .config/
+ls
+cd i3status/
+ls
+vi config 
+ls
+cd 
+ls
+i3-msg 
+ls
+cd .config
+cd i3status/
+ls
+vi config 
+cd ..
+ls
+cd i3
+ls
+vi config
+ls
+cd 
+ls
+rg
+ranger 
+ls
+cd .config/systemd/user/
+ls
+cd 
+bash <(curl -L -s https://install.direct/go.sh)
+ls
+vi .config/i3status/
+cd .config
+sl
+ls
+mv i3status/ ~
+ls
+cd 
+cd dotfile/
+ls
+cd dot.config/
+ls
+cd 
+ls
+cd i3status/
+ls
+vi config 
+ls
+cd ..
+ls
+cp i3status/ .config
+cp - ai3status/ .config
+cp - a i3status/ .config
+cp -a i3status/ .config
+cd .config
+ls
+vi i3status/config 
+ls
+vi i3status/config 
+rm -rf i3status/
+ls
+cd i3
+ls
+vi config
+cd
+ls
+mv i3status/ .config
+cd .config/i3/
+ls
+vi config
+i3status 
+cd ..
+vi i3status/config 
+ls
+cd
+emacs
+reboot
+sudo apt-get install firmware-iwlwifi
+nmtui
+ls
+google-chrome --proxy-server="sock5://127.0.0.1:10808"
+man google-chrome-stable_current_amd64.deb 
+man chromium
+google-chrome --proxy-server="sock5://127.0.0.1:10808"
+man chromium
+google-chrome                 --proxy-server="socks5://foobar:66"
+google-chrome --proxy-server="socks5://127.0.0.1:10808"
+s
+ls
+cd dotfile/
+ls
+cd dot.config/
+ls
+cd systemd/
+ls
+cd user/
+ls
+cd default.target.wants/
+ls
+cd 
+ls
+systemctl --user | grep emacs
+systemctl --user 
+systemctl daemon-reload
+sudo systemctl daemon-reload
+systemctl --user 
+systemctl --user | grep emacs
+cd .config/systemd/user/
+ls
+systemctl tmux.service 
+sudo systemctl tmux.service 
+sudo systemctl enable tmux.service 
+ls
+cd basic.target.wants/
+ls
+cd ..
+cd default.target.wants/
+ls
+vi emacs.service 
+cd .
+cd ..
+s
+cd 
+ls
+vi .config/i3/config
+emacsclient -c -n
+systemctl enable --user emacs
+systemctl --user list
+systemctl --user 
+systemctl daemon-reload --user
+systemctl --user | grep emacs.zip 
+systemctl --user | grep emacs
+journalctl 
+journalctl -xe
+systemd-journal
+sudo journalctl -xe
+ls
+cd .config/systemd/user/
+ls
+rm -rf default.target.wants/*
+ls
+systemctl enable --user emacs
+systemctl enable --user tmux.service 
+cd timers.target.wants/
+ls
+cd ..
+ls
+cd sandbox/
+ls
+cd ..
+ls
+cd sandbox/
+ls
+vi notes.org 
+ls
+cd ..
+ls
+cd basic.target.wants/
+ls
+vi systemd-tmpfiles-setup.service 
+cd 
+ls
+cd .config/systemd/user/
+ls
+-
+ls
+cd
+aptitude search docker-nvidia
+aptitude search docker-
+aptitude search docker
+sudo aptitude search nvidia
+sudo aptitude search nvidia-smi
+sudo apt install nvidia-smi
+Install firmware-realtek
+aptitude search firmware-realtek
+sudo aptsearch firmware-realtek
+sudo apt install firmware-realtek
+curl https://get.docker.com | sh
+curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
+curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+sudo apt-get update
+sudo apt-get install -y nvidia-docker2
+sudo aptitude search -y nvidia-docker2
+sudo aptitude search nvidia-docker2
+sudo aptitude search nvidia-docker
+sudo aptitude search nvidia-
+nvidia-smi 
+sudo apt-get update
+sudo apt-get install -y nvidia-docker2
+sudo aptitude search nvidia
+sudo aptitude search nvidia docker
+sudo aptitude search nvidia-docker
+curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey |   sudo apt-key add -
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list |   sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+sudo apt-get update
+sudo aptitude search nvidia
+sudo aptitude search nvidia-docker
+sudo apt install nvidia-docker2
+which v2ray
+cd
+vi config.json
+ls
+v2ray 
+vi config.json 
+v2ray config.json 
+ls
+vi .xsession
+reboot
+cd
+proxychains git clone https://github.com/AIRobotZhang/STCKA.git
+vi /etc/proxychains.conf 
+sudo vi /etc/proxychains.conf 
+proxychains git clone https://github.com/AIRobotZhang/STCKA.git
+cd
+sudo vi /etc/docker/daemon.json 
+cd
+cd papers/
+ls
+nmtui
+ping 8.8.8.8
+ls
+cd
+ls
+sudo dpkg -i wps-office_11.1.0.9615_amd64.deb 
+s
+ls
+docker ps
+docker ps -
+docker ps -a
+sudo docker image
+docker run --runtime=nvidia --rm nvidia/cuda:9.0-base nvidia-smi
+sudo docker run --runtime=nvidia --rm nvidia/cuda:9.0-base nvidia-smi
+sudo docker pull ufoym/deepo:all-jupyter-py36-cu100
+cd
+docker ps
+sudo gpasswd -a ${USER} docker
+docker ps
+systemctl docker restart
+systemctl restart docker
+sudo systemctl restart docker
+docker ps
+sudo su
+docker ps
+ls
+cd
+docker
+sudo docker pull ufoym/deepo:all-jupyter-py36-cu100
+docker -ps
+docker -ps -a
+docker -ps 
+docker ps
+sudo su
+sudo aptitude search Remmina
+sudo apt install remmina
+remmina
+ssh username@host-ip -L 1234:127.0.0.1:7777
+ssh allen@localhost -L 1234:127.0.0.1:7777
+ssh root@localhost -L 1234:127.0.0.1:7777
+ssh root@localhost -L 1234:127.0.0.1:8888
+dock ps
+docker ps
+ssh root@localhost -L 1234:127.0.0.1:8888
+ls
+mv learning-notes.org share/
+ls
+cd Code/
+cd ..
+ls
+mv STCKA/ share/
+cp /media/allen/KINGSTON/glove.6B.300d.txt share/
+sudo apt-get install rdesktop
+rdesktop 
+rdesktop -f 192.168.1.112
+rdesktop -f 47.92.158.172
+rdesktop -f 47.92.158.172 -u Administrator -p 
+rdesktop -f 47.92.158.172 -u Administrator -p Zhuyi666
+ping 47.92.158.172
+rdesktop -f 47.92.158.172 -u Administrator -p Zhuyi666
+rdesktop 47.92.158.172 -u Administrator -p Zhuyi666
+cd /media/allen/KINGSTON/
+ls
+ls -la
+ls -lah
+tar zxvf ideaIU-2020.1.3.tar.gz 
+ls
+rm -rf idea-IU-201.8538.31/
+ls
+cp ideaIU-2020.1.3.tar.gz ~
+cd
+tar zxvf ideaIU-2020.1.3.tar.gz 
+ls
+rm -rf idea-IU-201.8538.31/
+rm -rf ideaIU-2020.1.3.tar.gz 
+ls
+tar zxvf pycharm-professional-2020.2.1.tar.gz 
+cd pycharm-
+cd pycharm-2020.2.1/
+ls
+cd bin/
+ls
+cd 
+ls
+mkdir Softwares
+mv pycharm-2020.2.1/ Softwares/
+cd Softwares/
+ls
+cd pycharm-2020.2.1/bin/
+ls
+pwd
+vi ~/.bashrc 
+ls
+cd 
+source .bashrc 
+pycharm.sh 
+sudo pycharm.sh 
+s
+cd /media/allen/KINGSTON/
+ls
+s
+ls
+cp 8-2原先版本.rar ~/
+ls
+cd
+ls
+tar zxvf jdk-8u192-linux-x64.tar.gz 
+ls
+mv jdk-8u192-linux-x64.tar.gz /usr/lib/jdk8
+sudo mv jdk-8u192-linux-x64.tar.gz /usr/lib/jdk8
+cd /usr/lib
+ls
+cd jvm/
+ls
+cd ..
+sudo mv jdk8 jvm/
+cd
+source .bashrc 
+java
+javac
+cd /usr/lib/jvm/
+ls
+cd jdk8 
+cd ..
+ls
+cd jvm/
+ls
+sudo rm -rf jdk8 
+ls
+cp -a ~/jdk1.8.0_192/ jdk8
+sudo cp -a ~/jdk1.8.0_192/ jdk8
+cd
+ls
+cd jdk1.8.0_192/
+ls
+cd ..
+lsn
+java
+javac
+javac -version
+ls
+cd 8-2原先版本
+ls
+cd Reservoir/
+ls
+cd resources/
+ls
+cd ..
+ls
+cd src/
+ls
+cd snippet/
+ls
+cd ..
+ls
+emacs
+emacs --debug-init
+vi ~/.config/i3/config
+vi /etc/bluetooth/main.conf 
+sudo vi /etc/bluetooth/main.conf 
+sudo systemctl restart bluetoo
+sudo systemctl restart bluetooth
+ls
+unrar x 8-2原先版本.rar 
+ls
+cd 8-2原先版本
+ls
+cd 
+ls
+cd Downloads/
+ls
+tar zxvf ideaIU-2020.2.1.tar.gz 
+cd idea-IU-202.6948.69/
+ls
+cd bin/
+ls
+./idea.sh 
+sudo ./idea.sh 
+cd
+cd Softwares/
+ls
+cd 
+mv Downloads/idea-IU-202.6948.69/ ~/Softwares/
+cd Softwares/
+cd idea-IU-202.6948.69/
+ls
+cd bin/
+ls
+./idea.sh 
+blueman-manager 
+cd share/
+ls
+cd STCKA/
+ls
+vi main.py 
+systemctl --user emacs restart
+systemctl --user restart emacs
+ls
+sudo apt install flameshot
+apt install blueman
+sudo apt install blueman
+blueman-manager 
+killall blueman
+killall blueman-manager
+blueman-manager 
+service bluetooth status
+blueman-
+blueman-manager 
+service bluetooth status
+service bluetooth restart
+sudo service bluetooth restart
+blueman-manager 
+docker run --runtime=nvidia --rm nvidia/cuda:9.0-base nvidia-smi
+history | grep docker
+sudo docker pull ufoym/deepo:all-jupyter-py36-cu100
+python
+python3
+ssh root@localhost -L 1234:127.0.0.1:8888
+docker -ps
+docker ps
+docker attch 83bf5965a089
+docker attach 83bf5965a089
+ssh username@host-ip -L 1234:127.0.0.1:7777
+ssh username@host-ip -L 1234:127.0.0.1:8888
+ssh root@localhost -L 1234:127.0.0.1:8888
+cd
+rg
+ranger 
+sudo apt insatll fzf
+sudo apt install fzf
+sudo apt insatll fzf
+ranger 
+vi .config/i3/config
+ls
+sudo su
+ls
+docker ps
+sudo docker pull ufoym/deepo:all-jupyter-py36-cu100
+docker ps
+docker ps -a
+docker images
+sudo nvidia-docker run -it -p 7777:8888 --ipc=host -v /home/shcd/Documents/gby:/gby --name gby-notebook  90be7604e476
+sudo nvidia-docker run -it -p 7777:8888 --ipc=host -v /home/shcd/Documents/gby:/gby --name gby-notebook cf60a305ba7b
+mkdir share
+sudo nvidia-docker run -it -p 8888:8888 --ipc=host -v /home/allen/share:/data --name my-notebook cf60a305ba7b
+docker run --help
+docker ps
+docker ps -a
+docker attach cf60a305ba7b
+docker attach 83bf5965a089
+docker run --help
+sudo nvidia-docker run -it -p 8888:8888 --ipc=host -v /home/allen/share:/data --name my-notebook cf60a305ba7b
+docker -a
+docker -ps 
+docker ps 
+docker ps -a
+docker attach my-notebook/83bf5965a089
+docker ps -a
+docker attach 83bf5965a089
+docker start 83bf5965a089
+docker attach 83bf5965a089
+docker start 83bf5965a089
+docker attach 83bf5965a089
+cd /media/allen/KINGSTON/
+ls
+cd
+vi .latexmkrc 
+sudo apt install latexmk
+vi .bashrc 
+vi .bash_aliases 
+source .bashrc 
+rg
+q
+cp -a /media/allen/KINGSTON/org/ .
+cd org/
+ls
+cd ref/
+s
+ls
+cd 
+ranger 
+cd /media/allen/KINGSTON/
+ls
+ranger 
+cd
+sudo vi /etc/apt/sources.list
+sudo apt update 
+wget https://www.virtualbox.org/download/oracle_vbox_2016.asc
+sudo apt-key add oracle_vbox_2016.asc
+sudo apt update 
+sudo apt-get install virtualbox-6.1
+virtualbox
+fc-list | grep Sauce
+fc-list | grep Source
+fc-cache -l | grep Sauce
+fc-cache | grep Sauce
+fc-cache 
+fc-list | grep Sauce
+fc-list | grep Code
+fc-list 
+fc-list | grep S
+fc-list | grep San
+fc-list | grep Sau
+fc-list | grep Sa
+fc-list | grep Sour
+fc-list | grep Source
+aptitude search Source
+aptitude search Source-code
+aptitude search Source code
+aptitude search Source code pro
+aptitude search "Source code pro"
+aptitude search "Source-Code
+aptitude search "Source-Code"
+aptitude search "Source"
+aptitude search "Saurce"
+aptitude search "Sauce"
+aptitude search "Code"
+aptitude search "pro"
+aptitude search "Pro"
+aptitude search "Code-Pro"
+ls
+cd .fonts/
+ls
+mkdir Saurce-code-pro
+mv ~/Downloads/SourceCodePro-* Saurce-code-pro/
+cd 
+fc-cache -l
+fc-cache -f
+emacs
+systemctl --user emacs restart
+systemctl --user restart emacs
+ls
+cd Downloads/
+ls
+vi iris-tensorflow.py 
+pwd
+ls
+ls -a
+ls -la
+ls
+cd
+cd -
+rg
+cd 
+ls
+cd Downloads/
+ls
+mkdir mnist
+ls
+mv *ubyte* mnist/
+ls
+mv mnist/ ~/share/
+cd
+cd share/
+ls
+cd
+ls
+mv Downloads/mnist.npz share/
+s
+mkdir .pip
+vi .pip/pip.conf
+vi .condarc 
+ls
+vi .config/i3/config
+cd /media/allen/KINGSTON/
+ls
+cd config_file/
+ls
+vi .bashrc 
+vi .xinitrc 
+ls
+ls -la
+vi .fehbg 
+ls
+ls -al
+cd 
+vi .config/i3/config
+ls
+mkdir .wallpapers
+proxychains git clone https://github.com/theniceboy/wallpapers.git
+rm -rf .wallpapers/
+mv wallpapers/ .wallpapers/
+ls
+mv Quotefancy-2009734-3840x2160.jpg.crdownload .wallpapers/
+cd .wallpapers/
+ls
+cd 
+ls
+vi .config/i3/config
+ls
+mv *.jpg .wallpapers/
+killall rdesktop 
+ls
+cd .wallpapers/
+ls
+rg
+cd
+ls
+mv attention-networks-for-classification/ share/
+cd share/attention-networks-for-classification/
+ls
+rg
+nvidia-smi 
+nvidia-settings --v
+cd
+ls
+cd Code/
+cd python/
+ls
+cd 
+cd Code/python/
+ls
+cp Twitter-LSTM-GPU.ipynb ~/share/
+cd
+conda activate nlpj
+conda activate nlp
+conda install pytorch torchvision cudatoolkit=9.2 -c pytorch
+dict
+dict composed
+dmesg -l err
+sudo dmesg -l err
+proxychains git clone https://github.com/EdGENetworks/attention-networks-for-classification.git
+docker attach 83bf5965a089
+docker images
+docker ps -a
+docker start 83bf5965a089
+docker attatch 83bf5965a089
+docker attach 83bf5965a089
+vi .condarc 
+conda activate nlp
+conda list
+nvidia-settings -v
+cuda 
+apt install nvidia-cuda-dev nvidia-cuda-toolkit
+sudo apt install nvidia-cuda-dev nvidia-cuda-toolkit
+ls
+conda list
+pip list
+pip list | grep torch
+python
+ls
+cp tweets-original.rar ~/share/
+cd ~/share/
+ls
+unrar tweets-original.rar 
+unrar x tweets-original.rar 
+ls
+cd tweets-original
+ls
+cd 
+conda activate nlp
+pip install matplotlib
+cd /media/allen/KINGSTON/
+rg
+cd ..
+ls
+cd attention-networks-for-classification/
+ls
+emacs
+ls
+mv ../attention_model_validation_experiments.ipynb .
+cd 
+cd Downloads/
+ls
+sudo dpkg -i netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb 
+proxychains git clone https://github.com/EdGENetworks/anuvada.git
+cd anuvada/
+ls
+pwd
+sudo aptitude search netease
+sudo aptitude search neteasy
+conda create -n nlp2 python==2.7
+conda create -n nlp2 python=2.7
+conda activate nlp3
+conda activate nlp2
+jupyter-notebook 
+ls
+cd ..
+cd attention-networks-for-classification/
+jupyter-notebook 
+pip list
+python -m ipykernel install --user --name your_env_name --display-name your_env_name 
+pip install ipykernel
+jupyter-notebook 
+ls
+conda list
+conda activate nl
+conda activate nlp
+conda list
+pip list
+conda list | grep torch
+conda install pytorch torchvision cudatoolkit=9.2 -c pytorch
+jupyter-notebook 
+python -m ipykernel install --user --name nlp --display-name nlp
+pip install jpykernel
+pip install pykernel
+pip install ipykernel
+python -m ipykernel install --user --name nlp --display-name nlp
+jupyter-notebook 
+ls
+conda list | grep torch
+(nlp) ~$ 
+pip install torch==1.6.0+cu92 torchvision==0.7.0+cu92 -f https://download.pytorch.org/whl/torch_stable.html
+pip install gensim
+sudo aptitude search zatero
+sudo aptitude search zotero
+cd share/
+jupyter-notebook 
+pip list
+pip install pandas
+pip list
+pip install numpy
+pip install gensim
+jupyter-notebook 
+cp BERT_\ Pre-training\ of\ Deep\ Bidirectional\ Transformers\ forLanguage\ Understanding.pdf 16HLT-hierarchical-attention-networks.pdf /media/allen/KINGSTON/
+lpstat
+nmtui
+sudo apt install nginx
+ls
+cd Documents/
+ls
+cd Thesis-read/
+rg
+ls
+cd share/
+ls
+cd attention
+cd attention-networks-for-classification/
+ls
+cd dataset
+ls
+cd ..
+cd
+rg
+conda activate nlp2
+conda list | grep sklearn
+conda list | grep sk
+conda install sklearn
+conda install scikit-learn
+python
+nmtui
+ip a
+nmtui
+ip a
+ping 192.168.223.115
+nmtui
+ls
+cd data/
+ls
+unzip cornell_movie_dialogs_corpus.zip 
+ls
+java Receiver
+ls
+ip a
+java SendScreen
+ls
+javac Receiver.java 
+ls
+s
+ls
+rm -rf *.class
+ls
+cd out/
+ls
+cd ..
+ls
+cd ..
+ls
+cd Code/
+ls
+cd Java/
+ls
+cd ..
+cd Screencast/
+ls
+cd src/r
+cd src/
+ls
+cd ..
+ls
+vi README.md 
+rm -rf *
+mv ~/screen/* .
+ls
+vi Receiver.java 
+ls
+rg
+ls
+rm -rf README.tex 
+rm -rf README.pdf 
+rm -rf README.bbl 
+git add .
+git commit -m "make some fixs"
+git push
+ls
+git config --global user.name  "XXX"
+git config --global user.name "a11en0"
+git config --global user.email "g352415441@gmail.com"
+vi ~/.gitconfig 
+git push
+ls
+vi .git/config 
+ls
+git push
+ssh-keygen 
+ssh -T git@github.com 
+cd
+mv test.org config.json
+killall rdesktop 
+killall v2ray
+v2ray
+v2ray &
+conda install tqdm
+conda install torchtext
+pip install torchtext
+$ python main.py --epoch 100 --lr 2e-4 --train_data_path dataset/tagmynews.tsv --txt_embedding_path dataset/glove.6B.300d.txt  --cpt_embedding_path dataset/glove.6B.300d.txt  --embedding_dim 300 --train_batch_size 128 --hidden_size 64
+python main.py --epoch 100 --lr 2e-4 --train_data_path dataset/tagmynews.tsv --txt_embedding_path dataset/glove.6B.300d.txt  --cpt_embedding_path dataset/glove.6B.300d.txt  --embedding_dim 300 --train_batch_size 128 --hidden_size 64
+ls
+python main.py --epoch 100 --lr 2e-4 --train_data_path dataset/tagmynews.tsv --txt_embedding_path dataset/glove.6B.300d.txt  --cpt_embedding_path dataset/glove.6B.300d.txt  --embedding_dim 300 --train_batch_size 128 --hidden_size 64
+ip a
+ls
+ls
+cd bin/
+ls
+./idea.sh 
+cd
+vi .ssh/id_rsa.pub 
+cd Code/Screencast/
+ls
+git push
+ls
+vi README.org 
+git add .
+git commit -m "change README.org"
+git push
+vi README.org 
+git add .
+git commit -m "change README.org"
+git push
+cd
+ls
+ip a
+nmtui
+ip a
+systemctl --user restart emacs
+ls
+cd gtd/
+ls
+xpdf notes.pdf 
+ls
+rm -rf notes.pdf 
+rm -rf notes.tex 
+cd
+ls
+cd Code/
+ls
+cd 
+cd dotfile/
+ls
+git add. 
+git add .
+git commit -m "add some configs"
+git push
+cd
+ls
+cd share/STCKA/
+ls
+ls -la
+chmod 755 results/
+sudo chmod -R 755 results/
+ls -ls
+sudo chmod -R 777 results/
+nvidia-smi 
+watch nvidia-smi 
+python
+conda activate nlp2
+python
+cd
+mkdir /opt/seafile
+sudo mkdir /opt/seafile
+cd Downloads/
+ls
+sudo mv seafile-server_7.1.4_x86-64.tar.gz /opt/seafile/
+cd /opt/seafile/
+ls
+tar -xzf seafile-server_7.1.4_x86-64.tar.gz 
+sudo tar -xzf seafile-server_7.1.4_x86-64.tar.gz 
+ls
+cd seafile-server
+cd seafile-server-7.1.4/
+ls
+cd ..
+ls
+sudo su
+pip3 install --timeout=3600 Pillow pylibmc captcha jinja2 sqlalchemy psd-tools \
+pip3 install --timeout=3600 Pillow pylibmc captcha jinja2 sqlalchemy psd-tools     django-pylibmc django-simple-captcha
+pip3 install --user --upgrade pip
+pip3 install scikit-image
+pip3 install --timeout=3600 Pillow pylibmc captcha jinja2 sqlalchemy psd-tools     django-pylibmc django-simple-captcha
+cd seafile-server-7.1.4/
+ls
+./setup-seafile-mysql.sh 
+sudo ./setup-seafile-mysql.sh 
+ls
+cd share/
+ls
+cd attention-networks-for-classification/
+ls
+tar zxvf imdb_
+tar zxvf imdb_final.tar.gz 
+ls
+mv imdb_final.json dataset
+ls
+cd dataset
+ls
+cd ..
+ls
+cd anuvada/
+ls
+cd examples/
+ls
+cp attention_classfier_example_notebook.ipynb ../
+umount /dev/sdb
+umount /dev/sdb1
+umount /dev/sdb
+umount /dev/sdb1
+mkfs.vfat -l /dev/sdb
+mkfs.vfat -i /dev/sdb
+fdisk -l
+sudo fdisk -l
+mkfs.vfat -i /dev/sdb
+mkfs.vfat -i /dev/sdb1
+mkfs.vfat -l /dev/sdb1
+mkfs.vfat -l /dev/sdb
+sudo fdisk -l
+mkfs.vfat -l /dev/sdb
+sudo fdisk -l
+mkfs.vfat -l /dev/sdb
+mkfs -t ext3 /dev/sdb
+sudo mkfs -t ext3 /dev/sdb
+sync
+sudo fdisk -l
+sudo mkfs.vfat /dev/sdb1
+cd 
+cd Code/
+ls
+cd Java/
+ls
+java InsertSort.java 
+ls
+java InsertSort.java 
+java -cp . InsertSort.java 
+java InsertSort.java 
+ls
+vi LongSubStr.java 
+java InsertSort.java 
+vi LongSubStr.java 
+java InsertSort.java 
+Javac InsertSort.java 
+javac --version
+cd /usr/local/
+ls
+cd share/
+ls
+cd 
+java -v
+java -versin
+java -version
+vi .bashrc
+cd /media/allen/KINGSTON/
+ls
+cd config_file/
+ls
+vi .bashrc 
+ls
+cd /usr/lib/jvm/
+ls
+cd jdk8/
+ls
+javac
+cd
+vi .bashrc
+javac
+cd Code/Java/
+javac InsertSort.java 
+java InsertSort.
+java InsertSort
+java InsertSort.
+javac InsertSort.java 
+java InsertSort.
+java InsertSort
+java InsertSort.
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+javac InsertSort.java 
+java InsertSort
+htop
+sudo apt install htop
+htop
+cd
+cd share/
+ls
+cd mnist
+ls
+cd ..
+ls
+cp mnist.npz ~/PycharmProjects/NLP/
+ls
+cp mnist ~/PycharmProjects/NLP/
+cp -a mnist ~/PycharmProjects/NLP/
+cd 
+cd Documents/
+ls
+cd Thesis-read/
+ls
+cd org/
+ls
+cd 
+cd Documents/
+ls
+cd Thesis-read/
+ls
+cd org/
+ls
+zathura lastweek.pdf 
+ls
+mv lastweek.pdf 葛宇航-汇报-2020-09-11.pdf
+cd Code
+ls
+cd 
+cd Code/
+ls
+cd Java/
+ls
+cd ..
+lsc
+ls
+cd Screencast/
+ls
+cd src/
+ls
+cd com/
+ls
+cd company/
+ls
+cd
+ls
+cd -
+ls
+javac Receiver.java 
+java Receiver
+ls
+javac SendScreen.java 
+ls
+cp SendScreen.java Receiver.java ~/
+cd
+ls
+mkdir screen
+mv *.java screen/
+cd screen/
+ls
+javac SendScreen.java 
+vi SendScreen
+vi SendScreen.java 
+ls
+javac SendScreen
+javac SendScreen.java 
+javac SendScreen.java -Xlint:deprecation
+javac SendScreen.java 
+java SendScreen
+ls
+javac SendScreen
+javac SendScreen.java 
+ls
+javac Receiver.java 
+java Receiver
+ls
+vi Receiver.
+vi Receiver.java 
+ls
+java Receiver
+java Receiver.java 
+vi Receiver.java 
+javac Receiver.java 
+java Receiver
+java SendScreen
+vi SendScreen
+vi SendScreen.java 
+ls
+vi Receiver.java 
+javac Receiver.java 
+java Receiver
+javac Receiver.java 
+java Receiver
+javac Receiver.java 
+cd
+rg
+ls
+ip a
+vi .condarc 
+conda activate nlp2
+pip install ipykernel
+conda list
+conda install ipykernel
+python -m ipykernel install --user --name your_env_name --display-name your_env_name 
+python -m ipykernel install --user --name nlp2 --display-name nlp2
+python
+python -m ipykernel install --user --name nlp2 --display-name nlp2
+sudo apt install python-backports.functools-lru-cache
+python -m ipykernel install --user --name nlp2 --display-name nlp2
+sudo apt install python-backports.functools-lru-cache
+sudo apt upgrade
+python -m ipykernel install --user --name nlp2 --display-name nlp2
+pip uninstall backports.functools_lru_cache
+pip install backports.functools_lru_cache
+python -m ipykernel install --user --name nlp2 --display-name nlp2
+jupyter-notebook 
+pip install torch==1.6.0+cu92 torchvision==0.7.0+cu92 -f https://download.pytorch.org/whl/torch_stable.html
+conda install pytorch torchvision cudatoolkit=9.2 -c pytorch
+jupyter-notebook 
+conda install numpy matplotlib
+jupyter-notebook 
+conda install numpy pandas
+jupyter-notebook 
+conda list
+conda list | grep torch
+conda install pytorch torchvision cudatoolkit=9.2 -c pytorch
+conda list | grep torch
+jupyter-notebook 
+nmtui
+dhclient -k
+sudo dhclient -k
+sudo dhclient -r
+ip a
+jupyter-notebook 
+ls
+sudo apt install neofetch
+neofetch 
+ls
+rg
+ls
+vi seafile-server-7.1-ubuntu-amd64-http 
+cd /etc/nginx/
+ls
+cd sites-available/
+ls
+vi seafile.conf 
+ls
+sudo rm -rf seafile.conf 
+cd ..
+ls
+cd sites-enabled/
+ls
+sudo rm -rf seafile.conf 
+ls
+cd 
+ls
+./
+cd Downloads/
+ls
+cd ..
+ls
+cd Downloads/
+ls
+./hplip-3.20.6.run 
+pip search python3-pyqt4
+./hplip-3.20.6.run 
+pip search python3-pyqt4
+pip install python3-pyqt4
+pip search python3-pyqt4
+sudo aptitude search python3-pyqt4
+sudo apt install python3-pyqt4
+sudo apt install python3-dbus
+./hplip-3.20.6.run 
+sudo apt search python3-pyqt4
+sudo aptitude search python3-pyqt4
+sudo apt search python3-pyqt4
+sudo apt search python3-dbus
+ls
+sudo dhclient -r
+sudo dhclient -k
+sudo dhclient 
+sudo dhclient -k
+sudo dhclient -s
+sudo dhclient -r
+ip a
+ping 8.8.8.8
+sudo dhclient
+ping 8.8.8.8
+nmtui
+ls
+nmtui
+ip a
+nmtui
+dhclient
+dhclient -r
+sudo dhclient 
+ping 8.8.8.8
+ip a
+cd /usr/share/ppd/
+ls
+cd hplip/
+ls
+cd HP/
+ls
+sudo rm -rf *
+ls
+cd
+cd Code/
+ls
+git clone https://github.com/andreafrancia/trash-cli.git
+cd trash-cli
+sudo python setup.py install
+trash-list 
+ls
+cd 
+ls
+mkdir 第二周工作报告
+mv lastweek.tex 第二周工作报告.tex
+mv lastweek.org 第二周工作报告.org
+mv lastweek.pdf 第二周工作报告.pdf
+ls
+mv 葛宇航-汇报-2020-09-11.pdf 第二周工作报告.pdf
+ls
+mv 第二周工作报告* 第二周工作报告
+ls
+mv *.png 第二周工作报告/
+ls
+qiv exp3.jpg 
+mv exp3.jpg 第二周工作报告/
+ls
+vi Distributed\ Representations\ of\ Sentences\ and\ Documents.org 
+ls
+rm -rf lastweek.bbl 
+ls
+cd
+cd gtd/
+ls
+rg
+cd 
+cd .config/ranger/
+ls
+vi scope.sh 
+ls
+vi rc.conf 
+cd 
+cd .config/ranger/
+ls
+vi rc.conf 
+adb shell
+ls
+cd
+adb shell
+ls
+wps 20190625-计算机科学与技术-学术型硕士研究生培养方案.docx 
+cd
+wget http://127.0.0.1/lib/f5d90316-2e1f-4fea-b93f-9b50cfad72a0/file/20160952004-%E8%91%9B%E5%AE%87%E8%88%AA-%E5%A4%A7%E6%95%B0%E6%8D%AE%E4%B8%8E%E6%99%BA%E8%83%BD%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2-%E9%9D%A2%E5%90%91%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE%E7%9A%84%E4%B8%BB%E9%A2%98%E8%B7%9F%E8%B8%AA%E7%AE%97%E6%B3%95%E4%B8%8E%E7%B3%BB%E7%BB%9F%E5%AE%9E%E7%8E%B0.pdf?dl=1
+ls
+rg
+wget http://127.0.0.1/lib/f5d90316-2e1f-4fea-b93f-9b50cfad72a0/file/20160952004-%E8%91%9B%E5%AE%87%E8%88%AA-%E5%A4%A7%E6%95%B0%E6%8D%AE%E4%B8%8E%E6%99%BA%E8%83%BD%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2-%E9%9D%A2%E5%90%91%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE%E7%9A%84%E4%B8%BB%E9%A2%98%E8%B7%9F%E8%B8%AA%E7%AE%97%E6%B3%95%E4%B8%8E%E7%B3%BB%E7%BB%9F%E5%AE%9E%E7%8E%B0.pdf?dl=1
+ip a
+emacs
+killall v2ray
+v2ray &
+ls
+cd 
+cd /opt/seafile/
+ls
+mv seafile-server-7.0.5/ seafile-server-latest
+cd seafile-server-latest/
+ls
+cd ..
+ls
+cd seafile-server-latest
+ls
+cd
+cd -
+ls'
+ls
+cd
+cd flarum/
+pwd
+vi .nginx.conf
+pwd
+vi .nginx.conf
+ls
+cd Documents/
+ls
+cd Thesis-read/
+ls
+cd pdf/
+ls
+cd Reading/
+ls
+zathura BERT\:\ Pre-training\ of\ Deep\ Bidirectional\ Transformers\ forLanguage\ Understanding.pdf 
+rg
+cd
+cd /etc/nginx/conf.d/
+ls
+cd ..
+ls
+cd sites-available/
+ls
+sudo su
+cd
+sudo vi /usr/share/nginx/html/
+sudo cd /usr/share/nginx/html/
+cd /usr/share/nginx/html/
+ls
+vi phpinfo.php
+sudo vi phpinfo.php
+service nginx restart
+sudo service nginx restart
+ls
+sudo service nginx restart
+ls
+vi index.html 
+pwd
+ls
+sudo chown -R www-data /usr/share/nginx/html
+cd 
+cd /etc/nginx/conf.d/
+ls
+vi default.conf 
+sudo vi default.conf 
+sudo service nginx restart
+ls
+vi default.conf 
+sudo vi default.conf 
+sudo service nginx restart
+journalctl -xe
+sudo journalctl -xe
+!
+ls
+vi default.conf 
+sudo service nginx restart
+journalctl -xe
+sudo journalctl -xe
+ls
+sudo journalctl -xe
+ls
+vi default.conf 
+ls
+vi default.conf 
+sudo vi default.conf 
+ls
+cp default.conf ~/
+sudo vi default.conf 
+sudo service nginx restart
+sudo vi default.conf 
+sudo service nginx restart
+sudo vi default.conf 
+sudo service nginx restart
+sudo vi default.conf 
+sudo service nginx restart
+sudo vi default.conf 
+sudo service nginx restart
+cd 
+cd -
+ls
+vi default.conf 
+sudo vi default.conf 
+sudo service nginx restart
+sudo vi default.conf 
+sudo service nginx restart
+sudo vi default.conf 
+nginx t
+nginx -t
+sudo nginx -t
+sudo nginx -s reload
+sudo vi default.conf 
+ls
+rm -rf default.conf 
+sudo rm -rf default.conf 
+cp ~/default.conf .
+sudo cp ~/default.conf .
+vi default.conf 
+sudo vi default.conf 
+sudo nginx -s reload
+sudo vi default.conf 
+sudo nginx -s reload
+sudo vi default.conf 
+sudo nginx -s reload
+ls
+sudo nginx -s reload
+sudo service nginx restart
+sudo vi default.conf 
+sudo nginx -s reload
+sudo vi default.conf 
+sudo nginx -s reload
+sudo vi default.conf 
+sudo nginx -s reload
+sudo vi default.conf 
+sudo nginx -s reload
+sudo vi default.conf 
+sudo nginx -s reload
+ls
+vi default.conf 
+sudo vi default.conf 
+vi default.conf 
+sudo nginx -s reload
+vi default.conf 
+sudo vi default.conf 
+sudo nginx -s reload
+sudo service nginx restart
+sudo vi default.conf 
+sudo nginx -s reload
+sudo service nginx restart
+ls
+sudo rm -rf default.conf 
+cp ~/default.conf .
+sudo cp ~/default.conf .
+sudo nginx -s reload
+vi default.conf 
+sudo vi default.conf 
+sudo nginx -s reload
+sudo vi default.conf 
+sudo nginx -s reload
+sudo vi default.conf 
+sudo service nginx restart
+sudo vi default.conf 
+sudo service nginx restart
+sudo nginx -s reload
+sudo vi default.conf 
+sudo nginx -s reload
+sudo vi default.conf 
+sudo nginx -s reload
+sudo service nginx restart
+sudo nginx -s reload
+sudo vi default.conf 
+sudo nginx -s reload
+sudo service nginx restart
+sudo vi default.conf 
+sudo service nginx restart
+sudo vi default.conf 
+sudo nginx -s reload
+sudo service nginx restart
+sudo nginx -s reload
+nginx -t
+sudo nginx -t
+ls
+cp ~/flarum.conf .
+sudo cp ~/flarum.conf .
+sudo service nginx restart
+nginx -t
+sudo nginx -t
+ls
+vi flarum.conf 
+sudo vi flarum.conf 
+sudo service nginx restart
+sudo vi flarum.conf 
+sudo service nginx restart
+sudo nginx -s reload
+sudo sudo nginx -s reload
+sudo nginx -s reload
+vi flarum.conf 
+ls /usr/share/nginx/flarum/public/
+vi flarum.conf 
+sudo vi flarum.conf 
+sudo nginx -s reload
+sudo vi flarum.conf 
+ls
+vi default.conf 
+sudo vi flarum.conf 
+sudo nginx -s reload
+sudo vi flarum.conf 
+sudo nginx -s reload
+sudo vi flarum.conf 
+sudo nginx -s reload
+sudo vi flarum.conf 
+sudo nginx -s reload
+sudo vi flarum.conf 
+sudo nginx -s reload
+mysql -uroot -p
+cd /etc/php/7.4/
+ls
+cd fpm/p
+cd fpm/
+ls
+systemctl status php7.4-fpm nginx
+cd /opt/seafile/
+l
+ls
+cd ccnet/
+ls
+cd ccnet/
+ls
+cd seafile-server-7.0.5/
+ls
+cd seafile
+ls
+cd ..
+ls
+sudo su
+cd
+cd /opt/seafile/seafile-server-latest
+ls
+cd ..
+ls
+cd conf/
+sudo su
+cd
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+sudo aptitude search php
+sudo sudo aptitude search php
+sudo apt-get install php5-common libapache2-mod-php5 php5-cli
+sudo apt -y install lsb-release apt-transport-https ca-certificates 
+sudo wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
+echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/php.list
+sudo apt update
+sudo apt -y install php7.4
+sudo systemctl disable --now apache2
+sudo apt-get install nginx php7.4-fpm
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === '795f976fe0ebd8b75f26a6dd68f78fd3453ce79f32ecb33e7fd087d39bfeb978342fb73ac986cd4f54edd0dc902601dc') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+composer create-project flarum/flarum . --stability=beta
+upt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "if (hash_file('sha384', 'composer-setup.php') === '795f976fe0ebd8b75f26a6dd68f78fd3453ce79f32ecb33e7fd087d39bfeb978342fb73ac986cd4f54edd0dc902601dc') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === '795f976fe0ebd8b75f26a6dd68f78fd3453ce79f32ecb33e7fd087d39bfeb978342fb73ac986cd4f54edd0dc902601dc') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+mv composer.phar /usr/local/bin/composer
+sudo mv composer.phar /usr/local/bin/composer
+composer create-project flarum/flarum . --stability=beta
+mkdir flarum
+cd flarum/
+composer create-project flarum/flarum . --stability=beta
+nmtui
+ls
+rg
+ls
+cd ..
+cd flarum/
+ls
+tree
+vi .nginx.conf 
+cd
+dict granularity
+dict holistically
+dict holistical
+dict holistic
+dict objective
+rg
+sudo apt install nmap
+nmap
+nmap -V 127.0.0.1
+nmap -v 127.0.0.1
+man nmap
+nmap -sS -O scanme.nmap.org/24
+nmap -sS -O 127.0.0.1/24
+sudo nmap -sS -O 127.0.0.1/24
+source .bashrc
+ls
+rg
+LS
+cd 
+cd Code/
+ls
+proxychains git clone https://github.com/alison-carrera/onn.git
+ip a
+cd /usr/local/
+ls
+nvcc --version
+nvidia-smi 
+cuda
+whereis cuda
+cat /usr/lib/cuda/version.txt 
+cat /usr/lib/cuda/include/
+cd /usr/lib/cuda/include/
+ls
+cd ..
+ls
+cd bin/
+ls
+cd ..
+cd nvvm/
+ls
+cd 
+cd /usr/lib/cuda/
+ls
+cd bin/
+ls
+ls -la
+sudo su
+cd
+mv .pip/ share/
+cp -a share/.pip/ .
+pip uninstall tensorflow-gpu
+pip install tensorflow-gpu==1.10.0
+ls
+conda activate nlp
+conda install onn
+pip install onn
+cd Code/python/
+ls
+python onn.py 
+pip install onn
+python onn.py 
+mv o
+mv onn.py onn_warmup.py 
+python onn_warmup.py 
+vi onn_warmup.py 
+python onn_warmup.py 
+vi onn_warmup.py 
+python onn_warmup.py 
+vi onn_warmup.py 
+python onn_warmup.py 
+pip install joblib
+pwd
+cd 
+rg
+jupyter-notebook 
+jupyter notebook --generate-config
+vi .jupyter/jupyter_notebook_config.py 
+jupyter-notebook 
+jupyter-notebook echo "c.NotebookApp.ip = '0.0.0.0'" >> ~/.jupyter/jupyter_notebook_config.py
+echo "c.NotebookApp.ip = '0.0.0.0'" >> ~/.jupyter/jupyter_notebook_config.py
+jupyter-notebook 
+nmtui
+ls
+mv Downloads/higgs.npz ~/Code/
+jupyter-notebook 
+cd Code/
+ls
+jupyter-notebook 
+ls
+cp -a MRPC/ BERT-Classification-Tutorial/
+cp -a BERT-Classification-Tutorial/ ~/share/
+docker ps
+docker ps -a
+docker images
+sudo nvidia-docker run -it -p 7777:8888 --ipc=host -v /home/shcd/Documents/gby:/gby --name gby-notebook  90be7604e476
+docker images
+sudo nvidia-docker run -it -p 7777:8888 --ipc=host -v /home/allen/share:/data --name tensorflow1.x-notebook cf60a305ba7b
+ls
+cd Downloads/
+ls
+cd
+conda activate nlp
+cd Code/
+ls
+cd BERT-Classification-Tutorial/
+ls
+cd ..
+ls
+python bert_tutorial.py 
+cd datasets/
+ls
+unrar x SST-2.rar 
+proxychains git clone https://gitee.com/Finch1/FuckDailyCP.gitH
+proxychains git clone https://gitee.com/Finch1/FuckDailyCP.git
+cd FuckDailyCP/
+ls
+pip install -r requirements.txt 
+python3 DailyCP.py 
+vi DailyCP.py 
+ls
+cd doc/
+ls
+cd ..
+ls
+cd formdb/
+ls
+cd ..
+ls
+python3 DailyCP.py 
+python3 DailyCP.py 合肥工业大学 2020111071 086632 安徽省合肥市 ./formdb/
+cd ..
+cd
+rg
+ip a
+conda activate nlp
+torch.cuda.is_available()
+python
+cd Code/
+ls
+cd B
+cd Bert-TextClassification/
+ls
+cd ..
+sudo wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
+jupyter-notebook 
+pip install tensorboardX
+python3 run_SST2.py --max_seq_length=65 --num_train_epochs=5.0 --do_train --gpu_ids="1" --gradient_accumulation_steps=8 --print_step=100  # train and test
+python3 run_SST2.py --max_seq_length=65 --num_train_epochs=5.0 --do_train --gpu_ids="1" --gradient_accumulation_steps=8 --print_step=100  
+python3 run_SST2.py --max_seq_length=65   # test
+python3 run_SST2.py --max_seq_length=65 --num_train_epochs=5.0 --do_train --gpu_ids="1" --gradient_accumulation_steps=8 --print_step=100  # train and test
+python3 run_SST2.py --max_seq_length=65 --num_train_epochs=5.0 --do_train --gpu_ids="1" --gradient_accumulation_steps=8 --print_step=100  
+pip freeze | grep torch
+python
+python3 run_SST2.py --max_seq_length=65 --num_train_epochs=5.0 --do_train --gpu_ids="1" --gradient_accumulation_steps=8 --print_step=100  
+nvidia-smi 
+kill -9 6668
+kill -9 6466
+nvidia-smi 
+python3 run_SST2.py --max_seq_length=65 --num_train_epochs=5.0 --do_train --gpu_ids="1" --gradient_accumulation_steps=8 --print_step=100  
+P
+nmtui
+conda activate nlp
+conda install pytorch torchvision cudatoolkit=9.2 -c pytorch
+python
+conda install pytorch torchvision cudatoolkit=9.2 -c pytorch
+nvcc _v
+nvcc -V
+whereis cuda
+cd /usr/lib/cuda/
+ls
+cd bin/
+ls
+cd 
+cd /usr/include/
+ls
+cd 
+cd /usr/lib/cuda/
+ls
+rg
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-ubuntu1604.pin
+cd
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-ubuntu1604.pin
+sudo mv cuda-ubuntu1604.pin /etc/apt/preferences.d/cuda-repository-pin-600
+wget https://developer.download.nvidia.com/compute/cuda/11.0.3/local_installers/cuda-repo-ubuntu1604-11-0-local_11.0.3-450.51.06-1_amd64.deb
+proxychains wget https://developer.download.nvidia.com/compute/cuda/11.0.3/local_installers/cuda-repo-ubuntu1604-11-0-local_11.0.3-450.51.06-1_amd64.deb
+sudo dpkg -i cuda-repo-ubuntu1604-11-0-local_11.0.3-450.51.06-1_amd64.deb
+cd /usr/local/cuda
+whereis cuda
+sudo apt list | grep cuda
+sud apt-get remove --auto-remove nvidia-cuda-toolkit
+sudo apt-get remove --auto-remove nvidia-cuda-toolkit
+sudo apt-get remove nvidia-cuda-toolkit
+sudo apt-get remove --auto-remove nvidia-cuda-toolkit
+whereis cuda
+sudo dpkg -i cuda-repo-ubuntu1604-11-0-local_11.0.3-450.51.06-1_amd64.deb
+nvcc 
+nvcc -v
+nvcc -V
+ls /usr/local/ | grep cuda
+nvidia-smi 
+sudo apt list | grep cud
+sudo apt remove nvidia-cuda-dev/stable
+sudo dpkg -i cuda-repo-ubuntu1604-11-0-local_11.0.3-450.51.06-1_amd64.deb
+sudo dpkg -i --force-overwrite cuda-repo-ubuntu1604-11-0-local_11.0.3-450.51.06-1_amd64.deb
+sudo mv cuda-ubuntu1604.pin /etc/apt/preferences.d/cuda-repository-pin-600
+sudo dpkg -i cuda-repo-ubuntu1604-11-0-local_11.0.3-450.51.06-1_amd64.deb
+`sudo dpkg -i cuda-repo-ubuntu1604-10-0-local-10.0.130-410.48_1.0-1_amd64.deb`
+ls
+4
+sudo dpkg -i cuda-repo-ubuntu1604-11-0-local_11.0.3-450.51.06-1_amd64.deb
+sudo apt install -f
+sudo dpkg -i cuda-repo-ubuntu1604-11-0-local_11.0.3-450.51.06-1_amd64.deb
+rg
+wget https://developer.download.nvidia.com/compute/cuda/11.0.3/local_installers/cuda_11.0.3_450.51.06_linux.run
+proxychains wget https://developer.download.nvidia.com/compute/cuda/11.0.3/local_installers/cuda_11.0.3_450.51.06_linux.run
+ls
+chmod +x cuda_11.0.3_450.51.06_linux.run 
+./cuda_11.0.3_450.51.06_linux.run 
+sudo ./cuda_11.0.3_450.51.06_linux.run 
+d
+cd 
+ls
+emacs
+cd Code/
+ls
+cd BERT-Classification-Tutorial/
+ls
+nmtui
+CD
+cd 
+cd Code/
+ls
+cd python/
+ls
+cd results/
+ls
+cd ..
+ls
+cd Demo/
+ls
+cd ..
+ls
+rg
+cd
+rg
+cd
+cd Code/
+ls
+conda activate nlp
+jupyter-notebook 
+cd ..
+ls
+cd share/
+jupyter-notebook 
+pip freeze | grep tensor
+pip freeze 
+pip install tensorflow==1.10.0
+pip freeze | grep tensor
+pip uninstall tensorflow-gpu
+pip freeze | grep tensor
+pip uninstall tensorflowboard
+pip uninstall tensorboard
+pip freeze | grep tensor
+pip uninstall tensorboardX
+pip freeze | grep tensor
+pip install tensorflow==1.10

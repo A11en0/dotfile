@@ -1,0 +1,8 @@
+2021/04/10-13:51:10.650 5b2e Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_h.online-metrix.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/10-13:51:10.650 5b2e Recovering log #65
+2021/04/10-13:51:10.650 5b2e Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_h.online-metrix.net_0.indexeddb.leveldb/000065.log 
+2021/04/10-13:51:20.614 5c6d Level-0 table #70: started
+2021/04/10-13:51:20.614 5c6d Level-0 table #70: 0 bytes OK
+2021/04/10-13:51:20.621 5c6d Delete type=0 #65
+2021/04/10-13:51:20.621 5c6d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/10-13:51:20.621 5c6d Manual compaction at level-1 from (begin) .. (end); will stop at (end)

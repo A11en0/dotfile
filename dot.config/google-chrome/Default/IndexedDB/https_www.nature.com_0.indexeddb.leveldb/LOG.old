@@ -1,0 +1,5 @@
+2020/11/11-09:17:58.288 208d Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.nature.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/11-09:18:15.719 1cc1 Level-0 table #5: started
+2020/11/11-09:18:15.722 1cc1 Level-0 table #5: 1508 bytes OK
+2020/11/11-09:18:15.724 1cc1 Delete type=0 #3
+2020/11/11-09:18:15.725 1cc1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

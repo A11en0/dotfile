@@ -1,0 +1,15 @@
+2020/11/15-10:20:01.156 787d Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_wenshu.court.gov.cn_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/15-10:20:01.157 787d Recovering log #7
+2020/11/15-10:20:01.157 787d Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_wenshu.court.gov.cn_0.indexeddb.leveldb/000007.log 
+2020/11/15-10:20:03.203 767a Level-0 table #12: started
+2020/11/15-10:20:03.208 767a Level-0 table #12: 674 bytes OK
+2020/11/15-10:20:03.211 767a Delete type=0 #7
+2020/11/15-10:20:03.211 767a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/15-10:20:03.211 767a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x06\x00$\x00_\x00c\x00D\x00r\x00o' @ 109 : 1
+2020/11/15-10:20:03.211 767a Compacting 1@1 + 1@2 files
+2020/11/15-10:20:03.214 767a Generated table #13@1: 21 keys, 627 bytes
+2020/11/15-10:20:03.214 767a Compacted 1@1 + 1@2 files => 627 bytes
+2020/11/15-10:20:03.217 767a compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/15-10:20:03.218 767a Delete type=2 #9
+2020/11/15-10:20:03.218 767a Delete type=2 #12
+2020/11/15-10:20:03.218 767a Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x06\x00$\x00_\x00c\x00D\x00r\x00o' @ 109 : 1 .. (end); will stop at (end)

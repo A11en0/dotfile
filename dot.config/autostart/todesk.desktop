@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.2.0
+Name=todesk
+GenericName=ToDesk Remote control sofware
+Type=Application
+Exec=todesk %U
+TryExec=todesk
+Keywords=todesk;
+Icon=todesk
+Categories=Emulator;System;

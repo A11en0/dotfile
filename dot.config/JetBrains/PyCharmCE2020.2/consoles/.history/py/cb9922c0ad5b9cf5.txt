@@ -1,0 +1,25 @@
+vocab
+-. . -..- - / . -. - .-. -.--
+vocab.token2id
+-. . -..- - / . -. - .-. -.--
+vocab.token2id["<UNK>"]
+-. . -..- - / . -. - .-. -.--
+vocab.token2id["<PAD>"]
+-. . -..- - / . -. - .-. -.--
+vocab.token2id["minues"]
+-. . -..- - / . -. - .-. -.--
+vocab_dic
+-. . -..- - / . -. - .-. -.--
+vocab_dic.token2id
+-. . -..- - / . -. - .-. -.--
+vocab_dic.token2id["<UNK>"]
+-. . -..- - / . -. - .-. -.--
+vocab_dic.token2id["<PAD>"]
+-. . -..- - / . -. - .-. -.--
+vocab["<UNK>"]
+-. . -..- - / . -. - .-. -.--
+vocab["<PAD>"]
+-. . -..- - / . -. - .-. -.--
+vocab["<is>"]
+-. . -..- - / . -. - .-. -.--
+vocab["is"]

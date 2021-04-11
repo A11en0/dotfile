@@ -1,0 +1,2000 @@
+cd
+ls
+ls /
+cd 
+cd Downloads/
+ls
+scp hbase-1.1.2-bin.tar.gz master:~/
+ls
+cd
+cd hadoop
+ls
+scp master:~/hbase-jar .
+scp -r master:~/hbase-jar .
+telnet 192.168.1.4 8020
+telnet master 8020
+cd
+latexmk resume.tex 
+ls
+mkdir resume
+mv resume.* resume
+cd resume/
+ls
+xelatex --escape-shape resume.tex 
+xelatex --escape-shell resume.tex 
+xelatex resume.tex 
+ls
+vi resume.tex 
+xelatex resume.tex 
+vi resume.tex 
+xelatex resume.tex 
+cd WanHuCV/
+ls
+xelatex WanHu-CV-EN.tex 
+zathura  WanHu-CV-EN.pdf 
+ls
+xelatex WanHu-CV-EN.tex 
+nmtui
+killall xelatex
+proxychains git clone https://github.com/huwan/WanHuCV.git
+ls
+ping master
+ssh master
+}
+ls
+python sample.py --converter_path model/jay/converter.pkl   --checkpoint_path  model/jay    --max_length 500    --use_embedding   --num_layers 3   --start_string 哈哈哈
+python sample.py   --converter_path model/novel/converter.pkl   --checkpoint_path  model/novel   --use_embedding   --max_length 2000   --num_layers 3   --lstm_size 256   --embedding_size 256
+python sample.py --converter_path model/jay/converter.pkl   --checkpoint_path  model/jay    --max_length 500    --use_embedding   --num_layers 3   --start_string 你
+ls
+rg
+nmtui
+cd
+cd /media/allen/03FB-416B/
+ls
+cd 
+cd -
+ls
+pwd
+nmtui
+ping 8.8.8.8
+ip a
+pdw
+pwd
+ls
+cd
+ls
+unzip 论文论文.zip 
+ls
+rg
+q
+cd
+hp-setup 
+zathura Documents/Thesis-read/pdf/Reading/Short\ Text\ Classification\ via\ Knowledge\ powered\ Attention\ withSimilarity\ Matrix\ based\ CNN.pdf 
+zathura Documents/Thesis-read/pdf/Reading/ijcai2017.pdf 
+hp-setup 
+man hp-setup 
+hp-setup 
+ls
+rg
+ls
+python run.sh 
+./run.sh
+chmod +x run.sh 
+./run.sh 
+ls
+cd ..
+ls
+cd tweets-original
+ls
+cd 
+conda actiave nlp
+fuck
+fuck2
+conda activate nlp
+conda install numpy
+conda uninstall numpy
+conda install numpy
+python -m ipykernel install --user --name 环境名称 --display-name "在jupyter中显示的环境名称"
+python -m ipykernel install --user --name bert --display-name "bert"
+conda activate bert
+conda list
+jupyter kernelspec remove 环境名称
+jupyter kernelspec remove bert
+jupyter
+cd PycharmProjects/
+ls
+tree
+ls
+rg
+ls
+cd NLP/
+ls
+cd ..
+ls
+git clone git clone https://github.com/google-research/bert.git
+git clone https://github.com/google-research/bert.git
+proxychains git clone https://github.com/google-research/bert.git
+cd
+rg
+ls
+cd PycharmProjects/
+ls
+cd bert/
+ls
+vi run.sh 
+ls
+mkdir data
+vi run.sh 
+ls
+cd data/
+ls
+cd ..
+ls
+mkdir bert
+ls
+pwd
+cd
+rg
+cd 
+cd Downloads/
+ls
+cp -a uncased_L-12_H-768_A-12.zip ~/PycharmProjects/bert/
+cd ~/PycharmProjects/
+ls
+cd bert/
+ls
+mv uncased_L-12_H-768_A-12.zip bert/
+cd bert/
+s
+ls
+unzip uncased_L-12_H-768_A-12.zip 
+ls
+cd uncased_L-12_H-768_A-12
+ls
+cd ..
+ls
+cd ..
+ls
+cd data/
+ls
+unzip stanfordSentimentTreebank.zip 
+ls
+cd stanfordSentimentTreebank
+ls
+vi sentiment_labels.txt 
+vi STree.txt 
+vi datasetSplit.txt 
+ls
+cd ..
+pwdj
+pwd
+cd 
+cd Code/python/
+ls
+conda activate nlp
+jupyter-notebook 
+conda install jupyter-notebook
+conda install jupyter
+jupyter-notebook 
+jupyter kernelspec remove 环境名称
+jupyter kernelspec remove bert
+python -m ipykernel install --user --name bert --display-name bert
+jupyter-notebook 
+ls
+jupyter-notebook 
+pip install jupyter
+jupyter-notebook 
+ls
+rg
+pip list | grep tensor
+./run.sh 
+wwww
+pip install --upgrade numpy
+./run.sh 
+pip uninstall numpy
+conda install numpy
+pip install --upgrade numpy
+conda install numpy
+./run.sh 
+conda uninstall tensorflow
+conda install tensorflow==1.11.0
+./run.sh 
+conda create -n "bert" python==3.6
+conda activate bert
+conda install numpy
+conda install -r requirements.txt 
+conda install requirements.txt 
+conda -r install requirements.txt 
+conda install tensorflow==1.4.0
+conda install tensorflow==1.11.0
+./run.sh 
+mv bert/ model
+./run.sh 
+mkdir output
+./run.sh 
+pip install numpy
+pip list
+pip install tensorflow 1.10.0
+pip install tensorflow==1.10.0
+pip install tensorflow==1.13.1
+pip list
+ls
+cd 4_SST2/
+ls
+cd 1_self_entity/
+ls
+python train.py 
+pip install tensorflow==1.3.1
+pip install tensorflow==1.13.1
+python train.py 
+pip install tensorflow==1.13.1
+python train.py 
+ls
+ls
+rg
+ls
+mkdir NLP
+mv Bert-TextClassification/ NLP
+mv BERT-Classification-Tutorial/ NLP
+ls
+rg
+cd python/
+ls
+mkdir Datasets
+rg
+cd
+ls
+rg
+ping master
+vi /etc/hosts
+sudo vi /etc/hosts
+ls
+rg
+ls
+unzip KASM.zip 
+pwd
+conda list
+conda install tensorflow==1.13.1
+conda actiavte bert
+conda activate bert
+conda install tensorflow==1.13.1
+pip uninstall pandas
+pip install pandas
+conda install python==3.7
+pip install pandas
+conda uninstall pandas
+conda install pandas
+cd 
+cd -
+ls
+proxychains git clone https://github.com/MemorialCheng/JD_NLP.git
+cd JD_NLP/
+ls
+rg
+ls
+cd videos/
+ls
+cd 
+cd
+rg
+cd Downloads/
+ls
+unzip Tutorial.zip 
+ls
+cd
+rg
+conda activate tc
+conda activate -n tc python==3.6
+conda activate -n tc python==3.7
+conda activate -n "tc" python==3.7
+conda activate -n tc python==3.7
+conda create -n tc python==3.7
+conda activate tc
+jupyter-notebook 
+conda install 
+conda activate bert
+conda uninstall numpy
+conda list
+conda install numpy
+cd .anaconda3/envs/nlp/lib/python3.6/
+ls
+cd site-packages/
+ls
+rm -rf numpy*\
+rm -rf numpy*
+cd 
+conda install numpy
+pip install numpy
+conda activate tc
+ls
+pip install pandas
+conda install pandas
+conda activate bert
+conda install pandas
+python\
+python
+ls
+conda install pandas
+python
+pip install pandas
+pyth0on
+python
+pip install scikit-learn
+pip install pytorch
+pip install torch
+rg
+cd 
+cd Code/hadoop_example/
+ls
+cd out/artifacts/hadoop_example_jar/
+ls
+cp hadoop_example.jar ~
+cd 
+scp wordcount.jar master:~
+scp hadoop_example.jar master:~
+ls
+ls -ls
+ls -la
+ls -l
+ls -l hadoop*
+ls -lh hadoop*
+du -d 0
+du -d 1
+du -d 0
+du -d 1
+du -dh 1
+du -h 1
+du -h -d 1
+ls
+cd Downloads/
+ls
+scp apache-hive-0.13.1-bin.tar.gz master
+rm -rf master 
+scp apache-hive-0.13.1-bin.tar.gz master:~
+ls
+cd 
+cd Downloads/
+ls
+cd 
+ls
+cd Downloads/
+ls
+cd scala/
+ls
+scp mysql-connector-java-5.1.27.tar.gz master:~
+ls
+mv mysql-connector-java-5.1.27.tar.gz ../
+cd
+cd 
+cd Downloads/
+ls
+scp hive-data.rar master:~
+cd 
+cd Downloads/
+ls
+unrar x hive-data.rar 
+zip -r hive-data hive-data.zip 
+zip -r hive-data.zip hive-data
+cd 
+cd Downloads/
+ls
+scp hive-data.zip master:~
+ls
+cd 
+cd Downloads/
+ls
+mkdir python可视化 
+ls
+mv Seaborn数据可视化分析.pptx python可视化/
+ls
+vi .config/i3/config
+ssh master
+ls
+rg
+cd 
+cd Downloads/
+ls
+scp fastjson-1.2.31.jar hadoop2lib.tar.gz master:~
+ls
+./idea.sh 
+cd
+cd Downloads/
+ls
+mkdir qingxi
+mv hadoop2lib.tar.gz fastjson-1.2.31.jar qingxi/
+rg
+ls
+rg
+ls
+cd 
+rg
+Time taken: 12.846 seconds
+cd .local/share/
+ls
+cd Kingsoft/
+ls
+cd office6
+ls
+cd oleobject/
+ls
+vi Ole_1601296968260658_320349440.log 
+cd 
+cd Downloads/
+ls
+cd qingxi/
+ls
+vi log.txt 
+ls
+cp log.txt ~/Code/qingxi/
+cd 
+ls
+cd 
+cd /media/allen/
+ls
+cd 03FB-416B/
+ls
+cd 18-19-2-大数据教学资源/
+ls
+tree
+cd ..
+ls
+cd 
+ls
+rg
+ls
+cd 
+cd Downloads/qingxi/
+ls
+vi log.txt 
+ls
+scp Downloads/qingxi/log.txt master:~
+ls
+cd Dow
+cd Downloads/
+ls
+rg
+uptime
+ls
+vi Downloads/qingxi/log.txt 
+cal
+ls
+rg
+scp Downloads/Python-3.6.8.tgz master:~
+ls
+tail -10 log_movie.txt 
+scp log_movie.txt master:~
+cd Downloads/
+ls
+scp spark-2.4.7-bin-hadoop2.6.tgz master:~
+ssh 
+ls
+vi README.md 
+conda activate bert
+tensorboard --logdir=./logs/
+ls
+cd
+ls
+cd Downloads/
+ls
+zathura A\ Review\ of\ Feature\ Selection\ and\ Its\ Methods.pdf 
+ls
+vi
+ls
+cd ..
+vi 
+ssh 
+ls
+vi README.md 
+pwd
+vi README.md 
+python sample.py \                                                                                                                                                        
+vi README.md 
+python sample.py --converter_path model/jay/converter.pkl \                                                                                                               
+python sample.py --converter_path model/jay/converter.pkl 
+ls
+cat README.md 
+python sample.py --converter_path model/jay/converter.pkl   --checkpoint_path  model/jay  \                            
+ip a
+ls
+cat README.md 
+pwd
+>python sample.py --converter_path model/jay/converter.pkl   --checkpoint_path  model/jay    --max_length 500    --use_embedding   --num_layers 3   --start_string 哈哈哈
+ls
+python sample.py --converter_path model/jay/converter.pkl   --checkpoint_path  model/jay    --max_length 500    --use_embedding   --num_layers 3   --start_string 哈哈哈
+conda activate bert
+python sample.py --converter_path model/jay/converter.pkl   --checkpoint_path  model/jay    --max_length 500    --use_embedding   --num_layers 3   --start_string 我知道
+conda activate nlp
+python sample.py --converter_path model/jay/converter.pkl   --checkpoint_path  model/jay    --max_length 500    --use_embedding   --num_layers 3   --start_string 我知道
+conda envs 
+conda list envs 
+conda envs list
+conda env 
+conda env  list
+conda env list
+conda activate tc
+conda list 
+python sample.py --converter_path model/jay/converter.pkl   --checkpoint_path  model/jay    --max_length 500    --use_embedding   --num_layers 3   --start_string 我知道
+conda activate bert
+python sample.py --converter_path model/jay/converter.pkl   --checkpoint_path  model/jay    --max_length 500    --use_embedding   --num_layers 3   --start_string 我知道
+pip3 install IPython
+e
+python -m pip install --upgrade pip
+pip3 install IPython
+python sample.py --converter_path model/jay/converter.pkl   --checkpoint_path  model/jay    --max_length 500    --use_embedding   --num_layers 3   --start_string 我知道
+i  p
+i       p
+i           p
+i              p
+i                 p
+i                    p 
+i                       p 
+i                          p 
+i                             p 
+python sample.py --converter_path model/jay/converter.pkl   --checkpoint_path  model/jay    --max_length 500    --use_embedding   --num_layers 3   --start_string 我知道
+ls
+rg
+python sample.py --converter_path model/jay/converter.pkl   --checkpoint_path  model/jay    --max_length 500    --use_embedding   --num_layers 3   --start_string 我知道
+python sample.py --converter_path model/jay/converter.pkl   --checkpoint_path  model/jay    --max_length 500    --use_embedding   --num_layers 3   --start_string 我爱你
+ls
+python craw.py 
+pip install urllib2
+pip install urllib
+pip install requests
+python craw.py 
+pip install requests
+python craw.py 
+ls
+vi data.txt 
+rm -rf data.txt 
+python craw.py 
+vi data.txt 
+echo "" > data.txt 
+vi data.txt 
+python craw.py 
+vi data.txt 
+python craw.py 
+vi data.txt 
+python craw.py 
+vi data.txt 
+python craw.py 
+ls
+mv data.txt data
+cd data/
+ls
+cd ..
+python train.py    --input_file data/jay.txt   --num_steps 20   --batch_size 32   --name jay   --max_steps 5000   --learning_rate 0.01   --num_layers 3 \
+python train.py    --input_file data/jay.txt   --num_steps 20   --batch_size 32   --name jay   --max_steps 5000   --learning_rate 0.01   --num_layers 3 --use_embedding
+python train.py --input_file data/data.txt   --num_steps 20   --batch_size 32   --name jay   --max_steps 5000   --learning_rate 0.01   --num_layers 3 --use_embedding
+python train.py --input_file data/data.txt   --num_steps 20   --batch_size 32   --name qinghua   --max_steps 5000   --learning_rate 0.01   --num_layers 3 --use_embedding
+python sample.py --converter_path model/jay/converter.pkl   --checkpoint_path  model/jay    --max_length 500    --use_embedding   --num_layers 3   --start_string 我知道
+ls
+ls model
+ls model/qinghua/
+python sample.py --converter_path model/qinghua/converter.pkl   --checkpoint_path  model/qinghua    --max_length 50    --use_embedding   --num_layers 3   --start_string 不
+python sample.py --converter_path model/qinghua/converter.pkl   --checkpoint_path  model/qinghua    --max_length 50    --use_embedding   --num_layers 10   --start_string 不
+python sample.py --converter_path model/qinghua/converter.pkl   --checkpoint_path  model/qinghua    --max_length 50    --use_embedding   --num_layers 3   --start_string 我
+python sample.py --converter_path model/qinghua/converter.pkl   --checkpoint_path  model/qinghua    --max_length 50    --use_embedding   --num_layers 3   --start_string 我爱你
+python sample.py --converter_path model/qinghua/converter.pkl   --checkpoint_path  model/qinghua    --max_length 50    --use_embedding   --num_layers 3   --start_string 我爱
+python sample.py --converter_path model/qinghua/converter.pkl   --checkpoint_path  model/qinghua    --max_length 30    --use_embedding   --num_layers 3   --start_string 我爱
+python sample.py --converter_path model/qinghua/converter.pkl   --checkpoint_path  model/qinghua    --max_length 30    --use_embedding   --num_layers 3   --start_string 我爱你
+python sample.py --converter_path model/qinghua/converter.pkl   --checkpoint_path  model/qinghua    --max_length 30    --use_embedding   --num_layers 3   --start_string 我
+python sample.py --converter_path model/qinghua/converter.pkl   --checkpoint_path  model/qinghua    --max_length 10    --use_embedding   --num_layers 3   --start_string 我
+vi data/data.txt 
+ls
+vi README.md 
+ls
+python train.py --input_file data/data.txt   --num_steps 20   --batch_size 32   --name qinghua   --max_steps 5000   --learning_rate 0.01   --num_layers 3 --use_embedding
+dict neglect
+ls
+rg
+nmtui
+cd
+nmtui
+ip a
+nmtui
+ls
+dhclient -r
+dhclient 
+sudo dhclient 
+sudo dhclient -r
+ip a
+nmtui
+ip a
+nmtui
+ip a
+sudo dhclient -r
+sudo dhclient -k
+sudo dhclient 
+ip a
+sudo dhclient 
+sudo dhclient -r
+sudo dhclient 
+ip a
+ping 8.8.8.8
+nmtui
+ip a
+ping 8.8.8.8
+ip a
+nmtui
+sudo dhclient 
+ip a
+nmtui
+ip a
+sudo dhclient 
+sudo dhclient -r
+sudo dhclient 
+ip a
+ping 8.8.8.8
+ip a
+cd Downloads/
+ls
+cd 
+rg
+rg
+ls
+cd Dow
+cd Downloads/
+ls
+pwd
+ls
+pwd
+cd ..
+ls
+cd Downloads/
+ls
+cd qingxi/
+ls
+tar zxvf hadoop2lib.tar.gz 
+ls
+cd
+rg
+cd Downloads/
+ls
+unrar x 大数据竞赛.rar 
+rg
+cd
+rg
+vim /etc/hosts
+pip install pytorch
+pip install torch torchvision
+pkill pdftex
+pkill latex
+unzip thesis.zip 
+cd thesis
+ls
+cd
+cd Documents/tikz/
+ls
+pdftex periodic.tex 
+ls
+pdftex nn_big.tex 
+pdftex nn.tex 
+rg
+cd
+rg
+texdoc -l lshort
+ls
+rg
+pdflatex plane_partion.tex 
+pdflatex Turing\ machine.tex 
+pdflatex flowchart.tex 
+nvcc -v
+nvcc -version
+nvcc --version
+conda activate bert
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+cd Documents/tikz/
+ls
+pdflatex nn.tex 
+ls
+rg
+pdflatex nn1.tex 
+rg
+pdflatex nn2.tex 
+rg
+pdflatex nn3.tex 
+rg
+pdflatex nn3.tex 
+rg
+pdflatex framework.tex 
+rg
+pdflatex bayes.tex 
+rg
+pdflatex hypersurface.tex 
+pdflatex heatmap.tex 
+rg
+pdflatex 
+pdflatex nn_big.
+pdflatex nn_big.tex 
+pdflatex periodic.tex 
+rg
+pdflatex periodic.tex 
+rg
+pdflatex periodic.tex 
+rg
+pdflatex rooty_helix.tex 
+rg
+pdflatex swan_wave_model.tex 
+rg
+pdflatex plane.tex 
+rg
+pip list
+conda install torchtext
+pip install torchtext
+pip install scikit-learn
+pip install tagme
+ls
+cd dataset/
+ls
+ls -al
+ls -alh
+pip install spacy
+cd Code/
+mkdir qtProj
+cd 
+cd Code/qtProj/
+ls
+cd hello/
+ls
+cd ..
+ls
+mv cv_test.cpp hello/
+ls
+cd hello/
+ls
+jcd 
+cd 
+ls
+cd Downloads/
+ls
+cd 
+ls
+cd ..
+ls
+cd ..
+ls
+neofetch 
+cd ~/Documents/roaster/
+ls
+zathura day1.pdf 
+ls
+cd ..
+ls
+cd -
+ls
+cd 
+ls
+cd .jupyter/
+ls
+vi jupyter_notebook_config.json 
+ls
+vi jupyter_notebook_config.py
+ls
+cd ..
+ls
+sudo apt install qtcreator
+sudo apt install qt5-default
+sudo apt install qtcreator
+sudo apt-get install qt5-default
+$ sudo apt-get install qt5-doc qtbase5-examples qtbase5-doc-html
+sudo apt-get install qt5-doc qtbase5-examples qtbase5-doc-html
+qtcreator 
+cd Code/qtProj/
+ls
+cd first/
+ls
+cd ..
+ls
+mv first/ hello
+cd hello/
+ls
+mv first.pro hello.pro
+vi first.pro.user 
+ls
+rm -rf first.pro.user 
+ls
+cd ..
+ls
+rm -rf build-first-Desktop-Debug/
+cp ~/Downloads/OpenCV\ 4.4.0.tar.gz .
+ls
+tar zxvf OpenCV\ 4.4.0.tar.gz 
+ls
+cd opencv-opencv-baf07c8/
+ls
+mkdir build
+ls
+cd build/
+ls
+cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
+cmake
+apt install cmake
+sudo apt install cmake
+cmake
+cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
+sudo make
+sudo make install
+sudo sh -c 'echo "/usr/local/lib" > /etc/ld.so.conf.d/opencv.conf'
+sudo ldconfig
+cd /usr/local/include/
+ls
+cd opencv4/
+ls
+cd opencv2/
+ls
+pwd
+cd /usr/local/lib/
+ls
+pip uninstall libtiff
+sudo apt install libtiff4-dev
+sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
+sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libdc1394-22-dev
+ls
+cd ..
+ls
+sudo make uninstall 
+$  pkg-config --modversion opencv
+pkg-config --modversion opencv
+cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
+cmake -D CMAKE_BUILD_TYPE=Release -D BNUILD_TIFF=ON -D CMAKE_INSTALL_PREFIX=/usr/local .. 
+apt-get install build-essential
+sudo apt-get install build-essential
+apt-get install build-essential
+sudo sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+cmake -D CMAKE_BUILD_TYPE=Release -D BNUILD_TIFF=ON -D CMAKE_INSTALL_PREFIX=/usr/local .. 
+sudo apt-get -y install libopencv-dev build-essential cmake git libgtk2.0-dev pkg-config python-dev python-numpy libdc1394-22 libdc1394-22-dev libjpeg-dev libpng12-dev libtiff5-dev libjasper-dev libavcodec-dev libavformat-dev libswscale-dev libxine2-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev libv4l-dev libtbb-dev libqt4-dev libfaac-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev x264v4l-utils unzip
+作者：foochane
+链接：https://www.jianshu.com/p/259a6140da9d
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+sudo apt-get -y install libopencv-dev build-essential cmake git libgtk2.0-dev pkg-config python-dev python-numpy libdc1394-22 libdc1394-22-dev libjpeg-dev libpng12-dev libtiff5-dev libjasper-dev libavcodec-dev libavformat-dev libswscale-dev libxine2-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev libv4l-dev libtbb-dev libqt4-dev libfaac-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev x264v4l-utils unzip
+sudo apt install build-essential cmake git pkg-config libgtk-3-dev     libavcodec-dev libavformat-dev libswscale-dev libv4l-dev     libxvidcore-dev libx264-dev libjpeg-dev libpng-dev libtiff-dev     gfortran openexr libatlas-base-dev python3-dev python3-numpy     libtbb2 libtbb-dev libdc1394-22-dev
+sudo make uninstall
+sudo rm -rf /usr/local/include/opencv4/
+cd /usr/
+ls
+$  find . -name "*opencv*" | xargs sudo rm -rf
+find . -name "*opencv*" | xargs sudo rm -rf
+cd -
+ls
+cd ..
+ls
+rm -rf build/
+mkdir ~/opencv_build && cd ~/opencv_build
+ls
+cd ..
+ls
+cd opencv_build/
+ls
+cd -
+cd 
+vi /etc/nginx/conf.d/default.conf 
+ls
+cd /etc/nginx/conf.d/default.conf 
+cd /etc/nginx/conf.d
+s
+ls
+cd ..
+s
+ls
+cd sites-enabled/
+ls
+cd ..
+cd sites-available/
+ls
+cd ..
+ls
+cd conf.d/
+ls
+vi default.conf 
+vi flarum.conf 
+ls
+cd ..
+ls
+cd modules-enabled/
+ls
+cd ..
+ls
+cd snippets/
+ls
+cd ..
+ls
+cd sites-
+cd sites-available/
+ls
+cd ..
+ls
+cd conf.d/
+ls
+mkdir flarum
+mv default.conf flarum.conf ~/
+sudo mv default.conf flarum.conf ~/
+ls
+cd ..
+service nginx restart
+sudo service nginx restart
+nmap
+nmap -v -A 127.0.0.1
+mysql -uroot -p
+ls
+cd 
+where seafile
+which seafile
+vi /etc/nginx/sites-enabled/seafile.conf 
+cd /opt/seafile/
+ls
+cd seafile-server-latest
+ls
+cd seafile
+ls
+cd ..
+ls
+vi seafile.sh 
+ls
+vi 
+ls
+cd ..
+ls
+cd conf/
+ls
+sudo cd conf/
+ls
+su
+(base) ~$ sudo nmap -v -sS -O 114.213.211.2                                          │
+sudo nmap -v -sS -O (base) ~$ sudo nmap -v -sS -O 114.213.211.2                                          │
+sudo nmap -v -sS -O 114.213.211.250
+sudo nmap -v -sS -O 114.213.211.246
+sudo nmap -v -sS -O 114.213.211.157
+sudo nmap -v -sS -O 114.213.211.11
+sudo nmap -v -sS -O 114.213.211.48
+jupyter-notebook 
+cd 
+cd -
+ls
+cd ..
+ls
+rm -rf opencv/
+cd 
+cd .jupyter/
+ls
+vi jupyter_notebook_config.json 
+ls
+vi jupyter_notebook_config.py 
+mv jupyter_notebook_config.py ../
+vi jupyter_notebook_config.json 
+cd ..
+rm -rf .jupyter/
+jupyter notebook --generate-config
+jupyter notebook password
+vi .jupyter/jupyter_notebook_config.py 
+mv jupyter_notebook_config.py .jupyter/
+jupyter-notebook 
+cd 
+cd share/
+ls
+jupyter-notebook 
+ls
+cd
+sudo nmap -sS -O 127.0.0.1/24
+sudo nmap -sS -O 127.0.0.1
+sudo nmap -v -sS -O 127.0.0.1
+uname -ua
+uname -a
+ip a
+ipa 
+ip a
+ping 114.213.211.150
+traceroute 114.213.211.150
+nmap -sP 114.213.211.150
+nmap -sP 114.213.211.0/24
+nmap -v -sP 114.213.211.0/24
+sudo nmap -v -sS -O 114.213.211.2
+nmap -sP 114.213.211.0/24
+sudo nmap -v -sS -O 114.213.211.2
+cd 
+ls
+cd Code/
+ls
+cd 
+cd PycharmProjects/
+ls
+cd 
+ls
+cd Code/
+ls
+cd 
+ls
+cd 
+ls
+ls -lh
+ls -a
+ls -al
+chown -R allen .ipynb_checkpoints/
+sudo chown -R allen .ipynb_checkpoints/
+chown -R allen .ipynb_checkpoints/
+ls -al
+htop
+cd ~/Downloads/
+ls
+ls data*
+cd 
+ls data*
+mv data-concept.zip ~/share/
+cd share/
+ls
+mv data-concept.zip STCKA/
+cd STCKA/
+ls
+unzip data-concept.zip 
+python 
+cd 
+cd /media/allen/03FB-416B/
+ls
+cp -r Fonts ~/.fonts/
+cd 
+cd .fonts/
+ls
+cd 
+fc-cache -fv
+fc-list 
+cd 
+ls
+cd Code/qtProj/
+ls
+acd opencv-opencv-baf07c8/
+ls
+cd opencv-opencv-baf07c8/
+ls
+cd ..
+ls
+cd opencv-opencv-baf07c8/
+ls
+cd build/
+ls
+cd ..
+ls
+mkdir build
+cd build/
+ls
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+vi CMakeFiles/CMakeError.log 
+ls
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+vi CMakeFiles/CMakeError.log 
+ls
+cd ..
+ls
+rm -rf build/
+ls
+mkdir build
+cd build/
+ls
+/home/allen/Code/qtProj/opencv-opencv-baf07c8/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]                                         #pragma                                                                                                                                                                                                                                                                                                                                            Linking CXX executable cmTC_3a81c                                                                                                                                         /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a81c.dir/link.txt --verbose=1                                                                                        /usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_3a81c.dir/src.cxx.o  -o cmTC_3a81c                                                                                        make[1]: Leaving directory '/home/allen/Code/qtProj/opencv-opencv-baf07c8/build/CMakeFiles/CMakeTmp'                                                                                                                                                                                                                                                ===== END =====                                                                                                                                                                                                                                                                                                                                     Build output check failed:                                                                                                                                                
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+vi CMakeFiles/CMakeError.log 
+ls
+cd ..
+ls
+cd ..
+ls
+rm -rf opencv-opencv-baf07c8/
+ls
+mkdir ~/opencv_build && cd ~/opencv_build
+git clone https://github.com/opencv/opencv.git
+proxychains git clone https://github.com/opencv/opencv.git
+cd 
+cd -
+ls
+cd opencv/
+ls
+cd ..
+ls
+cd opencv/
+ls
+cd .git
+ls
+cd ..
+git clone https://github.com/opencv/opencv_contrib.git
+proxychains git clone https://github.com/opencv/opencv_contrib.git
+pwd
+git clone https://github.com/opencv/opencv_contrib.git
+proxychains git clone https://github.com/opencv/opencv_contrib.git
+ls
+cd opencv_contrib/
+ls
+cd ..
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+ls
+mkdir build && cd build
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+ls
+vi CMakeFiles/CMakeError.log 
+ls
+cd ..
+ls
+cd ~/opencv_build/
+ls
+git clone https://github.com/opencv/opencv.git
+proxychains git clone https://github.com/opencv/opencv.git
+ls
+pwd
+cd opencv/
+ls
+cd ..
+ls
+git clone https://github.com/opencv/opencv_contrib.git
+proxychains git clone https://github.com/opencv/opencv_contrib.git
+ip 
+ip a
+lls
+ls
+cd ~/opencv_build/opencv
+mkdir build && cd build
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+make -j2
+i
+sudo make install
+pkg-config --modversion opencv4
+python3 -c "import cv2; print(cv2.__version__)"
+ls
+ls /usr/lib/
+ls /usr/lib/openssh/
+ls /usr/local/lib/
+pkg-config --modversion opencv4
+python3 -c "import cv2; print(cv2.__version__)"
+sudo apt-get autoremove libtiff5-dev
+sudo apt-get install libtiff5-dev
+cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D WITH_TBB=ON -D WITH_V4L=ON -D WITH_QT=ON -D WITH_OPENGL=ON ..
+make
+ip a
+pwd
+ls
+./idea.sh 
+htop
+cd
+nvidia-smi 
+watch nvidia-smi 
+cd 
+ls
+rg
+q
+cd
+ld
+ls
+ld
+cd Documents/
+ls
+proxychains git clone git@github.com:shenyushun/ebook.git
+rg
+ls
+cd ebook/
+ls
+cd .git/
+ls
+cd ..
+sudo apt-get install -y libopencv-dev
+sudo apt install libtiff-dev
+export LD_LIBRARY_PATH
+pkg-config --modversion opencv4
+cd /usr/lib/x86_64-linux-gnu
+s
+ls
+conda deactivate
+sudo ln -s libhdf5.so.7 libhdf5.so.9
+sudo ln -s libhdf5_hl.so.7 libhdf5_hl.so.9
+sudo ldconfig
+cd 
+cd opencv_build/
+ls
+cd opencv
+ls
+cmake -D CMAKE_BUILD_TYPE=RELEASE             -D CMAKE_INSTALL_PREFIX=$cwd/installation/OpenCV-"$cvVersion"             -D INSTALL_C_EXAMPLES=ON             -D INSTALL_PYTHON_EXAMPLES=ON             -D WITH_TBB=ON             -D WITH_V4L=ON             -D OPENCV_PYTHON3_INSTALL_PATH=$cwd/OpenCV-$cvVersion-py3/lib/python3.5/site-packages         -D WITH_QT=ON         -D WITH_OPENGL=ON         -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules         -D BUILD_EXAMPLES=ON
+$  sudo make uninstall
+sudo make uninstall
+cd build/
+sudo make uninstall
+sudo rm -rf /usr/local/share/opencv4/
+sudo rm -rf /usr/local/include/opencv4/
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+cd ..
+ls
+rm -rf build/
+mkdir build 
+cd build/
+ls
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+ls
+pwd
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+cd ..
+ls
+vi CMakeLists.txt 
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+cd build/
+ls
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+ls
+pwd
+cd ..
+s
+ls
+rm -rf build/
+mkdir build && cd build
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+pkg-config --modversion opencv4
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..\
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+cd ..
+ls
+rm CMakeCache.txt 
+cd build/
+ls
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON         -D BUILD_TIFF=ON ..
+make -j2
+sudo make install
+--     v4l/v4l2:                    YES (linux/videodev2.h)
+--
+--   Parallel framework:            pthreads
+--
+--   Trace:                         YES (with Intel ITT)
+--
+--   Other third-party libraries:
+--     Intel IPP:                   2020.0.0 Gold [2020.0.0]
+--            at:                   /home/allen/opencv_build/opencv/build/3rdparty
+--     Intel IPP IW:                sources (2020.0.0)
+--               at:                /home/allen/opencv_build/opencv/build/3rdparty
+--     Lapack:                      NO
+--     Eigen:                       NO
+--     Custom HAL:                  NO
+--     Protobuf:                    build (3.5.1)
+--
+-- Up-to-date: /usr/local/share/opencv4/samples/python/kmeans.py                 
+-- Up-to-date: /usr/local/share/opencv4/samples/python/laplace.py                
+-- Up-to-date: /usr/local/share/opencv4/samples/python/lappyr.py                 
+-- Up-to-date: /usr/local/share/opencv4/samples/python/letter_recog.py           
+-- Up-to-date: /usr/local/share/opencv4/samples/python/lk_homography.py          
+-- Up-to-date: /usr/local/share/opencv4/samples/python/lk_track.py               
+-- Up-to-date: /usr/local/share/opencv4/samples/python/logpolar.py               
+-- Up-to-date: /usr/local/share/opencv4/samples/python/morphology.py             
+-- Up-to-date: /usr/local/share/opencv4/samples/python/mosse.py                  
+-- Up-to-date: /usr/local/share/opencv4/samples/python/mouse_and_match.py        
+-- Up-to-date: /usr/local/share/opencv4/samples/python/mser.py                   
+-- Up-to-date: /usr/local/share/opencv4/samples/python/opencv_version.py         
+-- Up-to-date: /usr/local/share/opencv4/samples/python/opt_flow.py               
+-- Up-to-date: /usr/local/share/opencv4/samples/python/peopledetect.py           
+-- Up-to-date: /usr/local/share/opencv4/samples/python/plane_ar.py               
+-- Up-to-date: /usr/local/share/opencv4/samples/python/plane_tracker.py          
+-- Up-to-date: /usr/local/share/opencv4/samples/python/qrcode.py                 
+pkg-config --modversion opencv4
+python3 -c "import cv2; print(cv2.__version__)"
+ls
+ls
+vi README.md 
+python sample.py \                                                                                                                                                        
+rg
+cd
+cd Documents/roaster/a
+cd Documents/roaster/
+ls
+zathura day1.pdf 
+ls
+mv day1.pdf 葛宇航-task1.pdf
+cd 
+ls
+cd share/
+ls
+cd data/
+ls
+cd ..
+ls
+cd attention-networks-for-classification/
+ls
+cd dataset
+ls
+cd ..
+ls
+cd dataset
+ls
+cd ..
+ls
+cd ..
+ls
+cd Documents/
+ls
+cd ..
+rg
+cd 
+cd share/
+jupyter-notebook 
+ls
+pwd
+cd /usr/local/spark
+scp sbt-1.3.10.zip master
+scp master sbt-1.3.10.zip
+scp sbt-1.3.10.zip 192.168.56.100:~
+scp sbt-1.3.10.zip 192.168.56.101:~
+ls
+ssh master
+ssh 192.168.56.100
+ssh 192.168.56.100
+ssh 192.168.56.101
+cd Documents/
+ls
+rg
+python
+bc -i
+bc 
+bc -v
+bc -q
+bc -l
+echo "1+2" | bc
+echo "0.0164/0.0076" | bc
+bc
+python 
+ls
+cd Documents/
+ls
+rg
+pwd
+cd 
+ip a
+ping 8.8.8.8
+ip a
+ssh master
+ls
+mv 2019年大数据现场赛试题（含答案）.zip ../
+cd ..
+ls
+mv 2019年大数据现场赛试题（含答案）.zip ~/1111/
+cd ~/1111/
+ls
+unzip 2019年大数据现场赛试题（含答案）.zip 
+ls
+rg
+cd
+ls
+rg
+rg
+ssh master
+ls
+ssh master
+ls
+vi xuanke.org 
+ls /usr/local/spark
+cd /usr/local/
+ls
+cd share/
+ls
+a
+cd /usr/local/
+ls
+where spark
+whereis spark
+which spark
+pwd
+cd 
+cd Softwares/idea-IU-202.6948.69/
+ls
+cd bin/
+ls
+./idea.sh 
+ls
+pwd
+ls
+./idea.sh 
+ls
+cd Softwares/
+ls
+cd 
+ls
+cd Code/
+ls
+cd hadoop_example/
+ls
+cd src/
+ls
+cd main/
+ls
+cd java/
+ls
+vi WordCountTest.java 
+ls
+vi QingXiJson.java 
+ls
+vi Hbase1.java 
+vi Log.java 
+ls
+vi Log.java 
+vi Datacount.java 
+vi Hdfs1.java 
+vi Log.java 
+ls
+vi QingXiJson.java 
+ls
+find .
+find . *.pdf
+find *.pdf 
+find *.pdf .
+man find 
+find . -name *.pdf
+find . -name *.pdf | cut 0 
+find . -name *.pdf | head 0 
+find . -name *.pdf | head -0 
+find . -name *.pdf | head -10 
+for file in $(find . -name *.pdf);do echo $file; done;
+$(find . -name *.pdf)
+find . -name *.pdf
+for i in find . -name *.pdf; ;
+man xarg
+man xargs
+xargs -i echo 12 
+xargs -i echo 12 ;
+xargs -i echo 12 
+man xargs
+ls
+find . name *.pdf 
+find . name *.pdf | xargs -i cp {} ../books;;;
+ls
+mkdir books
+find . name *.pdf | xargs -i cp {} ./books
+ls books/
+find . name *.pdf 
+man find
+find . -type f -iname *.pdf 
+find . -type f -iname *.pdf | wc
+find . -type f -iname *.pdf | wc -l
+find . -type f -iname *.pdf | wc
+find . -type f -iname *.pdf 
+find . -type f -iname *.pdf | xargs -i cp {} ./dfsa
+rm -rf books/*
+find . -type f -iname *.pdf | xargs -i cp {} ./books
+cd './Bob Miller/Bob MillerS Calc For The Clueless_ Calc I (68)/Bob MillerS Calc For The Clueless_ Calc I - Bob Miller.pdf':
+cd './Bob Miller/Bob MillerS Calc For The Clueless_ Calc I (68)/
+ls ./Bob Miller/Bob MillerS Calc For The Clueless_ Calc I (68)/
+ls ./Bob Miller/Bob MillerS Calc For The Clueless_ Calc I (68)
+cd Bob Miller/Bob MillerS Calc For The Clueless_ Calc I (68)
+rg
+find . -type f -iname *.pdf
+zathura ./Unknown/vim book (107)/vim book - Unknown.pdf
+zathura "./Unknown/vim book (107)/vim book - Unknown.pdf"
+find . -type f -iname *.pdf | xargs -i cp "{}" ./books
+ls books/
+rm -rf books/*
+find . -type f -iname *.pdf | xargs -i cp "{}" ./books
+ls books/
+ls books/ | ws -l
+ls books/ | wc -l
+find . -type f -iname *.pdf | xargs -i cp "{}" ./books
+find . -type f -iname *.pdf | wc -l
+find . -type f -iname *.pdf 
+find . -type f -iname *.pdf | head 
+find . -type f -iname *.pdf | head -1
+find . -type f -iname *.pdf | head -1 | zathura 
+find . -type f -iname *.pdf | head -1 | xargs -i zathura {}
+find . -type f -iname *.pdf | head -1 | xargs zathura {}
+find . -type f -iname *.pdf | head -1 | xargs -i zathura {}
+find . -type f -iname *.pdf | head -10 | xargs -i zathura {}
+find . -type f -iname *.pdf | head -10 | xargs -i cp {} books/
+ls books/
+rm -rf books/*
+find . -type f -iname *.pdf | head -10 | xargs -i cp {} books/
+ls books/
+rm -rf books/*
+find . -type f -iname *.pdf | xargs -i cp {} books/
+ls books/
+ls books | wc -l
+rm -rf books/*
+find . -type f -iname *.pdf | grep Bob
+zathura   I - Bob Miller.pdf
+./Bob Miller/Bob Miller's Calc for the Cluless_ Calc II (69)/Bob Miller's Calc for the Cluless_ Calc II - Bob Miller.pdf
+(base) ~/.../calibre$ 
+s
+ls
+rg
+tmux ls
+ls
+unrar 大数据竞赛
+unrar x 大数据竞赛.rar 
+ls
+rg
+ls
+cd 
+rg
+cd Documents/calibre/
+ls
+mkdir ../books
+find . -type f -iname "*.pdf" 
+find . -type f -iname "*.pdf" | xargs -i cp {} ../books
+cd ../books/
+ls
+cd ..
+ls
+rm -rf books/
+ls
+unzip 完整培训资料.zip 
+ls
+rg
+ls
+cd 
+ls
+unzip 安徽2018大数据竞赛资料.zip 
+rgt
+rg
+ls
+cd 
+ls
+mv 1111/ bigdata
+cd bigdata/
+ls
+mkdir 2018
+mv 安徽2018大数据竞赛资料.zip 2018
+cd 2018
+ls
+unzip 安徽2018大数据竞赛资料.zip 
+rg
+ls
+unrar x 答案.rar 
+ls
+rg
+ls
+cd .
+cd ..
+ls
+mkdir 2019
+mv 2019年大数据现场赛试题（含答案）.zip 2019
+ls
+cd 201
+cd 2019
+ls
+unzip 2019年大数据现场赛试题（含答案）.zip 
+ls
+cd ..
+ls
+rg
+ls
+mkdir 2017
+mv 安徽省2017年大数据竞赛培训资料.zip 2017
+ls
+cd 2017
+ls
+unzip 安徽省2017年大数据竞赛培训资料.zip 
+rg
+ls
+cd ..
+cd -
+ls
+cd ..
+ls
+rg
+ls
+mv 2019年大数据现场赛试题（含答案）.zip 2019
+rg
+neofetch 
+ls
+rg
+nmtui
+vi /etc/systemd/network
+vi /etc/systemd/networkd.conf 
+hostname
+hostnamectl 
+neofetch 
+hostnamectl 
+vi /etc/hosts
+rg
+cd
+rg
+ls
+ping cs6.swfu.edu.cn
+ssh cs6.swfu.edu.cn
+scp -r cs6.swfu.edu.cn:/var/www/calibre ~/Documents/
+cd Documents/
+ls
+vi titanic.csv 
+ls
+mv titanic.csv ~/1111/
+ls
+cd
+ls
+cd Downloads/
+cd 
+cd Documents/
+ls
+cd calibre/
+ls
+rg
+ip a
+rg
+cd 
+cd 1111/
+ls
+rg
+tmux ls
+tmux --kill-session 1
+tmux --kill-session 0
+tmux --kill-session :0
+tmux --kill-session 0:
+tmux -kill-session 0:
+tmux 
+ls
+vi .tmux.conf 
+ls
+rg
+rg
+ls
+ls
+c
+ssh 192.168.56.100
+ping 192.168.56.100
+ssh 192.168.56.100
+ssh 192.168.56.101
+ls
+vi ershoufang-clean-utf8-v1.1.csv 
+ls
+cd Documents/
+ls
+cd
+rg
+ls
+docker run -p 8888:8888 jupyter/pyspark-notebook
+ls
+scp ershoufang-clean-utf8-v1.1.csv master:~
+ls
+rg
+ls
+pwd
+docker -ps
+docker -ps -a
+docker -ps a
+docker ps -a
+docker cp ershoufang-clean-utf8-v1.1.csv c1e8de444627:~
+docker ps -a
+ip a
+docker ps -a
+docker cdp c1e8de444627:~/
+ls
+rg
+conda activate bert
+python 
+python -m spacy download en_core_web_sm
+python 
+wc
+bc
+fdsaw
+ipconfig
+ifconfig
+ip a
+ipconfig
+uname
+uname -a
+neofetch 
+htop
+nvidia-smi 
+uptime
+ls
+cd Downloads/
+ls
+docker ps -a
+ls
+pwd
+docker cp /home/allen/bigdata/大数据竞赛
+docker cp /home/allen/bigdata/大数据竞赛ershoufang-clean-utf8-v1.1.csv c1e8de444627:~/work
+docker cp /home/allen/bigdata/大数据竞赛/ershoufang-clean-utf8-v1.1.csv c1e8de444627:~/work
+docker cp /home/allen/bigdata/大数据竞赛/ershoufang-clean-utf8-v1.1.csv c1e8de444627:~/
+docker cp /home/allen/bigdata/大数据竞赛/ershoufang-clean-utf8-v1.1.csv c1e8de444627:/
+docker cp /home/allen/bigdata/大数据竞赛/ershoufang-clean-utf8-v1.1.csv c1e8de444627:/work
+docker cp /home/allen/bigdata/大数据竞赛/ershoufang-clean-utf8-v1.1.csv c1e8de444627:/
+docker -i ls
+docker cp /home/allen/bigdata/大数据竞赛/ershoufang-clean-utf8-v1.1.csv c1e8de444627:/home/jovyan/work
+docker run -p 8888:8888 jupyter/pyspark-notebook
+ls
+docker run -p 8888:8888 
+docker run -p 8888:8888 -cmd
+docker run -p 8888:8888 -bash
+docker run -p 8888:8888 jupyter/pyspark-notebook
+docker ps -a
+ls
+rg
+ls
+vi RDD_1.py 
+ssh master
+ls
+cp VMware-Workstation-Full-16.0.0-16894299.x86_64.bundle /media/allen/03FB-416B/
+sybc
+sync
+ls
+cd Downloads/
+ls
+ls Vm*
+ls V*
+ls VM*
+ls *VM*
+ls
+rg
+cd
+rg
+ssh master
+qlv
+cd Music/CloudMusic/
+ls
+cd 
+ls
+rg
+ls
+ls *sbt
+ls *sbt*
+ls
+cd Downloads/
+ls
+ls sbt*
+ls s*
+cd 
+rg
+ssh master
+scp master:~/log_movie.txt .
+rg
+ls
+conda activate bert
+conda deactivate 
+jupyter-notebook 
+sudo nmap -v -sS -O http://36.32.8.28/
+sudo nmap -v -sS -O 36.32.8.28
+sudo nmap -v -sS 36.32.8.28
+sudo nmap -v -sS -A 36.32.8.28
+nmap -sP 36.32.8.28
+nmap -sP -v 36.32.8.28
+nmap -sP -v -Pn 36.32.8.28
+nmap -sP -Pn -v 36.32.8.28
+nmap -sP -v 36.32.8.28
+git clone https://github.com/yzddmr6/WebCrack
+proxychains git clone https://github.com/yzddmr6/WebCrack
+pip3 install -r requirements.txt
+cd WebCrack/
+ls
+pip3 install -r requirements.txt
+ls
+vi README.md 
+ls
+vi cms.json 
+java -v
+java -V
+java -Version
+java -version
+cd 
+rg
+ls
+cd Downloads/
+ls
+ls Burp*
+unzip Burp_Suite_Pro_v2020.9_Loader_Keygen.zip 
+cd Burp_Suite_Pro_v2020.9_Loader_Keygen.zip 
+cd Burp_Suite_Pro_v2020.9_Loader_Keygen
+cd 
+cd -
+ls
+java BurpSuiteLoader.jar 
+java -Xbootclasspath/p:burp-loader-keygen.jar -jar burpsuite_pro_v1.7.31.jar
+java -jar BurpSuiteLoader.jar 
+java .cp -jar BurpSuiteLoader.jar 
+java . cp -jar BurpSuiteLoader.jar 
+ip a
+ls
+rg
+ssh master
+ssh master:~/spark.zip .
+scp master:~/spark.zip .
+ls
+s
+rg
+ls
+rg
+ls
+docker ps -a
+ls
+docker ps -a
+docker stop dfd47f7bf970
+docker stop c434970105bf
+docker stop c1e8de444627
+docker stop 73e8076fc87b
+docker ps -a
+docker start 73e8076fc87b
+docker attach 73e8076fc87b
+docker ps -a
+ls
+docker ps -a
+docker rm dfd47f7bf970
+docker ps -a
+docker rm c434970105bf
+docker ps -a
+docker rm 73e8076fc87b
+docker ps -a
+docker start -i c1e8de444627
+ls
+ls -lt dataset/
+ip a
+ls
+docker -ps -a
+docker ps -a
+docker start c1e8de444627
+docker attatch c1e8de444627
+docker attach c1e8de444627
+docker start c1e8de444627
+cd Music/CloudMusic/
+ls
+cd ..
+ls
+cd 
+cd /media/allen/0A6A-86C6/
+ls
+rg
+cd /media/allen/
+ls
+l
+ls
+cd 
+cd /media/allen/0A6A-86C6/
+ls
+rg
+cd 
+cd /media/allen/KINGSTON/
+ls
+cd 
+c dj
+cd j
+ls
+cd conf/
+ls
+cd ccnet/
+ls
+cd ..
+ls
+cd conf/
+su
+sudo su
+sudo service seafile status
+sudo service seafile restart
+ls
+sudo su
+sudo service seafile restart
+sudo su
+sudo service seafile restart
+sudo su
+ls
+cd seafile-server-latest
+ls
+./seahub.sh stop
+sudo service seafile restart
+ls
+rg
+cd
+cd /var/opt/
+ls
+cd ..
+ls
+rg
+cd ..
+ls
+rg
+ip a
+ls
+rg
+mocp
+sudo aptitude search mocp
+sudo aptitude search moc
+sudo apt install moc
+mocp 
+sudo aptitude search mpd
+sudo apt install  mpd
+sudo apt install  mpd-client
+sudo aptitude search mpd
+sudo apt install mpd-client
+sudo apt install mpc
+vi /etc/mpd.conf 
+ls
+cd .config/mpv/
+ls
+cd j
+cd
+mkdir -p .config/mpd
+vi .config/mpd/mpd.conf
+mkdir ~/.config/mpd/playlists
+touch ~/.config/mpd/{database,log,pid,state,sticker.sql}
+mpd .config/mpd/mpd.conf 
+mpd 
+mpd --verbose
+mpc
+mpd
+mpc
+ps -aux | grep mpd
+killall -9 mpd
+ps -aux | grep mpd
+mpd
+mpc update
+vi .config/mpd/mpd.conf 
+mpc update
+mpd --kill
+mpc update
+mpc listall
+mpc play
+killall -9 mpd
+mpd
+mpc play
+mocp
+ls
+mpc
+mpd
+ps -aux | grep mpd
+mpd --kill
+ps -aux | grep mpd
+ls
+cd Music/
+ls
+vi ~/.config/mpd/mpd.conf 
+pwd
+cd 
+killall -9 mpd
+mpd
+mpc play
+mpc update
+mpc play
+curl -kL https://github.com/tizonia/tizonia-openmax-il/raw/master/tools/install.sh | bash
+curl -kL https://goo.gl/Vu8qGR | bash
+curl
+sudo apt-get install libssl1.0.0 libssl-dev
+sudo aptitude search libssl
+sudo apt update
+sudo apt upgrade curl
+rg
+ls
+proxychains git clone git@github.com:srviest/char-cnn-text-classification-pytorch.git
+ls
+proxychains git clone https://github.com/srviest/char-cnn-text-classification-pytorch.git
+cd /media/allen/0A6A-86C6/
+ls
+cd System\ Volume\ Information/
+ls
+vi WPSettings.dat 
+cat IndexerVolumeGuid 
+ls
+cd 
+cd -
+ls
+cd ..
+ls
+rg
+cd 
+cd /media/allen/0A6A-86C6/
+ls
+cat Untitled\ Document\ 1 
+ls
+cd 
+cd /media/allen/03FB-416B/
+ls
+cd backup/
+ls
+cd DCIM/
+ls
+rg
+cd 
+nmtui
+cd Downloads/
+cd 
+rg
+ip a
+ls
+unzip code.zip 
+unzip x code.zip 
+unzip code.zip 
+ls
+cd ~/Downloads/
+ls
+unzip code.zip 
+unzip x code.zip 
+ls
+unzip code\ \(1\).zip 
+rm -rf code*
+cd ~/Downloads/
+ls
+rg
+ls
+python run.py --model TextCNN

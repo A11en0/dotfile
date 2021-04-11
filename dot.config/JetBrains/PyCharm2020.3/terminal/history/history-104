@@ -1,0 +1,2000 @@
+sudo apt update
+sudo apt upgrade
+ls
+cd Downloads/
+ls
+sudo dpkg -i todesk_1.2.2.deb 
+ls
+uptim
+uptime
+ls
+uptijme
+uptime
+cd
+j
+cd
+rg
+ls
+cd 
+ls
+cd
+cd PycharmProjects/
+ls
+cd TextClassification/
+ls
+git add .
+git commit -m "new codes"
+git push
+ls
+cd ..
+ls
+cd leetcode/
+ls
+cd .git/
+ls
+cd ..
+ls
+git add .
+git commit -m "new code"
+git push
+ls
+git remote add origin git@github.com:A11en0/reports-.git
+git remote add origin git@github.com:A11en0/reports-.gitH
+echo "# reports-" >> README.md
+git init
+ls
+git add README.md
+git add .
+git commit -m "first commit"
+git remote add origin git@github.com:A11en0/reports-.git
+git branch -M main
+git push -u origin main
+ls
+cd
+ethtool eth0
+ip a
+ethtool enp3s0
+ethtool enp3s0 | grep Supports
+sudo ethtool enp3s0 | grep Supports
+sudo ethtool -s enp3s0 wol g
+sudo ethtool enp3s0 | grep Supports
+sudo ethtool -s enp3s0 wol g
+sudo ethtool enp3s0 | grep Supports
+sudo ethtool -s enp3s0 wol g
+sudo ethtool enp3s0 | grep Supports
+ethtool -s enp3s0 wol g
+sudo ethtool -s enp3s0 wol g
+ethtool -s enp3s0 wol g
+sudo ethtool enp3s0 | grep Supports
+sudo ethtool enp3s0 
+ip a
+ls
+cd 
+ls
+rg
+ls
+cd Downloads/
+ls
+ssh
+ipa
+ip a
+ls
+fdsajlkj;ljflkdak
+cd 
+cd Softwares/pycharm-community-2020.2.3/bin/
+./pycharm.sh 
+sync
+ls
+vi config.json 
+LS
+ls
+ps -aux | grep todesk
+ls
+uptime
+alsamixer 
+cd next/
+ls
+zathura  基于BERT模型的中文短文本分类算法_段丹丹.pdf 
+ping ngrok.fastdmic.top
+ls
+ip a
+ls
+vi /etc/host
+vi /etc/hosts
+sudo vi /etc/hosts
+cd ng
+ls
+./ngrok -config=ngrok.cfg 80
+vi ngrok.cfg 
+./ngrok -config=ngrok.cfg 22
+vi ngrok.cfg 
+./ngrok -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+./ngrok -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+./ngrok -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+./ngrok -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+./ngrok -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+./ngrok -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+./ngrok -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+./ngrok -config=ngrok.cfg start ssh
+./ngrok -config=ngrok.cfg -log=ngrok.log start ssh
+vi ngrok.log 
+mv Downloads/frp_0.35.0_linux_amd64.tar.gz ../
+mv Downloads/frp_0.35.0_linux_amd64.tar.gz ./
+tar zxvf frp_0.35.0_linux_amd64.tar.gz 
+ls
+cd frp_0.35.0_linux_amd64
+ls
+vi frpc.ini 
+./frps -c frpc.ini 
+vi frpc.ini 
+./frps -c frpc.ini 
+vi frpc.ini 
+./frps -c frpc.ini 
+vi frpc.ini 
+./frps -c frpc.ini 
+ls
+vi frpc.ini 
+frpc -c frpc.ini
+./frpc -c frpc.ini
+mv 
+cd ..
+mv frp_0.35.0_linux_amd64 frp
+vi .bashrc
+ls
+ping ngrok.fastdmic.top
+ls
+ip a
+ls
+./ngrok.bin -log=ngrok.log -config.ngrok.cfg start ssh
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+trash ngrok.log*
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+ls
+vi ngrok.log 
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+ping ngrok.fastdmic.top
+ssh ping ngrok.fastdmic.top
+ssh  ngrok.fastdmic.top
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+vi ngrok.log
+ls
+vi ngrok.cfg 
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+vi ngrok.log.8
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+scp root@114.67.212.85:~/ngrok/bin/ngrok .
+./ngrok -log=ngrok.log -config=ngrok.cfg start ssh
+ping 114.67.212.85
+ping 8.8.8.8
+ping 114.67.212.85
+./ngrok -log=ngrok.log -config=ngrok.cfg start ssh
+ip a
+./ngrok -log=ngrok.log -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+./ngrok -log=ngrok.log -config=ngrok.cfg start ssh
+scp root@114.67.212.85:~/ngrok/bin/ngrok .
+./ngrok -log=ngrok.log -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+./ngrok -log=ngrok.log -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+./ngrok -log=ngrok.log -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+./ngrok -log=ngrok.log -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+trash ngrok.cfg 
+scp root@114.67.212.85:~/ngrok/bin/ngrok.cfg .
+scp root@114.67.212.85:~/ngrok/bin/ngrok.cfg.txt .
+ls
+mv ngrok.cfg.txt ngrok.cfg
+vi ngrok.cfg 
+./ngrok -log=ngrok.log -config=ngrok.cfg start ssh
+ls
+vi ngrok.log.9
+./ngrok -log=ngrok.log -config=ngrok.cfg start ssh
+scp root@114.67.212.85:~/ngrok/bin/ngrok .
+./ngrok -log=ngrok.log -config=ngrok.cfg start ssh
+scp allen@202.203.132.245:/home/staff/allen/ngrok.bin .
+ls
+./ngrok -log=ngrok.log -config=ngrok.cfg start ssh
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+trash ngrok.log*
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+vi ngrok.log 
+ping ngrok.fastdmic.top
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+ls
+vi ngrok.cfg 
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+scp allen@202.203.132.245:/home/staff/allen/ngrok.bin .
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+ls
+trash ngrok.bin 
+trash ngrok
+scp allen@202.203.132.245:/home/staff/allen/ngrok.bin .
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg 80
+vi ngrok.cfg 
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+NGROK_DMAIN="ngrok.fastdmic.top"
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+vi ngrok.cfg 
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+ls
+vi ngrok.log.17
+trash ngrok.log*
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+vi ngrok.log 
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+vi ngrok.log.1 
+vi ngrok.cfg 
+./ngrok.bin -log=ngrok.log -config=ngrok.cfg start ssh
+vi ngrok.log.2
+ls
+scp allen@202.203.132.245:/home/staff/allen/ngrok/bin/ngrok .
+NGROK_DOMAIN="ngrok.fastdmic.top"
+vi ngrok.cfg 
+./ngrok -config=ngrok.cfg 80
+ls
+trash ngrok*
+ls
+scp allen@202.203.132.245:/home/staff/allen/ngrok/bin/ngrok .
+./ngrok -config=ngrok.cfg 80
+echo -e "server_addr:$NGROK_DOMAIN:4443\ntrust_host_root_certs:false" > ngrok.cfg
+vi ng
+vi ngrok.cfg 
+./ngrok -config=ngrok.cfg 80
+vi ngrok.cfg 
+./ngrok -config=ngrok.cfg 80
+vi ngrok.cfg 
+ping ngrok.fastdmic.top
+./ngrok -config=ngrok.cfg 80
+sudo apt install autossh
+autossh -M 30000 -o "StrictHostKeyChecking=false" -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" -NR 20000:localhost:22 allen@202.203.132.245
+vi /etc/hosts
+sudo vi /etc/hosts
+autossh -M 30000 -o "StrictHostKeyChecking=false" -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" -NR 20000:localhost:22 allen@202.203.132.245
+ssh localhost
+sudo apt install openssh-server
+service sshd status
+sudo service sshd restart 
+ssh localhost
+sudo ufw allow ssh
+sudo systemctl sshd
+sudo systemctl ssh
+sudo systemctl status ssh
+ssh localhost
+ssh 127.0.0.1
+autossh -M 30000 -o "StrictHostKeyChecking=false" -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" -NR 30001:127.0.0.1:22 allen@202.203.132.245
+ls
+rg
+bash <(curl -s -L https://git.io/v2ray.sh)
+sudo apt-get install libssl1.0.0 libssl-dev
+sudo apt update
+sudo apt-get install libssl1.0.0 libssl-dev
+cd /lib/x86_64-linux-gnu/
+ls
+cd 
+bash <(curl -s -L https://git.io/v2ray.sh)
+curl www.google.com
+curl baidu.com
+sudo apt-get install libssl1.0.0 libssl-dev --reinstall
+sudo ln -s /usr/local/lib/libssl.so.1.1 /usr/lib/libssl.so.1.1
+sudo ln -s /usr/local/lib/libcrypto.so.1.1 /usr/lib/libcrypto.so.1.1
+curl baidu.com
+sudo ln -s /usr/local/lib/libcrypto.so.1.1 /usr/lib/libcrypto.so.1.1
+curl baidu.com
+sudo aptitude search libssl.so
+sudo aptitude search libssl
+sudo apt upgrade
+fdsa
+rz -E
+ls
+trash ngrok*
+wget http://security.debian.org/debian-security/pool/updates/main/o/openssl/libssl1.0.0_1.0.1t-1+deb8u12_armhf.deb
+sudo dpkg -i libssl1.0.0_1.0.1t-1+deb8u12_armhf.deb 
+apt-list libssl
+apt-cache libssl
+aptitude searc hlibssl
+aptitude searc libssl
+aptitude search libssl
+sudo apt install libssl1.1
+sudo apt reinstall curl
+curl www.google.com
+sudo dpkg -i libssl1.0.0_1.0.2g-1ubuntu4.18_amd64.deb 
+curl baidu.com
+curl -v
+curl -V
+LD_LIBRARY_PATH=/usr/local/lib curl www.baidu.com
+curl
+wget
+curl
+sudo apt reinstall curl
+curl
+ls /usr/lib/libcurl
+cat /usr/lib/li
+cd /usr/bin/lib
+sudo aptitude search libcurl
+sudo apt remove libcurl
+sudo apt remove libcurl*
+sudo apt remove curl
+wget https://curl.se/download/curl-7.74.0.tar.gz
+proxychains wget https://curl.se/download/curl-7.74.0.tar.gz
+tar zxvf curl-7.74.0.tar.gz 
+cd curl-7.74.0/
+ls
+./configure
+make
+make install
+curl
+sudo make install
+curl
+ldd /usr/local/bin/curl | grep libcurl
+LD_LIBRARY_PATH=/lib/x86_64-linux-gnu/libcurl.so.4 
+curl
+vi /etc/ld.so.conf
+vi /etc/ld.so.conf.d/libc.conf 
+vi /etc/ld.so.conf
+curl
+cd 
+vi .bashrc
+curl
+source .bashr
+source .bashrc
+vi .bashrc
+source .bashsr
+source .bashrc
+curl
+vi .bashrc
+source .bashrc
+curl
+vi v2ray_install.sh
+wget  https://git.io/v2ray.sh
+wget -s https://git.io/v2ray.sh
+rz -E
+ls
+z -E
+ls
+rz
+sudo apt install lrzsz
+rz -E
+ls
+chmod +x install.txt 
+./install.txt 
+sudo ./install.txt 
+v2ray qr
+v2ray 
+v2ray
+v2ray url
+vi .bashrc
+ls
+v2ray url
+ls
+./install.txt 
+asudo ./install.txt 
+sudo ./install.txt 
+v2ray 
+which v2ray
+v2ray url
+ls
+mail
+v2ray url
+v2ray -h
+v2ray url
+asudo ./install.txt 
+sudo ./install.txt 
+v2ray
+cd /etc/v2ray/233boy/v2ray/
+ls
+vi install.sh 
+ls
+tree
+ls
+./v2ray.sh
+sudo./v2ray.sh
+sudo ./v2ray.sh
+sudo su
+ls
+cd tools/
+ls
+./v3.sh
+cd ..
+ls
+cd ..
+ls
+ls -al
+sudo su
+cd /etc/v2ray/233boy/v2ray/
+ls
+cd config/
+ls
+cd ..
+ls
+sudo su
+~/fcpc
+~/fcp/frpc
+./~/fcp/frpc
+.~/fcp/frpc
+~/fcp/frpc
+~/frp/frpc
+~/frp/frpc -c ~/frp/frpc.ini
+vi frpc.i
+vi frpc.ini
+cd frp
+ls
+cd frp
+vi frpc.ini l
+~/frp/frpc -c ~/frp/frpc.ini
+./frp -c frpc.ini 
+ls
+./frpc -c frpc.ini 
+ls
+vi frpc.ini 
+./frpc -c frpc.ini 
+ls
+vi frpc.ini 
+./frpc -c frpc.ini 
+vi frpc.ini 
+ls
+lscd 
+cd 
+sudo su
+cd /etc/v2ray/
+sudo su
+ls
+pwd
+cd ..
+ls
+cd
+trash install.txt 
+ls
+sz
+ls
+sz Arch-beta.pdf 
+ls
+cd frp
+ls
+cd ..
+ls
+ping 114.213.208.50
+ssh -p1151 wsco@114.213.208.50
+ssh -p1131 wsco@114.213.208.50
+scp -r frp -p1131 wsco@114.213.208.50:~
+scp -r frp -p1131 wsco@114.213.208.50:~/
+scp frp -p1131 wsco@114.213.208.50:~/
+scp -p1131 wsco@114.213.208.50:~/
+scp -p1131 frp wsco@114.213.208.50:~/
+ssh -p1131 wsco@114.213.208.50
+ip a
+cd nltk_data/
+ls
+cd ..
+ls
+cd PycharmProjects/TextClassification/
+ls
+pwd
+ls
+cd PycharmProjects/
+ls
+cd TextClassification/
+ls
+pwd
+ls
+pwd
+ls
+la
+ls -l
+ls -lh
+ls
+cd ..
+ls
+cd Chinese-Text-Classification-Pytorch/
+ls
+vi utils
+vi utils.py 
+ls
+vi run.py 
+vi utils.py 
+ls
+cd datasets/
+ls
+cd SNIPPETS
+ls
+vi results.txt 
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd STCKA/
+ls
+cd ..
+pwd
+ls
+proxychains wget https://codeload.github.com/nltk/nltk_data/zip/gh-pages
+ls
+mv gh-pages packages.zip
+unzip packages.zip 
+ls
+cd PycharmProjects/
+cd TextClassification/
+ls
+proxychains git clone https://github.com/FelixChop/MediumArticles.git
+ls
+cd 
+ls
+cd nltk_data-gh-pages/
+ls
+cd packages/
+ls
+cd chunkers/
+ls
+cd ..
+ls
+cd tokenizers/
+ls
+cd ..
+ls
+cp tokenizers/ ~
+cp -r tokenizers/ ~
+ls
+cd tokenizers/
+ls
+sudoedit -s /
+ls
+ps -aux 
+ps -aux | grep pytyhon
+ps -aux | grep python
+ls
+ls
+cd Code/
+ls
+proxychains git clone https://github.com/Bjoux2/DeepMirTar_SdA.git
+proxychains git clone git@github.com:Bjoux2/DeepMirTar_SdA.git
+cd
+ping 114.213.208.50-
+ping 114.213.208.50
+cd Code/
+ls
+cd DeepMirTar_SdA/
+ls
+cd code/
+ls
+python test_SdA.py 
+python2 test_SdA.py 
+conda create -n "theano" python=2.7
+pip install numpy
+pip install sklearn
+pip install 114.213.211.222/23
+pip install theano
+pip install pickle
+ls
+conda activate theono
+conda activate theano
+pip install pickle
+pip install theano
+pip install numpy
+ls
+python test_SdA.py 
+pip install sklearn
+python test_SdA.py 
+tree
+cd ..
+ls
+tree
+cd code/
+ls
+cp ../data/ .
+cp ../data/* .
+python test_SdA.py 
+pip install mkl-service
+pip install mkl
+python test_SdA.py 
+ls
+vi load_data.py
+python load_data.py
+vi load_data.py
+python load_data.py
+vi load_data.py
+python load_data.py
+vi load_data.py
+python load_data.py
+vi load_data.py
+python load_data.py
+vi load_data.py
+ls
+cd ..
+ls
+cd ..
+sl
+ls
+cd -
+ls
+cd data/
+ls
+cd ..
+cd 
+ls
+cd frp
+ls
+vi frpc.ini 
+killall frpc
+frpc -c frpc.ini &
+ls
+cd
+cd frp
+ls
+vi frpc.ini 
+killall frpc
+frpc -c frpc.ini 
+ls
+./frpc -c frpc.ini &
+vi frpc.ini 
+./frpc -c frpc.ini &
+python -m ipykernel install --user --name theano --display-name "theano"
+conda activate theano
+python
+jupyter kernelspec remove "theano"
+pip install jupyter
+pip install jupyter-notebook
+pip install --upgrade pip
+pip install jupyter
+conda deactivate
+python kernelspec remove theano
+python env list
+ls
+cd
+ls
+cd Downloads/
+ls
+scp todesk_1.2.2.deb ../todesk.deb
+ip a
+cd
+cd frp
+ls
+vi frpc.ini 
+killall frpc
+./frpc -c frpc.ini
+./frpc -c frpc.ini &
+ls
+ssh -p1131 wsco@114.213.208.50
+ssh -p1131 wsco@114.213.208.50
+ip a
+ssh -p1131 wsco@114.213.208.50
+rg
+ssh -p1131 wsco@114.213.208.50
+ls
+cd Documents/TH
+cd Documents/Thesis-read/
+ls
+cd org
+ls
+cd .git/
+vi config 
+cd ..
+ls
+tree
+cd
+ls
+cd next/
+ls
+cd 1/
+ls
+cd
+cd Documents/Thesis-read/
+ls
+cd org
+ls
+cd ..
+ls
+cd papers/
+ls
+pwd
+cd
+killall frpc
+cd frp
+ls
+vi frpc.ini 
+ls
+./frpc -c frpc.ini &
+我哥他https://downloads.getfiddler.com/win/Fiddler%20Everywhere%201.5.0.exec
+proxychains wget https://downloads.getfiddler.com/win/Fiddler%20Everywhere%201.5.0.exe
+rz
+sz
+ls
+sz Fiddler\ Everywhere\ 1.5.0.exe 
+ls
+cd Code/
+ls
+cd DeepMirTar_SdA/
+ls
+cd DeepMirTar/
+ls
+cd ..
+ls
+cd code/
+ls
+cd ..
+ls
+vi README.md 
+s
+ls
+cd code/
+ls
+python test_SdA.py 
+ls
+conda activate theano
+python test_SdA.py 
+ls
+python SdA_wm.py
+ls
+cd ..
+ls
+crontab -e 
+ls
+cat 1
+crontab -e 
+ls
+trash 1
+ls
+crontab -e 
+ls
+cat mbox 
+trash mbox 
+ls
+mail
+ls
+crontab -e 
+ls
+mail
+s
+vi test.py
+python te
+python test.py 
+ls
+python test.py 
+vi test.py 
+python test.py 
+vi test.py 
+python test.py 
+ls
+python test.py 
+vi test.py 
+python test.py 
+vi test.py 
+python test.py 
+vi test.py 
+python test.py 
+vi test.py 
+python test.py 
+vi test.py 
+python test.py 
+ls
+cat a.txt 
+trash a.txt 
+crontab -e 
+s
+ls
+crontab -e 
+ls
+mail
+ls
+cd Code/python/
+ls
+cd hfut-auto-summit/
+ls
+git pull
+python index.py 
+vi config.yml 
+rz -E
+ls
+trash config.yml
+ls
+mv config.yml.0 config.yml
+ls
+python index.py 
+ls
+vi index.py 
+git pull
+python index.py 
+trash a.txt 
+conda create -n "theano" python=2.7
+crontab -e
+ls
+cd Code/python/
+ls
+cd hfut-auto-summit/
+ls
+python index.py 
+vi index.py 
+ls
+cd 
+sudo apt install weechat
+weechat
+ls
+cd Code/python/
+ls
+cd hfut-auto-summit/
+ls
+python index.py 
+ls
+vi frp/frpc.ini 
+killall frpc
+crontab -e
+ls
+mail
+ls
+crontab -e
+time
+date
+watch date
+mail
+cd Code/python/hfut-auto-summit/
+ls
+vi index.py 
+python index.py 
+vi index.py 
+mail
+mbox
+python
+which 
+which python
+cd 
+ls
+crontab -e
+ls
+watch date
+mail
+ls
+cd Code/python/hfut-auto-summit/
+ls
+/usr/bin/python
+/usr/bin/python3
+ls
+vi start.sh
+pwd
+vi start.sh
+ls
+crontab -e
+watch date
+mail
+ls
+trash start.sh 
+ls
+cd 
+ls
+crontab -e
+cd Code/python/hfut-auto-summit/
+ls
+vi index.py 
+crontab -e
+mail
+crontab -e
+ls
+cd 
+ls
+cat hfut-as.log 
+ls
+cat hfut-as.log 
+watch date
+mail
+ls
+cat hfut-as.log 
+ls
+cd Code/python/hfut-auto-summit/
+ls
+crontab -e
+cd 
+crontab -e
+ls
+echo"" > hfut-as.log 
+ls
+cat hfut-as.log 
+cd Code/python/hfut-auto-summit/
+vi index.py 
+crontab -e
+ls
+cd
+cat hfut-as.log 
+echo > hfut-as.log 
+cat hfut-as.log 
+watch date
+cd TextClassification/
+cat hfut-as.log 
+cd Code/python/hfut-auto-summit/
+ls
+which python
+crontab -e
+cd
+ls
+echo > hfut-as.log 
+ls
+cat hfut-as.log 
+crontab -e
+ls
+cat hfut-as.log 
+ls
+trash *.deb
+trash frp_0.35.0_linux_amd64.tar.gz 
+trash curl-7.74.0*
+ls
+trash mbox 
+ls
+cd hfut-auto-summit/
+cd Code/python/
+ls
+cd hfut-auto-summit/
+ls
+vi config.yml 
+ls
+python index.py 
+vi index.py 
+ls
+cd Code/
+ls
+cd 
+ls
+cd Code/Java/
+ls
+proxychains git clone git@github.com:ZimoLoveShuang/wisedu-unified-login-api.git
+cd Code/python/
+ls
+mkdir hfut-auto-summit
+cd hfut-auto-summit/
+ls
+rz -E
+ls
+rz -E
+ls
+mv hfut.md README.md
+ls
+rz -E
+trash README.md 
+mv hfut.md README.md
+ls
+git init
+git add .
+git commit -m "first commit"
+git remote add origin git@github.com:A11en0/hfut-auto-submit.git
+git push -u origin main
+git branch -M main
+git remote add origin git@github.com:A11en0/hfut-auto-submit.git
+git push -u origin main
+vi README.md 
+git add .
+git commit -m "change README"
+git push -u origin main
+ls
+vi config.yml 
+ls
+rz -E
+ls
+trash index.py
+ls
+mv index.py.0 index.py
+ls
+rz -E
+ls
+trash README.md 
+ls
+mv hfut.md README.md
+ls
+rz -E
+ls
+vi config.yml 
+rz -E
+ls
+trash config.yml
+mv config.yml.0 config.yml
+ls
+git add .
+git commit -m "change config"
+git push -u origin main
+rz -E
+ls
+trash config.yml
+ls
+mv config.yml.0 config.yml
+ls
+git add .
+git commit -m "change config"
+git push -u origin main
+vi README.md 
+git push -u origin main
+git add .
+git commit -m "change config"
+git push -u origin main
+ls
+git rz -E
+ls
+rz -E
+trash index.py
+mv index.py.0 index.py
+ls
+git add .
+git commit -m "change config"
+git push -u origin main
+ls
+vi README.md 
+git add .
+git commit -m "change config"
+git push -u origin main
+vi README.md 
+git add .
+git commit -m "change config"
+git push -u origin main
+rz -E
+ls
+trash index.py
+mv index.py.0 index.py
+git add .
+git commit -m "change config"
+git push -u origin main
+ls
+vi config.yml 
+ls
+vi index.py 
+rz -E
+ls
+trash index.py
+mv index.py.0 index.py
+git add .
+git commit -m "change config"
+git push -u origin main
+rz -E
+trash index.py
+mv index.py.0 index.py
+ls
+git add .
+git commit -m "change config"
+git push -u origin main
+ls
+vi config.yml 
+ls
+vi README.md 
+git add .
+git commit -m "change config"
+git push -u origin main
+vi README.md 
+git add .
+git commit -m "change config"
+git push -u origin main
+s
+ls
+vi README.md 
+git add .
+git commit -m "change config"
+git push -u origin main
+vi README.md 
+git add .
+git commit -m "change config"
+git push -u origin main
+rz -E
+ls
+trash index.py.0 
+mv index.py.0 index.py
+ls
+trash index.py 
+rz -E
+git add .
+git commit -m "change index"
+git push -u origin main
+rz
+sz
+ls
+sz README.md 
+ls
+sz .git/
+**01000000039a32��
+ls
+cd 
+ls
+vi .gitconfig 
+ls
+cd Code/
+ls
+cd python/
+ls
+cd hfut-auto-summit/
+ls
+vi .git/config 
+ls
+git pull
+ls
+git add .
+ls
+rm -rf .git/
+ls
+git init
+git commit -m "first commit"
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:A11en0/hfut-auto-submit.git
+git push -u origin main
+crontab -e 
+cd Code/python/
+ls
+cd hfut-auto-summit/
+ls
+l
+ls
+trash index.py README.md requirements.txt 
+rz -E
+git add .
+git commit -m "fix bugs"
+git push
+ls
+git pull
+ls
+crontab -e
+ls
+pwd
+ls
+cd ..
+ls
+cd hfut-auto-summit/
+ls
+pwd
+cd 
+ls
+cat 1 
+trash Fiddler\ Everywhere\ 1.5.0.exe 1 
+crontab -e
+ls
+cat 1 
+ls
+trash 1 
+ls
+cat 1
+ls
+cat 1
+crontab -e
+ls
+cat 1
+trash 1 
+cat 1
+ls
+crontab -e
+ls
+which python
+crontab -e
+ls
+crontab -e
+docker start calibre
+vi frp/frpc.ini 
+cd Downloads/
+ls
+sz ktjg.pdf 
+ls
+cd Code/python/hfut-auto-summit/
+s
+ls
+git pull
+git add . 
+ls
+git commit -m "do some change"
+git pull
+vi config.yml 
+git pull
+git add .
+git commit -m "do some change"
+git push
+git pull
+ls
+vi index.py 
+ls
+vi config.yml o
+ls
+crontab -e
+cd 
+ls
+cat hfut-as.log 
+cd -
+ls
+python index.py 
+ls
+ls
+cd hf
+cd Code/python/
+ls
+cd hfut-auto-summit/
+ls
+vi index.py 
+ls
+cd
+crontab -e
+ls
+cd Code/
+ls
+cd python/
+ls
+cd hfut-auto-summit/
+ls
+vi index.py 
+ls
+python re
+python index.py 
+ls
+mail
+ls
+cat hfut-as.log 
+cd Code/python/
+ls
+cd hfut-auto-summit/
+ls
+python index.py 
+ls
+cd
+crontab -e
+ps -aux | grep frp
+cd frp/
+ls
+vi frpc.ini 
+cd 
+ls
+ip a
+cd Documents/Thesis-read/
+ls
+cd org/final-report
+ls
+xpdf  main.pdf 
+ls
+ssh -p1131 wsco@114.213.208.50
+ls
+cd 
+ls
+cat frp/
+ls
+cat hfut-as.log 
+cd Code/python/
+ls
+cd hfut-auto-summit/
+ls
+python 
+python index.py 
+ls
+vi index.py 
+cd frp/
+ls
+cat frpc.ini 
+vi frpc.ini 
+killall frpc
+./frpc -c frpc.ini &
+ls
+j
+nmap -V 114.213.208.50
+nmap -vV 114.213.208.50
+nmap -sS 114.213.208.50
+sudo nmap -sS 114.213.208.50
+sudo nmap -sS 114.213.208.*/20
+sudo nmap -sS 114.213.208.0/24
+fd
+ls
+sudo dhclient
+sudo dhclient -r
+sudo dhclient
+nmtui
+ping baidu.com
+nmtui
+v2ray 
+ls
+vi config.json 
+v2ray config.json 
+v2ray config.json &
+tmux
+reboot
+ls
+v2ray &
+nmtui
+v2ray &
+CCc
+LLwfdlskjalkfjlkdsjalkvcx/zbnqjwerquiouJJ
+nmtui
+ping 8.8.8.8
+ip a
+cd Softwares/pycharm-community-2020.2.3/
+cd bin/
+ls
+cd ..
+ls
+cd ..
+ls
+cd pycharm-community-2020.2.3/
+ls
+cd bin/
+ls
+./pycharm.sh &
+ls
+cd ../../
+ls
+cd ZeroNet-linux-dist-linux64
+ls
+./ZeroNet.sh 
+python
+ls
+youdao-dict 
+pip install PyQtWebKit
+py -m pip install pyqt5==5.11.2
+pip install pyqt5==5.11.2
+ls
+cd .config/
+ls
+cd i3
+ls
+vi config
+cd
+vi .gtkrc-2.0 
+sudo copytranslator 
+sudo copytranslator --no-sandbox
+nmtui
+ping 8.8.8.8
+nmtui
+ping 8.8.8.8
+sudo dhclient -r
+sudo dhclient 
+ip a
+sudo dhclient -r
+sudo dhclient 
+lxappearance 
+ls
+vi .gtkrc-2.0 
+ls
+vi .gtkrc-2.0 
+lxappearance 
+sudo copytranslator --no-sandbox
+nmtui
+ping 8.8.8.8
+sudo dhclient -r
+sudo dhclient 
+ping 8.8.8.8
+nmtui
+service network restart
+sudo service network restart
+service list
+service -l
+service list
+sudo service 
+sudo service --status-al
+sudo service --status-all
+sudo service network-manager restart
+nmtui
+ping 8.8.8.8
+ssh -p1131 wsco@114.213.208.50
+nmtui
+ping 8.8.8.8
+sudo copytranslator --no-sandbox
+xrdb -query | grep dpi
+nvidia-xconfig
+sudo aptitude search nvidia-xconfig
+sudo apt install nvidia-xconfig 
+nvidia-xconfig 
+sudo nvidia-xconfig 
+vi /etc/X11/xorg.conf
+nvidia-setting
+sudo copytranslator --no-sandbox
+youdao-dict 
+pip3 install PyQtWebEngine
+pip install PyQtWebEngine
+pip3 install PyQtWebEngine
+youdao-dict 
+nmtuii
+nmtui
+ping 8.8.8.8
+sudo dhclient
+ping 8.8.8.8
+sudo dhclient -r
+ping 8.8.8.8 -
+ping 8.8.8.8 
+sudo dhclient 
+ping 8.8.8.8 
+ssh -p1131 wsco@114.213.208.50
+ssh -p1131 wsco@114.213.208.99
+nmtui
+youdao-dict 
+sudo apt purge youdao-dict
+ls
+sudo dpkg -i copytranslator_9.1.0_amd64.deb 
+copytranslator 
+sudo copytranslator 
+sudo copytranslator --no-sandbox
+cd
+curl
+ping 8.8.8.8
+nmtui
+sudo dhclient -r
+sudo dhclient 
+ip a
+nmtui
+sudo dhclient -r
+sudo dhclient 
+sudo apt install curl
+curl
+curl -V
+killall v2ray
+v2ray &
+ping 10.10.12.113
+ls
+cd
+cd nginx
+ls
+ls
+cd
+vi /etc/nginx/sites-available/default.conf 
+vi /etc/nginx/sites-available/
+cd /etc/nginx/
+ls
+cd conf.d/
+ls
+cd ..
+ls
+vi nginx.conf 
+grep -rf "1".
+grep -rf . "1"
+grep -rf "1" . 
+grep -rf . 123 
+ls
+grep -rf 123 
+grep -rf conf.d/ "123"
+grep -rn conf.d/ "123"
+grep -rn . "123"
+grep -rn . "hel"
+ls
+grep -rn . "n"
+cd modules-available/
+ls
+cd ..
+ls
+cd sites-available/
+ls
+vi default.conf 
+htop
+cd notes/
+ls
+git init
+git add README.md
+git commit -m "first commit"
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/A11en0/my-notes.git
+git push -u origin main
+ls
+vi .git/config 
+git push -u origin main'
+git push -u origin main
+ls
+vi .git/config 
+ls
+git push -u origin main'
+git push -u origin main
+cat ~/.ssh/id_rsa.pub 
+git remote add origin git@github.com:A11en0/my-notes.git
+git push -u origin main
+f
+ls
+rm .git/
+trash .git/
+ls
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:A11en0/my-notes.git
+git push -u origin main
+rg
+ls
+git pull
+ls
+rg
+cp ~/Documents/Thesis-read/org/report-3/*.org .
+ls
+git add .
+git push
+git commit -m "first commit"
+git push
+ls
+mkdir statics
+ls
+cp ~/Documents/Thesis-read/org/report-3/* .
+ls
+mv *.png statics/
+ls
+rg
+git add .
+git commit -m "first commit"
+git pus
+git push
+ls
+cp ../next/papers.* .
+ls
+git add .
+git commit -m "first commit"
+git push
+git add .
+git commit -m "first commit"
+git push
+git add .
+git commit -m "first commit"
+git push
+ls
+rg
+ls
+cd ..
+ls
+mv notes/ next/
+ls
+cd notes/
+ls
+mv ~/next/notes/ .
+ls
+mv notes/* .
+ls
+vi 自编码器.org 
+ls
+mv notes/.git/ .
+trash notes/
+ls
+cd ..
+ls
+ln -s /home/allen/notes/ /home/allen/nginx
+ls
+cd 
+ls
+rg
+htop
+killall v2ray
+v2ray &
+ls
+pwd
+cd
+neofetch 
+ip a
+nmtui
+sudo dhclient -r
+sudo dhclient 
+ping 8.8.8.8
+sudo dhclient -r
+sudo dhclient 
+rgl
+rg
+cd Pictures/
+ls
+cd
+rg
+emacs
+ls
+cd
+rgl
+rg
+nmtui
+rgl
+rg
+ip a
+git clone git@github.com:A11en0/A11en0.github.io.git
+ruby
+gem
+gem install github-pages
+proxychains gem install github-pages
+sudo proxychains gem install github-pages
+sudo apt-get install ruby2.0-dev
+sudo apt-get install ruby2.0
+sudo aptitude search ruby
+ruby
+sudo apt-get install ruby-dev
+sudo proxychains gem install github-pages
+cd
+curl
+ssh -p1131 wsco@114.213.208.99
+nmtui
+cd notes/
+ls
+rg
+ls
+git add .
+git commit -m "first commit"
+j
+git push
+ping 8.8.8.8
+nmtui
+sudo dhclient -r
+sudo dhclient 
+ls
+cd
+ls
+cd -
+ls
+git pull
+ls
+mv README.md README.org
+ls
+git add .
+git commit -m "first commit"
+git push
+git add .
+git commit -m "add README"
+git push
+ls
+rg
+git add .
+git commit -m "add README"
+git push
+git add .
+git commit -m "add README"
+git push
+git add .
+git commit -m "add README"
+git push
+git commit -m "add README"
+git add .
+git commit -m "add README"
+git push
+rgl
+rg
+cd
+cd -
+sudo service eamcs restart
+sudo service --user eamcs restart
+sudo systemctl --user eamcs restart
+sudo systemctl --user restart eamcs 
+systemctl --user
+systemctl --user | grep emacs
+sudo systemctl --user restart eamcs 
+sudo systemctl --user restart emacs 
+systemctl --user restart emacs 
+sudo pip install popupdict
+pip install popupdict
+popup-dict 
+pip install gi
+pip remove popupdict
+pip remove pop-dict
+pip uninstall pop-dict
+pip uninstall popup-dict
+pip uninstall popupdict
+rg
+sudo apt purge copytranslator
+sacremoses 
+man sacremoses 
+sacremoses 
+salsa 
+sudo dpkg -i saladict-desktop_1.0.0_amd64.deb.crdownload 
+sudo dpkg -i saladict-desktop_1.0.0_amd64.deb 
+ps -aux | grep sala
+sudo dpkg -i saladict-desktop_1.0.0_amd64.deb 
+ps -aux | grep sala
+ps -aux | grep saladict
+saladict-desktop 
+sudo apt purge saladict-desktop
+sudo dpkg --configure -a
+sudo apt purge saladict-desktop
+sudo apt purge saladict*
+sudo apt purge sala*
+sudo apt remove sala*
+sudo apt install goldendict
+sudo dpkg --configure -a
+sudo apt install goldendict
+sudo apt update
+sudo apt install goldendict
+sudo dpkg --remove --force-all hl1440lpr
+sudo dpkg --remove --force-all saladict-desktop
+sudo apt install goldendict
+proxychains git clone git@github.com:soimort/translate-shell.git
+cd translate-shell/
+ls
+make
+sudo make install
+trans
+trans -e google fdsa
+trans -e google hello
+trans -e google -s auto -t zh-TW -show-original y -show-original-phonetics n -show-translation y -no-ansi -show-translation-phonetics n -show-prompt-message n -show-languages y -show-original-dictionary n -show-dictionary n -show-alternatives n hello
+sudo apt install gawk
+sudo apt autoremove
+trans vorto
+trans :zh "To-morrow, and to-morrow, and to-morrow,"
+trans :zh 'Out, out, brief candle!'
+trans 123
+trans hello
+trans -s hello
+trans hello
+proxychains trans hello
+trans hello
+proxychains trans hello
+trans hello
+goldendict 
+cd
+rg
+q
+ls
+cd PycharmProjects/
+ls
+cd bi
+cd
+cd Softwares/pycharm-community-2020.2.3/bin/
+./pycharm.sh 
+pwd
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+rg
+cd Softwares/
+ls
+tar zxvf pycharm-professional-2020.3.tar.gz 
+pwd
+cd pycharm-professional-2020.3.tar.gz 
+ls
+cd pycharm-2020.3/
+ls
+cd bin/
+ls
+pwd
+ln -s /home/allen/Softwares/pycharm-2020.3/bin /usr/local/bin/
+sudo ln -s /home/allen/Softwares/pycharm-2020.3/bin /usr/local/bin/
+cd
+cd /usr/local/bin/
+ls
+rm -rf bin
+sudo rm -rf bin
+ls
+sudo ln -s /home/allen/Softwares/pycharm-2020.3/bin/pycharm.sh /usr/local/bin/pycharm
+cd
+ssh -p1131 wsco@114.213.208.99
+cd
+killall
+killall v2ray
+v2ray &
+cd frp/
+ls
+vi frps
+vi frps.ini 
+ls
+ssh -p1131 wsco@114.213.208.99
+cd
+ls
+rg
+docker start calibre
+ls
+docker start calibre
+ssh -p1131 wsco@114.213.208.99
+ssh allen@202.203.132.245
+ls
+vi frpc
+vi frpc.ini 
+ls
+vi frps.ini 
+ls
+scp -r allen@202.203.132.245:/home/staff/allen/frp_0.22.0_linux_amd64/frps.ini .
+ls
+vi frps.ini 
+ls
+./frps -c frps.ini 
+ip a
+killall frps
+ls
+./frps -c frps.ini 
+./frps -c frps.ini &
+cd
+frp/frpc -c frp/frpc.ini 
+cd frp/
+ls
+frpc -c frpc.ini 
+./frpc -c frpc.ini 
+killall v2ray
+./frpc -c frpc.ini 
+vi frpc.ini 
+ls
+./frps -c frpc.ini 
+killall frps
+./frps -c frpc.ini 
+./frps -c frpc.ini &
+cd
+ssh -p1131 wsco@114.213.208.99
+ip a
+killall v2ray
+v2ray 
+v2ray &
+pip install Pyro4
+ls
+cd ..
+ls
+cd pretrain/
+ls
+cd ..
+ls
+cd data
+ls
+cd ..
+ls
+cd datasets/SNIPPETS
+ls
+ls -al
+cd ..
+ls
+cd ..
+s
+ls
+ls ..
+nmtui
+ls
+cd
+rg
+nmtui
+a
+nmtui
+rg
+nmtui
+rg
+sudo service network-manager restart
+nmtui
+ls
+tensorboard --logdir=datasets/SNIPPETS/log/LDA
+tensorboard --logdir=datasets/SNIPPETS/log
+tensorboardx --logdir=datasets/SNIPPETS/log
+tensorboard --logdir='datasets/SNIPPETS/log'
+cd datasets/SNIPPETS
+s
+ls
+tensorboard --logdir=LDA
+tensorboard --logdir=LDA --port 8080 --host 0.0.0.0
+tensorboard --logdir=lolog/LDA --port 8080 --host 0.0.0.0
+ls
+tensorboard --logdir=log/LDA --port 8080 --host 0.0.0.0
+tensorboard --logdir=log --port 8080 --host 0.0.0.0
+ls
+pwd
+cd ../../
+pwd
+git add .
+git commit -m "modify LDA model"
+ls
+vi .gitignore 
+ls
+git add .
+git commit -m "modify LDA model"
+lks
+cd models/
+ls
+cd ..
+ls
+pwd
+vi .git/config 
+ls
+git add .
+cd models/
+ls
+cd ..
+git add models/
+git commit -m "modify LDA model"
+ls
+vi .git/config 
+ls
+git add .
+vi .gitignore 
+ls
+git add .
+cd TextClassification/
+ls
+cd ..
+ls
+mv TextClassification/ ../TextClassification_bak
+ls
+git add .
+git commit -m "modify LDA model"
+git push
+reboot
+pip 
+pip2
+pip install pytorch==0.3
+pip install pytorch==1.0.2
+pip install torch
+pip install torch==0.3
+pip install torch==0.3.1
+proxychains pip install torch==0.3.1
+ls
+proxychains pip install torch==0.3.1
+pip install torch==0.3.1
+rg
+nmtui
+ipa 
+ip a
+nmtui
+rg
+zathura next/4/Variational\ Pretraining\ for\ Semi-supervised\ Text\ Classification.pdf 
+zathura next/1/Dataless\ Short\ Text\ Classification\ Based\ on\ Biterm\ Topic\ Model\ and\ Word\ Embeddings.pdf 
+ua
+lua
+sudo aptitude search lua
+sudo apt install lua
+sudo apt install lua5.3
+lua
+ls
+cd
+cd PycharmProjects/
+ls
+cd TextClassification
+ls
+git add .
+git commit -m "modify LDA model"
+git push
+htop
+ls
+cd  datasets/
+ls
+cd AGNEWS/
+ls
+tensorboard --logdir=log --port 8080 --host 0.0.0.0
+tensorboard --logdir=log --port 8866 --host 0.0.0.0
+ls
+cd ..
+ls
+cd SST-2/
+ls
+tensorboard --logdir=log --port 8866 --host 0.0.0.0
+ls
+cd ..
+ls
+cd TAGMYNEWS/
+ls
+tensorboard --logdir=log --port 8866 --host 0.0.0.0
+cd ..
+ls
+cd AGNEWS/
+tensorboard --logdir=log --port 8866 --host 0.0.0.0
+ls
+cd ..
+ls
+cd SST-1/
+ls
+tensorboard --logdir=log --port 8866 --host 0.0.0.0
+ls
+cd 
+cd PycharmProjects/TextClassification
+ls
+cd datasets/
+ls
+cd R8/
+ls
+head r8_new.tsv 
+vi r8_new.tsv 
+ls
+pip install torch==0.3.1 -i https://mirrors.163.com/pypi/simple/
+pip install torch==0.3.1 
+pip --default-timeout=100 install numpy
+pip --default-timeout=100 install torch==0.3.1
+pip --default-timeout=100 install torch
+ls
+pip install torch-0.3.1-cp36-cp36m-linux_x86_64.whl 
+pip install torch==0.3.1
+ls
+pip install torch-0.3.1-cp27-cp27mu-manylinux1_x86_64.whl 
+python 
+pip install torch==1.8.0+cpu torchvision==0.9.0+cpu torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
+pip install torch==0.3.1 -f https://download.pytorch.org/whl/torch_stable.html
+pip uninstall torch
+pip install torch==0.3.1 -f https://download.pytorch.org/whl/torch_stable.html
+pip install torch==0.3.1+cpu -f https://download.pytorch.org/whl/torch_stable.html//
+pip install torch==0.3.1 -f https://download.pytorch.org/whl/torch_stable.html
+pip install line_profiler

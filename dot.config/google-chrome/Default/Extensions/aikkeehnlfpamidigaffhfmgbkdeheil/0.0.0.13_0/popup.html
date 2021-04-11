@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .share-btn {
+        display: inline-block;
+        color: #ffffff;
+        border: none;
+        padding: 0.1em 0.4em;
+        outline: none;
+        text-align: center;
+        font-size: 0.9em;
+        margin: 0.2em 0.1em;
+        text-decoration: none;
+      }
+      .share-btn:focus,
+      .share-btn:hover {
+        text-decoration: none;
+        opacity: 0.8;
+      }
+      .share-btn:active {
+        color: #e2e2e2;
+      }
+      .share-btn.slack:focus,
+      .share-btn.slack:hover {
+        background: lightgrey !important;
+      }
+      .share-btn.twitter { background: #55acee; }
+      .share-btn.facebook { background: #3B5998; }
+      .share-btn.messenger { background: #0078FF; }
+      .share-btn.reddit { background: #ff5700; }
+      .share-btn.whatsapp { background: #4FCE5D; }
+      .share-btn.linkedin { background: #4875B4; }
+      .share-btn.email { background: #db4437; }
+      .share-btn.copytext { background: #444444; cursor: pointer;}
+      .share-btn.slack { background: #f8f9fa !important; border-color: black; color: black !important; border: 1px solid !important;}
+    </style>
+  </head>
+  <body style="width: 470px; height: 400px; padding:5px; font-size: 0.9em;">
+    <p>
+      <b>CatalyzeX</b> automatically finds code for AI/ML papers across the web!
+      <br><br>
+      Try Googling '<a href="https://www.google.com/search?q=stylegan+paper" target="_blank">stylegan paper</a>', visiting this <a href="https://arxiv.org/abs/1812.04948" target="_blank">arXiv paper</a>, or even opening this <a href="https://scholar.google.com/citations?hl=en&user=W8VIEZgAAAAJ" target="_blank">Google Scholar page</a>.
+      <br>
+      Voila! You'll see <b>CODE</b> buttons appear on the page.
+      <br><br><br>
+      You can also browse the largest collection of ML models and code on <a href="https://www.catalyzeX.com" target="_blank">CatalyzeX.com</a>.
+      <br><br><br>
+      If you like this extension, we'd appreciate if you please share with your friends and colleagues too:
+      <br>
+            <a href="mailto:?subject=Browser%20extension%20that%20finds%20code%20for%20ML%20papers&body=Get%20the%20CatalyzeX%20browser%20extension%20to%20automatically%20find%20code%20for%20ML%20papers%20anywhere%20online!%0A%0AChrome:%20bit.ly%2Fcode_finder_chrome%20%0AFirefox:%20bit.ly%2Fcode_finder_firefox" class="share-btn email" target="_blank">
+                Email
+            </a>
+            <a href="https://twitter.com/intent/tweet?text=Get%20the%20@CatalyzeX%20browser%20extension%20to%20automatically%20find%20code%20for%20ML%20papers%20anywhere%20online!%0A%0AChrome:%20bit.ly%2Fcode_finder_chrome%20%0AFirefox:%20bit.ly%2Fcode_finder_firefox&related=CatalyzeX" class="share-btn twitter" target="_blank">
+                Twitter
+            </a>
+            <a href="https://www.facebook.com/dialog/share?app_id=704241106642044&display=popup&href=bit.ly%2Fcode_finder_chrome&redirect_uri=https%3A%2F%2Fcatalyzex.com&quote=Get%20the%20CatalyzeX%20browser%20extension%20to%20automatically%20find%20code%20for%20ML%20papers%20anywhere%20online!%0A%0AChrome:%20bit.ly%2Fcode_finder_chrome%20%0AFirefox:%20bit.ly%2Fcode_finder_firefox" class="share-btn facebook" target="_blank">
+                Facebook
+            </a>
+            <a href="https://www.facebook.com/dialog/send?app_id=704241106642044&link=https%3A%2F%2Fbit.ly%2Fcode_finder_chrome&redirect_uri=https%3A%2F%2Fcatalyzex.com" class="share-btn messenger" target="_blank">
+                Messenger
+            </a>
+            <a href="https://www.reddit.com/submit?title=Browser%20extension%20that%20finds%20code%20for%20ML%20papers&text=Get%20the%20CatalyzeX%20browser%20extension%20to%20automatically%20find%20code%20for%20ML%20papers%20anywhere%20online!%0A%0AChrome%3A%20bit.ly%2Fcode_finder_chrome%20%0AFirefox%3A%20bit.ly%2Fcode_finder_firefox" class="share-btn reddit" target="_blank">
+                Reddit
+            </a>
+            <a href="https://api.whatsapp.com/send?text=Get%20the%20CatalyzeX%20browser%20extension%20to%20automatically%20find%20code%20for%20ML%20papers%20anywhere%20online!%0A%0AChrome:%20bit.ly%2Fcode_finder_chrome%20%0AFirefox:%20bit.ly%2Fcode_finder_firefox" class="share-btn whatsapp" target="_blank">
+                WhatsApp
+            </a>
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url=bit.ly%2Fcode_finder_chrome" class="share-btn linkedin" target="_blank">
+                LinkedIn
+            </a>
+            <a class="share-btn copytext" id="copytext" target="_blank" copytext="Get the CatalyzeX browser extension to automatically find code for ML papers anywhere online! Chrome: bit.ly/code_finder_chrome Firefox: bit.ly/code_finder_firefox">
+                Copy Link
+            </a>
+
+            <br><br><br>
+            <a class="share-btn slack" target="_blank" href="https://join.slack.com/t/machinelearningwiki/shared_invite/zt-6vuomv74-r2aSJ8aPPyoGmAHApjFVNQ">
+                Join our #Slack
+            </a>
+
+      <br><br>
+      Feedback/issues/feature requests? Please <a href="mailto:gaurav@profillic.com?subject=Feedback/request for CatalyzeX browser extension" target="_blank"><b>message me</b></a>!
+      <br>
+      Thanks for helping us serve you better.
+    </p>
+    <script type="text/javascript" src="popup.js"></script>
+  </body>
+</html>

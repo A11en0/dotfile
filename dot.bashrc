@@ -8,6 +8,7 @@
 [ -f ~/.bin/bashmarks.sh ] && . ~/.bin/bashmarks.sh
 [ -f ~/.bin/bash_completion_tmux.sh ] && . ~/.bin/bash_completion_tmux.sh
 [ -f ~/.bin/git-prompt.sh ] && . ~/.bin/git-prompt.sh
+#[ -f ~/frp/frpc ] && . ~/frp/frpc -c ~/frp/frpc.ini
 test -f ~/.bin/utils && . ~/.bin/utils
 test -f ~/.bin/web-apps && . ~/.bin/web-apps
 test -f ~/.bin/docs.sh && . ~/.bin/docs.sh
@@ -65,3 +66,8 @@ else
 fi
 unset __conda_setup
 # <<< conda init <<<
+export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-9.0/extras/CUPTI/lib64
+
+# http_proxy=http://127.0.0.1:10086

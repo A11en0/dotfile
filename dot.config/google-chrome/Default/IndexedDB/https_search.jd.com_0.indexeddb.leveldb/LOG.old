@@ -1,0 +1,15 @@
+2020/11/06-10:04:09.884 1e82 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_search.jd.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/06-10:04:09.884 1e82 Recovering log #4
+2020/11/06-10:04:09.884 1e82 Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_search.jd.com_0.indexeddb.leveldb/000004.log 
+2020/11/06-10:04:12.302 1ee1 Level-0 table #8: started
+2020/11/06-10:04:12.308 1ee1 Level-0 table #8: 886 bytes OK
+2020/11/06-10:04:12.313 1ee1 Delete type=0 #4
+2020/11/06-10:04:12.313 1ee1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/06-10:04:12.313 1ee1 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x10\x003\x00A\x00B\x009\x00D\x002\x003\x00F\x007\x00A\x004\x00B\x003\x00C\x009\x00B' @ 73 : 1
+2020/11/06-10:04:12.313 1ee1 Compacting 1@1 + 1@2 files
+2020/11/06-10:04:12.317 1ee1 Generated table #9@1: 19 keys, 710 bytes
+2020/11/06-10:04:12.317 1ee1 Compacted 1@1 + 1@2 files => 710 bytes
+2020/11/06-10:04:12.320 1ee1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/06-10:04:12.321 1ee1 Delete type=2 #8
+2020/11/06-10:04:12.321 1ee1 Delete type=2 #5
+2020/11/06-10:04:12.321 1ee1 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x10\x003\x00A\x00B\x009\x00D\x002\x003\x00F\x007\x00A\x004\x00B\x003\x00C\x009\x00B' @ 73 : 1 .. (end); will stop at (end)

@@ -1,0 +1,15 @@
+2021/04/07-21:12:43.529 2037 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_h.online-metrix.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/07-21:12:43.529 2037 Recovering log #62
+2021/04/07-21:12:43.529 2037 Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_h.online-metrix.net_0.indexeddb.leveldb/000062.log 
+2021/04/07-21:12:54.011 1e49 Level-0 table #66: started
+2021/04/07-21:12:54.015 1e49 Level-0 table #66: 190 bytes OK
+2021/04/07-21:12:54.018 1e49 Delete type=0 #62
+2021/04/07-21:12:54.018 1e49 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/07-21:12:54.018 1e49 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 60 : 1
+2021/04/07-21:12:54.018 1e49 Compacting 1@1 + 1@2 files
+2021/04/07-21:12:54.021 1e49 Generated table #67@1: 20 keys, 788 bytes
+2021/04/07-21:12:54.021 1e49 Compacted 1@1 + 1@2 files => 788 bytes
+2021/04/07-21:12:54.025 1e49 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/07-21:12:54.025 1e49 Delete type=2 #54
+2021/04/07-21:12:54.025 1e49 Delete type=2 #66
+2021/04/07-21:12:54.025 1e49 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 60 : 1 .. (end); will stop at (end)

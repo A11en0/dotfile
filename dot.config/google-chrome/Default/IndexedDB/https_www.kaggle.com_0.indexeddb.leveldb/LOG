@@ -1,0 +1,15 @@
+2021/03/23-16:13:33.801 28c4 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.kaggle.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/23-16:13:33.802 28c4 Recovering log #75
+2021/03/23-16:13:33.802 28c4 Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_www.kaggle.com_0.indexeddb.leveldb/000075.log 
+2021/03/23-16:15:22.270 2ee4 Level-0 table #80: started
+2021/03/23-16:15:22.275 2ee4 Level-0 table #80: 15982 bytes OK
+2021/03/23-16:15:22.279 2ee4 Delete type=0 #75
+2021/03/23-16:15:22.279 2ee4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/23-16:15:22.279 2ee4 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01@\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00:\x00a\x00u\x00t\x00h\x00U\x00s\x00e\x00r\x00:\x00A\x00I\x00z\x00a\x00S\x00y\x00D\x002\x006\x000\x00r\x00H\x00H\x00E\x00e\x00M\x00V\x00D\x00G\x00V\x00q\x00y\x00W\x00q\x000\x00y\x00s\x00z\x00m\x00L\x00J\x00-\x005\x00C\x00g\x00k\x00q\x00r\x00k\x00:\x00G\x00l\x00o\x00b\x00a\x00l' @ 6704 : 1
+2021/03/23-16:15:22.279 2ee4 Compacting 1@1 + 1@2 files
+2021/03/23-16:15:22.281 2ee4 Generated table #81@1: 22 keys, 3318 bytes
+2021/03/23-16:15:22.281 2ee4 Compacted 1@1 + 1@2 files => 3318 bytes
+2021/03/23-16:15:22.283 2ee4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/23-16:15:22.283 2ee4 Delete type=2 #80
+2021/03/23-16:15:22.283 2ee4 Delete type=2 #77
+2021/03/23-16:15:22.284 2ee4 Manual compaction at level-1 from '\x00\x01\x01\x02\x01@\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00:\x00a\x00u\x00t\x00h\x00U\x00s\x00e\x00r\x00:\x00A\x00I\x00z\x00a\x00S\x00y\x00D\x002\x006\x000\x00r\x00H\x00H\x00E\x00e\x00M\x00V\x00D\x00G\x00V\x00q\x00y\x00W\x00q\x000\x00y\x00s\x00z\x00m\x00L\x00J\x00-\x005\x00C\x00g\x00k\x00q\x00r\x00k\x00:\x00G\x00l\x00o\x00b\x00a\x00l' @ 6704 : 1 .. (end); will stop at (end)

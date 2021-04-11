@@ -1,81 +1,9 @@
-2020/09/10-02:06:39.499 836 Reusing MANIFEST /home/allen/.config/google-chrome/Default/Session Storage/MANIFEST-000001
-2020/09/10-02:06:39.499 836 Recovering log #66
-2020/09/10-02:06:39.500 836 Reusing old log /home/allen/.config/google-chrome/Default/Session Storage/000066.log 
-2020/09/10-03:34:29.176 b55 Level-0 table #70: started
-2020/09/10-03:34:29.180 b55 Level-0 table #70: 22460 bytes OK
-2020/09/10-03:34:29.182 b55 Delete type=0 #66
-2020/09/10-03:34:29.182 b55 Compacting 4@0 + 1@1 files
-2020/09/10-03:34:29.189 b55 Generated table #71@0: 2873 keys, 63026 bytes
-2020/09/10-03:34:29.189 b55 Compacted 4@0 + 1@1 files => 63026 bytes
-2020/09/10-03:34:29.191 b55 compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/09/10-03:34:29.191 b55 Delete type=2 #70
-2020/09/10-03:34:29.191 b55 Delete type=2 #67
-2020/09/10-03:34:29.191 b55 Delete type=2 #63
-2020/09/10-03:34:29.191 b55 Delete type=2 #61
-2020/09/10-03:34:29.191 b55 Delete type=2 #65
-2020/09/10-04:56:52.457 b55 Level-0 table #73: started
-2020/09/10-04:56:52.470 b55 Level-0 table #73: 23470 bytes OK
-2020/09/10-04:56:52.475 b55 Delete type=0 #69
-2020/09/10-05:29:54.306 b55 Level-0 table #75: started
-2020/09/10-05:29:54.314 b55 Level-0 table #75: 40664 bytes OK
-2020/09/10-05:29:54.317 b55 Delete type=0 #72
-2020/09/10-07:08:16.133 b55 Level-0 table #77: started
-2020/09/10-07:08:16.138 b55 Level-0 table #77: 47035 bytes OK
-2020/09/10-07:08:16.141 b55 Delete type=0 #74
-2020/09/10-07:48:13.087 b55 Level-0 table #79: started
-2020/09/10-07:48:13.092 b55 Level-0 table #79: 23462 bytes OK
-2020/09/10-07:48:13.095 b55 Delete type=0 #76
-2020/09/10-07:48:13.095 b55 Compacting 4@0 + 1@1 files
-2020/09/10-07:48:13.101 b55 Generated table #80@0: 3268 keys, 149752 bytes
-2020/09/10-07:48:13.101 b55 Compacted 4@0 + 1@1 files => 149752 bytes
-2020/09/10-07:48:13.103 b55 compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/09/10-07:48:13.104 b55 Delete type=2 #73
-2020/09/10-07:48:13.104 b55 Delete type=2 #75
-2020/09/10-07:48:13.104 b55 Delete type=2 #77
-2020/09/10-07:48:13.104 b55 Delete type=2 #79
-2020/09/10-07:48:13.104 b55 Delete type=2 #71
-2020/09/10-08:53:24.605 b55 Level-0 table #82: started
-2020/09/10-08:53:24.609 b55 Level-0 table #82: 17045 bytes OK
-2020/09/10-08:53:24.612 b55 Delete type=0 #78
-2020/09/10-21:29:16.004 b55 Level-0 table #84: started
-2020/09/10-21:29:16.008 b55 Level-0 table #84: 19864 bytes OK
-2020/09/10-21:29:16.011 b55 Delete type=0 #81
-2020/09/10-22:26:41.724 b55 Level-0 table #86: started
-2020/09/10-22:26:41.730 b55 Level-0 table #86: 37737 bytes OK
-2020/09/10-22:26:41.733 b55 Delete type=0 #83
-2020/09/10-22:27:06.894 b55 Level-0 table #88: started
-2020/09/10-22:27:06.897 b55 Level-0 table #88: 47223 bytes OK
-2020/09/10-22:27:06.899 b55 Delete type=0 #85
-2020/09/10-22:27:06.900 b55 Compacting 4@0 + 1@1 files
-2020/09/10-22:27:06.908 b55 Generated table #89@0: 3579 keys, 226309 bytes
-2020/09/10-22:27:06.908 b55 Compacted 4@0 + 1@1 files => 226309 bytes
-2020/09/10-22:27:06.910 b55 compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/09/10-22:27:06.911 b55 Delete type=2 #82
-2020/09/10-22:27:06.911 b55 Delete type=2 #86
-2020/09/10-22:27:06.911 b55 Delete type=2 #80
-2020/09/10-22:27:06.911 b55 Delete type=2 #84
-2020/09/10-22:27:06.911 b55 Delete type=2 #88
-2020/09/10-22:27:18.717 b55 Level-0 table #91: started
-2020/09/10-22:27:18.724 b55 Level-0 table #91: 47559 bytes OK
-2020/09/10-22:27:18.728 b55 Delete type=0 #87
-2020/09/11-05:04:53.179 b55 Level-0 table #93: started
-2020/09/11-05:04:53.188 b55 Level-0 table #93: 34800 bytes OK
-2020/09/11-05:04:53.190 b55 Delete type=0 #90
-2020/09/12-05:42:06.205 b55 Level-0 table #95: started
-2020/09/12-05:42:06.213 b55 Level-0 table #95: 23506 bytes OK
-2020/09/12-05:42:06.215 b55 Delete type=0 #92
-2020/09/12-08:35:58.237 b55 Level-0 table #97: started
-2020/09/12-08:35:58.244 b55 Level-0 table #97: 23197 bytes OK
-2020/09/12-08:35:58.246 b55 Delete type=0 #94
-2020/09/12-08:35:58.246 b55 Compacting 4@0 + 1@1 files
-2020/09/12-08:35:58.254 b55 Generated table #98@0: 3934 keys, 169954 bytes
-2020/09/12-08:35:58.254 b55 Compacted 4@0 + 1@1 files => 169954 bytes
-2020/09/12-08:35:58.256 b55 compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/09/12-08:35:58.256 b55 Delete type=2 #93
-2020/09/12-08:35:58.256 b55 Delete type=2 #95
-2020/09/12-08:35:58.256 b55 Delete type=2 #91
-2020/09/12-08:35:58.256 b55 Delete type=2 #89
-2020/09/12-08:35:58.256 b55 Delete type=2 #97
-2020/09/12-08:45:55.346 b55 Level-0 table #100: started
-2020/09/12-08:45:55.352 b55 Level-0 table #100: 37761 bytes OK
-2020/09/12-08:45:55.355 b55 Delete type=0 #96
+2021/04/10-11:33:25.335 b Reusing MANIFEST /home/allen/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2021/04/10-11:33:25.336 b Recovering log #1107
+2021/04/10-11:33:25.336 b Reusing old log /home/allen/.config/google-chrome/Default/Session Storage/001107.log 
+2021/04/10-14:16:14.066 874 Level-0 table #1112: started
+2021/04/10-14:16:14.073 874 Level-0 table #1112: 23990 bytes OK
+2021/04/10-14:16:14.079 874 Delete type=0 #1107
+2021/04/11-12:30:44.565 2b29 Level-0 table #1114: started
+2021/04/11-12:30:44.570 2b29 Level-0 table #1114: 24231 bytes OK
+2021/04/11-12:30:44.573 2b29 Delete type=0 #1111

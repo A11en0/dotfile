@@ -1,0 +1,8 @@
+2021/04/07-21:12:42.384 2036 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.sciencedirect.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/07-21:12:42.384 2036 Recovering log #74
+2021/04/07-21:12:42.384 2036 Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_www.sciencedirect.com_0.indexeddb.leveldb/000074.log 
+2021/04/07-21:12:45.311 2037 Level-0 table #79: started
+2021/04/07-21:12:45.311 2037 Level-0 table #79: 0 bytes OK
+2021/04/07-21:12:45.320 2037 Delete type=0 #74
+2021/04/07-21:12:45.320 2037 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/07-21:12:45.321 2037 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,40 @@
+{
+   "background": {
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/logo.png",
+      "default_title": "Pinbox"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "chromeos": "Ctrl+Shift+S",
+            "linux": "Ctrl+Shift+S",
+            "mac": "Command+Shift+S",
+            "windows": "Ctrl+Shift+S"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "css": [ "css/content.css" ],
+      "js": [ "js/content.js" ],
+      "matches": [ "*://*/*" ]
+   } ],
+   "description": "您的专属网络收藏夹，将文章、视频或喜欢的任何内容一键保存到 Pinbox, 随时随地收藏互联网",
+   "differential_fingerprint": "1.b2f9cf67da880c27f36755c34b113de25b347b2e01ea18824a6b1063d387a097",
+   "homepage_url": "https://chrome.google.com/webstore/detail/pinbox-%E8%B7%A8%E5%B9%B3%E5%8F%B0%E6%94%B6%E8%97%8F/kmijeangnajdcaomdfjohhbmnbhnhjjd",
+   "icons": {
+      "128": "img/logo_128.png",
+      "16": "img/logo_16.png",
+      "48": "img/logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiE1Eiq7Ri5YhVF3rgMon3oArMLza4+693ErbcMtg8h4vYesP+K4Wwx4F/rLOsOJ4XAcCvcI2/QNr5R7PAEAuMdikP8VGHoN1MSR0q1nh3pHEQhdcceCgFIJhJwVljHI8RheLC+Wfz/HK+ZeJz1FxPf1uJLX87sFV/Z7KFgr2+QB9iXZgNDQxgMoaKjCxNMo4n+/amR/xSyzlvkP0Z61iiGsEWIB3jNd18GcTESWwbDVjG2iuztuD5T0lBN+q25U4FDRwpFqsCze0izlSqHvEgPgxScFaaOsSdCeUv8pHrPmPq0W5+r4QcOK2UcG41qM0QkPRQ9N6AiQShbP8D95EQQIDAQAB",
+   "manifest_version": 2,
+   "name": "Pinbox - 跨平台收藏",
+   "options_page": "options.html",
+   "permissions": [ "contextMenus", "tabs", "cookies", "storage", "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "3.3.0",
+   "web_accessible_resources": [ "img/logo.png", "img/logo.svg", "save.html", "js/save.js" ]
+}

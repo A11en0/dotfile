@@ -1,0 +1,1998 @@
+sudo nmap -v -sS -O 114.213.211.250
+sudo nmap -v -sS -O 114.213.211.246
+sudo nmap -v -sS -O 114.213.211.157
+sudo nmap -v -sS -O 114.213.211.11
+sudo nmap -v -sS -O 114.213.211.48
+jupyter-notebook 
+cd 
+cd -
+ls
+cd ..
+ls
+rm -rf opencv/
+cd 
+cd .jupyter/
+ls
+vi jupyter_notebook_config.json 
+ls
+vi jupyter_notebook_config.py 
+mv jupyter_notebook_config.py ../
+vi jupyter_notebook_config.json 
+cd ..
+rm -rf .jupyter/
+jupyter notebook --generate-config
+jupyter notebook password
+vi .jupyter/jupyter_notebook_config.py 
+mv jupyter_notebook_config.py .jupyter/
+jupyter-notebook 
+cd 
+cd share/
+ls
+jupyter-notebook 
+ls
+cd
+sudo nmap -sS -O 127.0.0.1/24
+sudo nmap -sS -O 127.0.0.1
+sudo nmap -v -sS -O 127.0.0.1
+uname -ua
+uname -a
+ip a
+ipa 
+ip a
+ping 114.213.211.150
+traceroute 114.213.211.150
+nmap -sP 114.213.211.150
+nmap -sP 114.213.211.0/24
+nmap -v -sP 114.213.211.0/24
+sudo nmap -v -sS -O 114.213.211.2
+nmap -sP 114.213.211.0/24
+sudo nmap -v -sS -O 114.213.211.2
+cd 
+ls
+cd Code/
+ls
+cd 
+cd PycharmProjects/
+ls
+cd 
+ls
+cd Code/
+ls
+cd 
+ls
+cd 
+ls
+ls -lh
+ls -a
+ls -al
+chown -R allen .ipynb_checkpoints/
+sudo chown -R allen .ipynb_checkpoints/
+chown -R allen .ipynb_checkpoints/
+ls -al
+htop
+cd ~/Downloads/
+ls
+ls data*
+cd 
+ls data*
+mv data-concept.zip ~/share/
+cd share/
+ls
+mv data-concept.zip STCKA/
+cd STCKA/
+ls
+unzip data-concept.zip 
+python 
+cd 
+cd /media/allen/03FB-416B/
+ls
+cp -r Fonts ~/.fonts/
+cd 
+cd .fonts/
+ls
+cd 
+fc-cache -fv
+fc-list 
+cd 
+ls
+cd Code/qtProj/
+ls
+acd opencv-opencv-baf07c8/
+ls
+cd opencv-opencv-baf07c8/
+ls
+cd ..
+ls
+cd opencv-opencv-baf07c8/
+ls
+cd build/
+ls
+cd ..
+ls
+mkdir build
+cd build/
+ls
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+vi CMakeFiles/CMakeError.log 
+ls
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+vi CMakeFiles/CMakeError.log 
+ls
+cd ..
+ls
+rm -rf build/
+ls
+mkdir build
+cd build/
+ls
+/home/allen/Code/qtProj/opencv-opencv-baf07c8/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]                                         #pragma                                                                                                                                                                                                                                                                                                                                            Linking CXX executable cmTC_3a81c                                                                                                                                         /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a81c.dir/link.txt --verbose=1                                                                                        /usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_3a81c.dir/src.cxx.o  -o cmTC_3a81c                                                                                        make[1]: Leaving directory '/home/allen/Code/qtProj/opencv-opencv-baf07c8/build/CMakeFiles/CMakeTmp'                                                                                                                                                                                                                                                ===== END =====                                                                                                                                                                                                                                                                                                                                     Build output check failed:                                                                                                                                                
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+vi CMakeFiles/CMakeError.log 
+ls
+cd ..
+ls
+cd ..
+ls
+rm -rf opencv-opencv-baf07c8/
+ls
+mkdir ~/opencv_build && cd ~/opencv_build
+git clone https://github.com/opencv/opencv.git
+proxychains git clone https://github.com/opencv/opencv.git
+cd 
+cd -
+ls
+cd opencv/
+ls
+cd ..
+ls
+cd opencv/
+ls
+cd .git
+ls
+cd ..
+git clone https://github.com/opencv/opencv_contrib.git
+proxychains git clone https://github.com/opencv/opencv_contrib.git
+pwd
+git clone https://github.com/opencv/opencv_contrib.git
+proxychains git clone https://github.com/opencv/opencv_contrib.git
+ls
+cd opencv_contrib/
+ls
+cd ..
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+ls
+mkdir build && cd build
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+ls
+vi CMakeFiles/CMakeError.log 
+ls
+cd ..
+ls
+cd ~/opencv_build/
+ls
+git clone https://github.com/opencv/opencv.git
+proxychains git clone https://github.com/opencv/opencv.git
+ls
+pwd
+cd opencv/
+ls
+cd ..
+ls
+git clone https://github.com/opencv/opencv_contrib.git
+proxychains git clone https://github.com/opencv/opencv_contrib.git
+ip 
+ip a
+lls
+ls
+cd ~/opencv_build/opencv
+mkdir build && cd build
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+make -j2
+i
+sudo make install
+pkg-config --modversion opencv4
+python3 -c "import cv2; print(cv2.__version__)"
+ls
+ls /usr/lib/
+ls /usr/lib/openssh/
+ls /usr/local/lib/
+pkg-config --modversion opencv4
+python3 -c "import cv2; print(cv2.__version__)"
+sudo apt-get autoremove libtiff5-dev
+sudo apt-get install libtiff5-dev
+cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D WITH_TBB=ON -D WITH_V4L=ON -D WITH_QT=ON -D WITH_OPENGL=ON ..
+make
+ip a
+pwd
+ls
+./idea.sh 
+htop
+cd
+nvidia-smi 
+watch nvidia-smi 
+cd 
+ls
+rg
+q
+cd
+ld
+ls
+ld
+cd Documents/
+ls
+proxychains git clone git@github.com:shenyushun/ebook.git
+rg
+ls
+cd ebook/
+ls
+cd .git/
+ls
+cd ..
+sudo apt-get install -y libopencv-dev
+sudo apt install libtiff-dev
+export LD_LIBRARY_PATH
+pkg-config --modversion opencv4
+cd /usr/lib/x86_64-linux-gnu
+s
+ls
+conda deactivate
+sudo ln -s libhdf5.so.7 libhdf5.so.9
+sudo ln -s libhdf5_hl.so.7 libhdf5_hl.so.9
+sudo ldconfig
+cd 
+cd opencv_build/
+ls
+cd opencv
+ls
+cmake -D CMAKE_BUILD_TYPE=RELEASE             -D CMAKE_INSTALL_PREFIX=$cwd/installation/OpenCV-"$cvVersion"             -D INSTALL_C_EXAMPLES=ON             -D INSTALL_PYTHON_EXAMPLES=ON             -D WITH_TBB=ON             -D WITH_V4L=ON             -D OPENCV_PYTHON3_INSTALL_PATH=$cwd/OpenCV-$cvVersion-py3/lib/python3.5/site-packages         -D WITH_QT=ON         -D WITH_OPENGL=ON         -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules         -D BUILD_EXAMPLES=ON
+$  sudo make uninstall
+sudo make uninstall
+cd build/
+sudo make uninstall
+sudo rm -rf /usr/local/share/opencv4/
+sudo rm -rf /usr/local/include/opencv4/
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+cd ..
+ls
+rm -rf build/
+mkdir build 
+cd build/
+ls
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+ls
+pwd
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+cd ..
+ls
+vi CMakeLists.txt 
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+cd build/
+ls
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+ls
+pwd
+cd ..
+s
+ls
+rm -rf build/
+mkdir build && cd build
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+pkg-config --modversion opencv4
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..\
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+cd ..
+ls
+rm CMakeCache.txt 
+cd build/
+ls
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON         -D BUILD_TIFF=ON ..
+make -j2
+sudo make install
+--     v4l/v4l2:                    YES (linux/videodev2.h)
+--
+--   Parallel framework:            pthreads
+--
+--   Trace:                         YES (with Intel ITT)
+--
+--   Other third-party libraries:
+--     Intel IPP:                   2020.0.0 Gold [2020.0.0]
+--            at:                   /home/allen/opencv_build/opencv/build/3rdparty
+--     Intel IPP IW:                sources (2020.0.0)
+--               at:                /home/allen/opencv_build/opencv/build/3rdparty
+--     Lapack:                      NO
+--     Eigen:                       NO
+--     Custom HAL:                  NO
+--     Protobuf:                    build (3.5.1)
+--
+-- Up-to-date: /usr/local/share/opencv4/samples/python/kmeans.py                 
+-- Up-to-date: /usr/local/share/opencv4/samples/python/laplace.py                
+-- Up-to-date: /usr/local/share/opencv4/samples/python/lappyr.py                 
+-- Up-to-date: /usr/local/share/opencv4/samples/python/letter_recog.py           
+-- Up-to-date: /usr/local/share/opencv4/samples/python/lk_homography.py          
+-- Up-to-date: /usr/local/share/opencv4/samples/python/lk_track.py               
+-- Up-to-date: /usr/local/share/opencv4/samples/python/logpolar.py               
+-- Up-to-date: /usr/local/share/opencv4/samples/python/morphology.py             
+-- Up-to-date: /usr/local/share/opencv4/samples/python/mosse.py                  
+-- Up-to-date: /usr/local/share/opencv4/samples/python/mouse_and_match.py        
+-- Up-to-date: /usr/local/share/opencv4/samples/python/mser.py                   
+-- Up-to-date: /usr/local/share/opencv4/samples/python/opencv_version.py         
+-- Up-to-date: /usr/local/share/opencv4/samples/python/opt_flow.py               
+-- Up-to-date: /usr/local/share/opencv4/samples/python/peopledetect.py           
+-- Up-to-date: /usr/local/share/opencv4/samples/python/plane_ar.py               
+-- Up-to-date: /usr/local/share/opencv4/samples/python/plane_tracker.py          
+-- Up-to-date: /usr/local/share/opencv4/samples/python/qrcode.py                 
+pkg-config --modversion opencv4
+python3 -c "import cv2; print(cv2.__version__)"
+ls
+ls
+vi README.md 
+python sample.py \                                                                                                                                                        
+rg
+cd
+cd Documents/roaster/a
+cd Documents/roaster/
+ls
+zathura day1.pdf 
+ls
+mv day1.pdf 葛宇航-task1.pdf
+cd 
+ls
+cd share/
+ls
+cd data/
+ls
+cd ..
+ls
+cd attention-networks-for-classification/
+ls
+cd dataset
+ls
+cd ..
+ls
+cd dataset
+ls
+cd ..
+ls
+cd ..
+ls
+cd Documents/
+ls
+cd ..
+rg
+cd 
+cd share/
+jupyter-notebook 
+ls
+pwd
+cd /usr/local/spark
+scp sbt-1.3.10.zip master
+scp master sbt-1.3.10.zip
+scp sbt-1.3.10.zip 192.168.56.100:~
+scp sbt-1.3.10.zip 192.168.56.101:~
+ls
+ssh master
+ssh 192.168.56.100
+ssh 192.168.56.100
+ssh 192.168.56.101
+cd Documents/
+ls
+rg
+python
+bc -i
+bc 
+bc -v
+bc -q
+bc -l
+echo "1+2" | bc
+echo "0.0164/0.0076" | bc
+bc
+python 
+ls
+cd Documents/
+ls
+rg
+pwd
+cd 
+ip a
+ping 8.8.8.8
+ip a
+ssh master
+ls
+mv 2019年大数据现场赛试题（含答案）.zip ../
+cd ..
+ls
+mv 2019年大数据现场赛试题（含答案）.zip ~/1111/
+cd ~/1111/
+ls
+unzip 2019年大数据现场赛试题（含答案）.zip 
+ls
+rg
+cd
+ls
+rg
+rg
+ssh master
+ls
+ssh master
+ls
+vi xuanke.org 
+ls /usr/local/spark
+cd /usr/local/
+ls
+cd share/
+ls
+a
+cd /usr/local/
+ls
+where spark
+whereis spark
+which spark
+pwd
+cd 
+cd Softwares/idea-IU-202.6948.69/
+ls
+cd bin/
+ls
+./idea.sh 
+ls
+pwd
+ls
+./idea.sh 
+ls
+cd Softwares/
+ls
+cd 
+ls
+cd Code/
+ls
+cd hadoop_example/
+ls
+cd src/
+ls
+cd main/
+ls
+cd java/
+ls
+vi WordCountTest.java 
+ls
+vi QingXiJson.java 
+ls
+vi Hbase1.java 
+vi Log.java 
+ls
+vi Log.java 
+vi Datacount.java 
+vi Hdfs1.java 
+vi Log.java 
+ls
+vi QingXiJson.java 
+ls
+find .
+find . *.pdf
+find *.pdf 
+find *.pdf .
+man find 
+find . -name *.pdf
+find . -name *.pdf | cut 0 
+find . -name *.pdf | head 0 
+find . -name *.pdf | head -0 
+find . -name *.pdf | head -10 
+for file in $(find . -name *.pdf);do echo $file; done;
+$(find . -name *.pdf)
+find . -name *.pdf
+for i in find . -name *.pdf; ;
+man xarg
+man xargs
+xargs -i echo 12 
+xargs -i echo 12 ;
+xargs -i echo 12 
+man xargs
+ls
+find . name *.pdf 
+find . name *.pdf | xargs -i cp {} ../books;;;
+ls
+mkdir books
+find . name *.pdf | xargs -i cp {} ./books
+ls books/
+find . name *.pdf 
+man find
+find . -type f -iname *.pdf 
+find . -type f -iname *.pdf | wc
+find . -type f -iname *.pdf | wc -l
+find . -type f -iname *.pdf | wc
+find . -type f -iname *.pdf 
+find . -type f -iname *.pdf | xargs -i cp {} ./dfsa
+rm -rf books/*
+find . -type f -iname *.pdf | xargs -i cp {} ./books
+cd './Bob Miller/Bob MillerS Calc For The Clueless_ Calc I (68)/Bob MillerS Calc For The Clueless_ Calc I - Bob Miller.pdf':
+cd './Bob Miller/Bob MillerS Calc For The Clueless_ Calc I (68)/
+ls ./Bob Miller/Bob MillerS Calc For The Clueless_ Calc I (68)/
+ls ./Bob Miller/Bob MillerS Calc For The Clueless_ Calc I (68)
+cd Bob Miller/Bob MillerS Calc For The Clueless_ Calc I (68)
+rg
+find . -type f -iname *.pdf
+zathura ./Unknown/vim book (107)/vim book - Unknown.pdf
+zathura "./Unknown/vim book (107)/vim book - Unknown.pdf"
+find . -type f -iname *.pdf | xargs -i cp "{}" ./books
+ls books/
+rm -rf books/*
+find . -type f -iname *.pdf | xargs -i cp "{}" ./books
+ls books/
+ls books/ | ws -l
+ls books/ | wc -l
+find . -type f -iname *.pdf | xargs -i cp "{}" ./books
+find . -type f -iname *.pdf | wc -l
+find . -type f -iname *.pdf 
+find . -type f -iname *.pdf | head 
+find . -type f -iname *.pdf | head -1
+find . -type f -iname *.pdf | head -1 | zathura 
+find . -type f -iname *.pdf | head -1 | xargs -i zathura {}
+find . -type f -iname *.pdf | head -1 | xargs zathura {}
+find . -type f -iname *.pdf | head -1 | xargs -i zathura {}
+find . -type f -iname *.pdf | head -10 | xargs -i zathura {}
+find . -type f -iname *.pdf | head -10 | xargs -i cp {} books/
+ls books/
+rm -rf books/*
+find . -type f -iname *.pdf | head -10 | xargs -i cp {} books/
+ls books/
+rm -rf books/*
+find . -type f -iname *.pdf | xargs -i cp {} books/
+ls books/
+ls books | wc -l
+rm -rf books/*
+find . -type f -iname *.pdf | grep Bob
+zathura   I - Bob Miller.pdf
+./Bob Miller/Bob Miller's Calc for the Cluless_ Calc II (69)/Bob Miller's Calc for the Cluless_ Calc II - Bob Miller.pdf
+(base) ~/.../calibre$ 
+s
+ls
+rg
+tmux ls
+ls
+unrar 大数据竞赛
+unrar x 大数据竞赛.rar 
+ls
+rg
+ls
+cd 
+rg
+cd Documents/calibre/
+ls
+mkdir ../books
+find . -type f -iname "*.pdf" 
+find . -type f -iname "*.pdf" | xargs -i cp {} ../books
+cd ../books/
+ls
+cd ..
+ls
+rm -rf books/
+ls
+unzip 完整培训资料.zip 
+ls
+rg
+ls
+cd 
+ls
+unzip 安徽2018大数据竞赛资料.zip 
+rgt
+rg
+ls
+cd 
+ls
+mv 1111/ bigdata
+cd bigdata/
+ls
+mkdir 2018
+mv 安徽2018大数据竞赛资料.zip 2018
+cd 2018
+ls
+unzip 安徽2018大数据竞赛资料.zip 
+rg
+ls
+unrar x 答案.rar 
+ls
+rg
+ls
+cd .
+cd ..
+ls
+mkdir 2019
+mv 2019年大数据现场赛试题（含答案）.zip 2019
+ls
+cd 201
+cd 2019
+ls
+unzip 2019年大数据现场赛试题（含答案）.zip 
+ls
+cd ..
+ls
+rg
+ls
+mkdir 2017
+mv 安徽省2017年大数据竞赛培训资料.zip 2017
+ls
+cd 2017
+ls
+unzip 安徽省2017年大数据竞赛培训资料.zip 
+rg
+ls
+cd ..
+cd -
+ls
+cd ..
+ls
+rg
+ls
+mv 2019年大数据现场赛试题（含答案）.zip 2019
+rg
+neofetch 
+ls
+rg
+nmtui
+vi /etc/systemd/network
+vi /etc/systemd/networkd.conf 
+hostname
+hostnamectl 
+neofetch 
+hostnamectl 
+vi /etc/hosts
+rg
+cd
+rg
+ls
+ping cs6.swfu.edu.cn
+ssh cs6.swfu.edu.cn
+scp -r cs6.swfu.edu.cn:/var/www/calibre ~/Documents/
+cd Documents/
+ls
+vi titanic.csv 
+ls
+mv titanic.csv ~/1111/
+ls
+cd
+ls
+cd Downloads/
+cd 
+cd Documents/
+ls
+cd calibre/
+ls
+rg
+ip a
+rg
+cd 
+cd 1111/
+ls
+rg
+tmux ls
+tmux --kill-session 1
+tmux --kill-session 0
+tmux --kill-session :0
+tmux --kill-session 0:
+tmux -kill-session 0:
+tmux 
+ls
+vi .tmux.conf 
+ls
+rg
+rg
+ls
+ls
+c
+ssh 192.168.56.100
+ping 192.168.56.100
+ssh 192.168.56.100
+ssh 192.168.56.101
+ls
+vi ershoufang-clean-utf8-v1.1.csv 
+ls
+cd Documents/
+ls
+cd
+rg
+ls
+docker run -p 8888:8888 jupyter/pyspark-notebook
+ls
+scp ershoufang-clean-utf8-v1.1.csv master:~
+ls
+rg
+ls
+pwd
+docker -ps
+docker -ps -a
+docker -ps a
+docker ps -a
+docker cp ershoufang-clean-utf8-v1.1.csv c1e8de444627:~
+docker ps -a
+ip a
+docker ps -a
+docker cdp c1e8de444627:~/
+ls
+rg
+conda activate bert
+python 
+python -m spacy download en_core_web_sm
+python 
+wc
+bc
+fdsaw
+ipconfig
+ifconfig
+ip a
+ipconfig
+uname
+uname -a
+neofetch 
+htop
+nvidia-smi 
+uptime
+ls
+cd Downloads/
+ls
+docker ps -a
+ls
+pwd
+docker cp /home/allen/bigdata/大数据竞赛
+docker cp /home/allen/bigdata/大数据竞赛ershoufang-clean-utf8-v1.1.csv c1e8de444627:~/work
+docker cp /home/allen/bigdata/大数据竞赛/ershoufang-clean-utf8-v1.1.csv c1e8de444627:~/work
+docker cp /home/allen/bigdata/大数据竞赛/ershoufang-clean-utf8-v1.1.csv c1e8de444627:~/
+docker cp /home/allen/bigdata/大数据竞赛/ershoufang-clean-utf8-v1.1.csv c1e8de444627:/
+docker cp /home/allen/bigdata/大数据竞赛/ershoufang-clean-utf8-v1.1.csv c1e8de444627:/work
+docker cp /home/allen/bigdata/大数据竞赛/ershoufang-clean-utf8-v1.1.csv c1e8de444627:/
+docker -i ls
+docker cp /home/allen/bigdata/大数据竞赛/ershoufang-clean-utf8-v1.1.csv c1e8de444627:/home/jovyan/work
+docker run -p 8888:8888 jupyter/pyspark-notebook
+ls
+docker run -p 8888:8888 
+docker run -p 8888:8888 -cmd
+docker run -p 8888:8888 -bash
+docker run -p 8888:8888 jupyter/pyspark-notebook
+docker ps -a
+ls
+rg
+ls
+vi RDD_1.py 
+ssh master
+ls
+cp VMware-Workstation-Full-16.0.0-16894299.x86_64.bundle /media/allen/03FB-416B/
+sybc
+sync
+ls
+cd Downloads/
+ls
+ls Vm*
+ls V*
+ls VM*
+ls *VM*
+ls
+rg
+cd
+rg
+ssh master
+qlv
+cd Music/CloudMusic/
+ls
+cd 
+ls
+rg
+ls
+ls *sbt
+ls *sbt*
+ls
+cd Downloads/
+ls
+ls sbt*
+ls s*
+cd 
+rg
+ssh master
+scp master:~/log_movie.txt .
+rg
+ls
+conda activate bert
+conda deactivate 
+jupyter-notebook 
+sudo nmap -v -sS -O http://36.32.8.28/
+sudo nmap -v -sS -O 36.32.8.28
+sudo nmap -v -sS 36.32.8.28
+sudo nmap -v -sS -A 36.32.8.28
+nmap -sP 36.32.8.28
+nmap -sP -v 36.32.8.28
+nmap -sP -v -Pn 36.32.8.28
+nmap -sP -Pn -v 36.32.8.28
+nmap -sP -v 36.32.8.28
+git clone https://github.com/yzddmr6/WebCrack
+proxychains git clone https://github.com/yzddmr6/WebCrack
+pip3 install -r requirements.txt
+cd WebCrack/
+ls
+pip3 install -r requirements.txt
+ls
+vi README.md 
+ls
+vi cms.json 
+java -v
+java -V
+java -Version
+java -version
+cd 
+rg
+ls
+cd Downloads/
+ls
+ls Burp*
+unzip Burp_Suite_Pro_v2020.9_Loader_Keygen.zip 
+cd Burp_Suite_Pro_v2020.9_Loader_Keygen.zip 
+cd Burp_Suite_Pro_v2020.9_Loader_Keygen
+cd 
+cd -
+ls
+java BurpSuiteLoader.jar 
+java -Xbootclasspath/p:burp-loader-keygen.jar -jar burpsuite_pro_v1.7.31.jar
+java -jar BurpSuiteLoader.jar 
+java .cp -jar BurpSuiteLoader.jar 
+java . cp -jar BurpSuiteLoader.jar 
+ip a
+ls
+rg
+ssh master
+ssh master:~/spark.zip .
+scp master:~/spark.zip .
+ls
+s
+rg
+ls
+rg
+ls
+docker ps -a
+ls
+docker ps -a
+docker stop dfd47f7bf970
+docker stop c434970105bf
+docker stop c1e8de444627
+docker stop 73e8076fc87b
+docker ps -a
+docker start 73e8076fc87b
+docker attach 73e8076fc87b
+docker ps -a
+ls
+docker ps -a
+docker rm dfd47f7bf970
+docker ps -a
+docker rm c434970105bf
+docker ps -a
+docker rm 73e8076fc87b
+docker ps -a
+docker start -i c1e8de444627
+ls
+ls -lt dataset/
+ip a
+ls
+docker -ps -a
+docker ps -a
+docker start c1e8de444627
+docker attatch c1e8de444627
+docker attach c1e8de444627
+docker start c1e8de444627
+cd Music/CloudMusic/
+ls
+cd ..
+ls
+cd 
+cd /media/allen/0A6A-86C6/
+ls
+rg
+cd /media/allen/
+ls
+l
+ls
+cd 
+cd /media/allen/0A6A-86C6/
+ls
+rg
+cd 
+cd /media/allen/KINGSTON/
+ls
+cd 
+c dj
+cd j
+ls
+cd conf/
+ls
+cd ccnet/
+ls
+cd ..
+ls
+cd conf/
+su
+sudo su
+sudo service seafile status
+sudo service seafile restart
+ls
+sudo su
+sudo service seafile restart
+sudo su
+sudo service seafile restart
+sudo su
+ls
+cd seafile-server-latest
+ls
+./seahub.sh stop
+sudo service seafile restart
+ls
+rg
+cd
+cd /var/opt/
+ls
+cd ..
+ls
+rg
+cd ..
+ls
+rg
+ip a
+ls
+rg
+mocp
+sudo aptitude search mocp
+sudo aptitude search moc
+sudo apt install moc
+mocp 
+sudo aptitude search mpd
+sudo apt install  mpd
+sudo apt install  mpd-client
+sudo aptitude search mpd
+sudo apt install mpd-client
+sudo apt install mpc
+vi /etc/mpd.conf 
+ls
+cd .config/mpv/
+ls
+cd j
+cd
+mkdir -p .config/mpd
+vi .config/mpd/mpd.conf
+mkdir ~/.config/mpd/playlists
+touch ~/.config/mpd/{database,log,pid,state,sticker.sql}
+mpd .config/mpd/mpd.conf 
+mpd 
+mpd --verbose
+mpc
+mpd
+mpc
+ps -aux | grep mpd
+killall -9 mpd
+ps -aux | grep mpd
+mpd
+mpc update
+vi .config/mpd/mpd.conf 
+mpc update
+mpd --kill
+mpc update
+mpc listall
+mpc play
+killall -9 mpd
+mpd
+mpc play
+mocp
+ls
+mpc
+mpd
+ps -aux | grep mpd
+mpd --kill
+ps -aux | grep mpd
+ls
+cd Music/
+ls
+vi ~/.config/mpd/mpd.conf 
+pwd
+cd 
+killall -9 mpd
+mpd
+mpc play
+mpc update
+mpc play
+curl -kL https://github.com/tizonia/tizonia-openmax-il/raw/master/tools/install.sh | bash
+curl -kL https://goo.gl/Vu8qGR | bash
+curl
+sudo apt-get install libssl1.0.0 libssl-dev
+sudo aptitude search libssl
+sudo apt update
+sudo apt upgrade curl
+rg
+ls
+proxychains git clone git@github.com:srviest/char-cnn-text-classification-pytorch.git
+ls
+proxychains git clone https://github.com/srviest/char-cnn-text-classification-pytorch.git
+cd /media/allen/0A6A-86C6/
+ls
+cd System\ Volume\ Information/
+ls
+vi WPSettings.dat 
+cat IndexerVolumeGuid 
+ls
+cd 
+cd -
+ls
+cd ..
+ls
+rg
+cd 
+cd /media/allen/0A6A-86C6/
+ls
+cat Untitled\ Document\ 1 
+ls
+cd 
+cd /media/allen/03FB-416B/
+ls
+cd backup/
+ls
+cd DCIM/
+ls
+rg
+cd 
+nmtui
+cd Downloads/
+cd 
+rg
+ip a
+ls
+unzip code.zip 
+unzip x code.zip 
+unzip code.zip 
+ls
+cd ~/Downloads/
+ls
+unzip code.zip 
+unzip x code.zip 
+ls
+unzip code\ \(1\).zip 
+rm -rf code*
+cd ~/Downloads/
+ls
+rg
+ls
+python run.py --model TextCNN
+ls
+python run.py --model TextCNN
+pip 
+pip install tensorboardX
+python run.py --model TextCNN
+python run.py 
+python run.py -h
+ls
+cd models/
+ls
+cd ..
+ls
+tree
+ls
+find . -name "News"
+find . -name "d"
+find . -name "a"
+find . -name "*a*"
+find . -name "*News*"
+pip install jieba
+ls
+cp -a ../Chinese-Text-Classification-Pytorch/中文文本分类数据集/THUCNews数据集/ ./THUCNews
+ls
+rm -rf THUCNews/
+ls
+cp -a ../Chinese-Text-Classification-Pytorch/THUCNews/ .
+pwd
+ls
+s
+ls
+rg
+cd 
+cd Code/Java/
+ls
+mkdir LinkList
+ls
+mv LinkList LinkList
+ls
+mv LinkList.java LinkList
+cd LinkList/
+ls
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+ls
+javac LinkList.java 
+vi LinkList.java 
+javac LinkList.java 
+vi LinkList.java 
+ls
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+vi ~/.condarc 
+ls
+cd
+cd Documents/Thesis-read/
+ls
+rg
+ls
+rg
+trash-restore 
+ls
+cd 
+ls
+cd share/
+ls
+git clone https://github.com/649453932/Chinese-Text-Classification-Pytorch.git
+ls
+cd Chinese-Text-Classification-Pytorch
+ls
+cd ..
+ls
+mv Chinese-Text-Classification-Pytorch ls
+ls
+cd ls/
+ls
+cd ..
+ls
+mv ls xuetao
+ls
+proxychains git clone https://github.com/649453932/Chinese-Text-Classification-Pytorch.git
+ls
+pwd
+ls
+cd Chinese-Text-Classification-Pytorch
+ls
+cd models/
+ls
+cd ..
+rg
+conda activate bert
+ls
+python
+cd 
+rg
+ls
+cd Downloads/
+ls
+ls *Ch*
+mv Chinese-Text-Classification-Pytorch.zip ~/share/
+cd 
+cd share/
+ls
+unzip Chinese-Text-Classification-Pytorch.zip 
+cd Chinese-Text-Classification-Pytorch
+ls
+rg
+q
+ls
+cp -a ~/Code/python/Datasets/tweets-original .
+ls
+pwd
+conda env list
+conda activate bert
+ls
+vi ~/.condarc 
+ls
+jupyter-notebook 
+jupyter kernelspec list
+jupyter kernelspec remove bert
+jupyter kernelspec remove nlp nlp2
+jupyter kernelspec remove tc
+jupyter kernelspec list
+python -m ipykernel install --user -name bert --display-name "bert"
+python -m ipykernel install --user --name bert --display-name "bert"
+jupyter kernelspec remove bert
+conda activate bert
+ls
+python
+ls
+cd 30Tian\ Zi\ Zhi\ Cao\ Zuo\ Xi\ Tong\ \(3\)/
+ls
+xpdf 30Tian\ Zi\ Zhi\ Cao\ Zuo\ Xi\ Tong\ -\ \[Ri\ \]\ Chuan\ He\ Xiu\ Shi.pdf 
+ls
+mkdir RNN
+ls
+mv data.zip RNN.ipynb RNN
+ls
+cd RNN/
+ls
+unzip data.zip 
+conda activate bert
+pip install jupyter-emacskeys
+pip install -f jupyter-emacskeys
+pip install -r jupyter-emacskeys
+pip install jupyter-emacskeys
+rg
+cd 
+rg
+ls
+cd share/
+ls
+cd 
+cd Code/python/
+ls
+cd NLP/
+ls
+cd ..
+ls
+cd NLP/
+ls
+cd nlp-tutorial/
+ls
+tree
+ls
+cd ..
+ls
+proxychains git clone https://github.com/Iallen520/lhy_DL_Hw.git
+ls
+rg
+ls
+cd RNN/
+ls
+mv RNN.ipynb ../
+mv ../RNN.ipynb .
+cd data
+ls
+mv NN.ipynb ../
+ls
+cd ..
+cd 
+rg
+q
+ls
+cd Music/
+ls
+cd CloudMusic/
+ls
+cd 
+cd 
+cd Code/
+ls
+cd Java/
+ls
+cd LinkList/
+ls
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+javac LinkList.java 
+java LinkList
+c d
+cd 
+ls
+cd Code/python/
+ls
+cd 
+cd share/
+ls
+cd 
+rg
+ls
+rg
+cd /media/allen/
+ls
+cd 03FB-416B/
+ls
+cp -a Music/ * ~/
+conda activate bert
+pip install juypter
+pip install jupyter
+conda activate bert
+conda install -n py36 -c conda-forge ipywidgets
+pip install --upgrade jupyter_client
+conda install -c conda-forge ipywidgets
+cd leetcode/
+ls
+cd 
+my_cookies 
+python3 test.py 
+ls
+python3 test.py 
+python test.py 
+python3 test.py 
+pip install my_cookies
+my_cookies 
+firefox
+my_cookies 
+firefox
+ls
+ls
+mkdir leetcode
+emacs
+service --user emacs restart
+systemctl --user emacs restart
+systemctl emacs restart
+service emacs restart
+sudo service emacs restart
+sudo -user service emacs restart
+sudo  service --user emacs restart
+sudo  service -user emacs restart
+ls
+systemctl --user 
+systemctl --user restart emacs 
+emacs
+nvidia-smi 
+alsamixer 
+ls
+cd 
+cd Documents/summary/
+ls
+xpdf main.pdf 
+cd ..
+ls
+cd Outline/
+ls
+xpdf main.pdf 
+ls
+xpdf main.pdf
+ls
+xpdf main.pdf 
+zathura main.pdf 
+nmtui
+zathura ../summary/main.pdf 
+nmtui
+ls
+vi main.pdf 
+ls
+vi main.org 
+nmtui
+ls
+cddddd
+ls
+vi main.tex 
+ls
+xpdf main.pdf 
+ls
+cd ../summary/
+ls
+xpdf main.pdf 
+zathura main.pdf 
+ls
+zathura main.pdf 
+cd 
+ls
+ip a
+ping 8.8.8.8
+nmtui
+ping 8.8.8.8
+ls
+rg
+python 
+cd /media/allen/03FB-416B/
+ls
+cd sh/
+l
+ls
+cd ..
+ls
+trash sh/
+ls
+rm -rf cource.txt 
+ls
+trash *~*
+ls
+cd 
+cd 
+my_cookies 
+ls
+git init .
+git add .
+git commit -m "first commit"
+git branch -M main
+git branch
+>git remote add origin git@github.com:A11en0/pytorch_learning.git
+git remote add origin git@github.com:A11en0/pytorch_learning.git
+ls
+git push -u origin main
+proxychains git push -u origin main
+ls
+proxychains git push -u origin main
+ls
+pwd
+proxychains git push -u origin main
+python 
+ls
+cd 
+rg
+ls
+cd 
+ls
+systemctl restart v2ray
+sudo systemctl restart v2ray
+ps -aux | grep v2ray
+kill -9 22715
+sudo kill -9 22715
+ps -aux | grep v2ray
+cd
+ls
+ps -aux | grep v2ray
+ls
+v2ray config.json 
+v2ray config.json &
+ls
+mv simple.* ~/Documents/Thesis-read/org/
+cd ~/Documents/Thesis-read/org/
+ls
+mkdir template
+mv simple.* template/
+ls
+cd si
+cd template/
+ls
+cd 
+cd Documents/Thesis-read/org/report-3/
+ls
+zathura report-3.pdf 
+cd 
+cd Documents/
+ls
+cd Thesis-read/
+ls
+cd org
+ls
+cd report-3/
+ls
+rgl
+rg
+cd ..
+ls
+rg
+ls
+rgv
+rg
+emacs
+cd ..
+ls
+proxychains git clone https://github.com/GeneKao/orgmode-latex-templates.git
+ls
+cd orgmode-latex-templates/
+ls
+rgl
+rg
+emacs
+ls
+cd 
+ls
+mv .emacs.d/ .emacs.d.bak
+git clone --depth 1 https://github.com/seagle0128/.emacs.d.git ~/.emacs.d
+proxychains git clone --depth 1 https://github.com/seagle0128/.emacs.d.git ~/.emacs.d
+ls
+cd .emacs.d
+ls
+proxychains wget https://codeload.github.com/seagle0128/.emacs.d/zip/master
+ls
+ps -aux | grep mpd
+v2ray 
+v2ray &
+ps -aux | grep mpd
+ps -aux | grep v2ray
+sudo killall v2ray
+ps -aux | grep v2ray
+sudo killall -9 v2ray
+ps -aux | grep v2ray
+v2ray &
+ps -aux | grep v2ray
+ls
+sudo killall -9 v2ray
+ps -aux | grep v2ray
+v2ray 
+v2ray ~/config.json 
+man v2ray
+ls
+mv ~/emacs.d-master.zip .
+ls
+unzip emacs.d-master.zip 
+ls
+emacs
+ls
+cd 
+rg
+systemctl --user restart emacs 
+emacs
+systemctl --user restart emacs 
+nmtui
+uptime
+ip a
+ls
+cd share/
+ls
+cd 
+rg
+r
+rg
+vi .config/systemd/user/emacs.service 
+ls
+qiv case6.png 
+ls
+qiv case6.png 
+ls
+g++ getOutLine.cpp 
+g++ `pkg-config opencv --cflags` opencv.cpp  -o opencv `pkg-config opencv --libs` 
+g++ `pkg-config opencv --cflags` getOutLine.cpp  -o opencv `pkg-config opencv --libs` 
+ls
+g++ `pkg-config opencv --cflags` getOutLine.cpp  -o opencv `pkg-config opencv --libs` 
+g++ getOutLine.cpp 
+g++ `pkg-config opencv --cflags` getOutLine.cpp  -o opencv `pkg-config opencv --libs` 
+ls
+./opencv 
+g++ `pkg-config opencv --cflags` getOutLine.cpp  -o opencv `pkg-config opencv --libs` 
+./opencv 
+ls
+g++ `pkg-config opencv --cflags` getOutLine.cpp  -o opencv `pkg-config opencv --libs` && ./opencv 
+ls
+g++ `pkg-config opencv --cflags` getOutLine.cpp  -o opencv `pkg-config opencv --libs` && ./opencv 
+g++ `pkg-config opencv --cflags` canny.cpp  -o opencv `pkg-config opencv --libs` && ./opencv 
+g++ `pkg-config opencv --cflags` canny.cpp  -o opencv `pkg-config opencv --libs` 
+pkg-config 
+pkg-config opencv
+pkg-config --modversion opencv
+g++ `pkg-config opencv --cflags` canny.cpp  -o opencv `pkg-config opencv --libs` 
+ls
+./opencv 
+g++ `pkg-config opencv --cflags` canny.cpp  -o opencv `pkg-config opencv --libs` 
+./opencv 
+./opencv case1.png 
+g++ `pkg-config opencv --cflags` canny.cpp  -o opencv `pkg-config opencv --libs` 
+./opencv 
+g++ `pkg-config opencv --cflags` getOutLine.cpp  -o opencv `pkg-config opencv --libs` && ./opencv 
+cd 
+ls
+mv documents-export-2020-10-15.zip ~/share/STCKA/
+cd ~/share/STCKA/
+ls
+unzip documents-export-2020-10-15.zip 
+ls
+mv *.tsv dataset/
+ls
+cd dataset/
+ls
+vi MR.tsv 
+ls
+vi sst-11.tsv 
+ls
+mv sst-11.tsv sst-1.tsv
+ls
+nvidia-smi 
+watch nvidia-smi 
+pwd
+cd 
+rg
+q
+cd share/
+ls
+proxychains git clone https://github.com/clairett/pytorch-sentiment-classification.git
+ls
+cd pytorch-sentiment-classification/
+ls
+find .
+tree
+cp data ../STCKA/
+cp -a data ../STCKA/
+ls
+cd ..
+ls
+proxychains git clone https://github.com/mjc92/TorchTextTutorial.git
+ls
+cd TorchTextTutorial/
+ls
+rg
+pwd
+ls
+cd 
+cd Downloads/
+ls
+unzip TCYB2019-EIkMeansDriftDetection-master.zip 
+ls
+cd TCYB2019-EIkMeansDriftDetection-master
+ls
+j
+ls
+rg
+cd 
+cd share/
+ls
+cd xuetao/
+ls
+rg
+q
+ls
+conda activate bert
+python
+ls
+cd ..
+ls
+cd 
+cd Downloads/
+ls
+unzip 中文文本分类数据集.zip 
+ls
+rg
+python
+cd 
+cd Code/
+ls
+rg
+conda deactivate bert
+conda deactivate 
+jupyter-notebook 
+vi ~/.condarc 
+ls
+jupyter kernelspec list
+conda env list
+pip list jupyter
+pip list | grep jupyter
+pip
+pip -v
+pip -version
+pip --version
+pip3 --version
+python3
+python2 -m pip uninstall jupyter
+?~python -m ipykernel install --user --name z1 --display-name "z1"
+python -m ipykernel install --user --name bert --display-name "z1"
+jupyter kernelspec list
+jupyter kernelspec remove kernel_name
+jupyter kernelspec remove bert
+ls
+conda actiavte bert
+conda activate bert
+jupyter
+jupyter-notebook 
+python -m ipykernel install --user --name bert --display-name "bert"
+pip install ipykernel
+python -m ipykernel install --user --name bert --display-name "bert"
+jupyter-notebook 
+cd python/NLP/
+ls
+jupyter-notebook 
+pip uninstall jupyter
+pip install jupyter
+pip install ipywidgets
+jupyter nbextension enable --py widgetsnbextension
+jupyter-notebook 
+pip uninstall jupyter
+pip uninstall -y ipython prompt_toolkit
+pip install jupyter
+pip uninstall -y ipython prompt_toolkit
+pip uninstall jupyter
+pip --help
+pip uninstall jyter
+pip install jupyter --no-cache-dir
+jupyter-notebook 
+cd 
+jupyter-notebook 
+cd 
+cd Downloads/
+ls
+cat 205-12362.txt 
+cat 激活码3.txt 
+cd 
+rg
+vi .config/i3/config
+man emacsclient
+vi .config/i3/config
+man emacsclient
+emacs
+systemctl --user status emacs 
+systemctl --user restart emacs 
+systemctl --user status emacs 
+emacsclient -c -n 
+emacsclient -n 
+emacsclient 
+emacsclient -c
+emacs
+cd .emacs.d
+ls
+cd lisp/
+ls
+grep . "120"
+grep . -rn "120"
+grep -rn "120" .
+grep "120" .
+grep -rn "120" .
+grep -rn .
+grep -rn "a" .
+grep -rn "0" .
+grep -rn "font" .
+grep -rn "100" .
+grep -rn "120" .
+grep -rn "font" .
+cd ..
+ls
+grep -rn "120" .
+ls
+npm
+sudo apt install nodejs npm
+emacs
+vi .config/i3/config
+vi ~/.config/i3/config
+systemctl --user stop emacs
+which python
+killall -9 emacs
+ls
+cd 
+cd Code/
+ls
+cd python/
+ls
+cd ..
+ls
+ssh wsco@114.213.208.50 
+ping 114.213.208.50 
+ssh wsco@114.213.208.50 
+ssh wsco@114.213.208.50 1151
+man ssh
+ssh wsco@114.213.208.50:1151
+ssh wsco@114.213.208.50 -D1151
+ssh wsco@114.213.208.50 -D 1151
+man ssh
+ssh wsco@114.213.208.50 -W 1151
+ssh wsco@114.213.208.50 -p 1151
+ssh -p 1151 wsco@114.213.208.50 
+ssh wsco@114.213.208.50 
+ssh wsco@114.213.208.50:115 
+ssh wsco@114.213.208.50
+j
+ssh -p 1151 wsco@114.213.208.50 
+ssh -p 115 wsco@114.213.208.50 
+ssh wsco@114.213.208.50 
+scp test.py wsco@114.213.208.50:~/
+scp wsco@114.213.208.50
+scp wsco@114.213.208.50:22
+ssh wsco@114.213.208.50
+ssh -p wsco@114.213.208.50
+ssh -p 1151 wsco@114.213.208.50
+scp test.py -p 1151 wsco@114.213.208.50
+scp test.py -p 1151 wsco@114.213.208.50:~
+ssh -p 1151 wsco@114.213.208.50
+ssh wsco@114.213.208.50
+ssh -p 1151 wsco@114.213.208.50
+ssh -p 1130 wsco@114.213.208.50
+ssh -p 22 wsco@114.213.208.50
+ssh -p 1131 wsco@114.213.208.50
+ssh -p 22 wsco@114.213.208.50
+ssh -p 1131 wsco@114.213.208.50
+nmap -v 114.213.208.59
+nmap -v 114.213.208.50
+ssh -p 1131 wsco@114.213.208.50
+nmap -v 114.213.208.50
+ssh -p 30 wsco@114.213.208.50
+ssh -p 1121 wsco@114.213.208.50
+ssh -p 2020 wsco@114.213.208.50
+ssh -p 8081 wsco@114.213.208.50
+ssh -p 1121 wsco@114.213.208.50
+ssh -p 1118 wsco@114.213.208.50
+ip a
+ssh -p 26 wsco@114.213.208.50
+ssh -p 30 wsco@114.213.208.50
+ssh -p 80 wsco@114.213.208.50
+ssh -p 179 wsco@114.213.208.50
+ssh -p 646 wsco@114.213.208.50
+ssh -p 1218 wsco@114.213.208.50
+ssh -p 2020 wsco@114.213.208.50
+ssh -p 8081 wsco@114.213.208.50
+ssh -p 22 wsco@114.213.208.50
+ssh -p 21 wsco@114.213.208.50
+ssh -p 23 wsco@114.213.208.50
+ssh -p 24wsco@114.213.208.50
+ssh -p 24 wsco@114.213.208.50
+ssh -p 25 wsco@114.213.208.50
+ssh -p 26 wsco@114.213.208.50
+ssh -p 1121 wsco@114.213.208.50
+ip a
+ls
+cd ..
+ls
+zip -r STCKA/ STCKA.zip
+zip -r STCKA.zip STCKA
+ls
+cd 
+ls
+rg
+cd share/
+ls
+scp STCKA.zip -p 1121 wsco@114.213.208.50:~/
+scp  -p 1121 wsco@114.213.208.50:~/
+ssh -p 1121 wsco@114.213.208.50
+scp STCKA.zip -p 1121 wsco@114.213.208.50:~/
+scp STCKA.zip wsco@114.213.208.50:~/
+ssh -p 1121 wsco@114.213.208.50
+scp -p 1121 STCKA.zip wsco@114.213.208.50:~/
+scp -p 1121 wsco@114.213.208.50:~/docker.sh .
+ssh wsco@114.213.208.50:1121
+ssh wsco@114.213.208.50 1121
+ssh -p 1121 wsco@114.213.208.50 
+ssh -p 1121 wsco@114.213.208.50
+top
+ip a
+ssh -p 1121 wsco@114.213.208.50
+ls
+cd share/
+ls
+scp -p 1121 STCKA.zip wsco@114.213.208.50:~/
+scp -P 1121 STCKA.zip wsco@114.213.208.50:~/
+nmap -v 114.213.208.50
+ssh -p 1131 wsco@114.213.208.50
+nmap -v 114.213.208.50
+ssh -p 1151 wsco@114.213.208.50
+ssh -p 179 wsco@114.213.208.50
+ssh -p 646 wsco@114.213.208.50
+ssh -p 109wsco@114.213.208.50
+ssh -p 109 wsco@114.213.208.50
+ssh -p 113 wsco@114.213.208.50
+ssh -p 1218 wsco@114.213.208.50
+ssh -p 1121 wsco@114.213.208.50
+ls
+s
+ssh -p 1121 wsco@114.213.208.50
+ping 120.77.251.209
+ssh -p 1121 wsco@114.213.208.50
+ip a
+ssh -p 1121 wsco@114.213.208.50
+ls
+cd 
+rg
+nmtui
+cd Documents/
+ls
+cd Thesis-read/
+ls
+cd pdf/
+ls
+rg
+ls
+cd ..
+ls
+cp orgmode-latex-templates/scientific-writing/org-bib-refs.bib org/report-4/
+ls
+cd org
+ls
+cd report-4/
+ls
+rg
+cd ~/org/ref/
+ls
+vi references.bib 
+cd Documents/
+cd 高考政策/
+ls
+zathura main.pdf 
+ls
+zathura main.pdf 
+mv main.pdf 北京、山东高考制度改革总结.pdf
+mv main.pdf "北京、山东高考制度改革总结.pdf"
+ls
+zathura *.pdf
+mv *.pdf 北京山东高考制度改革总结.pdf
+zathura 北京山东高考制度改革总结.pdf 
+cd
+ip a
+cd
+ls
+ssh -p 1121 wsco@114.213.208.50
+ls
+ssh -p 1131 wsco@114.213.208.50
+ssh -p 1151 wsco@114.213.208.50
+ssh -p 1131 wsco@114.213.208.50
+ssh -p 1218 wsco@114.213.208.50
+ssh -p 646 wsco@114.213.208.50
+ssh -p 113wsco@114.213.208.50
+ssh -p 113 wsco@114.213.208.50
+ssh -p 109 wsco@114.213.208.50
+ssh -p 30 wsco@114.213.208.50
+ssh -p 26 wsco@114.213.208.50
+ssh -p 1121 wsco@114.213.208.50
+ssh -p 1218 wsco@114.213.208.50
+ssh -p 8081 wsco@114.213.208.50
+ssh -p 23wsco@114.213.208.50
+ssh -p 23 wsco@114.213.208.50
+ssh -p 1131 wsco@114.213.208.50
+nmap -v 114.213.208.50
+ls
+ip a
+cd .config/
+ls
+cd 
+cd .config/ranger/
+ls
+cd ..
+ls
+scp -a -P 1131 ranger/ wsco@114.213.208.50:~/
+scp -r -P 1131 ranger/ wsco@114.213.208.50:~/
+rg
+ip a
+pwdj
+pwd
+ls
+cd 
+cd -
+ls
+pwd
+ls
+cd -
+rg
+pwd
+cd 
+ls
+rg
+ssh -p 1131 wsco@114.213.208.50
+ssh -p 1121 wsco@114.213.208.50
+ls
+ssh -p 1121 wsco@114.213.208.50
+ls
+ssh -p 1121 wsco@114.213.208.50
+nmap -v 114.213.208.50
+scp -p 1121 wsco@114.213.208.50:~/docker.sh .
+scp wsco@114.213.208.50:~/docker.sh .
+nmap -v 114.213.208.50
+scp -p 1218 wsco@114.213.208.50:~/docker.sh .
+scp wsco@114.213.208.50:~/docker.sh .
+scp -P 1121 wsco@114.213.208.50:~/docker.sh .
+ls
+vi docker.sh 
+ssh username@host-ip -L 1234:127.0.0.1:7777
+ssh -p 1121 wsco@114.213.208.50 -L 1234:127.0.0.1:9999
+ssh -p 1121 wsco@114.213.208.50 -L 1234:127.0.0.1:9999 114.213.210.16
+ssh -p 1121 wsco@114.213.208.50 -L 114.213.210.16:1234:127.0.0.1:9999 
+ssh -p 1121 wsco@114.213.208.50 -L 1234:0.0.0.0:9999 
+ssh -L 1234:114.213.208.50:9999 0.0.0.0
+ssh -R 1234:114.213.208.50:9999 0.0.0.0
+ssh -R 1234:114.213.208.50:9999 114.213.208.50
+ssh -R 1234:114.213.208.50:9999 -p 1121 114.213.208.50
+ssh -p 1121 wsco@114.213.208.50 
+ssh -R 9999:127.0.0.1:1234 -p 1121 114.213.208.50
+ssh -p 1121 -R 9999:127.0.0.1:1234 114.213.208.50
+ssh -p 1121 wsco@114.213.208.50 -L 1234:127.0.0.1:9999
+nmtui
+cd
+ls
+cd Documents/English-Homework/
+ls
+zathura task3.pdf 
+zathura task4.pdf 
+cd 
+rg

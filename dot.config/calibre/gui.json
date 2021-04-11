@@ -1,0 +1,177 @@
+{
+  "quick_start_guide_added": true, 
+  "recently_used_languages": [
+    "English", 
+    "Chinese"
+  ], 
+  "library_usage_stats": {
+    "/home/allen/calibre": 34
+  }, 
+  "book_details_splitter_horizontal_state": [
+    true, 
+    200
+  ], 
+  "book_list_pin_splitter_state": {
+    "__class__": "bytearray", 
+    "__value__": "AAAA/wAAAAEAAAACAAABAAAAAFYA/////wEAAAABAA=="
+  }, 
+  "grid view visible": false, 
+  "convert_single_dialog_geom": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAAZAAAAHQAACdgAAAVbAAAAHAAAAB0AAAnVAAAFWAAAAAAAAAAACgA="
+  }, 
+  "choose-merge-dialog-geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAALUAAABpQAABx4AAAPUAAAC1wAAAaUAAAcbAAAD0QAAAAAAAAAACgA="
+  }, 
+  "custom_colors_for_color_dialog": [
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ]
+  ], 
+  "tag browser search box visible": false, 
+  "image-trim-dialog-geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAMtAAABYwAABrYAAAO9AAADMAAAAWMAAAazAAADugAAAAAAAAAACgA="
+  }, 
+  "previous_sort_order_BooksView": {
+    "title": true, 
+    "size": true
+  }, 
+  "scheduler_dialog_geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAALGAAABoQAABzkAAAP7AAACyQAAAaEAAAc2AAAD+AAAAAAAAAAACgA="
+  }, 
+  "metadata_single_gui_geom": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAANhAAABvgAABrgAAAQYAAADZAAAAb4AAAa1AAAEFQAAAAAAAAAACgA="
+  }, 
+  "advanced search dialog current tab": 0, 
+  "search bar visible": true, 
+  "tag_editor_geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAOvAAABQgAABjQAAAPeAAADsgAAAUIAAAYxAAAD2wAAAAAAAAAACgA="
+  }, 
+  "preferences dialog geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAAAAAAAAAAACf8AAAWfAAAAowAAAUIAAAREAAAEEQAAAAAABAAACgA="
+  }, 
+  "metasingle_window_geometry3": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAABJAAAAXwAACgIAAAWsAAAATAAAAF8AAAn/AAAFqQAAAAAAAAAACgA="
+  }, 
+  "choose-merge-dialog-splitter-state": {
+    "__class__": "bytearray", 
+    "__value__": "AAAA/wAAAAEAAAACAAADKwAAAQAA/////wEAAAABAA=="
+  }, 
+  "quickview visible": false, 
+  "cover_browser_splitter_vertical_state": [
+    false, 
+    300
+  ], 
+  "single-cover-fetch-dialog-geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAANNAAABiAAABqQAAAPiAAADUAAAAYgAAAahAAAD3wAAAAAAAAAACgA="
+  }, 
+  "duplicates-question-dialog-geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAM3AAABzwAABq0AAANhAAADOgAAAc8AAAaqAAADXgAAAAAAAAAACgA="
+  }, 
+  "tag_browser_splitter_horizontal_state": [
+    true, 
+    277
+  ]
+}

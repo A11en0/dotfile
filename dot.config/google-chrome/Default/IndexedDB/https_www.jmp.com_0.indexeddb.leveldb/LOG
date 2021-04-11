@@ -1,0 +1,5 @@
+2020/11/09-15:36:42.382 5338 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.jmp.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/09-15:45:59.178 5499 Level-0 table #5: started
+2020/11/09-15:45:59.181 5499 Level-0 table #5: 1525 bytes OK
+2020/11/09-15:45:59.184 5499 Delete type=0 #3
+2020/11/09-15:45:59.184 5499 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

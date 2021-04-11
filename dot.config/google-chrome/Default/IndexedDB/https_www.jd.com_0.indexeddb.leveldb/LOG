@@ -1,0 +1,5 @@
+2020/11/06-10:06:25.660 1e82 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.jd.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/06-10:06:28.580 1e81 Level-0 table #5: started
+2020/11/06-10:06:28.586 1e81 Level-0 table #5: 1458 bytes OK
+2020/11/06-10:06:28.592 1e81 Delete type=0 #3
+2020/11/06-10:06:28.592 1e81 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

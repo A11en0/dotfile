@@ -1,0 +1,107 @@
+<application>
+  <component name="DimensionService">
+    <location key="find.popup.0.0.2560.1440" x="0" y="19" />
+    <location key="GridCell.Tab.1.left.0.0.2560.1440" x="-3" y="711" />
+    <location key="GridCell.Tab.1.center.0.0.2560.1440" x="-3" y="711" />
+    <location key="GridCell.Tab.1.right.0.0.2560.1440" x="-3" y="711" />
+    <location key="GridCell.Tab.1.bottom.0.0.2560.1440" x="-3" y="711" />
+    <location key="GridCell.Tab.2.left.0.0.2560.1440" x="271" y="838" />
+    <location key="GridCell.Tab.2.center.0.0.2560.1440" x="271" y="838" />
+    <location key="GridCell.Tab.2.right.0.0.2560.1440" x="271" y="838" />
+    <location key="GridCell.Tab.2.bottom.0.0.2560.1440" x="271" y="838" />
+    <location key="GridCell.Tab.-1.left.0.0.2560.1440" x="1530" y="1023" />
+    <location key="GridCell.Tab.-1.center.0.0.2560.1440" x="1530" y="1023" />
+    <location key="GridCell.Tab.-1.right.0.0.2560.1440" x="1530" y="1023" />
+    <location key="GridCell.Tab.-1.bottom.0.0.2560.1440" x="1530" y="1023" />
+    <size key="GridCell.Tab.0.left.0.0.2560.1440" width="2492" height="423" />
+    <size key="GridCell.Tab.0.center.0.0.2560.1440" width="2492" height="423" />
+    <size key="GridCell.Tab.0.right.0.0.2560.1440" width="2492" height="423" />
+    <size key="GridCell.Tab.0.bottom.0.0.2560.1440" width="2492" height="423" />
+    <size key="GridCell.Tab.1.left.0.0.2560.1440" width="2492" height="424" />
+    <size key="GridCell.Tab.1.center.0.0.2560.1440" width="2492" height="424" />
+    <size key="GridCell.Tab.1.right.0.0.2560.1440" width="2492" height="424" />
+    <size key="GridCell.Tab.1.bottom.0.0.2560.1440" width="2492" height="424" />
+    <size key="find.popup.0.0.2560.1440" width="2560" height="1440" />
+    <size key="GridCell.Tab.-1.left.0.0.2560.1440" width="2457" height="412" />
+    <size key="GridCell.Tab.-1.center.0.0.2560.1440" width="2457" height="412" />
+    <size key="GridCell.Tab.-1.right.0.0.2560.1440" width="2457" height="412" />
+    <size key="GridCell.Tab.-1.bottom.0.0.2560.1440" width="2457" height="412" />
+    <size key="GridCell.Tab.2.left.0.0.2560.1440" width="2457" height="396" />
+    <size key="GridCell.Tab.2.center.0.0.2560.1440" width="2457" height="396" />
+    <size key="GridCell.Tab.2.right.0.0.2560.1440" width="2457" height="396" />
+    <size key="GridCell.Tab.2.bottom.0.0.2560.1440" width="2457" height="396" />
+  </component>
+  <component name="WindowManager">
+    <frame x="1716" y="19" width="828" height="1405" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+    </layout>
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="808" y="420" key="FileChooserDialogImpl" timestamp="1617264199302">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="808" y="420" key="FileChooserDialogImpl/0.0.2560.1440" timestamp="1617264199302" />
+    <state x="154" y="682" key="GridCell.Tab.-1.bottom" timestamp="1615454318915">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="154" y="682" key="GridCell.Tab.-1.bottom/0.0.2560.1440" timestamp="1615454318915" />
+    <state x="154" y="682" key="GridCell.Tab.-1.center" timestamp="1615454318913">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="154" y="682" key="GridCell.Tab.-1.center/0.0.2560.1440" timestamp="1615454318913" />
+    <state x="154" y="682" key="GridCell.Tab.-1.left" timestamp="1615454318912">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="154" y="682" key="GridCell.Tab.-1.left/0.0.2560.1440" timestamp="1615454318912" />
+    <state x="154" y="682" key="GridCell.Tab.-1.right" timestamp="1615454318914">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="154" y="682" key="GridCell.Tab.-1.right/0.0.2560.1440" timestamp="1615454318914" />
+    <state x="154" y="682" key="GridCell.Tab.1.bottom" timestamp="1615454316843">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="154" y="682" key="GridCell.Tab.1.bottom/0.0.2560.1440" timestamp="1615454316843" />
+    <state x="154" y="682" key="GridCell.Tab.1.center" timestamp="1615454316842">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="154" y="682" key="GridCell.Tab.1.center/0.0.2560.1440" timestamp="1615454316842" />
+    <state x="154" y="682" key="GridCell.Tab.1.left" timestamp="1615454316842">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="154" y="682" key="GridCell.Tab.1.left/0.0.2560.1440" timestamp="1615454316842" />
+    <state x="154" y="682" key="GridCell.Tab.1.right" timestamp="1615454316842">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="154" y="682" key="GridCell.Tab.1.right/0.0.2560.1440" timestamp="1615454316842" />
+    <state x="271" y="838" key="GridCell.Tab.2.bottom" timestamp="1615454273206">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="271" y="838" key="GridCell.Tab.2.bottom/0.0.2560.1440" timestamp="1615454273206" />
+    <state x="271" y="838" key="GridCell.Tab.2.center" timestamp="1615454273206">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="271" y="838" key="GridCell.Tab.2.center/0.0.2560.1440" timestamp="1615454273206" />
+    <state x="271" y="838" key="GridCell.Tab.2.left" timestamp="1615454273205">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="271" y="838" key="GridCell.Tab.2.left/0.0.2560.1440" timestamp="1615454273205" />
+    <state x="271" y="838" key="GridCell.Tab.2.right" timestamp="1615454273206">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="271" y="838" key="GridCell.Tab.2.right/0.0.2560.1440" timestamp="1615454273206" />
+    <state x="1157" y="1047" width="1107" height="300" key="ProcessPopupWindow" timestamp="1617848115291">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1157" y="1047" width="1107" height="300" key="ProcessPopupWindow/0.0.2560.1440" timestamp="1617848115291" />
+    <state x="775" y="477" width="864" height="349" key="bookmarks" timestamp="1617094416025">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="775" y="477" width="864" height="349" key="bookmarks/0.0.2560.1440" timestamp="1617094416025" />
+  </component>
+</application>

@@ -1,0 +1,5 @@
+runfile('/home/allen/PycharmProjects/pythonProject/word-embedding.py', wdir='/home/allen/PycharmProjects/pythonProject')
+-. . -..- - / . -. - .-. -.--
+runfile('/home/allen/PycharmProjects/pythonProject/01-intro.py', wdir='/home/allen/PycharmProjects/pythonProject')
+-. . -..- - / . -. - .-. -.--
+runfile('/home/allen/PycharmProjects/pythonProject/MNIST-pytorch-GPU', wdir='/home/allen/PycharmProjects/pythonProject')

@@ -1,0 +1,131 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hello.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+              <folding>
+                <element signature="e#64#65#0" expanded="true" />
+                <element signature="e#85#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Hello.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Hello, World" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="858000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1764" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Pull Requests" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32996893" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32841614" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="3" />
+      <window_info anchor="bottom" id="Problems View" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="File Transfer" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Profiler" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="6" />
+      <window_info anchor="bottom" id="Endpoints" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="6" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="6" />
+      <window_info anchor="bottom" id="Flow" order="6" />
+      <window_info anchor="bottom" id="Services" order="6" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="6" />
+    </layout>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="726" y="254" width="1441" height="685" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607423616769">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="726" y="254" width="1441" height="685" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1607423616769" />
+    <state width="2500" height="395" key="GridCell.Tab.0.bottom" timestamp="1607423671243">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2500" height="395" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1607423671243" />
+    <state width="2500" height="395" key="GridCell.Tab.0.center" timestamp="1607423671243">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2500" height="395" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1607423671243" />
+    <state width="2500" height="395" key="GridCell.Tab.0.left" timestamp="1607423671242">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2500" height="395" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1607423671242" />
+    <state width="2500" height="395" key="GridCell.Tab.0.right" timestamp="1607423671243">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2500" height="395" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1607423671243" />
+    <state x="704" y="231" width="1131" height="910" key="SettingsEditor" timestamp="1607423536053">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="704" y="231" width="1131" height="910" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1607423536053" />
+    <state x="772" y="207" width="1006" height="975" key="new project wizard" timestamp="1607423669275">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="772" y="207" width="1006" height="975" key="new project wizard/0.0.2560.1440@0.0.2560.1440" timestamp="1607423669275" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Hello.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding>
+            <element signature="e#64#65#0" expanded="true" />
+            <element signature="e#85#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

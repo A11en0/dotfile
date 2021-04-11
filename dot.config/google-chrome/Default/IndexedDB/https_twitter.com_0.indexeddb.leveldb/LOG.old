@@ -1,0 +1,15 @@
+2021/01/02-13:41:33.480 704a Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/02-13:41:33.480 704a Recovering log #30
+2021/01/02-13:41:33.480 704a Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/000030.log 
+2021/01/02-13:43:35.843 7058 Level-0 table #35: started
+2021/01/02-13:43:35.846 7058 Level-0 table #35: 4254 bytes OK
+2021/01/02-13:43:35.849 7058 Delete type=0 #30
+2021/01/02-13:43:35.850 7058 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/02-13:43:35.850 7058 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x03\x01\x0d\x001\x006\x000\x009\x005\x006\x006\x000\x009\x007\x000\x001\x005' @ 2112 : 1
+2021/01/02-13:43:35.850 7058 Compacting 1@1 + 1@2 files
+2021/01/02-13:43:35.853 7058 Generated table #36@1: 62 keys, 1784 bytes
+2021/01/02-13:43:35.853 7058 Compacted 1@1 + 1@2 files => 1784 bytes
+2021/01/02-13:43:35.856 7058 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/02-13:43:35.857 7058 Delete type=2 #32
+2021/01/02-13:43:35.857 7058 Delete type=2 #35
+2021/01/02-13:43:35.857 7058 Manual compaction at level-1 from '\x00\x03\x01\x03\x01\x0d\x001\x006\x000\x009\x005\x006\x006\x000\x009\x007\x000\x001\x005' @ 2112 : 1 .. (end); will stop at (end)

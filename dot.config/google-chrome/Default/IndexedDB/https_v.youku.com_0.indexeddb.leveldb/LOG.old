@@ -1,0 +1,5 @@
+2020/11/27-10:14:11.262 6764 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_v.youku.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/27-10:14:28.587 61a8 Level-0 table #5: started
+2020/11/27-10:14:28.590 61a8 Level-0 table #5: 827 bytes OK
+2020/11/27-10:14:28.594 61a8 Delete type=0 #3
+2020/11/27-10:14:28.594 61a8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

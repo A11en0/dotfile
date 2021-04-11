@@ -1,0 +1,15 @@
+2021/03/22-11:17:57.670 2241 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_app.diagrams.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/22-11:17:57.670 2241 Recovering log #17
+2021/03/22-11:17:57.670 2241 Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_app.diagrams.net_0.indexeddb.leveldb/000017.log 
+2021/03/22-11:18:23.319 2244 Level-0 table #22: started
+2021/03/22-11:18:23.323 2244 Level-0 table #22: 190 bytes OK
+2021/03/22-11:18:23.327 2244 Delete type=0 #17
+2021/03/22-11:18:23.327 2244 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/22-11:18:23.327 2244 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 10299 : 1
+2021/03/22-11:18:23.327 2244 Compacting 1@1 + 1@2 files
+2021/03/22-11:18:23.330 2244 Generated table #23@1: 48 keys, 16778 bytes
+2021/03/22-11:18:23.330 2244 Compacted 1@1 + 1@2 files => 16778 bytes
+2021/03/22-11:18:23.333 2244 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/22-11:18:23.333 2244 Delete type=2 #19
+2021/03/22-11:18:23.333 2244 Delete type=2 #22
+2021/03/22-11:18:23.334 2244 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 10299 : 1 .. (end); will stop at (end)

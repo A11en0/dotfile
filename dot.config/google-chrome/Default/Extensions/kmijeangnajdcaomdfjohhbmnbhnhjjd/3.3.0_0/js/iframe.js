@@ -1,0 +1,7 @@
+var iframe = document.createElement('iframe')
+iframe.setAttribute('class', 'pinbox-iframe')
+iframe.setAttribute('id', 'pinbox-iframe')
+iframe.setAttribute('allowtransparency', 'true')
+iframe.setAttribute('scrolling', 'no')
+iframe.setAttribute('src', chrome.extension.getURL("save.html"))
+document.body.appendChild(iframe)
