@@ -1,12 +1,7 @@
-#+OPTIONS: toc:2          (only include two levels in TOC)
-#+OPTIONS: toc:nil        (no default TOC at all)
-
 * Dotfile
   
-Hello, these's my own =Debian= configuration. Mainly config following
- [[wx672][https://github.com/wx672]].
-
-#+TOC: headlines 2
+Hello, these's my =Debian= configuration. Just a X-server with a windows manager. Everything you can hack for your own. Mainly config following
+ [[wx672][https://github.com/wx672]]. 
 
 ** My Work Space
 
