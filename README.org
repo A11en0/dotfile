@@ -121,7 +121,8 @@ Have fun!
 
 ** Others
 
-*** Wallpapers -- feg 
+*** feg
+    The wallpapers are controled by feg, you can change the picture with =$mod+Shift+w=, which defined in the i3 configuration.
     : bindsym $mod+Shift+w exec feh --recursive --randomize --bg-scale /home/username/.wallpapers/*                                            
 
 
