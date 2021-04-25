@@ -1,11 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/allen'
-let g:netrw_dirhist_2='/etc/systemd/network'
-let g:netrw_dirhist_3='/etc/nginx/sites-enabled'
-let g:netrw_dirhist_4='/home/allen/.jupyter'
-let g:netrw_dirhist_5='/home/allen'
-let g:netrw_dirhist_6='/etc/nginx/sites-available'
-let g:netrw_dirhist_7='/home/allen/Code/python/hfut-auto-summit'
-let g:netrw_dirhist_8='/home/allen/Code/python'
-let g:netrw_dirhist_9='/home/allen/Code/OnlineBTM/sample-data'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/allen/.config'
+let g:netrw_dirhist_2='/home/allen/dotfile/dot.config/ranger'
+let g:netrw_dirhist_3='/etc/apt/sources.list.d'

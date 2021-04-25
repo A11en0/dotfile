@@ -48,8 +48,8 @@ export PATH=${JAVA_HOME}/bin:$PATH
 # Use colors for less, man, etc.
 [[ -f ~/.LESS_TERMCAP ]] && tty -s && . ~/.LESS_TERMCAP
 
-#source ~/.xsh
 export GPGKEY=0EE277C8D838C7DA
+
 # added by Anaconda3 5.3.1 installer
 # >>> conda init >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -69,5 +69,3 @@ unset __conda_setup
 export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-9.0/extras/CUPTI/lib64
-
-# http_proxy=http://127.0.0.1:10086

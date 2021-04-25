@@ -1,3 +1,4 @@
+
 * Dotfile
   
 Hello, these's my =Debian= configuration. Just a X-server with a windows manager. Everything you can hacking for your own. Mainly config following
@@ -120,11 +121,20 @@ Now, it's time to reboot your system.
 Have fun!
 
 ** Others
-
 *** feg
     The wallpapers are controled by feg, you can change the picture with =$mod+Shift+w=, which defined in the i3 configuration.
-    : bindsym $mod+Shift+w exec feh --recursive --randomize --bg-scale /home/username/.wallpapers/*                                            
+    : bindsym $mod+Shift+w exec feh --recursive --randomize --bg-scale /home/username/.wallpapers/*
+    
+*** ranger
+    devicons, in front of the filename.
+    https://github.com/alexanderjeurissen/ranger_devicons
 
+    by the way, you need =nerd fonts= for prerequisites:
+    https://github.com/ryanoasis/nerd-fonts
+
+*** starship
+    custom the prompt: 
+    https://github.com/starship/starship    
 
 ** Problems
 *** wifi ethernet card driver
