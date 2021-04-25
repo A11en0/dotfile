@@ -5,7 +5,7 @@
     "Chinese"
   ], 
   "library_usage_stats": {
-    "/home/allen/calibre": 34
+    "/home/allen/calibre": 35
   }, 
   "book_details_splitter_horizontal_state": [
     true, 
@@ -128,8 +128,8 @@
     "__value__": "AdnQywACAAAAAAMtAAABYwAABrYAAAO9AAADMAAAAWMAAAazAAADugAAAAAAAAAACgA="
   }, 
   "previous_sort_order_BooksView": {
-    "title": true, 
-    "size": true
+    "size": true, 
+    "title": true
   }, 
   "scheduler_dialog_geometry": {
     "__class__": "bytearray", 

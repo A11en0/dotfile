@@ -7,7 +7,7 @@ image/pbm=pqiv.desktop
 image/pgm=pqiv.desktop
 image/tif=pqiv.desktop
 image/gif=pqiv.desktop
-application/pdf=mupdf.desktop
+application/pdf=google-chrome.desktop
 text/plain=less.desktop
 text/x-bibtex=emacs-term.desktop
 text/html=google-chrome.desktop
@@ -107,3 +107,5 @@ application/wps-office.wpso=wps-office-prometheus.desktop
 application/wps-office.uot=wps-office-prometheus.desktop
 x-scheme-handler/mailto=google-chrome.desktop
 
+[Added Associations]
+application/pdf=mupdf.desktop;org.pwmt.zathura-pdf-poppler.desktop;okularApplication_pdf.desktop;

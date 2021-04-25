@@ -3,10 +3,10 @@ FullScreen=false
 
 [MainWindow]
 Height 1440=1364
-State=AAAA/wAAAAD9AAAAAAAAAzYAAAT9AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAzYAAAUbAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 2560=822
 
 [Recent Files]
-File1[$d]
-Name1[$d]
+File1[$e]=$HOME/Documents/Thesis-read/pdf/Reading/A Structed Self-attentive Sentence Embedding.pdf
+Name1[$e]=A Structed Self-attentive Sentence Embedding.pdf

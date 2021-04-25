@@ -1,6 +1,6 @@
 * Dotfile
   
-Hello, these's my =Debian= configuration. Just a X-server with a windows manager. Everything you can hack for your own. Mainly config following
+Hello, these's my =Debian= configuration. Just a X-server with a windows manager. Everything you can hacking for your own. Mainly config following
  [[wx672][https://github.com/wx672]]. 
 
 ** My Work Space
@@ -8,10 +8,9 @@ Hello, these's my =Debian= configuration. Just a X-server with a windows manager
 #+DOWNLOADED: screenshot @ 2021-04-11 13:44:28
 [[file:Dotfile/2021-04-11_13-44-28_screenshot.png]]
 
-
-** Neofetch Information
+# ** Neofetch Information
 #+DOWNLOADED: screenshot @ 2021-04-11 13:47:36
-[[./Dotfile/2021-04-11_13-47-36_screenshot.png]]
+# [[./Dotfile/2021-04-11_13-47-36_screenshot.png]]
 
 ** Work for
 - systemd auto-login
@@ -119,6 +118,12 @@ Now, it's time to reboot your system.
    | =Shift-space=             | fcitx -- a Chinese input tool                                                       |
 
 Have fun!
+
+** Others
+
+*** Wallpapers -- feg 
+    : bindsym $mod+Shift+w exec feh --recursive --randomize --bg-scale /home/username/.wallpapers/*                                            
+
 
 ** Problems
 *** wifi ethernet card driver
