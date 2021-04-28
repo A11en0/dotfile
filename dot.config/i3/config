@@ -153,7 +153,8 @@ bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 
 # use window title, but no border
-bindsym $mod+t border normal 0
+# bindsym $mod+t border normal 0
+bindsym $mod+t exec sudo copytranslator --no-sandbox 
 # use no window title and a thick border
 bindsym $mod+y border pixel 3
 # use neither window title nor border
@@ -360,7 +361,8 @@ bindsym $mod+n move workspace to output right
 # exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # picom
-exec_always --no-startup-id picom --config $HOME/.config/picom/picon.conf &
+# exec_always --no-startup-id picom --config $HOME/.config/picom/picon.conf &
+exec_always --no-startup-id compton --config $HOME/.config/compton.conf &
 
 # --------------------color begins----------------------------
 #magenta colors(for window~)
@@ -368,13 +370,13 @@ exec_always --no-startup-id picom --config $HOME/.config/picom/picon.conf &
 ################################################################
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
-# client.focused          #556064 #556064 #80FFF9 #FDF6E3
-client.focused        #555555 #555555 #ffffff  #2e9ef4    #6fd289
+# client.focused        #556064 #556064 #80FFF9 #FDF6E3
+# client.focused            #84FFFF      #5E81AC     #E5E9F0     #E5E9F0       #ECECEC
+client.focused        	#555555 #555555 #ffffff  #2e9ef4    #6fd289
 client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
 client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
 client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
 client.placeholder      #000000 #0c0c0c #ffffff #000000
-
 client.background       #2B2C2B
 
 # border

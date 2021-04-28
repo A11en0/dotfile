@@ -1,4 +1,5 @@
 channels:
+  - conda-forge
   - defaults
 show_channel_urls: true
 channel_alias: https://mirrors.tuna.tsinghua.edu.cn/anaconda
@@ -15,3 +16,4 @@ custom_channels:
   menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
   pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
   simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+ssl_verify: false

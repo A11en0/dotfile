@@ -108,4 +108,4 @@ application/wps-office.uot=wps-office-prometheus.desktop
 x-scheme-handler/mailto=google-chrome.desktop
 
 [Added Associations]
-application/pdf=mupdf.desktop;org.pwmt.zathura-pdf-poppler.desktop;okularApplication_pdf.desktop;
+application/pdf=google-chrome.desktop;mupdf.desktop;org.pwmt.zathura-pdf-poppler.desktop;okularApplication_pdf.desktop;

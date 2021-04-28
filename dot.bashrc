@@ -18,6 +18,10 @@ eval "$(lesspipe)"
 ## add git info
 PS1='${debian_chroot:+($debian_chroot)}\[\e[0;36m\]\w$(__git_ps1 "(%s)")\$\[\e[0m\] '
 
+# Use bash-completion, if available
+[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
+	    . /usr/share/bash-completion/bash_completion
+
 if [ -f ~/.lscolors ]; then 
 	eval "$(tty -s && dircolors ~/.lscolors)"
 else 
@@ -50,22 +54,24 @@ export PATH=${JAVA_HOME}/bin:$PATH
 
 export GPGKEY=0EE277C8D838C7DA
 
-# added by Anaconda3 5.3.1 installer
-# >>> conda init >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$(CONDA_REPORT_ERRORS=false '/home/allen/.anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    \eval "$__conda_setup"
-else
-    if [ -f "/home/allen/.anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/allen/.anaconda3/etc/profile.d/conda.sh"
-        CONDA_CHANGEPS1=false conda activate base
-    else
-        \export PATH="/home/allen/.anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda init <<<
 export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-9.0/extras/CUPTI/lib64
+
+# eval "$(starship init bash)"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/allen/.miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/allen/.miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/allen/.miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/allen/.miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+

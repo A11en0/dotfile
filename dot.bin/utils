@@ -37,7 +37,7 @@ tlpi(){
 }
 
 screencapture(){
-	ffmpeg -f x11grab -s 1920x1080 -r 30 -i :0.0 -c:v libx264 -crf 0 -preset ultrafast screen.mkv
+	ffmpeg -f x11grab -s 2560x1440 -r 30 -i :0.0 -c:v libx264 -crf 0 -preset ultrafast screen.mkv
 }
 
 # http://superuser.com/questions/611538/is-there-a-way-to-display-a-countdown-or-stopwatch-timer-in-a-terminal
